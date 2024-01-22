@@ -1,0 +1,8 @@
+{
+  "label": "Documentation utilisateur",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Administrez votre espace TiBillet"
+  }
+}

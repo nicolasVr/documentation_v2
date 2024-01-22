@@ -1,0 +1,8 @@
+{
+  "label": "Trucs et astuces",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Truc et astuces des utilisateurs"
+  }
+}
