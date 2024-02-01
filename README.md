@@ -11,7 +11,8 @@ $ yarn
 ### Local Development
 
 ```
-$ yarn start
+$ yarn run start
+$ yarn run start --locale fr
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.

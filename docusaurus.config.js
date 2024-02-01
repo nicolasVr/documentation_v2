@@ -8,20 +8,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
+    title: 'TiBillet',
+    tagline: "L'événementiel coopératif",
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-site.example.com',
+    url: 'https://tibillet.org',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
+    scripts: [{src: 'https://plausible.codecommun.co/js/script.js', defer: true, 'data-domain': 'tibillet.org'}],
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'TiBillet', // Usually your GitHub org/user name.
+    projectName: 'documentation', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -52,14 +53,18 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/TiBillet/documentation/tree/main/tibillet/',
                 },
                 blog: {
                     showReadingTime: true,
-                    // Please change this to your repo.
+                    blogTitle: 'TiBillet, le blog.',
+                    blogDescription: 'Le blog de TiBillet, l\'événementiel coopératif.',
+                    postsPerPage: 'ALL',
+                    blogSidebarTitle: 'All posts',
+                    blogSidebarCount: 'ALL',                    // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/TiBillet/documentation/tree/main/tibillet/',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -74,25 +79,31 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Site',
+                title: 'TiBillet',
                 logo: {
                     alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    src: 'img/logoTibMJ5-300.png',
                 },
                 items: [
                     {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Presentation',
                     },
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    {to: '/roadmap', label: 'Fonctionnalités', position: 'left'},
+                    {
+                        type: 'doc',
+                        docId: '/category/documentation-utilisateur',
+                        position: 'left',
+                        label: 'Documentation',
+                    },
                     {
                         type: 'localeDropdown',
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/TiBillet',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -105,8 +116,12 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: 'Documentation',
+                                to: '/docs/category/documentation-utilisateur',
+                            },
+                            {
+                                label: 'API',
+                                to: '/docs/api/intro',
                             },
                         ],
                     },
@@ -114,17 +129,21 @@ const config = {
                         title: 'Community',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
                                 label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                href: 'https://discord.gg/7FJvtYx',
                             },
                             {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                label: 'Rocket Chat',
+                                href: 'https://chat.tiers-lieux.org/channel/TiBillet',
                             },
+                            {
+                                label: 'Matrix',
+                                href: 'https://matrix.to/#/#TiBillet:tiers-lieux.org',
+                            },
+                            {
+                                label: 'Mail',
+                                href: 'mailto:contact@tibillet.re',
+                            }
                         ],
                     },
                     {
@@ -132,20 +151,26 @@ const config = {
                         items: [
                             {
                                 label: 'Blog',
-                                to: '/blog',
+                                to: 'https://codecommun.coop/blog/',
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/TiBillet',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `CC-BY-SA @ ${new Date().getFullYear()} - SCIC TiBillet Coop. Built with Docusaurus. Illustration by undraw.co`,
+
             },
             prism: {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.dracula,
+            },
+            colorMode: {
+                defaultMode: 'dark',
+                disableSwitch: false,
+                respectPrefersColorScheme: true,
             },
         }),
 };
