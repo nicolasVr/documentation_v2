@@ -41,9 +41,8 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_ride_a_bicycle_re_6tjy.svg').default,
         description: (
             <Translate>
-                TiBillet est une société coopérative d'intérêt commun. Rejoignez l'aventure d'un collectif et inscrivez
-                vous dans
-                l'économie sociale et solidaire !
+                Utilisez votre propre matériel existant ou DIY ! TiBillet est conçu pour être mutualisé,
+                pérenne et facilement maintenable : 100% Open Hardware !
             </Translate>
         ),
     },
