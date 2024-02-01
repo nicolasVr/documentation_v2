@@ -275,9 +275,6 @@
   "Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.": {
     "message": "FRFR or customizFe your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer."
   },
-  "": {
-    "message": ""
-  },
   "homepage.hero.title": {
     "message": "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
     "description": "Titre"

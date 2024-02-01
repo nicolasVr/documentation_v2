@@ -1,16 +1,10 @@
 {
-  "": {
-    "message": ""
-  },
   "homepage.hero.title": {
     "message": "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
     "description": "Titre"
   },
   "En savoir plus": {
     "message": "En savoir plus"
-  },
-  "Demonstration": {
-    "message": "Demonstration"
   },
   "Une suite d'applications libres pour la gestion de votre lieu social et solidaire : Caisse enregistreuse, adhésion, billetterie, cashless, monnaie temps, prise de commande et gestion de salle.": {
     "message": "Une suite d'applications libres pour la gestion de votre lieu social et solidaire : Caisse enregistreuse, adhésion, billetterie, cashless, monnaie temps, prise de commande et gestion de salle."

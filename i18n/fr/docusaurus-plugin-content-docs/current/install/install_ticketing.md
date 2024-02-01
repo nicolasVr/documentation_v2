@@ -10,7 +10,7 @@ authors: jonas
 
 # Installation
 
-Une [version de démonstration](/docs/presentation/Demonstration) est disponible en ligne.
+Une [version de démonstration](/docs/presentation/demonstration) est disponible en ligne.
 
 ## Ticketing :
 
