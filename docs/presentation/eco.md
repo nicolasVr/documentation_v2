@@ -1,66 +1,56 @@
 ---
 sidebar_position: 10
 slug: tarifs
-title: Tarifs, conditions et licences
+title: Prices, conditions and licenses
 authors: jonas
-wiktags: [ cashless, billetterie, ticketing, features ]
+wiktags: [ cashless, billetterie, ticketing, features, princing, prices, licences ]
 ---
 
-# Modèle économique social et solidaire
+# social and solidarity-based economic model.
 
-Entrez dans une économie sociale et solidaire !
+Eenter a social and solidarity economy !
 
-TiBillet est une suite de logiciels libres.
+TiBillet is a suite of free/open source software.
 
-Nous ne pratiquons pas d'abonnement ni de pourcentage sur les transactions :
-Aucune commission n'est prélevée sur les ventes et
-vous encaissez l'intégralité de vos recettes de billetterie et de vos points de ventes.
+We do not charge a subscription or percentage on transactions: 
+No commission is taken from sales and 
+you receive all of your ticketing and point of sale revenue.
 
-En pratique, vous achetez le matériel dont vous avez besoin, à prix coûtant.
-Nous vous accompagnons dans la mise en place et dans l'utilisation de vos outils et nous sommes tout particulièrement à
-l'écoute de vos besoins et éventuelles modifications sur mesures.
+You purchase the equipment you need, at cost price.
+We support you in the implementation and use of those tools and we are particularly attentive to your needs and possible custom modifications.
 
-Vous avez toujours la responsabilité des transactions financières au sein de votre établissement (TiBillet ne fait pas
-office de banque) mais vos utilisateurs possèdent désormais une carte valable dans tout le réseau TiBillet. Leur
-portefeuille est valable à vie, sans frais d'abonnement ni de rechargement, sous réserve qu'ils s'en servent
-régulièrement.
+You are still responsible for financial transactions within your establishment (TiBillet does not 
+act as a bank) but your users now have a card valid across the entire TiBillet network. 
+Their wallet is valid for life, with no subscription or reload fees, provided they use it regularly.
 
-Vos évènements disposent de l'ensemble de nos outils de communication (Agenda local et fédéré, réseaux sociaux, mailing
-list, etc ... ), et régulièrement, nous invitons tout au long de l'année les utilisateurs du réseau à profiter de vos
-évènements.
+Your events benefit from all of our communication tools (local and federated calendar, social networks, mailing list, etc.) and we regularly invite network users to take advantage of your events throughout the year.
 
-Seule condition : pour financer les activités de la coopérative et la maintenance du réseau, nous ré-injectons une
-partie de l'argent sur
-les porteufeuilles qui sont inactifs depuis plus d'un an.
+Only condition: to finance the activities of the cooperative and the maintenance of the network, we re-inject part of the money into the wallets which have been inactive for more than a year.
 
-Enfin, si vous le souhaitez, nous vous inviterons à entrer en sociétariat dans la coopérative pour que vous fassiez
-partie intégrante du projet TiBillet et de tout son réseau.
+Finally, if you wish, we will invite you to become a member of the cooperative (SCIC) so that you become an integral part of the TiBillet project and its entire network.
 
-# Modèle Solo
+# Solo model
 
-Vous souhaitez utiliser les outils TiBillet pour votre évènement, votre lieu ou votre association mais vous ne souhaitez
-pas entrer dans le réseau ?
+You want to use TiBillet tools for your event, your venue or your association but without joining the network ?
 
-Aucun problème : Tout les outils TiBillet rien que pour vous, dans un kit envoyé par la poste. Contactez nous !
+No problem: All the TiBillet tools just for you, in a kit sent by post. Contact us !
 
 [contact@tibillet.re](mailto:contact@tibillet.re)
 
-## Licence AGPLv3
+## AGPLv3 license
 
-Le code source de l'ensemble des briques du projet est ouvert et disponible sous licence AGPLv3.
+The source code for all of the project's building blocks is open and available under the AGPLv3 license.
 
-Le code est publié sur Github : [https://github.com/TiBillet](https://github.com/TiBillet).
+The code is published on Github: [https://github.com/TiBillet](https://github.com/TiBillet).
 
-La licence publique générale GNU Affero (GNU AGPL) est une version modifiée de la version 3 de la GNU GPL ordinaire.
+The GNU Affero General Public License (GNU AGPL) is a modified version of version 3 of the regular GNU GPL.
 
-Elle a une seule exigence supplémentaire: si vous exécutez un programme modifié sur un serveur et laissez d'autres
-utilisateurs communiquer avec lui, votre serveur doit aussi leur permettre de télécharger le code source correspondant à
-la version modifiée en fonctionnement.
+It has just one additional requirement: if you run a modified program on a server and let other users communicate with it, your server must also allow them to download the source code for the modified version while it is running.
 
-Pour en savoir plus : https://www.gnu.org/licenses/why-affero-gpl.fr.html
+Find out more : https://www.gnu.org/licenses/why-affero-gpl.fr.html
 
-La solution est installable telle quelle sans garantie de fonctionnement ni aucun service après-vente.
+The solution can be installed as is without any operational guarantee or after-sales service.
 
-N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) ou sur [Discord](https://discord.gg/ecb5jtP7vY) si vous avez la moindre question.
+Do not hesitate to contact us by [mail](mailto:contact@tibillet.re), with [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
 
-Librement votre :) 
+Freely yours :) 
