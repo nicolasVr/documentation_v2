@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Publication sur les réseaux sociaux
+# Social media posting
 
-Un flux RSS est créé par Tenant. Il liste les 5 derniers évènements créés.
-Avec 
+An RSS feed is created by Tenant. It lists the last 5 events created.
+With
 
 ```
 <tenant url>/rss/latest/feed
@@ -13,7 +13,7 @@ Avec
 Example :
  [https://demo.betabillet.tech/rss/latest/feed](https://demo.betabillet.tech/rss/latest/feed).
 
-Avec un service comme Zapier ou IFTTT, il est possible de connecter un flux RSS avec votre page Facebook ou votre compte twitter, et plus encore !
+With a service like Zapier or IFTTT, it is possible to connect an RSS feed with your Facebook page or your Twitter account, and more !
 
 ex:
 - [https://zapier.com/apps/facebook-pages/integrations/rss/39/post-new-rss-items-to-a-facebook-page](https://zapier.com/apps/facebook-pages/integrations/rss/39/post-new-rss-items-to-a-facebook-page).
