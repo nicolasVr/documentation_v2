@@ -2,43 +2,40 @@
 sidebar_position: 5
 slug: demonstration
 title: Démonstration
-description: Instances de démonstration de la billetterie ( TiBillet/Event ) et de la caisse enregistreuse ( TiBillet/LaBoutik ) qui accepte les paiements en monnaie locale et/ou en cashless, et qui permet de gérer les commandes de buvette et de restauration.
+description: Demonstration instances of ticketing (TiBillet/Event) and cash register (TiBillet/LaBoutik) which accepts payments in local currency and/or cashless, and which allows refreshment and catering orders to be managed.
 image: /img/demo/maq2-420.jpg
-keywords: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux ]
-tags: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux ]
+keywords: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux, venue, catering ]
+tags: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux, venue, catering ]
 authors: jonas
 ---
 
 :::caution
-Le développement de TiBillet est trés actif. Ces instances de démonstrations sont des "nighty build", c'est à dire des
-versions de développement. Il se peut aussi que les instances soient en maintenance. Si vous avez des questions,
-n'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re),
-sur [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) ou sur [Discord](https://discord.gg/ecb5jtP7vY) si
-vous avez la moindre question.
+TiBillet's development is very active. These demonstration instances are “nighty builds”, i.e. development versions. These instances may also be undergoing maintenance. Please do not hesitate to contact us by [mail](mailto:contact@tibillet.re),
+with [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
 :::
 
-# Démonstration
+# Demonstration
 
-### Billetterie ( nighty build ) :
+### Ticketing ( nighty build ) :
 
 ![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
 
 
-#### Tenant (une instance solo, un lieu, un organisateur, un artiste) :
+#### Tenant (a solo instance, a place, an organizer, an artist) :
 
 **[https://demo.betabillet.tech](https://demo.betabillet.tech)**
 
-#### Agenda (Recense tous les évènements du réseau):
+#### Agenda (Lists all network events):
 
 **[https://agenda.betabillet.tech](https://agenda.betabillet.tech)**
 
-Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard galactique :
+To test payment on Stripe, use the Greatest Galactic Backpacker map :
 
     Douglas ADAM        
     4242 4242 4242 4242 
     02/42 / 424
 
-### Caisse enregistreuse / Cashless / Monnaie locale ( nighty build ) :
+### Cash register / Cashless / Local currency ( nighty build ) :
 
 ![maq2-420.jpg](/img/demo/maq2-420.jpg)
 
@@ -49,8 +46,8 @@ Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard gala
     login : TestAdmin
     password : mi5Iechi
 
-#### Interface de caisse :
+#### Cash register interface :
 
-Cliquez sur " voir le site " tout en haut du menu, ou visitez
-**[https://cashless.betabillet.tech/wv/](https://cashless.betabillet.tech/wv/)** après vous être loggué.
+Click on “view site” at the top of the menu, or visit
+**[https://cashless.betabillet.tech/wv/](https://cashless.betabillet.tech/wv/)** after logging in.
 
