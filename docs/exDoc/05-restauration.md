@@ -1,25 +1,19 @@
 ---
 sidebar_position: 5
 slug: restauration
-title: Gestion de salle
+title: Venue management
 authors: jonas
-wiktags: [cashless, billetterie, ticketing, features]
+wiktags: [cashless, ticketing, venue, tables, catering, features]
 ---
 
-# Logiciel de prise de commande
+# Order taking software
 
-La crise sanitaire nous a amené à repenser notre outil de Cashless et la gestion des prises de commandes
-en salle, afin de correspondre aux normes actuelles.
+The health crisis has led us to rethink our cashless tool and the management of indoor order taking, in order to correspond to current standards.
 
-Le paiement sans contact grâce à un téléphone Android et la carte NFC du festivalier permet de respecter les gestes
-barrières et supprime les échanges d'espèces.
+Contactless payment using an Android phone and festival-goer's NFC cards allows barrier gestures to be respected and eliminates the need for cash exchanges.
 
-Gestion des articles, des inventaires, des ventes, des prises de commande et d’impression de tickets en cuisine et au
-bar : développé et intégré à TiBillet, ce système peut être utilisé comme un outil de gestion de restauration complet.
+Management of items, inventories, sales, order taking and printing of tickets in the kitchen and at the bar are features developed and integrated into TiBillet. This system can be used as a complete catering management tool.
 
-Grâce à son téléphone portable Android, le.la serveur.se en salle envoie directement sa commande en cuisine et/ou au
-bar, et encaisse l'utilisateur qui à préalablement chargé sa carte cashless sur internet : zéro attente, zéro erreur de
-caisse, et fluidité totale des commandes !
+Using his Android mobile phone, the waiter at the table sends his order directly to the kitchen and/or the bar, and collects the money from the user who has previously loaded his cashless card on the internet. Zero waiting, zero checkout errors, and total order fluidity!
 
-Une version de démonstration de l'interface est disponible, les informations sont
-en [première page](/docs/presentation/introduction#d%C3%A9monstration).
+A demonstration version of the interface is available, the information is on [first page](/docs/presentation/introduction#d%C3%A9monstration).
