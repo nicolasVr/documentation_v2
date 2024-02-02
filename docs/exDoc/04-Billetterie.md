@@ -1,46 +1,35 @@
 ---
 sidebar_position: 4
 slug: billetterie
-title: Agenda et billeterie
-description: Chaque évènement s'inscrit dans le réseau créé par la coopérative.
+title: Agenda and ticketing
+description: Each event is part of a network created by the cooperative.
 image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [cashless, billetterie, ticketing]
-wiktags: [cashless, billetterie, ticketing]
+keywords: [cashless, ticketing]
+wiktags: [cashless, ticketing]
 authors: jonas
 ---
 
-# Billetterie et reservation en ligne
+# Online ticketing and booking
 
-TiBillet est une solution qui permet de créer en quelques clics une page web de présentation d'évènements, de lieux, et
-de vente de billets en ligne. Un système déjà bien connu, mais sur lequel TiBillet rajoute de la coopération.
+TiBillet is a solution that allows you to create in a few clicks a web page presenting events, places, and online ticket sales. An already well-known system to which TiBillet adds cooperation.
 
-Chaque évènement s'inscrit dans le réseau créé par l'instance et les billets peuvent être achetés via la monnaie du portefeuille cashless fédéré.
+Each event is part of the network created by the program instance and tickets can be purchased using the currency of the federated cashless wallet.
 
-En créant tout un réseau, TiBillet permet aussi aux artistes et producteurs de spectacles de créer un espace dédié, afin
-d'avoir la main sur les informations qu'ils partagent au public comme aux organisateurs et programmateurs artistiques.
+By creating an entire network, TiBillet also allows artists and show producers to create a dedicated space, in order to have control over the information they share with the public as well as with artistic organizers and programmers.
 
-## Espace artiste
+## Artist space
 
-Avec sa page web personnelle créée en quelques clics, l'artiste, qu’il soit émergent ou professionnel, bénéficie d'un
-outil de communication complètement innovant qui va lui permettre de mettre en avant son projet et de démarcher très
-facilement, en quelques clics, tous les programmateurs du réseau.
+With his personal web page created in just a few clicks, the artist, whether emerging or professional, benefits from a completely innovative communication tool which will allow him to highlight his project and very easily approach all the programmers of the network.
 
-Avec ces informations collectées et renseignées par l'artiste lui-même, l'organisateur / programmateur dispose d'un
-outil très complet pour gérer sa programmation. En quelques clics, il accède aux informations légales (Intermittence,
-dispositifs de subventions de cachets, nombre de musiciens, régimes alimentaires particuliers, etc ...) et
-promotionnelles des artistes ( bio, photos, vidéos, etc ), ainsi qu'à leur calendrier partagé (dates de concerts,
-fréquentation, etc ...).
+This information collected and provided by the artist himself allows the show organizer / programmer to have a very complete tool to manage his programming. In a few seconds he can accesse legal information (intermittency, fee subsidy schemes, number of musicians, special diets, etc) and promotional information about artists (bio, photos, videos, etc), as well as their shared calendar (concert dates, attendance, etc).
 
-## Outils de communications
+## Communication tools
 
-En proposant les options de gestion d'adhésions associatives et de newsletter, de mass-mailing, et de publication
-automatique sur les évènements des réseaux sociaux, TiBillet ne se voit pas seulement comme une billetterie, mais comme
-un outil complet de production évènementielle, créé sur mesure par et pour les organisateurs.
+By offering options for managing associative memberships and newsletters, mass-mailing, and automatic publication on social media events, TiBillet sees itself not only as a ticketing service but as a complete event production tool tailor-made by and for the organizers.
 
-# Agenda fédéré
+# Federated agenda
 
-L'agenda fédéré de TiBillet est un outil de promotion des événements culturels qui permet de mettre en avant les 
-différentes manifestations organisées par les partenaires de l'instance. 
-Il s'agit d'un outil collaboratif qui permet de regrouper les événements d'un même territoire et de les mettre en valeur auprès d'un public cible.
+TiBillet's federated agenda is a tool for promoting cultural events which highlights the various events organized by the instance program's partners.
+It is a collaborative tool that allows events in the same region to be grouped together and showcased to a target audience.
 
-Réunions, manifestation, concerts, spectacles, expositions, conférences, ateliers, etc... tous type d'évènements sont identifiable dans l'agenda de tout un territoire.
+Meetings, events, concerts, shows, exhibitions, conferences, workshops, etc... all types of events are accepted in the calendar of an entire territory.
