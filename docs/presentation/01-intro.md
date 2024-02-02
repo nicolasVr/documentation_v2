@@ -2,10 +2,10 @@
 sidebar_position: 1
 slug: introduction
 title: Introduction
-description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
+description: Contactless payment system, zero cash (cashless), event management, catering room management, associative engagement and online ticket purchasing... but not only that!
 image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing ]
-tags: [ cashless, billetterie, ticketing ]
+keywords: [ cashless, billetterie, ticketing, catering, venue, events, associations ]
+tags: [ cashless, billetterie, ticketing, catering, venue, events, associations ]
 authors: jonas
 ---
 
@@ -24,41 +24,33 @@ Users have access to an NFC card valid throughout the TiBillet network, with no 
 them to manage and associate memberships, subscriptions, time currencies, local and/or free and federated to several
 venues.
 
-Last but not least, TiBillet is an open-source software package developed by Code Commun, a SCIC (société coopérative
-d'interet communn).
+Last but not least, TiBillet is an open-source software package developed by Code Commun, a SCIC (community interest company).
 
 When you use TiBillet, you become part of a social economy network that supports you from A to Z.
 
-## Pourquoi faire ?
+## To do what ?
 
-TiBillet a été conçu pour répondre à plusieurs objectifs :
+TiBillet was designed to meet several goals:
 
-- Élargir le champ d'action d'une carte d'adhésion et/ou cashless déjà en circulation dans certains lieux et festivals.
+- Expand the scope of a membership and/or cashless card already in circulation in certain places and festivals.
 
-- Créer un réseau coopératif de lieux culturels dans une région ou une ville, permettant ainsi la circulation des
-  artistes et des publics entre différents événements culturels.
+- Create a cooperative network of cultural places in a region or city, thus allowing the free flow of artists and audiences between different cultural events.
 
-- Offrir des solutions de gestion événementielle et de restauration accessibles aux petites ou jeunes structures.
+- Offer event management and catering solutions accessible to small or young organizations.
 
-- Créer un système de monnaie "temps" pour la gestion et la valorisation du bénévolat, voire de création de monnaie
-  locale à l'échelle d'un
-  territoire.
+- Create a “time” currency system for the management and valorization of profits, or even the creation of local currency on a territory scale.
 
-- Créer un agenda fédéré comme outil de communication destiné à promouvoir les évènements culturels organisés par
-  plusieurs membres d'une même instance sur un territoire donné.
+- Create a federated agenda as a communication tool intended to promote cultural events organized by several members of a same body in a given territory.
 
-- Fournir une solution innovante, mais écologique en utilisant le matériel existant, la Low-tech et les réseaux de
-  Fablabs locaux pour réduire l'empreinte carbone.
+- Provide an innovative, yet eco-friendly solution using existing hardware, low-tech and local Fablab networks to reduce the carbon footprint.
 
-- Répondre aux besoins d'une fédération de tiers-lieux à l'échelle d'un territoire.
+- Meet the needs of a federation of third places on a territorial scale.
 
-- Réfléchir ensemble à une nouvelle façon de créer de la valeur en commun.
+- Thinking together about a new way to create shared value.
 
-## Pour qui ?
+## For who ?
 
-Cafés associatifs, salles de concert, festivals, restaurants, tiers-lieux, organisateurs d'événements culturels (
-ponctuels ou permanents) et même commerçant ! Pratiquement tout établissement recevant du public peut simplifier sa
-gestion avec TiBillet.
+Community cafés, concert halls, festivals, restaurants, third places, cultural events organizers (one-off or permanent) and even retailers! Almost any establishment open to the public can simplify its management with TiBillet.
 
 ![/img/tibilletcircle.jpg](/img/tibilletcircle.jpg)
-**[Voir en grand](/img/tibilletcircle.jpg)**.
+**[Larger size](/img/tibilletcircle.jpg)**.
