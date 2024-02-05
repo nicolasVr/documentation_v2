@@ -1,46 +1,44 @@
 ---
 sidebar_position: 2
 slug: admin_add_primary
-title: Cartes Primaires
+title: Primary Cards
 description: Ajouter une ou plusieurs cartes primaires.
-keywords: [cashless, android]
-wiktags: [cashless, android]
+keywords: [cashless, android, Primary, Cards]
+wiktags: [cashless, android, Primary, Cards]
 authors: Axel
 ---
 
-Les cartes primaires sont obligatoires pour ouvrir un point de vente (Android ou Boitiers). Elles déterminent le niveau
-d'autorisation dont dispose l'utilisateur : Vous pouvez par exemple autoriser l'accès
-à un point de vente "BAR" sans donner accès au point de vente "CASHLESS" qui permet les recharges.
+Primary cards are required to open a point of sale (Android or terminal). They determine the level 
+of authorization available to the user: For example, you can authorize access to a "BAR" 
+point of sale without giving access to the "CASHLESS" point of sale which allows recharges.
 
-Préférez toujours ajouter des cartes primaires nominatives. C'est-à-dire reliées à un utilisateur. De cette façon, vous
-pourrez retracer chaque transaction plus précisément : La personne responsable du point de vente est visible dans chaque
-paiement.
+Always prefer to add named primary cards (linked to a user). This way, you will be able to trace each transaction more precisely.
+The person responsible for the point of sale is visible in each payment.
 
-## 1- Enregistrez un nouveau membre.
+## 1- Register a new member.
 
-- Cliquez sur la catégorie "Membres" dans la colonne de gauche.
-- Cliquez sur le bouton "Ajouter Membre" en haut à droite.
-- Vous pouvez ajouter ou non une ahdésion associative.
-- Renseignez le numéro de la nouvelle carte dans le champ correspondant.
-- Enregistrez.
+- Click on the "Members" category in the left column.
+- Click on the "Add Member" button at the top right.
+- You can add or not an associative membership.
+- Enter the new card number in the corresponding field.
+- Save.
+- 
+## 2- Create the primary card.
 
-## 2- Créez la carte primaire.
+- Click on the “Master Cards” category in the left menu.
+- Click on the "Add Primary Card" button at the top right.
+- Enter the card number.
+- Designate the points of sale controlled (or not) by this card.
+     - Here you can determine the level of authorization your user has.
+- Activate manager mode if you wish.
+     - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :)
+- Save.
 
-- Cliquez sur la catégorie "Cartes Maitresse" dans le menu de gauche.
-- Cliquez sur le bouton "Ajouter Carte Primaire" en haut à droite.
-- Renseignez le numéro de la carte.
-- Désignez les points de vente contrôlés (ou non) par cette carte.
-    - Vous pouvez ici determiner le niveau d'authorisation dont dispose votre utilisateur.
-- Activez le mode gérant si vous le souhaitez.
-    - Le "Mode gérant" permet d'annuler une commande déjà effecutée, même si elle est payée. C'est un super-pouvoir qui
-      nécéssite de grandes responsabilités :)
-- Enregistrez.
+## 3- Test the card at a point of sale
 
-## 3- Tester la carte sur un point de vente
-
-- Démarrez l'application TiBillet sur un boitier ou un smartphone.
-    - Suivez la [procédure d'appairage](/docs/Utilisateur/Cashless/android) si ce n'est pas déja fait.
-- Scanner la carte à la demande de l'application.
-- Vérifiez que vous avez bien uniquement les points de ventes associés à la carte.
+- Start the TiBillet application on a terminal or smartphone.
+     - Follow the [pairing procedure](/docs/User/Cashless/android) if you have not already done so.
+- Scan the card when requested by the app.
+- Check that you only have the points of sale associated with the card.
 
 <video width="100%" controls src="/img/CartePrimaire.mp4"></video>
