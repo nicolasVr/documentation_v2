@@ -1,25 +1,25 @@
 ---
 sidebar_position: 41
 slug: iframe
-title: Intégration
-description: Integrer vos réservations sur votre site web.
-keywords: [ ticketing, billetterie, webhook, api ]
-wiktags: [ ticketing, billetterie, webhook, api ]
+title: Integration
+description: Integrate your reservations on your website.
+keywords: [ ticketing, billetterie, webhook, api, reservations, booking ]
+wiktags: [ ticketing, billetterie, webhook, api, reservations, booking ]
 image: https://tibillet.org/img/embed_email.jpg
 
 authors: Jonas
 ---
 
-Vous pouvez intégrer la billetterie à votre site web en utilisant une balise iframe en modifiant la route adéquate.
+You can integrate ticketing into your website using an iframe tag by modifying the appropriate route.
 
-Exemple :
+Example :
 
-- lien de l'évènenement : https://demo.betabillet.tech/event/concert-sly-sugar-090626-2114/
-- lien embed : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
+- event link : https://demo.betabillet.tech/event/concert-sly-sugar-090626-2114/
+- embed link : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
 
-Exemple :
+Example :
 
-- lien embed : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
+- embed link : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
 
 ```html title="iframe"
 <iframe src="https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/" width="100%" height="1000px"
@@ -31,9 +31,9 @@ Exemple :
 
 <details>
 <summary>Documentation technique</summary>
-Dans "../Front/src/router/routes.js", 2 possibilités :
+In "../Front/src/router/routes.js", 2 possibilities :
 
-### 1 - route existante, ajouter un alias :
+### 1 - existing route, add alias :
 
 ```
 {
@@ -45,7 +45,7 @@ Dans "../Front/src/router/routes.js", 2 possibilités :
 }
 ```
 
-### 2 - nouvelle route :
+### 2 - new route :
 
 ```
 {
@@ -57,5 +57,5 @@ Dans "../Front/src/router/routes.js", 2 possibilités :
 
 ### Attention :
 
-Toutes les urls contenant le mot "embed" sont à utiliser uniquement dans un "iframe".
+All urls containing the word "embed" are to be used only in an "iframe".
 </details>
