@@ -2,34 +2,34 @@
 sidebar_position: 200
 slug: cashback
 title: Cashback
-description: Récompensez les recharges en ligne
-keywords: [cashless, billetterie, ticketing, cashback, stripe]
-wiktags: [cashless, billetterie, ticketing, cashback, stripe]
+description: Reward online recharges
+keywords: [cashless, billetterie, ticketing, cashback, stripe, online, recharges]
+wiktags: [cashless, billetterie, ticketing, cashback, stripe, online, recharges]
 authors: jonas
 ---
 
-## Récompensez les recharges de sommes importantes en ligne.
+## Reward large top-ups online.
 
-Nous avons implémenté un système de cashback en token cadeau suite à la demande de nos clients.
+We have implemented a gift token cashback system following requests from our customers.
 
-L'idée est d'encourager les personnes à effectuer eux même leurs rechargements en ligne pour soulager les points
-d'acceuil et de rechargement cashless d'un site.
+The idea is to encourage people to carry out their own recharges online 
+to relieve a site's cashless reception and recharge points.
 
-Dans l'administration de votre page cashless, allez dans "Configuration Générale", puis sur l'onglet "CASHBACK".
-Indiquez la somme à partir de laquelle la récompense s'active, la valeur de la récompense, puis activez la case "Activez le cashback pour les rechargements".
-Enfin, validez avec le bouton "Enregistrer".
+In the administration of your cashless page, go to "General Configuration", then to the "CASHBACK" tab.
+Indicate the amount from which the reward activates, the value of the reward, then activate the box "Activate cashback for top-ups".
+Finally, validate with the “Save” button.
 
-Résultat : A chaque rechargement supérieur au montant prévu, des tokens "Cadeau" sont crédités sur la carte.
+Result: Each time you reload more than the planned amount, “Gift” tokens are credited to the card.
 
-À noter que ces tokens "Cadeau" sont considéré différemment par la comptabilité et ne rentrent pas dans les
-chiffres du calcul du bénéfice (même monnaie que pour les bénévoles, par exemple).
+Please note that these “Gift” tokens are considered differently by accounting 
+and do not enter into the profit calculation figures (same currency as for volunteers, for example).
 
-### Exemple :
+### Example :
 
-Par exemple :
+For example :
 
 - Cashback start = 50
 - Cashback value = 2.50
 
-Si la personne recharge 55€, elle gagne 2.50 en cadeau.
-Si elle recharge 101€, elle gagne 5 en cadeau (x2).
+If the person tops up €55, they earn 2.50 as a gift.
+If she tops up €101, she wins 5 as a gift (x2).
