@@ -2,39 +2,37 @@
 sidebar_position: 20
 slug: admin_add_article
 title: Articles
-description: Ajouter un ou plusieurs articles dans des catégories et point de vente et leur assigner un prix.
-keywords: [cashless, android]
-wiktags: [cashless, android]
+description: Add one or more items in categories and points of sale and assign them a price.
+keywords: [cashless, android, articles, items]
+wiktags: [cashless, android, articles, items]
 authors: Axel
 ---
 
-C'est ici que vous choisissez quels articles seront présents dans vos interfaces ainsi que leur prix et les points de
-ventes auquels ils sont rattachés.
+This is where you choose which items will be present in your interfaces as well as their price and the points 
+of sale to which they are attached.
 
-## 1- Créer un nouvel article
+## 1- Create a new article
 
-- Cliquez sur "Articles et tarifs" dans le menu de gauche.
-- Cliquez sur le bouton "Ajouter article" en haut à droite.
-- Renseignez le prix de vente.
-- Le prix d'achat sert à estimer les bénéfices d'une soirée affichés sur le rapport comptable quotidient. Ce n'est pas
-  une valeur obligatoire.
-- Renseignez la catégorie de l'article (Cela determine la façon dont il est affiché sur l'interface cashless. Cf
-  Catégorie.)
-- Changez la couleur du texte si vous souhaitez un meilleur contraste d'affichage.
-- Enregistrez
+- Click on “Articles and prices” in the left menu.
+- Click on the "Add article" button at the top right.
+- Enter the sale price.
+- The purchase price is used to estimate the profits of an evening displayed on the daily accounting report. This is not a mandatory value.
+- Enter the category of the item (This determines how it is displayed on the cashless interface. See Category.)
+- Change the text color if you want better display contrast.
+- Save
 
-## 2- L'ajouter à un point de vente
+## 2- Add it to a point of sale
 
 
-- Cliquez sur la catégorie "Points de vente" dans la colonne de gauche.
-- Cliquez sur le nom d'un point de vente existant auquel vous voulez ajouter votre article.
-- Renseignez les articles qui seront disponibles dans le champ "Articles". Vous pouvez en selectionner plusieurs en maintenant la touche ctrl.
-- Enregistrez
+- Click on the “Points of sale” category in the left column.
+- Click on the name of an existing point of sale to which you want to add your item.
+- Enter the articles that will be available in the "Articles" field. You can select several by holding the ctrl key.
+- Save
 
 :::note
 
-Pour qu'un point de vente soit visible dans l'interface, il faut qu'il contienne des articles. Il est préférable de créer
-les articles en premier et de les assigner par la suite à un point de vente.
+For a point of sale to be visible in the interface, it must contain articles. 
+It is best to create the items first and then assign them to a point of sale.
 
 :::
 
