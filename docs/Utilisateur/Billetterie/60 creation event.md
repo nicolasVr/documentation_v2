@@ -1,61 +1,61 @@
 ---
 sidebar_position: 2
 slug: admin_add_new_event
-title: Créer un nouvel évènement de A à Z
-description: Créer un nouvel évènement en détails.
-keywords: [billetterie, ticketing, event]
+title: Create a new event from A to Z
+description: Create a new event in detail.
+keywords: [billetterie, ticketing, event, new ]
 wiktags: [billetterie, ticketing, event]
 authors: Axel
 ---
 
-Dans un premier temps il faudra vous connecter sur la page d'administration de votre instance de billetterie.
+First, you will need to log in to the administration page of your ticketing instance.
 
-## 1- Ajouter un nouvel événement
+## 1- Add a new event
 
-- Cliquez sur la catégorie "Evenements" dans la colonne de gauche sous l'onglet Billetterie
-- Cliquez sur le bouton "AJOUTER EVENEMENT +" en haut à droite
-- Remplissez le formulaire.
-    *L'image sert de miniature sur la page d'accueil et de fond sur la page de votre événement
-    *La description courte est un phrase d'accorche dans la miniature sur la page d'accueil
-    *La description longue vous permet de donner plus d'informations dans votre page événement
-    *Le bouton "publier" permet d'afficher ou non votre événement sur la page d'accueil
+- Click on the "Events" category in the left column under the Ticketing tab
+- Click on the “ADD EVENT +” button at the top right
+- Complete the form.
+    *The image serves as a thumbnail on the home page and as a background on your event page
+    *The short description is a catchphrase in the thumbnail on the home page
+    *The long description allows you to provide more information on your event page
+    *The “publish” button allows you to display or not your event on the home page
+  
+## 2- Choose items
 
-## 2- Choisir les articles
+This section allows you to display products on the event booking page
+These products can be prices, memberships, subscriptions, cashless recharges, merchandising or other...
+- Click on the green "+" to add a product
+     *product type allows you to sort products by category to subsequently assign a price to them
+     *weight allows you to choose the order of product display on the reservation page (the smallest will be first)
+- Click on the save button at the bottom of this new window to validate
+Your products should now appear in the list in the “Items” section.
+- Select the ones you want to display on your booking page by holding the ctrl key and clicking on them. They will be highlighted in blue
+     *you can deselect in the same way: ctrl and right click
 
-Cette section permet d'afficher des produits sur la page de réservation de l'événement
-Ces produits peuvent être des tarifs, des adhésions, des abonnements, des recharges cashless, du merchandising ou autre...
-- Cliquez sur le "+" vert pour ajouter un produit
-    *type de produit permet de trier les produits par catégories pour leur attribuer un prix par la suite
-    *poids permet de choisir l'ordre d'affichage des produit sur la page de réservation (le plus petit sera le premier)
-- CLiquez sur le bouton enregistrer en bas de cette nouvelle fenètre pour valider
-Vos produits doivent désormais apparaitrent dans la liste de la section "Articles"
-- Sélectionnez ceux que vous souhaitez afficher sur votre page de réservation en maintenant la touche ctrl et cliquant dessus. Ils seront surlignés en bleu
-    *vous pouvez déselectionner de la même façon : ctrl et clique droit
+## 3- Setting options
 
-## 3- Définir les options
-
-Les options peuvent être séléctionnées ou créés de la même façon que les "produits" en cliquant sur le "+" vert.
-- "choix unique" oblige la personne qui réserve à sélectionner une (et une seule) option parmi celles proposées
-- "choix multiple" permet au public d'ajouter ou non cette option de manière libre
+Options can be selected or created in the same way as "products" by clicking on the green "+".
+- “single choice” requires the person reserving to select one (and only one) option among those offered
+- “multiple choice” allows the public to freely add or not this option
 
 ## 4- Cashless
 
-Cette dernière section permet de conditonner la réservation de billet à une recharge cashless.
+This last section makes it possible to condition the ticket reservation on a cashless recharge.
 
-## 5- Publier votre événement
+## 5- Publish your event
 
- - Cliquez sur le bouton enregistrer pour valider l'ajout de votre nouvel événement
+ - Click on the save button to validate the addition of your new event
 
 :::danger
-Attention ! Après la création de produits (étape 2) il faut penser à lui attribuer un tarif.
-Pour ce faire :
-- Cliquez sur la catégorie "Tarifs" dans la colonne de gauche sous l'onglet Billetterie
-- Cliquez sur le bouton "AJOUTER TARIF +" en haut à droite
-- Séléctionnez le produit précédemment créé
-- Remplissez le reste du formulaire (descriptions, prix, stock...)
-    *c'est à ce moment que vous pouvez choisir de conditionner la réservation de billet à une adhésion.
-    *rappel : les adhésions sont à créer dans la section "Produits".
-- Cliquez sur le bouton "enregistrer" en bas de page
+Attention ! After creating products (step 2) you need to think about assigning a price to it.
+To do this :
+- Click on the “Prices” category in the left column under the Ticketing tab
+- Click on the “ADD RATE +” button at the top right
+- Select the previously created product
+- Complete the rest of the form (descriptions, prices, stock, etc.)
+     *this is when you can choose to condition the ticket reservation on membership.
+     *reminder: memberships must be created in the “Products” section.
+- Click on the “save” button at the bottom of the page
 :::
 
 <video width="100%" controls src="/img/addevent.mp4"></video>
