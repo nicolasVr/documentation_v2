@@ -1,33 +1,30 @@
 ---
 sidebar_position: 12
 slug: admin_add_pos
-title: Points de vente
-description: Ajouter une ou plusieurs points de vente.
-keywords: [cashless, android]
-wiktags: [cashless, android]
+title: Points of sale
+description: Add one or more points of sale.
+keywords: [cashless, android, pos, point of sale]
+wiktags: [cashless, android, pos, point of sale]
 authors: Axel
 ---
 
-Les points de vente représentent le ou les espaces physiques de votre lieu où un boitier TiBillet est installé. Une fois
-dans
-l'interface, vous pouvez choisir celui qui vous concerne (Bar, Restaurant, Cashless...). Vous y trouverez les catégories
-et articles assignés à ce point de vente.
+Points of sale represent the physical space(s) in your location where a TiBillet box is installed. 
+Once in the interface, you can choose the one that concerns you (Bar, Restaurant, Cashless...). 
+There you will find the categories and articles assigned to this point of sale.
 
-Grâce aux cartes primaires qui sont réclamées à chaque ouverture de l'application, vous pouvez restreindre l'accès à
-certains points de vente aux utilisateurs concernés.
+Thanks to the primary cards which are requested each time the application is opened, you can restrict access to certain points of sale to the users concerned.
 
-## Créer un nouveau point de vente
+## Create a new point of sale
 
-- Cliquez sur la catégorie "Points de vente" dans la colonne de gauche.
-- Cliquez sur le bouton "Ajouter Point de vente" en haut à droite.
-- Renseignez le nom du point de vente ainsi que les articles qui seront disponibles
-- Enregistrez
+- Click on the “Points of sale” category in the left column.
+- Click on the “Add Point of Sale” button at the top right.
+- Enter the name of the point of sale as well as the items that will be available
+- Save
 
 :::note
 
-Un point de vente est visible dans l'interface s'il contient des articles. Il est préférable de créer
-les articles en premier et de les assigner par la suite à un point de vente.
-
+A point of sale is visible in the interface if it contains articles. 
+It is best to create the items first and then assign them to a point of sale.
 :::
 
 <video width="100%" controls src="/img/addpointsvente.mp4"></video>
