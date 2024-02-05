@@ -1,50 +1,51 @@
 ---
 sidebar_position: 1
 slug: android
-title: Application Android
-description: Android app disponible sur https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
-keywords: [cashless, billetterie, ticketing, android]
-wiktags: [cashless, billetterie, ticketing, android]
+title: Android application
+description: Android application available on https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
+keywords: [cashless, billetterie, ticketing, android, application, app]
+wiktags: [cashless, billetterie, ticketing, android, application, app]
 authors: jonas
 ---
 
-# Application Android
+# Android Application
 
-## Téléchargement 
+## Download 
 
-L'application n'est pas encore publiée sur les Stores Android, Apple, ou FDroid.
+The application is not yet published on the Android, Apple, or FDroid Stores.
 
-Elle est disponible sur l'adresse suivante :
+It is available at the following address:
 
 https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
 
-Ou scannez ce qrcode sur un téléphone pour visiter la page de téléchargement.
+Or scan this qrcode on a phone to visit the download page.
 
 ![/img/qrcode_app_android.png](/img/qrcode_app_android.png)
 
-## Lancement
+## Launch
 
-Votre appareil doit être compatible NFC.
-L'application a été testée sur le matériel suivant :
+Your device must be NFC compatible.
+The application has been tested on the following hardware:
 
 - OnePlus 3T
 - Blackview
 - Redmi 9
+- Redmi Note pro 10
 
-## Appairage
+## Pairing
 
-Au premier lancement, indiquez :
-- l'adresse DNS de votre serveur cashless 
+On first launch, indicate:
+- the DNS address of your cashless server
 
-    Demandez à votre administrateur. C'est l'adresse de votre interface d'administration sans https:// ni /adminstaff 
+     Ask your administrator. This is the address of your administration interface without https:// or /adminstaff
     
-    exemple : ```manapanycashless.tibillet.re```
+     example: ```manapanycashless.tibillet.re```
 
-- Donnez un nom explicite à votre appareil pour pouvoir le retrouver facilement (ex : Redmi9Alex)
+- Give your device an explicit name to be able to find it easily (eg: Redmi9Alex)
 
-Un écran avec un fond orange apparait. Il vous indique le nom de l'appareil à valider.
-Sur votre page d'administration, allez dans la partie Appareil (/adminstaff/APIcashless/appareil/)
+A screen with an orange background appears. It tells you the name of the device to validate.
+On your administration page, go to the Device section (/adminstaff/APIcashless/device/)
 
-Cliquez sur "actif" puis enregistrez. Votre appareil est maintenant appairé !
+Click “active” then save. Your device is now paired!
 
-Sur votre téléphone, appuyez sur l'écran orange, l'application se lance et vous demande votre carte primaire :)
+On your phone, press the orange screen, the application launches and asks you for your primary card :)
