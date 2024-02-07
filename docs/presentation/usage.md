@@ -3,7 +3,6 @@ sidebar_position: 2
 slug: usages
 title: Uses
 description: Contactless payment system, zero cash (cashless), event management, catering room management, associative engagement and online ticket purchasing... but not only that !
-
 image: /img/demo/BoitierRaff.jpg
 keywords: [ cashless, billetterie, ticketing, caisse enregistreuse, prise de commandes, paiement dématérialisé, monnaies locales, monnaies temps, logiciel libre, open source, coopérative, cash register, order taking, dematerialized payment, local currencies, time currencies, free software, open source, cooperative ]
 tags: [ cashless, billetterie, ticketing, caisse enregistreuse, prise de commandes, paiement dématérialisé, monnaies locales, monnaies temps, logiciel libre, open source, coopérative, cash register, order taking, dematerialized payment, local currencies, time currencies, free software, open source, cooperative ]
