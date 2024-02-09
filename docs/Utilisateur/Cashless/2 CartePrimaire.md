@@ -37,7 +37,7 @@ The person responsible for the point of sale is visible in each payment.
 ## 3- Test the card at a point of sale
 
 - Start the TiBillet application on a terminal or smartphone.
-     - Follow the [pairing procedure](/docs/User/Cashless/android) if you have not already done so.
+     - Follow the [pairing procedure](/docs/Utilisateur/Cashless/android) if you have not already done so.
 - Scan the card when requested by the app.
 - Check that you only have the points of sale associated with the card.
 
