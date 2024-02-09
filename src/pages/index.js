@@ -28,7 +28,7 @@ function HeroBanner() {
                             __html: translate({
                                 id: 'homepage.hero.title',
                                 message:
-                                    "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
+                                    "Free</b> events and economic tools <b>creating</b> cooperative networks <b>cooperatifs</b>.",
                                 description:
                                     'Titre',
                             }),
@@ -38,7 +38,7 @@ function HeroBanner() {
 
                 <div className={styles.indexCtas}>
                     <Link className="button button--primary" to="/docs/presentation/introduction">
-                        <Translate>En savoir plus</Translate>
+                        <Translate>To know more</Translate>
                     </Link>
                     <Link className="button button--info" to="/docs/presentation/demonstration">
                         <Translate>Demonstration</Translate>
@@ -56,7 +56,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Outils évènementiels et économiques libres créateurs de réseaux cooperatifs : Cashless, ticketing, blockchain.">
+            description="Free event and economic tools creating cooperative networks: Cashless, ticketing, blockchain.">
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>

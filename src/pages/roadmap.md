@@ -7,85 +7,85 @@ wiktags: [cashless, billetterie, ticketing]
 authors: jonas
 ---
 
-# Fonctionnalités
+# Features
 
-Les check non cochés sont prévus et en cours de développement :
+Unchecked boxes are planned and under development :
 
-## Point de vente :
+## Point of sale :
 
-- [x] Points de vente et caisse enregistreuse espèce, carte bancaire et cashless.
-- [x] Application Android
-- [x] Boitier tactile
-- [x] Ticket Z
-- [x] Export compta CSV
-- [x] Carte NFC Cashless
-    - [x] Monnaie temps / Bénévoles / Cadeaux
-    - [x] Création de la monnaie locale à votre lieux en équivalente €
-    - [x] Carte fédérée pour plusieurs lieux.
-    - [x] Création d'une monnaie locale à l'échelle d'un territoire.
-    - [ ] Borne de recharge cashless autonome
-    - [ ] Lecteur NFC déporté ( pour utilisation avec de vieux ordiphones )
-    - [ ] Monnaie locale existante (Doume, Graine, Ti4Sous ... etc )
-    - [ ] Monnaie libre et cryptomonnaie ( June, ether, etc ... )
-    - [ ] Tireuse à bière autonome
-- [ ] TPE Carte bancaire
-- [ ] Gestion des stocks
-- [x] Plan DIY en open hardware
-- [ ] Export compta Odoo & Dokos
-- [ ] Balance connecté / vente de vrac
-- [ ] Vente en ligne, Click & Collect
-- [x] Cashback cashless
+- [x] Points of sale and cash register, bank card and cashless.
+- [x] Android App
+- [x] Touch screen box
+- [x] Z-Ticket
+- [x] CSV accounting Export
+- [x] NFC Cashless card
+    - [x] Time currency / Volunteers / Gifts
+    - [x] Creation of local currency at your venue in € equivalent
+    - [x] Federated card for multiple places.
+    - [x] creation of a local currency on a territorial scale.
+    - [ ] Autonomous cashless charging station
+    - [ ] Remote NFC reader (for use with old smartphones)
+    - [ ] Existing local currency (Doume, Graine, Ti4Sous ... etc)
+    - [ ] Free currency and cryptocurrency (June, ether, etc...)
+    - [ ] Self service beer tap
+- [ ] TPE Bank card
+- [ ] Stock management
+- [x] Open hardware DIY plan
+- [ ] Odoo & Dokos account export
+- [ ] Connected scale / bulk sale
+- [ ] Online sales, Click & Collect
+- [x] Cashless cashback
 
-## Gestion de prise de commande pour restauration
+## Order management for catering
 
-- [x] Prise de commande pour serveur.se.s. ( app android & Pi3 )
-- [x] Impressions des tickets de commande en cuisine/bar
-- [x] Ecran de validation et de suivi de commandes (Payée/Prête/Servie/En Attente)
-- [x] Mode "Gerant" pour annulation de commande
-- [ ] Buzzer de table
-- [ ] Prise de commande et paiement par le client à table / QrCode System
-- [ ] Borne de prise de commande autonome
+- [x] Order taking for waiters (Android app & Pi3)
+- [x] Printing of order tickets in the kitchen/bar
+- [x] Order validation and tracking screen (Paid/Ready/Served/Waiting)
+- [x] “Manager” mode for order cancellation
+- [ ] Table buzzer
+- [ ] Order taking and payment by the customer at the table / QrCode System
+- [ ] Standalone order taking terminal
 
-## Adhésion & abonnement
+## Membership & subscription
 
-- [x] Abonnement et adhésion
-- [x] Carte de fidélité
-- [x] Paiement récurrent mensuel et annuel
-- [x] Export Odoo
-- [x] Carte NFC pour info adhésion / abonnement
-- [ ] Badgdeuse entrée/sortie
-- [ ] Cowdfunding, Don Tips
-- [ ] Newsletter & blog ( Ghost )
-- [ ] Export Dokos
+- [x] Subscription and membership
+- [x] Loyalty card
+- [x] Monthly and annual recurring payment
+- [x] Odoo export
+- [x] NFC card for membership/subscription info
+- [ ] Entry/exit badger
+- [ ] Cowdfunding, Donation, Tips
+- [ ] Newsletter & blog (Ghost)
+- [ ] Dokos export
 
-## Billetterie, agenda & reservation
+## Ticketing, agenda & reservation
 
-- [x] Site web "Landing Page"
-- [x] Vente de billet en ligne
-- [x] Reservation gratuite
-- [x] Prix préférentiel lié à un abonnement ou une adhésion
-- [x] Agenda culturel fédéré
+- [x] “Landing Page” website
+- [x] Online ticket sales
+- [x] Free reservation
+- [x] Preferential rates linked to a subscription or membership
+- [x] Federated cultural agenda
 - [x] Webhook
-- [x] Intégration site extérieur (iframe)
-- [ ] Agenda participatif
-- [ ] Reservation avec validation préalable
-- [ ] Reservation d'espaces (co-working)
-- [ ] Co-voiturage
-- [ ] Aggregateur d'évènement extérieur sur un territoire (Facebook, Fediverse, etc ..)
+- [x] External site integration (iframe)
+- [ ] Participatory agenda
+- [ ] Reservation with prior validation
+- [ ] Reservation of (co-working) spaces
+- [ ] Carpooling
+- [ ] External event aggregator on a territory (Facebook, Fediverse, etc.)
 
-## Gestion de planning et de projets
+## Planning and project management
 
 - [x] SSO Communecter
-- [x] Monnaie temps de valorisation de bénévolat
-- [ ] Liaison tache / évènement pour gestion bénévole
-- [ ] Gestion planning bénévole
-- [ ] Gestion financement de projet ( cf crowdfunding )
-- [ ] Liaison co-remuneration
-- [ ] Liaison budget contributif (Loot)
+- [x] Time currency for volunteering
+- [ ] Task / event connection for volunteer management
+- [ ] Volunteer schedule management
+- [ ] Project funding management (see crowdfunding)
+- [ ] Co-remuneration link
+- [ ] Contributory budget link (Loot)
 
-## Fédération
+## Federation
 
-- [x] Une instance de cashless pour plusieurs lieux
-- [x] Une monnaie fédérée avec Stripe Connect
-- [x] Abonnement pour plusieurs lieux
-- [ ] Badge inter lieux
+- [x] A cashless instance for several locations
+- [x] A federated currency with Stripe Connect
+- [x] Subscription for multiple locations
+- [ ] Inter-location badge

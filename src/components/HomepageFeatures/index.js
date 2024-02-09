@@ -9,30 +9,29 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_report_re_f5n5.svg').default,
         description: (
             <Translate>
-                Une suite d'applications libres pour la gestion de votre lieu social et solidaire :
-                Caisse enregistreuse, adhésion, billetterie, cashless, monnaie temps, prise de commande et gestion de
-                salle.
+                A suite of free applications for managing your social and solidarity venue : Cash register, 
+                membership, ticketing, cashless, time currency, order taking and room management.
             </Translate>
         ),
     },
     {
-        title: 'Créateur de réseau',
+        title: 'Network Builder',
         Svg: require('@site/static/img/undraw_world_re_768g.svg').default,
         description: (
             <Translate>
-                TiBillet met en relation organisateurs, publics et institutions.
-                Un seul outil pour toute une fillière et tout un territoire : nous intéropérons plus que nos logiciels.
+                TiBillet connects organizers, audiences and institutions. 
+                A single tool for an entire industry and an entire territory : we interoperate more than our software.
             </Translate>
         ),
     },
     {
-        title: 'Social et solidaire',
+        title: 'Social and solidarity-based',
         Svg: require('@site/static/img/undraw_share_link_re_54rx.svg').default,
         description: (
             <Translate>
-                TiBillet est une société coopérative d'intérêt commun. Rejoignez l'aventure d'un collectif et inscrivez
-                vous dans
-                l'économie sociale et solidaire !
+                TiBillet is a community interest company. 
+                Join the adventure of a collective and become part of 
+                the social and solidarity economy !
             </Translate>
         ),
     },
@@ -41,8 +40,8 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_ride_a_bicycle_re_6tjy.svg').default,
         description: (
             <Translate>
-                Utilisez votre propre matériel existant ou DIY ! TiBillet est conçu pour être mutualisé,
-                pérenne et facilement maintenable : 100% Open Hardware !
+                Use your own existing or DIY equipment! TiBillet is designed to be shared, long-lasting and easily maintainable 
+                100% Open Hardware!
             </Translate>
         ),
     },
@@ -51,19 +50,18 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_open_source_-1-qxw.svg').default,
         description: (
             <Translate>
-                Parce que nous constuisons un outil qui à besoin de votre confiance, le code de TiBillet est audité
-                régulièrement,
-                publié sous la licence libre et open-source AGPLv3 et disponible sur github.
+                Because we are building a tool that needs your trust, TiBillet's code is regularly audited, 
+                published under the free and open-source AGPLv3 license and available on github.
             </Translate>
         ),
     },
     {
-        title: "Créateurs d'évènements",
+        title: "Event makers",
         Svg: require('@site/static/img/undraw_compose_music_re_wpiw.svg').default,
         description: (
             <Translate>
-                TiBillet est fabriqué pour et par des associations culturelles. Tiers-lieux, FabLab, festivals,
-                collectifs, associations, rejoignez un réseau ou créez le votre !
+                TiBillet is made for and by cultural associations. Third places, FabLab, festivals, collectives, 
+                associations, join a network or create your own !
             </Translate>
         ),
     },
