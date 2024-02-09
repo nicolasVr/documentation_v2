@@ -11,7 +11,7 @@ authors: jonas
 
 # Introduction
 
-TiBillet is a prout for payment, associative membership, online booking and ticketing, time and local currency
+TiBillet is a FLOSS solution for payment, associative membership, online booking and ticketing, time and local currency
 management, festival cashless and order management for refreshment stands and catering facilities.
 
 The general idea is to broaden the scope of a membership and/or cashless card already in circulation at many venues and
