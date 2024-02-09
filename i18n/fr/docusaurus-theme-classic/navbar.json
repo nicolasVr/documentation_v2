@@ -19,8 +19,8 @@
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
-  "item.label.Presentation": {
-    "message": "Presentation",
+  "item.label.Présentation": {
+    "message": "Présentation",
     "description": "Navbar item with label Presentation"
   },
   "item.label.Fonctionnalités": {
