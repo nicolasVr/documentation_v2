@@ -1,4 +1,35 @@
 {
+  "": {
+    "message": ""
+  },
+  "homepage.hero.title": {
+    "message": "Free</b> events and economic tools <b>creating</b> cooperative networks <b>cooperatifs</b>.",
+    "description": "Titre"
+  },
+  "To know more": {
+    "message": "To know more"
+  },
+  "Demonstration": {
+    "message": "Demonstration"
+  },
+  "A suite of free applications for managing your social and solidarity venue : Cash register, membership, ticketing, cashless, time currency, order taking and room management.": {
+    "message": "A suite of free applications for managing your social and solidarity venue : Cash register, membership, ticketing, cashless, time currency, order taking and room management."
+  },
+  "TiBillet connects organizers, audiences and institutions. A single tool for an entire industry and an entire territory : we interoperate more than our software.": {
+    "message": "TiBillet connects organizers, audiences and institutions. A single tool for an entire industry and an entire territory : we interoperate more than our software."
+  },
+  "TiBillet is a community interest company. Join the adventure of a collective and become part of the social and solidarity economy !": {
+    "message": "TiBillet is a community interest company. Join the adventure of a collective and become part of the social and solidarity economy !"
+  },
+  "Use your own existing or DIY equipment! TiBillet is designed to be shared, long-lasting and easily maintainable 100% Open Hardware!": {
+    "message": "Use your own existing or DIY equipment! TiBillet is designed to be shared, long-lasting and easily maintainable 100% Open Hardware!"
+  },
+  "Because we are building a tool that needs your trust, TiBillet's code is regularly audited, published under the free and open-source AGPLv3 license and available on github.": {
+    "message": "Because we are building a tool that needs your trust, TiBillet's code is regularly audited, published under the free and open-source AGPLv3 license and available on github."
+  },
+  "TiBillet is made for and by cultural associations. Third places, FabLab, festivals, collectives, associations, join a network or create your own !": {
+    "message": "TiBillet is made for and by cultural associations. Third places, FabLab, festivals, collectives, associations, join a network or create your own !"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
     "description": "The title of the fallback page when the page crashed"
@@ -265,39 +296,5 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Déplier le menu latéral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
-  "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.": {
-    "message": "frploufplouf the ground up to be easily installed and used to get your website up and running quickly."
-  },
-  "directory.": {
-    "message": "directory."
-  },
-  "Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.": {
-    "message": "FRFR or customizFe your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer."
-  },
-  "homepage.hero.title": {
-    "message": "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
-    "description": "Titre"
-  },
-  "En savoir plus": {
-    "message": "En savoir plus"
-  },
-  "Demonstration": {
-    "message": "Demonstration"
-  },
-  "Une suite d'applications libres pour la gestion de votre lieu social et solidaire : Caisse enregistreuse, adhésion, billetterie, cashless, monnaie temps, prise de commande et gestion de salle.": {
-    "message": "Une suite d'applications libres pour la gestion de votre lieu social et solidaire : Caisse enregistreuse, adhésion, billetterie, cashless, monnaie temps, prise de commande et gestion de salle."
-  },
-  "TiBillet met en relation organisateurs, publics et institutions. Un seul outil pour toute une fillière et tout un territoire : nous intéropérons plus que nos logiciels.": {
-    "message": "TiBillet met en relation organisateurs, publics et institutions. Un seul outil pour toute une fillière et tout un territoire : nous intéropérons plus que nos logiciels."
-  },
-  "TiBillet est une société coopérative d'intérêt commun. Rejoignez l'aventure d'un collectif et inscrivez vous dans l'économie sociale et solidaire !": {
-    "message": "TiBillet est une société coopérative d'intérêt commun. Rejoignez l'aventure d'un collectif et inscrivez vous dans l'économie sociale et solidaire !"
-  },
-  "Parce que nous constuisons un outil qui à besoin de votre confiance, le code de TiBillet est audité régulièrement, publié sous la licence libre et open-source AGPLv3 et disponible sur github.": {
-    "message": "Parce que nous constuisons un outil qui à besoin de votre confiance, le code de TiBillet est audité régulièrement, publié sous la licence libre et open-source AGPLv3 et disponible sur github."
-  },
-  "TiBillet est fabriqué pour et par des associations culturelles. Tiers-lieux, FabLab, festivals, collectifs, associations, rejoignez un réseau ou créez le votre !": {
-    "message": "TiBillet est fabriqué pour et par des associations culturelles. Tiers-lieux, FabLab, festivals, collectifs, associations, rejoignez un réseau ou créez le votre !"
   }
 }
