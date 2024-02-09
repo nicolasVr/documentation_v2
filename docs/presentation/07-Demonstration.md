@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 slug: demonstration
-title: Démonstration
+title: Demonstration
 description: Demonstration instances of ticketing (TiBillet/Event) and cash register (TiBillet/LaBoutik) which accepts payments in local currency and/or cashless, and which allows refreshment and catering orders to be managed.
 image: /img/demo/maq2-420.jpg
 keywords: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux, venue, catering ]
