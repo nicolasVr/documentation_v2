@@ -4925,11 +4925,19 @@ __metadata:
     "@docusaurus/types": "npm:^3.1.1"
     "@mdx-js/react": "npm:^3.0.0"
     clsx: "npm:^2.0.0"
+    docusaurus-plugin-name: "npm:^0.0.1-security.6"
     prism-react-renderer: "npm:^2.3.0"
     react: "npm:^18.0.0"
     react-dom: "npm:^18.0.0"
   languageName: unknown
   linkType: soft
+
+"docusaurus-plugin-name@npm:^0.0.1-security.6":
+  version: 0.0.1-security.6
+  resolution: "docusaurus-plugin-name@npm:0.0.1-security.6"
+  checksum: 10c0/8d1edb90dadb20a5dcf09a8947890df53b7682a1b25de2525f1051db3b80a76f00473e752be518cfebd5e4dd7cb1ed7b5394c1e7d736abf04fa4e11c004c02f7
+  languageName: node
+  linkType: hard
 
 "dom-converter@npm:^0.2.0":
   version: 0.2.0

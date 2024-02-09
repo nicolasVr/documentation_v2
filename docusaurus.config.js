@@ -89,7 +89,7 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Presentation',
+                        label: 'Présentation',
                     },
                     {to: '/roadmap', label: 'Fonctionnalités', position: 'left'},
                     {

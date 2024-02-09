@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
-    {
+        {
         title: '360°',
         Svg: require('@site/static/img/undraw_report_re_f5n5.svg').default,
         description: (
