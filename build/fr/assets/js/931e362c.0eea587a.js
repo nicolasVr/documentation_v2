@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation_v_2=self.webpackChunkdocumentation_v_2||[]).push([[3147],{5576:t=>{t.exports=JSON.parse('{"title":"Pr\xe9sentation","description":"Pr\xe9sentation","slug":"/category/pr\xe9sentation","permalink":"/fr/docs/category/pr\xe9sentation","navigation":{"next":{"title":"Introduction","permalink":"/fr/docs/presentation/introduction"}}}')}}]);

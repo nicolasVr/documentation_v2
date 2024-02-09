@@ -28,7 +28,7 @@ function HeroBanner() {
                             __html: translate({
                                 id: 'homepage.hero.title',
                                 message:
-                                    "Free</b> events and economic tools <b>creating</b> cooperative networks <b>cooperatifs</b>.",
+                                    "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
                                 description:
                                     'Titre',
                             }),

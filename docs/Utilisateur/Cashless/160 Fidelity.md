@@ -1,31 +1,31 @@
 ---
 sidebar_position: 160
-slug: fedelity
-title: Points de fidélités
-description: Points de fidélité sur ta carte fédérée !
-keywords: [fidelity, fidélité, badge, pointeuse, access card, cashless, billetterie, ticketing, cashback, stripe, badge inter-lieux, dokos]
-tags: [fidelity, fidélité, access card, cashless, billetterie, ticketing, cashback, stripe,  badge inter-lieux, dokos]
+slug: fidelity
+title: Loyalty points
+description: PLoyalty points on your federated card !
+keywords: [fidelity, fidélité, badge, pointeuse, access card, cashless, billetterie, ticketing, cashback, stripe, badge inter-lieux, dokos, ticketing, loyalty, federated, card ]
+tags: [fidelity, fidélité, access card, cashless, billetterie, ticketing, cashback, stripe,  badge inter-lieux, dokos, ticketing, loyalty, federated, card ]
 ---
 
 
-# Point de fidélités.
+# Loyalty point
 
-Ajoutez des points de félité pour chaque vente réalisée en cashless ou autre !
+Add loyalty points for each sale made cashless or other !
 
 ![Config Badge](/img/cashless/fidelity/config.jpg)
 
-Choisissez un ou plusieurs assets déclencheur ainsi que le facteur de points.
-Exemple, pour 10 tokens pour 1€ dépensé, choisissez le token € et le facteur 10.
+Choose one or more trigger assets as well as the points factor.
+Example, for 10 tokens for 1€ spent, choose the € token and the factor 10.
 
-## Mutualisation avec FEDOW
+## Pooling with FEDOW
 
-Vous pouvez changer l'asset de fidélité pour un asset FEDOW. Les points de fidéliés seront alors visible et dépensable dans votre fédération FEDOW.
+You can change the loyalty asset to a FEDOW asset. The loyalty points will then be visible and spendable in your FEDOW federation.
 
-Exemple : Une carte pour une chaine de restaurant
+Example: A menu for a restaurant chain
 
 ## Contribution
 
-Ces fonctionnalités ont été développées par, pour et avec l'aide de :
+These features were developed by, for and with the help of :
 
 - [Coopérative Code Commun](https://codecommun.coop/)
 - [Le Demeter](https://ledemeter.fr/)

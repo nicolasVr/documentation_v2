@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation_v_2=self.webpackChunkdocumentation_v_2||[]).push([[9550],{1785:e=>{e.exports=JSON.parse('{"permalink":"/fr/blog/tags/docusaurus","page":1,"postsPerPage":4,"totalPages":1,"totalCount":4,"blogDescription":"Le blog de TiBillet, l\'\xe9v\xe9nementiel coop\xe9ratif.","blogTitle":"TiBillet, le blog."}')}}]);

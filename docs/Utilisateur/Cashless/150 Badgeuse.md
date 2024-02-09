@@ -1,76 +1,78 @@
 ---
 sidebar_position: 150
 slug: badge
-title: Badgeuse
-description: Badgeuse, pointage, comptage, ouverture de porte avec les cartes NFC.
-keywords: [badgeuse, badge, pointeuse, access card, cashless, billetterie, ticketing, cashback, stripe, badge inter-lieux, dokos]
-tags: [badgeuse, badge, access card, cashless, billetterie, ticketing, cashback, stripe,  badge inter-lieux, dokos]
+title: Time clock machine
+description: Time clock machine, clocking, counting, door opening with NFC cards.
+keywords: [badgeuse, badge, pointeuse, access card, cashless, billetterie, ticketing, cashback, stripe, badge inter-lieux, dokos, time clock, machine, time punch machine]
+wiktags: [badgeuse, badge, access card, cashless, billetterie, ticketing, cashback, stripe,  badge inter-lieux, dokos, time clock, machine, time punch machine]
 ---
 
 
-# Badgeuse
+# Time clock machine
 
-Un système de badgeuse a été développé pour comptabiliser des passages à un point donné. Les cas d'usages sont multiples, de la simple présence pour un co working à la comptabilisation de temps d'utilisation d'un espace :
-- Accès à un espace (Salle d'escalade, de répétition ou danse...)
-- Comptage de temps d'utilisation d'un espace (Fablab, salle de réunion, salle de formation, etc.)
-- Acte de présence
-- Décompte de monnaie temps (ex: 1h de salle de réunion = 1 jeton)
-- Ouverture de porte (besoin d'un webhook vers une serrure connecté)
+A time clocking system has been developed to count passages at a given point. There are multiple use cases, from simple validation of presence for co-working to recording time spent using a room :
+- Access to a location (climbing, rehearsal or dance room, etc.)
+- Counting time spent using a location (Fablab, meeting room, training room, etc.)
+- Certificate of presence
+- Time currency counts (ex: 1 hour of meeting room = 1 token)
+- Door opening (need a webhook to a connected lock)
 
 ## Configuration
 
-Activez l'option dans le menu de configuration. Cela va créer l'asset "Badgeuse" et l'article correspondant.
+Enable the option in the setup menu. This will create the “Time-clock machine” asset and the corresponding item.
 
 ![Config Badge](/img/cashless/badge/badge1.jpg)
 
-Vous pouvez desormais ajouter l'article "Badger" dans n'importe quel point de vente.
+You can now add the "Time-clock machine" item to any point of sale.
 
 ![Config Badge](/img/cashless/badge/badge2.jpg)
 
-Pour plus de clarté, vous pouvez désactiver "Afficher les prix" si votre point de vente ne comprend que l'article "Badger"
+For greater clarity, you can deactivate "Show prices" if your point of sale only includes the "Time-clock machine" item
 
 ## Action !
 
-Si vous avez créé un nouveau point de vente pour la badgeuse, pensez à lier ce point de vente aux cartes primaires.
+If you have created a new point of sale for the Time Clock card reader, remember to link this point of sale to the primary cards.
 
 ![Config Badge](/img/cashless/badge/vuecashless_pdv_badgeuse.jpg)
 
-Pour badger une carte, selectionner la case "Badger", validez, puis scannez la carte.
+To punch a card, select the “Time-clock machine” box, validate, then scan the card.
 
-## Rapport
+## Report
 
-Sur la page principale (Dashboard), vous trouverez le lien vers les rapports de badgeage. 
-Vous pouvez aussi y acceder via l'adresse `https://<URL>/rapport/badgeuse/`
+On the main page (Dashboard), you will find the link to the time spend reports.
+You can also access it via the address `https://<URL>/rapport/badgeuse/`
 
 ![Config Badge](/img/cashless/badge/rapport_badgeuse.jpg)
 
-Les passages sont classé par paire d'entrée / sortie.
+Passages are sorted by entry/exit pair.
 
-## Mutualisation avec FEDOW
+## Pooling with FEDOW
 
-Une seule carte NFC pour plusieurs lieux, c'est possible !
-Vous pouvez brancher votre Badgeuse sur FEDOW et partager ainsi un même système de badgeage avec d'autres tiers lieux.
-Une fois la connexion réalisée, les passages seront enregistrés dans la blockchain FEDOW.
+A single NFC card for several locations, it's possible!
+You can connect your Time-clocking machine to FEDOW and thus share the same time system with other third parties.
+Once the connection is made, the passages will be recorded in the FEDOW blockchain.
 
-Rejoignez une fédération TiBillet/Fedow, configurez l'asset de badge comme fédéré, et vous pourrez le retrouver dans votre instance cashless.
+Join a TiBillet/Fedow federation, configure the time-clock asset as federated, and you will be able to find it in your cashless instance.
 
-Configurez l'article "Badger" sur l'asset fédéré. Dans le menu Article/Special :
+Configure the "Time-clock machine" item on the federated asset. In the Item/Special menu:
 
 ![Config Badge](/img/cashless/badge/config_asset_fedow.jpg)
 
-Vous pouvez maintenant badger une carte, et les passages seront enregistrés dans la blockchain FEDOW :
+You can now punch a card, and the passages will be recorded in the FEDOW blockchain:
 
 ![Config Badge](/img/cashless/badge/rapport_badgeuse_fedow.jpg)
 
-## Aller plus loin avec Dokos
+## Go further with Dokos
 
-Vous pouvez utiliser TiBillet en mode solo ou Fedow pour le dispositif du [Badge inter lieux](https://badge.tiers-lieux.org/).
+You can use TiBillet in solo mode or Fedow for the (Inter-venue badge) [Badge inter lieux](https://badge.tiers-lieux.org/).
 
-Voir la configuration Dokos correspondante : [https://doc.dokos.io/federation-lieux/federation-de-lieux/api/](https://doc.dokos.io/federation-lieux/federation-de-lieux/api/)
+See the corresponding Dokos configuration: [
+https://doc.dokos.io/federation-lieux/federation-de-lieux/api/](https://doc.dokos.io/federation-lieux/federation-de-lieux/api/)
 
 ## Contribution
 
-Ces fonctionnalités ont été développées par, pour et avec l'aide de :
+These features were developed by, for and with the help of :
+
 - [Coopérative Code Commun](https://codecommun.coop/)
 - [Badge Inter Lieux](https://badge.tiers-lieux.org/)
 - [La compagnie des tiers lieux](https://compagnie.tiers-lieux.org/)

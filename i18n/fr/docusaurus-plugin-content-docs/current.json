@@ -40,15 +40,15 @@
     "description": "The label for category Trucs et astuces in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Trucs et astuces.link.generated-index.description": {
-    "message": "Truc et astuces des utilisateurs",
+    "message": "Truc et astuces utilisateurs",
     "description": "The generated-index page description for category Trucs et astuces in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Auto Hebergement": {
-    "message": "Auto Hebergement",
+    "message": "Auto Hébergement",
     "description": "The label for category Auto Hebergement in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Auto Hebergement.link.generated-index.description": {
-    "message": "Installer votre propre instance de TiBillet",
+    "message": "Installer sa propre instance de TiBillet",
     "description": "The generated-index page description for category Auto Hebergement in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API": {

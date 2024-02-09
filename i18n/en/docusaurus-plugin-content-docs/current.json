@@ -4,19 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Présentation": {
-    "message": "Présentation",
+    "message": "Presentation",
     "description": "The label for category Présentation in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Présentation.link.generated-index.description": {
-    "message": "Présentation",
+    "message": "Presentation",
     "description": "The generated-index page description for category Présentation in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Documentation utilisateur": {
-    "message": "Documentation utilisateur",
+    "message": "User documentation",
     "description": "The label for category Documentation utilisateur in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Documentation utilisateur.link.generated-index.description": {
-    "message": "Administrez votre espace TiBillet",
+    "message": "Manage your TiBillet space",
     "description": "The generated-index page description for category Documentation utilisateur in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Cashless": {
@@ -24,31 +24,31 @@
     "description": "The label for category Cashless in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Cashless.link.generated-index.description": {
-    "message": "Utilisation de l'application et de l'administration",
+    "message": "Using the app and administration",
     "description": "The generated-index page description for category Cashless in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Billetterie": {
-    "message": "Billetterie",
+    "message": "Ticketing",
     "description": "The label for category Billetterie in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Billetterie.link.generated-index.description": {
-    "message": "La billetterie en réseau.",
+    "message": "Network ticketing.",
     "description": "The generated-index page description for category Billetterie in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Trucs et astuces": {
-    "message": "Trucs et astuces",
+    "message": "Tips and tricks",
     "description": "The label for category Trucs et astuces in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Trucs et astuces.link.generated-index.description": {
-    "message": "Truc et astuces des utilisateurs",
+    "message": "User Tips and Tricks",
     "description": "The generated-index page description for category Trucs et astuces in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Auto Hebergement": {
-    "message": "Auto Hebergement",
+    "message": "Self Hosting",
     "description": "The label for category Auto Hebergement in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Auto Hebergement.link.generated-index.description": {
-    "message": "Installer votre propre instance de TiBillet",
+    "message": "Installing your own TiBillet instance",
     "description": "The generated-index page description for category Auto Hebergement in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API": {
