@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'TiBillet',
-    tagline: "L'événementiel coopératif",
+    tagline: "Outils coopératifs",
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -57,8 +57,8 @@ const config = {
                 },
                 blog: {
                     showReadingTime: true,
-                    blogTitle: 'TiBillet, le blog.',
-                    blogDescription: 'Le blog de TiBillet, l\'événementiel coopératif.',
+                    blogTitle: 'Code Commun, le blog.',
+                    blogDescription: 'Le blog de la coopérative Code Commun.',
                     postsPerPage: 'ALL',
                     blogSidebarTitle: 'All posts',
                     blogSidebarCount: 'ALL',                    // Please change this to your repo.

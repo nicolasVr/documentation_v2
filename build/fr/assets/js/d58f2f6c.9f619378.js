@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_v_2=self.webpackChunkdocumentation_v_2||[]).push([[7800],{5369:e=>{e.exports=JSON.parse('{"permalink":"/fr/blog","page":1,"postsPerPage":4,"totalPages":1,"totalCount":4,"blogDescription":"Le blog de TiBillet, l\'\xe9v\xe9nementiel coop\xe9ratif.","blogTitle":"TiBillet, le blog."}')}}]);
