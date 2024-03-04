@@ -51,7 +51,7 @@ function HeroBanner() {
                             Read more
                         </Translate>
                     </Link>
-                    <Link className="button button--info" to="/fr/docs/presentation/introduction">
+                    <Link className="button button--info" to="https://tibillet.org/fr/" target="">
                         <svg class="margin-right--sm" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                              viewBox="0 0 64 64">
                             <path fill="#e6e7e8" d="M22 10h20v44H22z"/>
