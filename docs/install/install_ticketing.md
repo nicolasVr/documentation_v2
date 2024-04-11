@@ -38,9 +38,10 @@ More information here (in french) :
 
 Tibillet is a software suite composed of several interoperable building blocks. The engines are :
 
+- [Fedow](https://github.com/TiBillet/Fedow) : Federated and open wallet, the federation engine. A blockchain to share membership assets, local currencies and
+  time for several Lespass and LaBoutik instances.
+
 - [Lespass](https://github.com/TiBillet/Lespass): Ticketing, membership and landing page engines. Usefull to refill online with self scanned qrcode unique on each card.
 
 - [LaBoutik](https://github.com/TiBillet/LaBoutik): Cash register, cashless system with RFID / NFC chip and order-taking system.
 
-- [Fedow](https://github.com/TiBillet/Fedow) : Federated and open wallet, the federation engine. A blockchain to share membership assets, local currencies and
-  time for several Lespass and LaBoutik instances.
