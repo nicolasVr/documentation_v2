@@ -1,101 +1,46 @@
 ---
-sidebar_position: 1
-slug: install_ticketing
-title: Installation
+sidebar_position: 100
+slug: docker_install
+title: Self hosted server
 description: Installation de la billetterie fédéré via Docker.
-keywords: [cashless, billetterie, ticketing]
-wiktags: [cashless, billetterie, ticketing]
+keywords: [ cashless, billetterie, ticketing ]
+wiktags: [ cashless, billetterie, ticketing ]
 authors: jonas
 ---
 
-# Installation
+# Self-hosted TiBillet
 
-Une [version de démonstration](/docs/presentation/demonstration) est disponible en ligne.
+:::danger
 
-## Ticketing :
+Since January 1, 2018, in order to combat VAT fraud, all VAT-registered professionals recording
+customer payments using one of these software or systems are required to use secure, certified hardware.
 
-[Install Docker](https://docs.docker.com/engine/install/)
+A measure enshrined in
+[Article 286 3° bis of the General Tax Code](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666)
+and initially stemming from the 2016 Finance Act,
+when April became involved in promoting and defending open-source
+software with cashiering functions.
 
-```shell
-git clone git@github.com:TiBillet/TiBillet.git
+If you're using TiBillet's SaaS model, you don't need to worry about any of this : We provide you with the certificate.
+Contact us !
 
-# Change branch to PreProd
-cd TiBillet
-git checkout PreProd
+But I imagine that if you're here, it's to install it yourself: here you are informed!
 
-# Change environment credential inside .env
-cd Docker/Development
-cp env_example .env
-nano .env
+More information here (in french) :
 
-# if not created before (with Traefik)
-docker network create frontend
+- https://www.economie.gouv.fr/entreprises/professionnels-logiciels-caisse
+- https://www.april.org/reglementation-des-systemes-de-caisse-les-logiciels-libres-de-mieux-en-mieux-pris-en-compte-par-berc
+- https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666
 
-# Launch in detached mode
-docker compose up -d
-```
+:::
 
-Launch the backend service for dev :
-```shell
-# Go inside the django container :
-docker exec -ti billetterie_django bash
-bash ./install.sh 
-python /DjangoFiles/manage.py runserver 0.0.0.0:8002
-```
+# Engines
 
-Launch the frontend service for dev' : 
-```shell
-docker exec -ti billetterie_nodejs_dev bash
-npm install
-npm run dev
-```
+Tibillet is a software suite composed of several interoperable building blocks. The engines are :
 
+- [Lespass](https://github.com/TiBillet/Lespass): Ticketing, membership and landing page engines. Usefull to refill online with self scanned qrcode unique on each card.
 
-## No Reverse proxy
+- [LaBoutik](https://github.com/TiBillet/LaBoutik): Cash register, cashless system with RFID / NFC chip and order-taking system.
 
-No reverse proxy ? No problem with linux !
-
-Just add to /etc/hosts the domain and subdomain of your choice.
-
-```
-172.17.0.1       tibillet.local
-172.17.0.1       m.tibillet.local
-172.17.0.1       demo.tibillet.local
-```
-
-#### Admin Root :
-http://www.tibillet.local:8002/admin
-#### Admin Tenant :
-http://demo.tibillet.local:8002/admin
-#### Front Tenant 
-http://demo.tibillet.local:8004
-#### Front Meta 
-http://m.tibillet.local:8004
-
-
-## With Traefik as reverse proxy 
-
-Example for Widlcard with Traefik and OVH DNS Challenge :
-
-https://github.com/TiBillet/Traefik-reverse-proxy/tree/main/wildcard
-
-#### Admin Root :
-https://www.tibillet.local/admin
-#### Admin Tenant :
-https://demo.tibillet.local/admin
-#### Front Tenant 
-https://demo.tibillet.local
-#### Front Meta 
-https://m.tibillet.local
-
-
-# Update
-
-```bash
-git pull
-cd Docker/Development
-docker compose pull
-docker compose down
-docker compose up -d
-docker exec -ti billetterie_django /usr/local/bin/python /DjangoFiles/manage.py migrate
-```
+- [Fedow](https://github.com/TiBillet/Fedow) : Federated and open wallet, the federation engine. A blockchain to share membership assets, local currencies and
+  time for several Lespass and LaBoutik instances.
