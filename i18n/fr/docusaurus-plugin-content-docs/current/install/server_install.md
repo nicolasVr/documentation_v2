@@ -2,7 +2,7 @@
 sidebar_position: 100
 slug: docker_install
 title: Self hosted
-description: Installation de la billetterie fédéré via Docker.
+description: self hosted TiBillet tools with docker
 keywords: [ cashless, billetterie, ticketing ]
 wiktags: [ cashless, billetterie, ticketing ]
 authors: jonas
@@ -77,7 +77,7 @@ A linux server with :
 - Docker & Compose
 - 1 domain with wildcard capacity
 - A Reverse proxy who handle 443 and 80 port (we use Traefik)
-- A valid Stripe account with *Stripe connect"
+- A valid Stripe account with *Stripe connect*
 
 You can find some ressource (in french) here :
 
@@ -87,7 +87,7 @@ You can find some ressource (in french) here :
 If you're ready for adventure, create a new folder "TiBillet", and let's start by installing a Fedow!
 
 ```bash
-cd && mkdir TiBillet
+mkdir TiBillet && cd TiBillet
 ```
 
 # Fedow : One ring to rule them all
@@ -124,13 +124,15 @@ docker network create frontend
 docker network create fedow_backend
 
 # prepare the logs, assets and database folder
-mkdir database www logs
+mkdir logs www database
 ```
+
+#### create the ```docker-compose.yml``` file
 
 ```yaml
 services:
   fedow_django:
-    image: tibillet/fedow:alpha1.2
+    image: tibillet/fedow:latest
     container_name: fedow_django
     hostname: fedow_django
     restart: always
@@ -144,7 +146,7 @@ services:
       - fedow_backend
 
   fedow_nginx:
-    image: nginx
+    image: nginx:latest
     restart: always
     container_name: fedow_nginx
     hostname: fedow_nginx
@@ -180,6 +182,11 @@ docker compose up -d
 docker compose logs -f 
 ```
 
-And check to ```https://<DOMAIN>/dashbord```
+And check to ```https://<FEDOW_DOMAIN>/dashboard```
 
 Congratulation !
+
+
+# Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
+
+

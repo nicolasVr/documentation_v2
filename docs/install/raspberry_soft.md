@@ -11,5 +11,6 @@ authors: jonas, mike
 
 # Build your own cash and cashless register box. 
 
-![coucou](/img/pi_diy/upload_10663804ccd7cef9c498a13818a459d3.jpg)
-
+:::note
+In progress, draft here : [https://codimd.communecter.org/s/radZYLweP#](https://codimd.communecter.org/s/radZYLweP#)
+:::
