@@ -1,30 +1,37 @@
 ---
 sidebar_position: 100
 slug: docker_install
-title: Self hosted
+title: Self hosted TiBillet instances
 description: self hosted TiBillet tools with docker
 keywords: [ cashless, billetterie, ticketing ]
 wiktags: [ cashless, billetterie, ticketing ]
 authors: jonas
 ---
 
-# Self-hosted TiBillet
+## Legal warning
 
 :::danger
 
 Since January 1, 2018, in order to combat VAT fraud, all VAT-registered professionals recording
-customer payments using one of these software or systems are required to use secure, certified hardware.
+customer payments using one of these software or systems are required to use secure, **certified hardware**.
 
 A measure enshrined in
 [Article 286 3° bis of the General Tax Code](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666)
 and initially stemming from the 2016 Finance Act,
-when April became involved in promoting and defending open-source
+when [April](https://www.april.org/reglementation-des-systemes-de-caisse-les-logiciels-libres-de-mieux-en-mieux-pris-en-compte-par-berc)
+became involved in promoting and defending open-source
 software with cashiering functions.
 
-If you're using TiBillet's SaaS model, you don't need to worry about any of this : We provide you with the certificate.
-Contact us !
+If you're using [TiBillet's Coop' and SaaS model](/docs/presentation/tarifs), you don't need to worry about any of
+this : We provide you with the certificate.
 
-But I imagine that if you're here, it's to install it yourself: here you are informed!
+But if you self-host your own cash register instance, you legally become the publisher, and we can't provide you with
+any legal documents to present to the tax authorities.
+
+I imagine that if you're here, it's to install it yourself ;)
+
+Here you are informed!
+:::
 
 More information here (in french) :
 
@@ -32,9 +39,7 @@ More information here (in french) :
 - https://www.april.org/reglementation-des-systemes-de-caisse-les-logiciels-libres-de-mieux-en-mieux-pris-en-compte-par-berc
 - https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666
 
-:::
-
-# Introduction to Engines
+## Introduction to Engines
 
 Tibillet is a software suite composed of several interoperable building blocks. The engines are :
 
@@ -90,19 +95,9 @@ If you're ready for adventure, create a new folder "TiBillet", and let's start b
 mkdir TiBillet && cd TiBillet
 ```
 
-# Fedow : One ring to rule them all
+### Generate many Fernet key and django secret key
 
-## Create .env file and fill it with your own variable
-
-```bash
-# Create .env and fill with :
-SECRET_KEY="" # see below to create one
-FERNET_KEY="" # see below to create one
-DOMAIN="" # ex : fedow.domain.com
-STRIPE_KEY="" # from your stripe account
-```
-
-### Generate Fernet key and django secret key
+You will need 3 couple of Fernet/Django secret key.
 
 ```bash
 # Generate fernet key with the fedow image :
@@ -114,7 +109,21 @@ docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from cryptography
 docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from django.core.management.utils import get_random_secret_key; print('\n'.join([get_random_secret_key() for i in range(0,30)]))"
 ```
 
+## Fedow : One ring to rule them all
 
+```bash
+mkdir TiBillet/Fedow && cd TiBillet/Fedow
+```
+
+### Create .env file and fill it with your own variable
+
+```bash
+# Create .env and fill with :
+SECRET_KEY="" # see upper to create one
+FERNET_KEY="" # see upper to create one
+DOMAIN="" # ex : fedow.domain.com
+STRIPE_KEY="" # from your stripe account
+```
 
 ### Prepare the rocket launch
 
@@ -127,7 +136,7 @@ docker network create fedow_backend
 mkdir logs www database
 ```
 
-#### create the ```docker-compose.yml``` file
+### The ```docker-compose.yml``` file
 
 ```yaml
 services:
@@ -184,9 +193,67 @@ docker compose logs -f
 
 And check to ```https://<FEDOW_DOMAIN>/dashboard```
 
-Congratulation !
+Congratulation, You own your own blockchain ;)
+
+### Backup
+
+To make a backup, simply back up the database folder regularly.
 
 
-# Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
+## Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
+
+Lespass is a multi-tenant engine. It is designed to work with a traefik and a wildcard certificate. See
+the [Code Commun blog](https://codecommun.coop/) for
+exemple : [https://codecommun.coop/blog/sysadmin-mon-chaton-part2](https://codecommun.coop/blog/sysadmin-mon-chaton-part2)
+
+For a test and development environment, it can be run on the same environment as Fedow :
+
+```bash
+mkdir TiBillet/Lespass && cd TiBillet/Lespass
+```
+
+### Create .env file and fill it with your own variable
+
+```bash
+# Secret
+DJANGO_SECRET='' # see upper to create one
+FERNET_KEY='' # see upper to create one
+STRIPE_KEY='' # from your stripe account
+
+# Database
+POSTGRES_HOST='lespass_postgres'
+POSTGRES_USER='lespass_postgres_user'
+POSTGRES_PASSWORD='' # strong ! generate a new fernet for exemple.
+POSTGRES_DB='lespass'
+
+TIME_ZONE='Europe/Paris' # or where you are
+PUBLIC='TiBillet Coop.' # The name of the root instance
+
+FEDOW_DOMAIN='' # the same as Fedow
+
+DOMAIN='' # for the wildcard : without subdomain ! ex : tibillet.coop, not lespass.tibillet.coop
+SUB='' # the sub domain of your first place ex : if 'festival', it will be accessible on https://festival.tibillet.coop
+META='agenda' # the federated agenda. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
+
+# For transactionnal email : 
+EMAIL_HOST=""
+EMAIL_PORT=""
+EMAIL_HOST_USER=""
+EMAIL_HOST_PASSWORD=""
+```
+
+
+### Prepare the rocket launch
+
+```bash
+# prepare the logs, assets, backup and database folder
+mkdir logs www backup database
+````
+
+### The ```docker-compose.yml``` file
+
+```yaml
+
+```
 
 

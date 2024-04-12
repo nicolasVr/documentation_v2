@@ -6,9 +6,7 @@ authors: jonas
 wiktags: [ cashless, billetterie, ticketing, features, princing, prices, licences ]
 ---
 
-# social and solidarity-based economic model.
-
-Eenter a social and solidarity economy !
+# Social and solidarity-based economic model.
 
 TiBillet is a suite of free/open source software.
 
