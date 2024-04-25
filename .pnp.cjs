@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/types", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:3.1.1"],\
           ["@mdx-js/react", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:3.0.0"],\
           ["clsx", "npm:2.1.0"],\
+          ["docusaurus-plugin-name", "npm:0.0.1-security.6"],\
           ["prism-react-renderer", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:2.3.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:18.2.0"]\
@@ -7435,11 +7436,21 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/types", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:3.1.1"],\
           ["@mdx-js/react", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:3.0.0"],\
           ["clsx", "npm:2.1.0"],\
+          ["docusaurus-plugin-name", "npm:0.0.1-security.6"],\
           ["prism-react-renderer", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:2.3.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:eb2921539a0af92496c9392df81a4a3c539f47f4d5da21de39b390a600ce10efbd35f4d4a6866a99bc4b44387a958c59b9e44652f406cffd8286cf485a1a1b4e#npm:18.2.0"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["docusaurus-plugin-name", [\
+      ["npm:0.0.1-security.6", {\
+        "packageLocation": "../../.yarn/berry/cache/docusaurus-plugin-name-npm-0.0.1-security.6-e0e9d403ce-10c0.zip/node_modules/docusaurus-plugin-name/",\
+        "packageDependencies": [\
+          ["docusaurus-plugin-name", "npm:0.0.1-security.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["dom-converter", [\

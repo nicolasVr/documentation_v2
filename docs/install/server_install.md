@@ -102,11 +102,11 @@ You will need 3 couple of Fernet/Django secret key.
 ```bash
 # Generate fernet key with the fedow image :
 # Choose one line and fill the .env file
-docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from cryptography.fernet import Fernet; print('\n'.join([Fernet.generate_key().decode('utf-8') for i in range(0,30)]))"
+docker run --rm tibillet/fedow poetry run python3 -c "from cryptography.fernet import Fernet; print('\n'.join([Fernet.generate_key().decode('utf-8') for i in range(0,30)]))"
 
 # Generate django secret key with the fedow image :
 # Choose one line and fill the .env file
-docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from django.core.management.utils import get_random_secret_key; print('\n'.join([get_random_secret_key() for i in range(0,30)]))"
+docker run --rm tibillet/fedow poetry run python3 -c "from django.core.management.utils import get_random_secret_key; print('\n'.join([get_random_secret_key() for i in range(0,30)]))"
 ```
 
 ## Fedow : One ring to rule them all
