@@ -187,6 +187,14 @@ nano docker-compose.yml
 
 ```yaml
 services:
+  fedow_memcached:
+    image: memcached:1.6
+    container_name: fedow_memcached
+    hostname: fedow_memcached
+    restart: always
+    networks:
+      - fedow_backend
+
   fedow_django:
     image: tibillet/fedow:latest
     container_name: fedow_django
@@ -194,6 +202,8 @@ services:
     restart: always
     env_file: .env
     user: fedow
+    links:
+      - fedow_memcached:memcached
     volumes:
       - ./database:/home/fedow/Fedow/database
       - ./www:/home/fedow/Fedow/www
@@ -290,12 +300,13 @@ POSTGRES_USER='lespass_postgres_user'
 POSTGRES_PASSWORD='' # strong ! generate a new fernet for exemple.
 POSTGRES_DB='lespass'
 
+ADMIN_EMAIL=''
 TIME_ZONE='Europe/Paris' # or where you are
-PUBLIC='TiBillet Coop.' # The name of the root instance
 
 FEDOW_DOMAIN='' # the same as Fedow
 
 DOMAIN='' # for the wildcard : without subdomain ! ex : tibillet.coop, not lespass.tibillet.coop
+PUBLIC='TiBillet Coop.' # The name of the root instance
 SUB='' # the sub domain of your first place ex : if 'festival', it will be accessible on https://festival.tibillet.coop
 META='' # the federated agenda for all events on all tenants. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
 
@@ -374,9 +385,19 @@ services:
     networks:
       - lespass_backend
 
-  lespas_redis:
-    container_name: lespas_redis
-    hostname: lespas_redis
+
+  lespass_memcached:
+    image : memcached:1.6
+    container_name: lespass_memcached
+    hostname: lespass_memcached
+    restart: always
+    networks:
+      - frontend
+
+
+  lespass_redis:
+    container_name: lespass_redis
+    hostname: lespass_redis
     image: redis:7.2.3-bookworm
     restart: unless-stopped
     networks:
@@ -394,10 +415,12 @@ services:
     env_file: .env
     depends_on:
       - lespass_postgres
-      - lespas_redis
+      - lespass_redis
+      - lespass_memcached
     links:
       - lespass_postgres:postgres
-      - lespas_redis:redis
+      - lespass_redis:redis
+      - lespass_memcached:memcached
     networks:
       - lespass_backend
 
@@ -408,7 +431,7 @@ services:
     env_file: .env
     depends_on:
       - lespass_postgres
-      - lespas_redis
+      - lespass_redis
     links:
       - lespass_postgres:postgres
       - lespas_redis:redis
