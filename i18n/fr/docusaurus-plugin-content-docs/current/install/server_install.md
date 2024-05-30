@@ -1,30 +1,37 @@
 ---
 sidebar_position: 100
 slug: docker_install
-title: Self hosted
+title: Self hosted TiBillet instances
 description: self hosted TiBillet tools with docker
 keywords: [ cashless, billetterie, ticketing ]
 wiktags: [ cashless, billetterie, ticketing ]
 authors: jonas
 ---
 
-# Self-hosted TiBillet
+## Legal warning
 
 :::danger
 
 Since January 1, 2018, in order to combat VAT fraud, all VAT-registered professionals recording
-customer payments using one of these software or systems are required to use secure, certified hardware.
+customer payments using one of these software or systems are required to use secure, **certified hardware**.
 
 A measure enshrined in
 [Article 286 3° bis of the General Tax Code](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666)
 and initially stemming from the 2016 Finance Act,
-when April became involved in promoting and defending open-source
+when [April](https://www.april.org/reglementation-des-systemes-de-caisse-les-logiciels-libres-de-mieux-en-mieux-pris-en-compte-par-berc)
+became involved in promoting and defending open-source
 software with cashiering functions.
 
-If you're using TiBillet's SaaS model, you don't need to worry about any of this : We provide you with the certificate.
-Contact us !
+If you're using [TiBillet's Coop' and SaaS model](/docs/presentation/tarifs), you don't need to worry about any of
+this : We provide you with the certificate.
 
-But I imagine that if you're here, it's to install it yourself: here you are informed!
+But if you self-host your own cash register instance, you legally become the publisher, and we can't provide you with
+any legal documents to present to the tax authorities.
+
+I imagine that if you're here, it's to install it yourself ;)
+
+Here you are informed!
+:::
 
 More information here (in french) :
 
@@ -32,9 +39,7 @@ More information here (in french) :
 - https://www.april.org/reglementation-des-systemes-de-caisse-les-logiciels-libres-de-mieux-en-mieux-pris-en-compte-par-berc
 - https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042914666
 
-:::
-
-# Introduction to Engines
+## Introduction to Engines
 
 Tibillet is a software suite composed of several interoperable building blocks. The engines are :
 
@@ -90,44 +95,95 @@ If you're ready for adventure, create a new folder "TiBillet", and let's start b
 mkdir TiBillet && cd TiBillet
 ```
 
-# Fedow : One ring to rule them all
+### Generate many Fernet key and django secret key
 
-## Create .env file and fill it with your own variable
-
-```bash
-# Create .env and fill with :
-SECRET_KEY="" # see below to create one
-FERNET_KEY="" # see below to create one
-DOMAIN="" # ex : fedow.domain.com
-STRIPE_KEY="" # from your stripe account
-```
-
-### Generate Fernet key and django secret key
+You will need 3 couple of Fernet/Django secret key.
 
 ```bash
 # Generate fernet key with the fedow image :
 # Choose one line and fill the .env file
-docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from cryptography.fernet import Fernet; print('\n'.join([Fernet.generate_key().decode('utf-8') for i in range(0,30)]))"
+docker run --rm tibillet/fedow poetry run python3 -c "from cryptography.fernet import Fernet; print('\n'.join([Fernet.generate_key().decode('utf-8') for i in range(0,30)]))"
 
 # Generate django secret key with the fedow image :
 # Choose one line and fill the .env file
-docker run --rm tibillet/fedow:alpha1.2 poetry run python3 -c "from django.core.management.utils import get_random_secret_key; print('\n'.join([get_random_secret_key() for i in range(0,30)]))"
+docker run --rm tibillet/fedow poetry run python3 -c "from django.core.management.utils import get_random_secret_key; print('\n'.join([get_random_secret_key() for i in range(0,30)]))"
 ```
 
+## Fedow : One ring to rule them all
 
 
-### Prepare the rocket launch
+### Environment 
+
+Create the Fedow folder :
 
 ```bash
-# Create frontend and backend network with docker
+mkdir -p TiBillet/Fedow && cd TiBillet/Fedow
+```
+
+Create .env file and fill it with your own variable
+```bash
+nano .env
+```
+
+```bash
+# Create .env and fill with :
+SECRET_KEY='' # see upper to create one
+FERNET_KEY='' # see upper to create one
+DOMAIN='' # ex : fedow.domain.com
+STRIPE_KEY='' # from your stripe account
+```
+
+Create frontend and backend network with docker
+```bash
 docker network create frontend
 docker network create fedow_backend
+```
 
-# prepare the logs, assets and database folder
+Prepare the logs, assets and database folder
+```
 mkdir logs www database
 ```
 
-#### create the ```docker-compose.yml``` file
+### Nginx rules
+
+Créate the nginx conf file :
+```
+nano nginx/django.conf
+```
+
+```
+server {
+    listen 80;
+    server_name localhost;
+
+    access_log /logs/nginxAccess.log;
+    error_log /logs/nginxError.log;
+
+    location /static {
+        root /www;
+    }
+
+    location /media {
+        root /www;
+    }
+
+    location / {
+        # everything is passed to Gunicorn
+        proxy_pass http://fedow_django:8000;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+    }
+}
+```
+
+### Docker compose
+
+create the docker compose file :
+```bash
+nano docker-compose.yml
+```
 
 ```yaml
 services:
@@ -184,9 +240,230 @@ docker compose logs -f
 
 And check to ```https://<FEDOW_DOMAIN>/dashboard```
 
+Congratulation, You own your own blockchain ;)
+
+### Backup
+
+To make a backup, simply back up the database folder regularly.
+
+## Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
+
+Lespass is a multi-tenant engine. You can run it with or without a wildcard certificate. See
+the [Code Commun blog](https://codecommun.coop/) for
+exemple : [https://codecommun.coop/blog/sysadmin-mon-chaton-part2](https://codecommun.coop/blog/sysadmin-mon-chaton-part2)
+
+In this tutoriel, we work as a mono tenant instance. Contact us if you want start TiBillet as SaaS multi tenant.
+
+### Environment
+
+Create the Lespass folder :
+
+```bash
+mkdir TiBillet/Lespass && cd TiBillet/Lespass
+```
+
+Prepare the logs, assets, backup and database folder
+
+```bash
+mkdir logs www backup database nginx
+```
+
+create .env file and fill it with your own variable
+
+```bash
+nano .env
+```
+
+```bash
+# Secret
+DJANGO_SECRET='' # see upper to create one
+FERNET_KEY='' # see upper to create one
+
+STRIPE_KEY='' # from your stripe account
+# or 
+STRIPE_KEY_TEST=''
+STRIPE_TEST=0 # set to 1 for use stripe test env
+
+# Database
+POSTGRES_HOST='lespass_postgres'
+POSTGRES_USER='lespass_postgres_user'
+POSTGRES_PASSWORD='' # strong ! generate a new fernet for exemple.
+POSTGRES_DB='lespass'
+
+TIME_ZONE='Europe/Paris' # or where you are
+PUBLIC='TiBillet Coop.' # The name of the root instance
+
+FEDOW_DOMAIN='' # the same as Fedow
+
+DOMAIN='' # for the wildcard : without subdomain ! ex : tibillet.coop, not lespass.tibillet.coop
+SUB='' # the sub domain of your first place ex : if 'festival', it will be accessible on https://festival.tibillet.coop
+META='' # the federated agenda for all events on all tenants. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
+
+# For transactionnal email : 
+EMAIL_HOST=''
+EMAIL_PORT=''
+EMAIL_HOST_USER=''
+EMAIL_HOST_PASSWORD=''
+
+# Change only if needed :
+CELERY_BROKER='redis://redis:6379/0'
+CELERY_BACKEND='redis://redis:6379/0'
+```
+
+### Nginx rules 
+
+Créate the file : 
+
+```bash 
+nano nginx/lespass.conf
+```
+
+```bash 
+server {
+
+    listen 80;
+    server_name localhost;
+
+    access_log /logs/nginxAccess.log;
+    error_log /logs/nginxError.log;
+
+    location /static {
+        root /www;
+    }
+
+    location /media {
+        root /www;
+    }
+
+    location / {
+        # everything is passed to Gunicorn
+        proxy_pass http://lespass_django:8002;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+        proxy_http_version 1.1;
+        client_max_body_size 4M;
+        proxy_buffer_size 16k;
+        proxy_buffers 32 16k;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Host $server_name;
+    }
+}
+```
+
+### Docker compose
+
+create the docker compose file :
+
+```bash
+nano docker-compose.yml
+```
+
+```yaml
+services:
+  lespass_postgres:
+    image: postgres:13-bookworm
+    restart: unless-stopped
+    container_name: lespass_postgres
+    hostname: lespass_postgres
+    volumes:
+      - ./database:/var/lib/postgresql/data
+    env_file: .env
+    networks:
+      - lespass_backend
+
+  lespas_redis:
+    container_name: lespas_redis
+    hostname: lespas_redis
+    image: redis:7.2.3-bookworm
+    restart: unless-stopped
+    networks:
+      - lespass_backend
+
+  lespass_django:
+    image: tibillet/lespass:latest
+    restart: unless-stopped
+    container_name: lespass_django
+    hostname: lespass_django
+    volumes:
+      - ./www:/DjangoFiles/www
+      - ./logs:/DjangoFiles/logs
+      - ./backup:/Backup
+    env_file: .env
+    depends_on:
+      - lespass_postgres
+      - lespas_redis
+    links:
+      - lespass_postgres:postgres
+      - lespas_redis:redis
+    networks:
+      - lespass_backend
+
+  lespass_celery:
+    image: tibillet/lespass:latest
+    container_name: lespass_celery
+    hostname: lespass_celery
+    env_file: .env
+    depends_on:
+      - lespass_postgres
+      - lespas_redis
+    links:
+      - lespass_postgres:postgres
+      - lespas_redis:redis
+    command: "poetry run celery -A TiBillet worker -l INFO"
+    networks:
+      - lespass_backend
+
+
+  lespass_nginx:
+    image: nginx:latest
+    container_name: lespass_nginx
+    hostname: lespass_nginx
+    links:
+      - lespass_django:lespass_django
+    volumes:
+      - ./www:/www
+      - ./logs:/logs
+      - ./nginx:/etc/nginx/conf.d
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=frontend
+      - traefik.http.routers.billetterie.tls.certresolver=myresolver
+      - traefik.http.routers.billetterie.rule=Host(`$DOMAIN`) || Host(`www.$DOMAIN`) || Host(`$META.$DOMAIN`) || Host(`$SUB.$DOMAIN`)
+    networks:
+      - frontend
+      - lespass_backend
+
+networks:
+  frontend:
+    external: true
+  lespass_backend:
+```
+
+
+### Launch the rocket !
+
+```bash
+docker compose up -d 
+# To see the logs :
+docker compose logs -f 
+```
+
+And check to ```https://<SUB>.<DOMAIN>```
+
 Congratulation !
 
+### Update
 
-# Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
+Just update the container :
 
+```bash
+docker compose pull
+docker compose up -d
+```
 
+### Backups
+
+TODO : Create a blog note for borgbackup, cron and postgres dump.
