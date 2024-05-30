@@ -111,32 +111,79 @@ docker run --rm tibillet/fedow poetry run python3 -c "from django.core.managemen
 
 ## Fedow : One ring to rule them all
 
+
+### Environment 
+
+Create the Fedow folder :
+
 ```bash
-mkdir TiBillet/Fedow && cd TiBillet/Fedow
+mkdir -p TiBillet/Fedow && cd TiBillet/Fedow
 ```
 
-### Create .env file and fill it with your own variable
+Create .env file and fill it with your own variable
+```bash
+nano .env
+```
 
 ```bash
 # Create .env and fill with :
-SECRET_KEY="" # see upper to create one
-FERNET_KEY="" # see upper to create one
-DOMAIN="" # ex : fedow.domain.com
-STRIPE_KEY="" # from your stripe account
+SECRET_KEY='' # see upper to create one
+FERNET_KEY='' # see upper to create one
+DOMAIN='' # ex : fedow.domain.com
+STRIPE_KEY='' # from your stripe account
 ```
 
-### Prepare the rocket launch
-
+Create frontend and backend network with docker
 ```bash
-# Create frontend and backend network with docker
 docker network create frontend
 docker network create fedow_backend
+```
 
-# prepare the logs, assets and database folder
+Prepare the logs, assets and database folder
+```
 mkdir logs www database
 ```
 
-### The ```docker-compose.yml``` file
+### Nginx rules
+
+Créate the nginx conf file :
+```
+nano nginx/django.conf
+```
+
+```
+server {
+    listen 80;
+    server_name localhost;
+
+    access_log /logs/nginxAccess.log;
+    error_log /logs/nginxError.log;
+
+    location /static {
+        root /www;
+    }
+
+    location /media {
+        root /www;
+    }
+
+    location / {
+        # everything is passed to Gunicorn
+        proxy_pass http://fedow_django:8000;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+    }
+}
+```
+
+### Docker compose
+
+create the docker compose file :
+```bash
+nano docker-compose.yml
+```
 
 ```yaml
 services:
@@ -199,26 +246,43 @@ Congratulation, You own your own blockchain ;)
 
 To make a backup, simply back up the database folder regularly.
 
-
 ## Lespass : Multi tenant engine for membership, ticketing and online cashless refill.
 
-Lespass is a multi-tenant engine. It is designed to work with a traefik and a wildcard certificate. See
+Lespass is a multi-tenant engine. You can run it with or without a wildcard certificate. See
 the [Code Commun blog](https://codecommun.coop/) for
 exemple : [https://codecommun.coop/blog/sysadmin-mon-chaton-part2](https://codecommun.coop/blog/sysadmin-mon-chaton-part2)
 
-For a test and development environment, it can be run on the same environment as Fedow :
+In this tutoriel, we work as a mono tenant instance. Contact us if you want start TiBillet as SaaS multi tenant.
+
+### Environment
+
+Create the Lespass folder :
 
 ```bash
 mkdir TiBillet/Lespass && cd TiBillet/Lespass
 ```
 
-### Create .env file and fill it with your own variable
+Prepare the logs, assets, backup and database folder
+
+```bash
+mkdir logs www backup database nginx
+```
+
+create .env file and fill it with your own variable
+
+```bash
+nano .env
+```
 
 ```bash
 # Secret
 DJANGO_SECRET='' # see upper to create one
 FERNET_KEY='' # see upper to create one
+
 STRIPE_KEY='' # from your stripe account
+# or 
+STRIPE_KEY_TEST=''
+STRIPE_TEST=0 # set to 1 for use stripe test env
 
 # Database
 POSTGRES_HOST='lespass_postgres'
@@ -233,27 +297,71 @@ FEDOW_DOMAIN='' # the same as Fedow
 
 DOMAIN='' # for the wildcard : without subdomain ! ex : tibillet.coop, not lespass.tibillet.coop
 SUB='' # the sub domain of your first place ex : if 'festival', it will be accessible on https://festival.tibillet.coop
-META='agenda' # the federated agenda. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
+META='' # the federated agenda for all events on all tenants. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
 
 # For transactionnal email : 
-EMAIL_HOST=""
-EMAIL_PORT=""
-EMAIL_HOST_USER=""
-EMAIL_HOST_PASSWORD=""
+EMAIL_HOST=''
+EMAIL_PORT=''
+EMAIL_HOST_USER=''
+EMAIL_HOST_PASSWORD=''
+
+# Change only if needed :
+CELERY_BROKER='redis://redis:6379/0'
+CELERY_BACKEND='redis://redis:6379/0'
 ```
 
+### Nginx rules 
 
-### Prepare the rocket launch
+Créate the file : 
+
+```bash 
+nano nginx/lespass.conf
+```
+
+```bash 
+server {
+
+    listen 80;
+    server_name localhost;
+
+    access_log /logs/nginxAccess.log;
+    error_log /logs/nginxError.log;
+
+    location /static {
+        root /www;
+    }
+
+    location /media {
+        root /www;
+    }
+
+    location / {
+        # everything is passed to Gunicorn
+        proxy_pass http://lespass_django:8002;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+        proxy_http_version 1.1;
+        client_max_body_size 4M;
+        proxy_buffer_size 16k;
+        proxy_buffers 32 16k;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Host $server_name;
+    }
+}
+```
+
+### Docker compose
+
+create the docker compose file :
 
 ```bash
-# prepare the logs, assets, backup and database folder
-mkdir logs www backup database
-````
-
-### The ```docker-compose.yml``` file
+nano docker-compose.yml
+```
 
 ```yaml
-version: '3'
 services:
   lespass_postgres:
     image: postgres:13-bookworm
@@ -328,8 +436,6 @@ services:
       - frontend
       - lespass_backend
 
-
-
 networks:
   frontend:
     external: true
@@ -337,3 +443,27 @@ networks:
 ```
 
 
+### Launch the rocket !
+
+```bash
+docker compose up -d 
+# To see the logs :
+docker compose logs -f 
+```
+
+And check to ```https://<SUB>.<DOMAIN>```
+
+Congratulation !
+
+### Update
+
+Just update the container :
+
+```bash
+docker compose pull
+docker compose up -d
+```
+
+### Backups
+
+TODO : Create a blog note for borgbackup, cron and postgres dump.

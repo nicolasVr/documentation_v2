@@ -10,26 +10,20 @@ authors: jonas
 ---
 
 :::caution
-TiBillet's development is very active. These demonstration instances are “nighty builds”, i.e. development versions. These instances may also be undergoing maintenance. Please do not hesitate to contact us by [mail](mailto:contact@tibillet.re),
+TiBillet's development is very active. These demonstration instances are “nighty builds”, i.e. development versions. 
+These instances may also be undergoing maintenance. Please do not hesitate to contact us by [mail](mailto:contact@tibillet.re),
 with [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
 :::
 
 # Demonstration
 
-### Ticketing ( nighty build ) :
+### Lespass : Ticketing, membership, qr code scan :
 
 ![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
 
+**[https://demo.tibillet.ovh](https://demo.tibillet.ovh)**
 
-#### Tenant (a solo instance, a place, an organizer, an artist) :
-
-**[https://demo.betabillet.tech](https://demo.betabillet.tech)**
-
-#### Agenda (Lists all network events):
-
-**[https://agenda.betabillet.tech](https://agenda.betabillet.tech)**
-
-To test payment on Stripe, use the Greatest Galactic Backpacker map :
+To test payment on Stripe, use the Greatest Galactic Backpacker card :
 
     Douglas ADAM        
     4242 4242 4242 4242 
@@ -41,13 +35,13 @@ To test payment on Stripe, use the Greatest Galactic Backpacker map :
 
 #### administration :
 
-**[https://cashless.betabillet.tech](https://cashless.betabillet.tech)**
-
-    login : TestAdmin
-    password : mi5Iechi
+**[https://cashless.tibillet.ovh](https://cashless.tibillet.ovh)**
 
 #### Cash register interface :
 
 Click on “view site” at the top of the menu, or visit
-**[https://cashless.betabillet.tech/wv/](https://cashless.betabillet.tech/wv/)** after logging in.
+**[https://cashless.tibillet.ovh/wv/](https://cashless.tibillet.ovh/wv/)** after logging in.
 
+### Fedow Blockchain explorer :
+
+**[https://fedow.tibillet.ovh/dashboard/](https://fedow.tibillet.ovh/dashboard/)**

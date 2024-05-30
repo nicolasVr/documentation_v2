@@ -26,11 +26,7 @@ vous avez la moindre question.
 
 #### Tenant (une instance solo, un lieu, un organisateur, un artiste) :
 
-**[https://demo.betabillet.tech](https://demo.betabillet.tech)**
-
-#### Agenda (Recense tous les évènements du réseau):
-
-**[https://agenda.betabillet.tech](https://agenda.betabillet.tech)**
+**[https://demo.tibillet.ovh](https://demo.tibillet.ovh)**
 
 Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard galactique :
 
@@ -44,13 +40,13 @@ Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard gala
 
 #### administration :
 
-**[https://cashless.betabillet.tech](https://cashless.betabillet.tech)**
-
-    login : TestAdmin
-    password : mi5Iechi
+**[https://cashless.tibillet.ovh](https://cashless.tibillet.ovh)**
 
 #### Interface de caisse :
 
 Cliquez sur " voir le site " tout en haut du menu, ou visitez
-**[https://cashless.betabillet.tech/wv/](https://cashless.betabillet.tech/wv/)** après vous être loggué.
+**[https://cashless.tibillet.ovh/wv/](https://cashless.tibillet.ovh/wv/)** après vous être loggué.
 
+### Fedow Blockchain explorer :
+
+**[https://fedow.tibillet.ovh/dashboard/](https://fedow.tibillet.ovh/dashboard/)**
