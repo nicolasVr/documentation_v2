@@ -187,6 +187,14 @@ nano docker-compose.yml
 
 ```yaml
 services:
+  fedow_memcached:
+    image: memcached:1.6
+    container_name: fedow_memcached
+    hostname: fedow_memcached
+    restart: always
+    networks:
+      - fedow_backend
+
   fedow_django:
     image: tibillet/fedow:latest
     container_name: fedow_django
@@ -194,6 +202,8 @@ services:
     restart: always
     env_file: .env
     user: fedow
+    links:
+      - fedow_memcached:memcached
     volumes:
       - ./database:/home/fedow/Fedow/database
       - ./www:/home/fedow/Fedow/www
@@ -290,12 +300,13 @@ POSTGRES_USER='lespass_postgres_user'
 POSTGRES_PASSWORD='' # strong ! generate a new fernet for exemple.
 POSTGRES_DB='lespass'
 
+ADMIN_EMAIL=''
 TIME_ZONE='Europe/Paris' # or where you are
-PUBLIC='TiBillet Coop.' # The name of the root instance
 
 FEDOW_DOMAIN='' # the same as Fedow
 
 DOMAIN='' # for the wildcard : without subdomain ! ex : tibillet.coop, not lespass.tibillet.coop
+PUBLIC='TiBillet Coop.' # The name of the root instance
 SUB='' # the sub domain of your first place ex : if 'festival', it will be accessible on https://festival.tibillet.coop
 META='' # the federated agenda for all events on all tenants. If 'agenda', it will be accessible, for exemple, on https://agenda.tibillet.coop
 
@@ -312,7 +323,7 @@ CELERY_BACKEND='redis://redis:6379/0'
 
 ### Nginx rules 
 
-Créate the file : 
+Create the file : 
 
 ```bash 
 nano nginx/lespass.conf
@@ -374,9 +385,19 @@ services:
     networks:
       - lespass_backend
 
-  lespas_redis:
-    container_name: lespas_redis
-    hostname: lespas_redis
+
+  lespass_memcached:
+    image : memcached:1.6
+    container_name: lespass_memcached
+    hostname: lespass_memcached
+    restart: always
+    networks:
+      - lespass_backend
+
+
+  lespass_redis:
+    container_name: lespass_redis
+    hostname: lespass_redis
     image: redis:7.2.3-bookworm
     restart: unless-stopped
     networks:
@@ -394,10 +415,12 @@ services:
     env_file: .env
     depends_on:
       - lespass_postgres
-      - lespas_redis
+      - lespass_redis
+      - lespass_memcached
     links:
       - lespass_postgres:postgres
-      - lespas_redis:redis
+      - lespass_redis:redis
+      - lespass_memcached:memcached
     networks:
       - lespass_backend
 
@@ -408,10 +431,12 @@ services:
     env_file: .env
     depends_on:
       - lespass_postgres
-      - lespas_redis
+      - lespass_redis
+      - lespass_memcached
     links:
       - lespass_postgres:postgres
-      - lespas_redis:redis
+      - lespass_redis:redis
+      - lespass_memcached:memcached
     command: "poetry run celery -A TiBillet worker -l INFO"
     networks:
       - lespass_backend
@@ -430,8 +455,8 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=frontend
-      - traefik.http.routers.billetterie.tls.certresolver=myresolver
-      - traefik.http.routers.billetterie.rule=Host(`$DOMAIN`) || Host(`www.$DOMAIN`) || Host(`$META.$DOMAIN`) || Host(`$SUB.$DOMAIN`)
+      - traefik.http.routers.lespass.tls.certresolver=myresolver
+      - traefik.http.routers.lespass.rule=Host(`$DOMAIN`) || Host(`www.$DOMAIN`) || Host(`$META.$DOMAIN`) || Host(`$SUB.$DOMAIN`)
     networks:
       - frontend
       - lespass_backend
@@ -467,3 +492,111 @@ docker compose up -d
 ### Backups
 
 TODO : Create a blog note for borgbackup, cron and postgres dump.
+
+
+## LaBoutik : Cash and cashless registrer. NFC card reader for cashless, membership or badge scan.
+
+### Environment
+
+
+Create the Lespass folder :
+
+```bash
+mkdir Laboutik && cd Laboutik
+```
+
+Prepare the logs, assets, backup and database folder
+
+```bash
+mkdir logs www backup database nginx
+```
+
+create .env file and fill it with your own variable
+
+```bash
+nano .env
+```
+
+```bash
+DJANGO_SECRET=''
+FERNET_KEY=''
+
+POSTGRES_USER='laboutik_user'
+POSTGRES_DB='laboutik'
+POSTGRES_PASSWORD=''
+
+# The domain of this instance ex : 'cashless.tibillet.localhost'
+DOMAIN=''
+
+# admin email
+ADMIN_EMAIL=''
+
+# For transactionnal email :
+EMAIL_HOST=""
+EMAIL_PORT=""
+EMAIL_HOST_USER=""
+EMAIL_HOST_PASSWORD=""
+
+TIME_ZONE='Europe/Paris'
+LANGUAGE_CODE='fr'
+
+########## FOR CASHLESS ##########
+
+# No Cashless if no Fedow nor Lespass tenant manager
+FEDOW_URL='' # ex : https://fedow.tibillet.localhost/
+LESPASS_TENANT_URL='' # ex : https://demo.tibillet.localhost/
+
+# The name of your cashless asset ex : TestCoin, FestivalCoin, etc ....
+MAIN_ASSET_NAME='' 
+
+########## FOR SAVE CRON TASK ##########dex
+
+# can be empty if you don't backup
+BORG_PASSPHRASE=""
+```
+
+### Nginx rules 
+
+
+Create the file : 
+
+```bash 
+nano nginx/laboutik.conf
+```
+
+```bash 
+server {
+
+    listen 80;
+    server_name localhost;
+
+    access_log /DjangoFiles/logs/nginxAccess.log;
+    error_log /DjangoFiles/logs/nginxError.log;
+
+    # Static and media géré par Nginx :
+     location /static {
+         root /DjangoFiles/www;
+     }
+
+     location /media {
+         root /DjangoFiles/www;
+     }
+
+    location / {
+        # everything is passed to Gunicorn/Django
+        proxy_pass http://laboutik_django:8000;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+    }
+}
+```
+
+### Docker compose
+
+### Launch the rocket !
+
+### Update
+
+### Backups
