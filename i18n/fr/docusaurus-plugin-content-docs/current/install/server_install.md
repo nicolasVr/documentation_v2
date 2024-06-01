@@ -111,8 +111,7 @@ docker run --rm tibillet/fedow poetry run python3 -c "from django.core.managemen
 
 ## Fedow : One ring to rule them all
 
-
-### Environment 
+### Environment
 
 Create the Fedow folder :
 
@@ -121,6 +120,7 @@ mkdir -p TiBillet/Fedow && cd TiBillet/Fedow
 ```
 
 Create .env file and fill it with your own variable
+
 ```bash
 nano .env
 ```
@@ -134,12 +134,14 @@ STRIPE_KEY='' # from your stripe account
 ```
 
 Create frontend and backend network with docker
+
 ```bash
 docker network create frontend
 docker network create fedow_backend
 ```
 
 Prepare the logs, assets and database folder
+
 ```
 mkdir logs www database
 ```
@@ -147,6 +149,7 @@ mkdir logs www database
 ### Nginx rules
 
 Créate the nginx conf file :
+
 ```
 nano nginx/django.conf
 ```
@@ -181,6 +184,7 @@ server {
 ### Docker compose
 
 create the docker compose file :
+
 ```bash
 nano docker-compose.yml
 ```
@@ -321,9 +325,9 @@ CELERY_BROKER='redis://redis:6379/0'
 CELERY_BACKEND='redis://redis:6379/0'
 ```
 
-### Nginx rules 
+### Nginx rules
 
-Créate the file : 
+Create the file :
 
 ```bash 
 nano nginx/lespass.conf
@@ -387,12 +391,12 @@ services:
 
 
   lespass_memcached:
-    image : memcached:1.6
+    image: memcached:1.6
     container_name: lespass_memcached
     hostname: lespass_memcached
     restart: always
     networks:
-      - frontend
+      - lespass_backend
 
 
   lespass_redis:
@@ -432,9 +436,11 @@ services:
     depends_on:
       - lespass_postgres
       - lespass_redis
+      - lespass_memcached
     links:
       - lespass_postgres:postgres
-      - lespas_redis:redis
+      - lespass_redis:redis
+      - lespass_memcached:memcached
     command: "poetry run celery -A TiBillet worker -l INFO"
     networks:
       - lespass_backend
@@ -453,8 +459,8 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=frontend
-      - traefik.http.routers.billetterie.tls.certresolver=myresolver
-      - traefik.http.routers.billetterie.rule=Host(`$DOMAIN`) || Host(`www.$DOMAIN`) || Host(`$META.$DOMAIN`) || Host(`$SUB.$DOMAIN`)
+      - traefik.http.routers.lespass.tls.certresolver=myresolver
+      - traefik.http.routers.lespass.rule=Host(`$DOMAIN`) || Host(`www.$DOMAIN`) || Host(`$META.$DOMAIN`) || Host(`$SUB.$DOMAIN`)
     networks:
       - frontend
       - lespass_backend
@@ -464,7 +470,6 @@ networks:
     external: true
   lespass_backend:
 ```
-
 
 ### Launch the rocket !
 
@@ -490,3 +495,230 @@ docker compose up -d
 ### Backups
 
 TODO : Create a blog note for borgbackup, cron and postgres dump.
+
+## LaBoutik : Cash and cashless registrer. NFC card reader for cashless, membership or badge scan.
+
+### Environment
+
+Create the Lespass folder :
+
+```bash
+mkdir Laboutik && cd Laboutik
+```
+
+Prepare the logs, assets, backup and database folder
+
+```bash
+mkdir logs www backup database nginx
+```
+
+create .env file and fill it with your own variable
+
+```bash
+nano .env
+```
+
+```bash
+DJANGO_SECRET=''
+FERNET_KEY=''
+
+POSTGRES_USER='laboutik_user'
+POSTGRES_DB='laboutik'
+POSTGRES_PASSWORD=''
+
+# The domain of this instance ex : 'cashless.tibillet.localhost'
+DOMAIN=''
+
+# admin email
+ADMIN_EMAIL=''
+
+# For transactionnal email :
+EMAIL_HOST=""
+EMAIL_PORT=""
+EMAIL_HOST_USER=""
+EMAIL_HOST_PASSWORD=""
+
+TIME_ZONE='Europe/Paris'
+LANGUAGE_CODE='fr'
+
+########## FOR CASHLESS ##########
+
+# No Cashless if no Fedow nor Lespass tenant manager
+FEDOW_URL='' # ex : https://fedow.tibillet.localhost/
+LESPASS_TENANT_URL='' # ex : https://demo.tibillet.localhost/
+
+# The name of your cashless asset ex : TestCoin, FestivalCoin, etc ....
+MAIN_ASSET_NAME='' 
+
+########## FOR SAVE CRON TASK ##########dex
+
+# can be empty if you don't backup
+BORG_PASSPHRASE=""
+```
+
+### Nginx rules
+
+Create the file :
+
+```bash 
+nano nginx/laboutik.conf
+```
+
+```bash 
+server {
+
+    listen 80;
+    server_name localhost;
+
+    access_log /DjangoFiles/logs/nginxAccess.log;
+    error_log /DjangoFiles/logs/nginxError.log;
+
+    # Static and media géré par Nginx :
+     location /static {
+         root /DjangoFiles/www;
+     }
+
+     location /media {
+         root /DjangoFiles/www;
+     }
+
+    location / {
+        # everything is passed to Gunicorn/Django
+        proxy_pass http://laboutik_django:8000;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+    }
+}
+```
+
+### Docker compose
+
+```yaml
+services:
+  laboutik_postgres:
+    image: postgres:11.5-alpine
+    restart: always
+    env_file: .env
+    container_name: laboutik_postgres
+    hostname: laboutik_postgres
+    volumes:
+      - ./database/data:/var/lib/postgresql/data
+    networks:
+      - laboutik_backend
+
+  laboutik_memcached:
+    image: memcached:1.6
+    container_name: laboutik_memcached
+    hostname: laboutik_memcached
+    restart: always
+    networks:
+      - laboutik_backend
+
+  laboutik_redis:
+    image: redis:6-alpine
+    restart: always
+    env_file: .env
+    container_name: laboutik_redis
+    hostname: laboutik_redis
+    networks:
+      - laboutik_backend
+
+  laboutik_django:
+    image: tibillet/laboutik:latest
+    restart: always
+    env_file: .env
+    container_name: laboutik_django
+    hostname: laboutik_django
+    volumes:
+      - ./www:/DjangoFiles/www
+      - ./logs:/DjangoFiles/logs
+      - ./backup:/Backup
+    links:
+      - laboutik_postgres:postgres
+      - laboutik_redis:redis
+      - laboutik_memcached:memcached
+    depends_on:
+      - laboutik_postgres
+      - laboutik_redis
+      - laboutik_memcached
+    networks:
+      - laboutik_backend
+
+
+  laboutik_celery:
+    image: tibillet/laboutik:latest
+    restart: always
+    env_file: .env
+    container_name: laboutik_celery
+    hostname: laboutik_celery
+    volumes:
+      - ./www:/DjangoFiles/www
+      - ./logs:/DjangoFiles/logs
+      - ./backup:/Backup
+    links:
+      - laboutik_postgres:postgres
+      - laboutik_redis:redis
+      - laboutik_memcached:memcached
+    depends_on:
+      - laboutik_postgres
+      - laboutik_redis
+      - laboutik_memcached
+    networks:
+      - laboutik_backend
+    command: "poetry run celery -A Cashless worker -l INFO"
+
+
+  laboutik_nginx:
+    image: nginx
+    restart: always
+    container_name: laboutik_nginx
+    hostname: laboutik_nginx
+    depends_on:
+      - laboutik_django
+    links:
+      - laboutik_django:laboutik_django
+    volumes:
+      - ./www:/DjangoFiles/www
+      - ./logs:/DjangoFiles/logs
+      - ./nginx:/etc/nginx/conf.d
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=frontend
+      - traefik.http.routers.laboutik_nginx.tls.certresolver=myresolver
+      - traefik.http.routers.laboutik_nginx.rule=Host(`${DOMAIN}`)
+    networks:
+      - frontend
+      - laboutik_backend
+
+networks:
+  frontend:
+    external: true
+  laboutik_backend:
+```
+
+### Launch the rocket !
+
+```bash
+docker compose up -d 
+# To see the logs :
+docker compose logs -f 
+```
+
+You should have received an e-mail inviting you to create your administrator password. 
+
+Congratulations! You can now read
+through the documentation and come and see us on discord to tell us you've succeeded!
+
+### Update
+
+Just pull the latest docker image release :
+```bash
+docker compose pull
+docker compose up -d 
+```
+
+### Backups
+
+TODO: A note blog for Syncthing, Borgbackup, Crontab and postgres dump.
