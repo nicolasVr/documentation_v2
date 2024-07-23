@@ -380,7 +380,7 @@ nano docker-compose.yml
 services:
   lespass_postgres:
     image: postgres:13-bookworm
-    restart: unless-stopped
+    restart: always
     container_name: lespass_postgres
     hostname: lespass_postgres
     volumes:
@@ -403,13 +403,13 @@ services:
     container_name: lespass_redis
     hostname: lespass_redis
     image: redis:7.2.3-bookworm
-    restart: unless-stopped
+    restart: always
     networks:
       - lespass_backend
 
   lespass_django:
     image: tibillet/lespass:latest
-    restart: unless-stopped
+    restart: always
     container_name: lespass_django
     hostname: lespass_django
     volumes:
@@ -430,6 +430,7 @@ services:
 
   lespass_celery:
     image: tibillet/lespass:latest
+    restart: always
     container_name: lespass_celery
     hostname: lespass_celery
     env_file: .env
@@ -450,6 +451,7 @@ services:
     image: nginx:latest
     container_name: lespass_nginx
     hostname: lespass_nginx
+    restart: always
     links:
       - lespass_django:lespass_django
     volumes:
@@ -635,6 +637,7 @@ services:
       - ./www:/DjangoFiles/www
       - ./logs:/DjangoFiles/logs
       - ./backup:/Backup
+      - ./ssh:/home/tibillet/.ssh # if you want to use borgbackup with ssh
     links:
       - laboutik_postgres:postgres
       - laboutik_redis:redis
