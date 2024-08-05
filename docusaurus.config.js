@@ -138,7 +138,7 @@ const config = {
                             },
                             {
                                 label: 'Matrix',
-                                href: 'https://matrix.to/#/#TiBillet:tiers-lieux.org',
+                                href: 'https://matrix.to/#/#tibillet:tiers-lieux.org',
                             },
                             {
                                 label: 'Mail',

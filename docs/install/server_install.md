@@ -416,6 +416,7 @@ services:
       - ./www:/DjangoFiles/www
       - ./logs:/DjangoFiles/logs
       - ./backup:/Backup
+      - ./ssh:/home/tibillet/.ssh # if you want ssh borgbackup 
     env_file: .env
     depends_on:
       - lespass_postgres
