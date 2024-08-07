@@ -28,7 +28,7 @@ Unchecked boxes are planned and under development :
     - [ ] Existing local currency (Doume, Graine, Ti4Sous ... etc)
     - [ ] Free currency and cryptocurrency (June, ether, etc...)
     - [ ] Self service beer tap
-- [ ] TPE Bank card
+- [ ] TPE Bank card linked to the POS
 - [ ] Stock management
 - [x] Open hardware DIY plan
 - [ ] Odoo & Dokos account export

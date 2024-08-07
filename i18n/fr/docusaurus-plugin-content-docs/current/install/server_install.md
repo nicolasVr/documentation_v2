@@ -133,7 +133,7 @@ DOMAIN='' # ex : fedow.domain.com
 STRIPE_KEY='' # from your stripe account
 ```
 
-Create frontend and backend network with docker
+Create frontend and backend network with docker if needed
 
 ```bash
 docker network create frontend
@@ -214,6 +214,13 @@ services:
       - ./logs:/home/fedow/Fedow/logs
     networks:
       - fedow_backend
+
+    # only useful for dev purpose :
+    extra_hosts:
+      - "fedow.tibillet.localhost:172.17.0.1"
+      - "lespass.tibillet.localhost:172.17.0.1"
+      - "cashless.tibillet.localhost:172.17.0.1"
+
 
   fedow_nginx:
     image: nginx:latest
@@ -428,7 +435,12 @@ services:
       - lespass_memcached:memcached
     networks:
       - lespass_backend
-
+    # only useful for dev purpose :
+    extra_hosts:
+      - "fedow.tibillet.localhost:172.17.0.1"
+      - "lespass.tibillet.localhost:172.17.0.1"
+      - "cashless.tibillet.localhost:172.17.0.1"
+        
   lespass_celery:
     image: tibillet/lespass:latest
     restart: always
@@ -649,6 +661,11 @@ services:
       - laboutik_memcached
     networks:
       - laboutik_backend
+    # only useful for dev purpose :
+    extra_hosts:
+      - "fedow.tibillet.localhost:172.17.0.1"
+      - "lespass.tibillet.localhost:172.17.0.1"
+      - "cashless.tibillet.localhost:172.17.0.1"
 
 
   laboutik_celery:
