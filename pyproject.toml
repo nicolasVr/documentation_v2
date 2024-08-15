@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tibillet-doc"
+version = "3.0.0"
+description = "Documentation for TiBillet"
+authors = ["Kay Navarro <com-libre@kayathommy.fr>"]
+license = "CC-BY-SA"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.31"
+mkdocs-glightbox = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
