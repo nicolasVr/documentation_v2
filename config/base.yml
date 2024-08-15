@@ -1,0 +1,87 @@
+
+# nav
+
+nav:
+  - index.md
+  - Introduction:
+    - introduction/uses.md
+    - introduction/demonstration.md
+    - introduction/philosophy.md
+    - introduction/prices.md
+    - introduction/resources.md
+  - Lespass:
+    - lespass/event.md
+    - lespass/event-free.md
+    - lespass/webhooks.md
+    - lespass/embed.md
+    - lespass/rss.md
+  - Laboutik:
+    - laboutik/android.md
+    - laboutik/primary-cards.md
+    - laboutik/outlets.md
+    - laboutik/categories.md
+    - laboutik/articles.md
+    - laboutik/orders.md
+    - laboutik/order-deletion.md
+    - laboutik/time-clock.md
+    - laboutik/loyalty-points.md
+    - laboutik/cashback.md
+  # - Fedow:
+  #   - fedow.md
+  - Setup:
+    - setup/self-hosting.md
+    - setup/diy-cashless.md
+  - Contribution:
+    - contribution/help-wanted.md
+    - contribution/dev-setup.md
+  - API:
+    - api/index.md
+    - api/keys.md
+    - api/tenants.md
+    - api/products.md
+    - api/events.md
+    - api/bookings.md
+
+# theme
+
+theme:
+  name: material
+  logo: /assets/icon.svg
+  favicon: /assets/favicon.svg
+
+  features:
+    - navigation.instant
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+
+extra_css:
+  - /assets/style.css
+
+extra_javascript:
+  - path: /assets/lang-selector.js
+    type: module
+
+# additions
+
+plugins:
+  # - privacy
+  - tags
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
