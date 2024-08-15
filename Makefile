@@ -7,8 +7,7 @@ build:
 	done
 
 serve: clean build
-	cd site
-	python -m http.server
+	cd site && python -m http.server
 
 clean:
 	rm -rf site/*
