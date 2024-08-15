@@ -5,6 +5,7 @@ description = "Documentation for TiBillet"
 authors = ["Kay Navarro <com-libre@kayathommy.fr>"]
 license = "CC-BY-SA"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
