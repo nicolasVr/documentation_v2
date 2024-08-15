@@ -6,7 +6,48 @@ site_url: https://tibillet.org/fr
 docs_dir: ../docs/fr
 site_dir: ../site/fr
 
-# lang selector
+# nav
+
+nav:
+  - index.md
+  - Présentation:
+    - introduction/uses.md
+    - introduction/demonstration.md
+    - introduction/philosophy.md
+    - introduction/solidarity-based.md
+    - introduction/design.md
+  - Lespass:
+    - lespass/event.md
+    - lespass/event-free.md
+    - lespass/webhooks.md
+    - lespass/embed.md
+    - lespass/rss.md
+  - Laboutik:
+    - laboutik/android.md
+    - laboutik/primary-cards.md
+    - laboutik/outlets.md
+    - laboutik/categories.md
+    - laboutik/articles.md
+    - laboutik/orders.md
+    - laboutik/order-deletion.md
+    - laboutik/time-clock.md
+    - laboutik/loyalty-points.md
+    - laboutik/cashback.md
+  # - Fedow:
+  #   - fedow.md
+  - Installation sur mesure:
+    - admin/self-hosting.md
+    - admin/diy-cashless.md
+  - Guide de contribution:
+    - contribution/help-wanted.md
+    - contribution/dev-setup.md
+  - API:
+    - api/index.md
+    - api/keys.md
+    - api/tenants.md
+    - api/products.md
+    - api/events.md
+    - api/bookings.md
 
 extra:
   alternate:
