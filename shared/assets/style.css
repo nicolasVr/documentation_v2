@@ -1,3 +1,7 @@
+:root {
+    --md-hue: 316.67deg;
+}
+
 .md-header {
     background-image: url(/assets/gradient.svg);
     background-size: 100% 200%;

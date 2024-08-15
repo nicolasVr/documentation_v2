@@ -4,8 +4,8 @@ const prefix = new RegExp('^/' + document.documentElement.lang)
 const path = location.pathname.replace(prefix, '')
 
 // adding prefix-less path to every option href in selector
-const trimBase = path => path.replace(/\/$/, '')
-const concatHref = $a =>
-    $a.setAttribute('href', trimBase($a.getAttribute('href')) + path)
+const trimUrl = path => path.replace(/\/$/, '')
+const detailLink = $a =>
+    $a.setAttribute('href', trimUrl($a.getAttribute('href')) + path)
 
-$options.forEach(concatHref)
+$options.forEach(detailLink)
