@@ -59,4 +59,3 @@ ponctuels ou permanents) et même commerçant ! Pratiquement tout établissement
 gestion avec TiBillet.
 
 ![/media/tibilletcircle.jpg](/media/tibilletcircle.jpg)
-**[Voir en grand](/media/tibilletcircle.jpg)**.

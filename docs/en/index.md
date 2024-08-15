@@ -49,4 +49,3 @@ TiBillet was designed to meet several goals:
 Community cafés, concert halls, festivals, restaurants, third places, cultural events organizers (one-off or permanent) and even retailers! Almost any establishment open to the public can simplify its management with TiBillet.
 
 ![/media/tibilletcircle.jpg](/media/tibilletcircle.jpg)
-**[Larger size](/media/tibilletcircle.jpg)**.
