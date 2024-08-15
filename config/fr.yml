@@ -91,6 +91,10 @@ theme:
 extra_css:
   - /assets/style.css
 
+extra_javascript:
+  - path: /assets/lang-selector.js
+    type: module
+
 # additions
 
 plugins:
