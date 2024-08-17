@@ -50,6 +50,7 @@ nav:
     - api/bookings.md
 
 extra:
+
   alternate:
     - name: English
       link: /
