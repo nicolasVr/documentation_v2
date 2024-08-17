@@ -1,0 +1,8 @@
+/* playwrite-is-regular */
+@font-face {
+	font-family: Playwrite IS;
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/playwrite-is/playwrite-is-regular.woff2) format("woff2");
+	font-display: swap;
+}

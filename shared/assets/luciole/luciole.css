@@ -1,0 +1,32 @@
+/* luciole-bold */
+@font-face {
+	font-family: Luciole;
+	font-style: normal;
+	font-weight: 700;
+	src: url(/assets/luciole/luciole-bold.woff2) format("woff2");
+	font-display: swap;
+}
+/* luciole-bold-italic */
+@font-face {
+	font-family: Luciole;
+	font-style: italic;
+	font-weight: 700;
+	src: url(/assets/luciole/luciole-bold-italic.woff2) format("woff2");
+	font-display: swap;
+}
+/* luciole-italic */
+@font-face {
+	font-family: Luciole;
+	font-style: italic;
+	font-weight: 400;
+	src: url(/assets/luciole/luciole-italic.woff2) format("woff2");
+	font-display: swap;
+}
+/* luciole */
+@font-face {
+	font-family: Luciole;
+	font-style: normal;
+	font-weight: 400;
+	src: url(/assets/luciole/luciole.woff2) format("woff2");
+	font-display: swap;
+}

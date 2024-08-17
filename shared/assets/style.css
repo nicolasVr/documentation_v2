@@ -1,8 +1,42 @@
+@import url(luciole/luciole.css);
+@import url(staatliches/staatliches.css);
+@import url(playwrite-is/playwrite-is.css);
+
 :root {
     --md-hue: 316.67deg;
+    --md-text-font: Luciole;
 }
 
 .md-header {
     background-image: url(/assets/gradient.svg);
     background-size: 100% 200%;
 }
+    .md-header__title {
+        line-height: 2.6rem;
+    }
+    .md-header__topic:first-child {
+        font-weight: 400;
+    }
+
+.md-nav {
+    font-size: .9rem;
+}
+    .md-nav__title, .md-typeset .admonition-title {
+        font-family: Playwrite IS, Luciole, sans-serif;
+        font-weight: 400;
+        border-bottom: 3px double;
+        padding: .5rem;
+    }
+
+.md-typeset {
+    font-size: 1rem;
+}
+    .md-typeset h1 {
+        font-family: Staatliches, Luciole, sans-serif;
+    }
+    .md-typeset .admonition {
+        font-size: .9rem;
+    }
+        .md-typeset .admonition-title::before {
+            top: .75rem;
+        }
