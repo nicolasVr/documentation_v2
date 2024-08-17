@@ -5,7 +5,7 @@ tags: [ cashless, billetterie, ticketing ]
 authors: [ jonas ]
 ---
 
-# Introduction
+# Pour commencer
 
 TiBillet est une solution de paiement, d'adhésion associative, de reservation et billetterie en ligne,
 de gestion de monnaie temps et monnaie locale,

@@ -79,8 +79,11 @@ theme:
         icon: material/brightness-7
         name: Passer au thème sombre
 
-# additions
+# plugins
 
 plugins:
+  # - privacy
+  - tags
+  - glightbox
   - search:
       lang: fr

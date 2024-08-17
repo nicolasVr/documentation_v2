@@ -20,12 +20,7 @@ extra_javascript:
   - path: /assets/lang-selector.js
     type: module
 
-# additions
-
-plugins:
-  # - privacy
-  - tags
-  - glightbox
+# extensions
 
 markdown_extensions:
   - admonition

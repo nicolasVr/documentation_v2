@@ -80,8 +80,11 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-# additions
+# plugins
 
 plugins:
+  # - privacy
+  - tags
+  - glightbox
   - search:
       lang: en
