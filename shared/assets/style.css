@@ -40,3 +40,27 @@
         .md-typeset .admonition-title::before {
             top: .75rem;
         }
+
+    .md-typeset .md-button--primary {
+        position: relative;
+    }
+        .md-typeset .md-button--primary:hover {
+            background-color: transparent;
+        }
+        .md-typeset .md-button--primary::before {
+            background-image: url(/assets/gradient.svg);
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            content: ' ';
+            background-size: cover;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 125ms;
+        }
+            .md-button--primary:hover::before {
+                opacity: 1;
+            }

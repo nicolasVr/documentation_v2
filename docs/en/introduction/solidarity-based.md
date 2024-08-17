@@ -31,7 +31,7 @@ You want to use TiBillet tools for your event, your venue or your association bu
 
 No problem: All the TiBillet tools just for you, in a kit sent by post. Contact us !
 
-[contact@tibillet.re](mailto:contact@tibillet.re)
+[:fontawesome-solid-envelope: contact@tibillet.re](mailto:contact@tibillet.re){ .md-button.md-button--primary }
 
 ## AGPLv3 license
 
