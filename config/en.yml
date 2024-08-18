@@ -35,9 +35,9 @@ nav:
     - laboutik/cashback.md
   # - Fedow:
   #   - fedow.md
-  - Custom install:
-    - admin/self-hosting.md
-    - admin/diy-cashless.md
+  - Standalone install:
+    - standalone/self-hosting.md
+    - standalone/diy-cashless.md
   - Contribution guide:
     - contribution/help-wanted.md
     - contribution/dev-setup.md
