@@ -1,6 +1,6 @@
 INHERIT: base.yml
 
-site_name: TiBillet documentation
+site_name: TiBillet docs
 site_url: https://tibillet.org
 
 site_dir: ../site
@@ -38,9 +38,9 @@ nav:
   - Standalone install:
     - standalone/self-hosting.md
     - standalone/diy-cashless.md
-  - Contribution guide:
-    - contribution/help-wanted.md
-    - contribution/dev-setup.md
+  - Contribution guides:
+    - contribution/docs.md
+    - contribution/dev.md
   - API:
     - api/index.md
     - api/keys.md

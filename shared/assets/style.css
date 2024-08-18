@@ -23,8 +23,9 @@
 }
     .md-nav__title, .md-typeset .admonition-title {
         font-family: Playwrite IS, Luciole, sans-serif;
+        font-size: 1rem;
         font-weight: 400;
-        border-bottom: 3px double;
+        border-bottom: 6px double;
         padding: .5rem;
     }
 
@@ -64,3 +65,10 @@
             .md-button--primary:hover::before {
                 opacity: 1;
             }
+
+.md-social__link {
+    width: 3rem;
+}
+    .md-social__link svg {
+        max-height: 1.5rem;
+    }
