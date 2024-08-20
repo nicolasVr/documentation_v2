@@ -325,7 +325,7 @@ If not, come talk to us, we'd love to help!
 
 To stay up to date during development, pull the latest image:
 
-```bash title="Test-Driven-Devlopment$"
+```bash title="Test-Driven-Development$"
 docker compose pull
 docker compose up -d # start or restart the updated containers
 ```

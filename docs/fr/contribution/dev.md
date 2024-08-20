@@ -335,7 +335,7 @@ Sinon, venez nous en parler, on est là pour aider !
 
 Pour rester à jour durant le développement, télécharger l'image la plus récente :
 
-```bash title="Test-Driven-Devlopment$"
+```bash title="Test-Driven-Development$"
 docker compose pull
 docker compose up -d # démarrer ou redémarrer les conteneurs
 ```
