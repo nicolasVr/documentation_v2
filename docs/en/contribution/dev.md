@@ -301,17 +301,6 @@ The django containers are by default named after the engines: `fedow_django`, `l
 
     There's probably even a way to add the poetry stuff to it, look it up!
 
-### Testing
-
-
-Now that everything is up and running, you can run the Python through the same shell-ception required to do a manual start. Start by flushing the 3 Django apps to get fresh testing data, then run this inside your Laboutik Django container:
-
-```bash title="laboutik_django> poetry shell$"
-./manage.py test
-```
-
-==TODO: end-to-end tests docs (they exist!)==
-
 ### Is it working?
 
 If you have used the default domain configuration, you can now access:
@@ -329,4 +318,30 @@ If not, come talk to us, we'd love to help!
     
     If you think you won't remember, remove the daemon option when you compose up (`-d`) and the command will run directly in the terminal, not as a background job. It's fine, you'll just need more tabs :yum:
 
-==TODO: updates and backups==
+
+## Lifecycle
+
+### Updates
+
+To stay up to date during development, pull the latest image:
+
+```bash title="Test-Driven-Devlopment$"
+docker compose pull
+docker compose up -d # start or restart the updated containers
+```
+
+### Testing
+
+You can run the Python tests through the same shell-ception required to do a manual start. Start by flushing the 3 Django apps to get fresh testing data, then run this inside your Laboutik Django container:
+
+```bash title="laboutik_django> poetry shell$"
+./manage.py test
+```
+
+==TODO: end-to-end tests docs (they exist!)==
+
+### Backups
+
+Before causing any major change, backup any data that has value to your development. On your Fedow instance, you only need to save the `database` folder regularly. The other engines can be backed up through the Borgbackup util, cron tasks and database dumps. More about this in the future.
+
+==TODO: detailed backup explanation==
