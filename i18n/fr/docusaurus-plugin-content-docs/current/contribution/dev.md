@@ -11,7 +11,7 @@ authors: kaya
 
 Vous voulez aider au développement de TiBillet? Merci! C'est grâce aux gens comme vous que l'open-source fonctionne 🙏
 
-Premièrement, si vous n'avez pas une tâche précise en tête, allez voir les tickets ouverts sur les [dépôts Github](https://github.com/TiBillet) officiels.
+Premièrement, si vous n'avez pas une tâche précise en tête, allez voir les tickets ouverts sur les [dépôts Github](https://github.com/orgs/TiBillet/projects?query=is%3Aopen) officiels.
 
 C'est le moyen le plus simple de comprendre quels sont les problèmes à résoudre et quelles fonctionnalités sont demandées.
 
