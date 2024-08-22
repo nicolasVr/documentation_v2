@@ -2,7 +2,32 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Running in a container
+
+Start by copying `env_example` to `.env` and set the locale to your preference. Due to Docusaurus's limitations, only one is available at once in dev mode.
+
+You can then simply start your container with Docker compose in background mode.
+
+```bash
+$ cp env_example .env
+$ nano .env
+$ docker compose up -d
+```
+
+### Deployment
+
+Deploy to Github by entering your container and using `yarn deploy`:
+
+```bash
+$ docker exec -ti tibillet_docusaurus bash
+tibillet_docusaurus $ yarn deploy
+```
+
+> Make sure you have the rights, or edit `docusaurus.config.js` accordingly.
+
+## Alternative: Yarn install
+
+Start by just running:
 
 ```
 $ yarn

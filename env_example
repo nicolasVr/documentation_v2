@@ -1,0 +1,3 @@
+# only one locale can be built at once in dev mode with docusaurus
+# choose one of: en, fr
+DOCUSAURUS_LOCALE=en
