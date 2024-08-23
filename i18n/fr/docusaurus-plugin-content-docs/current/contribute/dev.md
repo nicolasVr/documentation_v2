@@ -16,7 +16,7 @@ Premièrement, si vous n'avez pas une tâche précise en tête, allez voir les t
 C'est le moyen le plus simple de comprendre quels sont les problèmes à résoudre et quelles fonctionnalités sont demandées.
 
 :::note[Les dépôts]
-Les dépôts épinglés ("Pinned") sur la page de l'organisation devraient suffire. Si vous avez des doutes sur les rôles respectifs de Fedow, Laboutik ou Lespass, révisez les bases sur les trois moteurs de TiBillet.
+Les dépôts épinglés ("Pinned") sur la page de l'organisation devraient suffire. Si vous avez des doutes sur les rôles respectifs de Fedow, LaBoutik ou Lespass, révisez les bases sur les trois moteurs de TiBillet.
 
 <mark>TODO: lien doc vers les moteurs et leur rôle</mark> (une page dans présentation probablement)
 :::
@@ -101,8 +101,8 @@ Pour générer les clés nécessaires à la configuration des moteurs, à l'heur
 
 Pour chaque moteur, on aura besoin :
 
-- d'une ou deux clés Fernet,
-- d'une clé secrète Django.
+- d'une ou deux clés Fernet (pour le champ `FERNET_KEY` et possiblement des mots de passe),
+- d'une clé secrète Django (pour le champ `SECRET_KEY`).
 
 Vous pouvez générer 30 clés uniques de chaque type en lançant les commandes :
 
@@ -113,7 +113,9 @@ docker run --rm tibillet/fedow poetry run python3 -c "from django.core.managemen
 
 La première commande prendra quelques minutes, vu qu'elle télécharge une image Docker. Gardez les clés quelque part, on s'en servira au moment de la mise en place des moteurs.
 
-### Fedow, Lespass, Laboutik
+On aura également besoin d'une clé de test Stripe pour le champ `STRIPE_KEY_TEST`. Stripe est actuellement la solution de paiement qui se charge de la conversion cash en cashless. Une clé de test peut être obtenue en se créant un compte gratuit, puis and allant dans le Mode test -> Clé API de test. Alternativement, demandez à l'équipe.
+
+### Fedow, Lespass, LaBoutik
 
 
 Démarrons en clonant les dépôts des différents moteurs :
@@ -126,132 +128,85 @@ git clone git@github.com:TiBillet/LaBoutik.git
 
 À partir de là, on a besoin d'écrire un peu de configuration. Ça sera plus simple à l'avenir, prenez patience 😋
 
-Chaque moteur a besoin de son propre fichier `.env`, que vous pouvez baser sur les fichiers `env_example` qu'on vient de cloner. Fedow d'abord :
+Chaque moteur a besoin de son propre fichier `.env`, que vous pouvez baser sur les fichiers `env_example` qu'on vient de cloner.
+
+:::warning[Attention]
+Toute variable d'environnement, doit être trouvable dans le fichier `.env`. Pas de suppression de variable ! Elle peut par contre suivant les cas rester vide (nullable).
+:::
+
+#### Environnement Fedow
 
 ```bash title="tibillet-dev$"
 cp Fedow/env_example Fedow/.env
 ```
 
-```bash title="Fedow/.env"
-# clés
-SECRET_KEY='' # clé secrète Django unique générée précédemment
-FERNET_KEY='' # même chose avec une des clés Fernet
+|Nom|Environnement cible|Nullable|Valeur par défaut|Notes|
+|---|---|---|---|---|
+|`SECRET_KEY`|Tous|Non||Une des clés secrètes Django générées précédemment|
+|`FERNET_KEY`|Tous|Non||Une des clés Fernet générées précédemment|
+|`STRIPE_KEY`|Production|Oui||Clé API de votre compte Stripe|
+|`DOMAIN`|Tous|Non|`fedow.tibillet.localhost`|À adapter à votre nom de domaine et sous-domaine en production|
+|`STRIPE_KEY_TEST`|Développement, Tests|Oui||Clé API de test de votre compte Stripe|
+|`STRIPE_TEST`|Développement, Tests|Non|0|Passer à 1 si `STRIPE_KEY_TEST` est rempli|
+|`STRIPE_ENDPOINT_SECRET_TEST`|Développement, Tests|Oui||Aucune idée|
+|`DEBUG`|Développement|Non|0|Passer à 1 pour le développement|
+|`TEST`|Tests|Non|0|Passer à 1 pour les tests|
 
-# réseau
-DOMAIN='fedow.tibillet.localhost' # domaine local par défaut, mentionné également dans docker-compose.yml
-
-# tests et debug (dev uniquement !)
-DEBUG=1
-TEST=1
-STRIPE_TEST=1
-STRIPE_KEY_TEST='' # demandez à l'équipe si nécessaire ! pour des raisons évidentes on ne distribue pas de clé Stripe librement 😉
-STRIPE_ENDPOINT_SECRET_TEST='' # pas nécessaire en dev
-```
-
-Vous pouvez suivre la même démarche pour Lespass.
+#### Environnement Lespass
 
 ```bash title="tibillet-dev$"
 cp Lespass/env_example Lespass/.env
 ```
 
-```bash title="Lespass/.env"
-# comme dans l'environnement Fedow, avec des clés différentes
-DJANGO_SECRET=''
-FERNET_KEY=''
+|Nom|Environnement cible|Nullable|Valeur par défaut|Notes|
+|---|---|---|---|---|
+|`SECRET_KEY`|Tous|Non||Une des clés secrètes Django générées précédemment|
+|`FERNET_KEY`|Tous|Non||Une des clés Fernet générées précédemment|
+|`STRIPE_KEY`|Production|Oui||Clé API de votre compte Stripe|
+|`DOMAIN`|Tous|Non|`tibillet.localhost`|À adapter à votre nom de domaine en production|
+|`SUB`|Tous|Non|`lespass`|Sous-domaine de l'instance, à adapter en production|
+|`META`|Tous|Non|`agenda`|Sous-domaine de l'agenda fédéré, à adapter en production|
+|`FEDOW_DOMAIN`|Tous|Non|`agenda`|Sous-domaine de l'agenda fédéré, à adapter en production|
+|`PUBLIC`|Tous|Non|TiBillet Coop.|Nom de l'instance principale|
+|`TIME_ZONE`|Tous|Non|Europe/Paris|Plage horaire TZ de l'instance|
+|`ADMIN_EMAIL`|Tous|Non||Email administrateur (pour le⋅a premier⋅e admin)|
+|`POSTGRES_DB`|Tous|Non|lespass|À changer en production si nécessaire|
+|`POSTGRES_USER`|Tous|Non|lespass_postgres|À changer en production|
+|`POSTGRES_PASSWORD`|Tous|Non||Mot de passe fort (une des clés Fernets par exemple)|
+|`EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD`|Tous|Oui||Serveur d'email, requis pour confirmer des abonné⋅es par exemple|
+|`STRIPE_KEY_TEST`|Développement, Tests|Oui||Clé API de test de votre compte Stripe|
+|`STRIPE_TEST`|Développement, Tests|Non|0|Passer à 1 si `STRIPE_KEY_TEST` est rempli|
+|`DEBUG`|Développement|Non|0|Passer à 1 pour le développement|
+|`TEST`|Tests|Non|0|Passer à 1 pour les tests|
 
-DEBUG=1
-TEST=1
 
-STRIPE_TEST=1
-STRIPE_KEY_TEST=''
-
-# base de données
-POSTGRES_HOST='lespass_postgres' # conf du docker-compose.yml
-POSTGRES_USER='lespass_postgres_user'
-POSTGRES_DB='lespass'
-POSTGRES_PASSWORD='' # une autre clé Fernet ou un mdp fort de votre choix
-
-TIME_ZONE='Europe/Paris' # identifiant de plage horaire TZ
-PUBLIC='TiBillet Coop.' # nom d'instance (tenant)
-
-FEDOW_DOMAIN='fedow.tibillet.localhost' # domaine renseigné dans l'env Fedow
-
-DOMAIN='tibillet.localhost' # sans sous-domaine ! ex : tibillet.coop, pas demo.tibillet.coop
-SUB='demo' # sous-domaine par défaut, renseigné dans le docker-compose.yml
-META='agenda' # sous domaine par défaut de l'agenda fédéré
-ADMIN_EMAIL='' # requis, ne devrait pas envoyer d'email en local
-
-# pas nécessaire au dev
-EMAIL_HOST=''
-EMAIL_PORT=''
-EMAIL_HOST_USER=''
-EMAIL_HOST_PASSWORD=''
-
-# changer seulement si nécessaire
-CELERY_BROKER='redis://redis:6379/0'
-CELERY_BACKEND='redis://redis:6379/0'
-```
-
-Enfin, on configure Laboutik de la même façon :
-
+#### Environnement LaBoutik
 
 ```bash title="tibillet-dev$"
-cp Laboutik/env_example Laboutik/.env
+cp LaBoutik/env_example LaBoutik/.env
 ```
 
-```bash title="Laboutik/.env"
-# comme les deux autres, toujours avec des clés uniques
-DJANGO_SECRET=''
-FERNET_KEY=''
-
-DEBUG=1
-TEST=1
-DEMO=1 # fausse caisse
-
-POSTGRES_USER='laboutik_user'
-POSTGRES_DB='laboutik'
-POSTGRES_PASSWORD='' # à nouveau, Fernet unique ou mdp fort au choix
-
-DOMAIN='cashless.tibillet.localhost' # domaine laboutik par défaut, renseigné dans le docker-compose.yml
-
-# laboutik a besoin de Fedow et d'une instance Lespass (tenant)
-FEDOW_URL='https://fedow.tibillet.localhost/'
-LESPASS_TENANT_URL='https://demo.tibillet.localhost/'
-
-# nom de la monnaie de test
-MAIN_ASSET_NAME='PieceEnChocolat'
-
-# email admin précédemment renseigné dans l'environnement lespass
-ADMIN_EMAIL=''
-
-# peut rester vide en dev
-EMAIL_HOST=""
-EMAIL_PORT=""
-EMAIL_HOST_USER=""
-EMAIL_HOST_PASSWORD=""
-
-TIME_ZONE='Europe/Paris'
-LANGUAGE_CODE='fr'
-
-
-# sauvegardes
-
-# peut rester vide si pas de sauvegardes
-BORG_PASSPHRASE=""
-
-# tests et debug
-
-# Sentry Debug pour le backend Django
-SENTRY_DNS=""
-# Sentry Debug pour le frontend JS
-SENTRY_FRONT_DNS=""
-SENTRY_FRONT_ASSET=""
-
-# paramétrage de la caisse de test
-DEMO_TAGID_CM=''
-DEMO_TAGID_CLIENT1=''
-DEMO_TAGID_CLIENT2=''
-```
+|Nom|Environnement cible|Nullable|Valeur par défaut|Notes|
+|---|---|---|---|---|
+|`SECRET_KEY`|Tous|Non||Une des clés secrètes Django générées précédemment|
+|`FERNET_KEY`|Tous|Non||Une des clés Fernet générées précédemment|
+|`DOMAIN`|Tous|Non|`laboutik.tibillet.localhost`|À adapter à votre nom de domaine et sous-domaine en production|
+|`FEDOW_URL`|Tous|Non|https://fedow.tibillet.localhost/|URL du moteur Fedow|
+|`LESPASS_TENANT_URL`|Tous|Non|https://lespass.tibillet.localhost/|URL de l'instance Lespass|
+|`TIME_ZONE`|Tous|Non|Europe/Paris|Plage horaire TZ de l'instance|
+|`ADMIN_EMAIL`|Tous|Non||Email administrateur (pour le⋅a premier⋅e admin)|
+|`MAIN_ASSET_NAME`|Tous|Non||Le nom de votre unité de valeur cashless (Piécette, CoeurDor… comme vous voulez)|
+|`POSTGRES_DB`|Tous|Non|laboutik|À changer en production si nécessaire|
+|`POSTGRES_USER`|Tous|Non|laboutik_user|À changer en production|
+|`POSTGRES_PASSWORD`|Tous|Non||Mot de passe fort (une des clés Fernets par exemple)|
+|`EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD`|Tous|Oui||Serveur d'email, requis pour confirmer des abonné⋅es par exemple|
+|`BORG_PASSPHRASE`|Tous|Oui||Mot de passe utilisé pour la sauvegarde des données|
+|`DEBUG`|Développement|Non|0|Passer à 1 pour le développement|
+|`TEST`|Tests|Non|0|Passer à 1 pour les tests|
+|`DEMO`|Développement, Tests|Non|0|Passer à 1 pour une simulation de terminal de caisse|
+|`SENTRY_DNS`|Développement, Tests|Oui||Sentry Debug pour le back-end|
+|`SENTRY_FRONT_DNS`, `SENTRY_FRONT_ASSET`|Développement, Tests|Oui||Sentry Debug pour le front-end|
+|`DEMO_TAGID_CM`, `DEMO_TAGID_CLIENT1`, `DEMO_TAGID_CLIENT2`||Oui||Aucune idée|
 
 La configuration devrait être maintenant complète pour les trois moteurs.
 
@@ -284,29 +239,45 @@ Ce `docker-compose.yml` en particulier s'appuie sur la structure décrite au dé
 
 La principale différence entre les conteneurs de dev et de prod, c'est qu'en dev la commande `docker compose` ne démarre pas les applications Django individuelles. C'est un niveau de contrôle fin qui est utile pour le développement, mais ça veut dire que vous avez besoin de les lancer manuellement.
 
-Faisons un peut d'environnement-ception : on va entrer dans un environnement bash dans un conteneur Docker, puis de là entrer dans l'environnement virtuel de Poetry. Par exemple avec Fedow :
+On va les lancer de préférence dans l'ordre :
+
+1. Fedow
+2. Lespass
+3. LaBoutik (qui a besoin des deux autres pour fonctionner)
+
+Les outils dont on a besoin sont dans les conteneurs, nommés d'après leur moteur : `fedow_django`, `lespass_django` et enfin `laboutik_django`. Pour rentrer dans un conteneur (exemple avec Fedow) :
 
 ```bash
-docker exec -ti fedow_django bash # on entre dans le conteneur
-poetry shell # on démarre l'environnement virtuel
+# on démarre un environnement bash dans le conteneur fedow_django
+docker exec -ti fedow_django bash
 ```
 
 À partir de là, on a quelques options.
 
-Le script `flush.sh` démarre une app Django réinitialisée avec des données de test :
+La première, c'est le script `flush.sh`. Il initialise les données de test et démarre Django dans la foulée. C'est cette commande qu'on va utiliser au **premier démarrage** de notre application :
 
-```bash title="poetry env$"
+```bash title="fedow_django$"
 ./flush.sh
 ```
 
-La commande `rsp` (alias de `python manage.py runserver 0.0.0.0:8000`) lance Django sans réinitialiser les données.
+On l'utilisera aussi quand on veut **réinitialiser** les données, par exemple avant de lancer les tests automatisés qui ont besoin de ces données prévisibles.
 
-Enfin, parfois des ressources statiques ne sont pas correctement assemblées, que qui donne l'impression que le site est resté coincé dans les années 90 💾 Si ça vous arrive, il suffit de relancer l'assemblage des ressources :
+Pour le reste des manipulation dans le conteneur, on a besoin de rentrer dans l'environnement de Poetry, car on va lancer du Python.
 
-```bash title="poetry env$"
-./manage.py collectstatic
+Pour lancer l'environnement virtuel de Poetry depuis le conteneur : 
+
+```bash title="fedow_django$"
+ # on démarre l'environnement virtuel qui prend en charge les dépendances python
+poetry shell
 ```
-Les conteneurs Django sont nommés par défaut d'après les moteurs : `fedow_django`, `lespass_django`, `laboutik_django`. Démarrez-les tous !
+
+Bien, ça va nous simplifier le développement Django, qui se gère habituellement avec un script appelé `manage.py`. Deux commandes nous intéressent à l'heure actuelle :
+
+- `rsp` (alias de  `./manage.py runserver 0.0.0.0:8000`) démarre Django sans réinitialiser les données. Ça nous servira quand on veut garder des données entre deux démarrages. Généralement, si on a pas besoin de lancer les tests, c'est cette commande qu'on utilise plutôt que `flush`.
+
+- Optionnellement, si on a des bugs graphiques, on peut tenter `./manage.py collectstatic`. Parfois, les ressources graphiques ne sont pas correctement copiées au premier démarrage, et ça peut régler le problème.
+
+Plus qu'à démarrer les trois moteurs de TiBillet dans l'ordre indiqué précédemment : Fedow, Lespass, puis LaBoutik !
 
 :::tip[Création d'alias]
 La commande Docker devient vite répétitive. Pourquoi ne pas créer un alias, ou même une petite fonction bash pour gagner du temps et soulager son canal carpien par la même occasion ? Voilà ma fonction :
@@ -325,8 +296,8 @@ Il suffit d'ouvrir un nouveau terminal pour que la fonction s'ajoute à l'enviro
 Si vous avez utilisé la configuration des sous-domaines par défaut, vous avez maintenant accès :
 
 - au moteur de fédération Fedow sur [fedow.tibillet.localhost](https://fedow.tibillet.localhost),
-- à une instance du moteur de billetterie Lespass sur [demo.tibillet.localhost](https://demo.tibillet.localhost),
-- au serveur de caisse Laboutik sur [cashless.tibillet.localhost](https://cashless.tibillet.localhost)
+- à une instance du moteur de billetterie Lespass sur [lespass.tibillet.localhost](https://lespass.tibillet.localhost),
+- au serveur de caisse LaBoutik sur [laboutik.tibillet.localhost](https://laboutik.tibillet.localhost)
 
 Si tout marche comme prévu, félicitations : vous êtes prêt⋅es à vous lancer 🔧
 
@@ -351,7 +322,7 @@ docker compose up -d # démarrer ou redémarrer les conteneurs
 
 ### Tests
 
-Vous pouvez lancer les tests Python de la même façon que pour un démarrage manuel. Commencez par réinitialiser les trois app Django pour obtenir les données testables, puis lancez cette commande depuis votre conteneur Django Laboutik :
+Vous pouvez lancer les tests Python de la même façon que pour un démarrage manuel. Commencez par réinitialiser les trois app Django pour obtenir les données testables, puis lancez cette commande depuis votre conteneur Django LaBoutik :
 
 ```bash title="laboutik_django> poetry shell$"
 ./manage.py test
