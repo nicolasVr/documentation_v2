@@ -12,13 +12,13 @@ Requirements:
 
 ### Commands
 
-- `make init` to initiate your environment
+- `make init` to initiate your environment (done automatically if .env is absent)
 - `make start` and `make stop` to start and stop the container (and serve the node app)
 - `make en` or `make fr` to change the environment locale
     - combine the targets to restart in a different locale, ex `make fr start`
 - `make rebuild` to rebuild your docker containers
 - `make open` to enter a bash shell in the container
-- `make deploy` to deploy the docs to github pages
+- `make deploy` to deploy the docs to github pages (all locales)
 
 ## Running from the container
 
