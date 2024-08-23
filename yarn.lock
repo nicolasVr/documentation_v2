@@ -3053,6 +3053,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react@npm:^18.3.4":
+  version: 18.3.4
+  resolution: "@types/react@npm:18.3.4"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/5c52e1e6f540cff21e3c2a5212066d02e005f6fb21e4a536a29097fae878db9f407cd7a4b43778f51359349c5f692e08bc77ddb5f5cecbfca9ca4d4e3c91a48e
+  languageName: node
+  linkType: hard
+
 "@types/retry@npm:0.12.0":
   version: 0.12.0
   resolution: "@types/retry@npm:0.12.0"
@@ -4909,6 +4919,7 @@ __metadata:
     "@docusaurus/preset-classic": "npm:^3.1.1"
     "@docusaurus/types": "npm:^3.1.1"
     "@mdx-js/react": "npm:^3.0.0"
+    "@types/react": "npm:^18.3.4"
     clsx: "npm:^2.0.0"
     docusaurus-plugin-name: "npm:^0.0.1-security.6"
     prism-react-renderer: "npm:^2.3.0"
