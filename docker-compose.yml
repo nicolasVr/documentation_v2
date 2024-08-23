@@ -4,10 +4,12 @@ services:
         container_name: tibillet_docusaurus
         ports:
             - "3000:3000"
-        volumes:
-            - .:/opt/docusaurus
         environment:
             - NODE_ENV=development
             - USE_SSH=true
+            - SSH_AUTH_SOCK=/ssh-agent
         env_file: .env
+        volumes:
+            - .:/opt/docusaurus
+            - ${SSH_AUTH_SOCK}:/ssh-agent
         command: bash start.sh
