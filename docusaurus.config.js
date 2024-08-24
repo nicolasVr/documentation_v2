@@ -7,6 +7,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
     title: 'TiBillet',
     tagline: "Outils coopératifs",
@@ -78,7 +79,6 @@ const config = {
         ],
     ],
 
-    themes: ['@docusaurus/theme-mermaid'],
 
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
