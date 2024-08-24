@@ -166,7 +166,7 @@ cp Lespass/env_example Lespass/.env
 |`DOMAIN`|Tous|Non|`tibillet.localhost`|À adapter à votre nom de domaine en production|
 |`SUB`|Tous|Non|`lespass`|Sous-domaine de l'instance, à adapter en production|
 |`META`|Tous|Non|`agenda`|Sous-domaine de l'agenda fédéré, à adapter en production|
-|`FEDOW_DOMAIN`|Tous|Non|`agenda`|Sous-domaine de l'agenda fédéré, à adapter en production|
+|`FEDOW_DOMAIN`|Tous|Non|`fedow.tibillet.localhost`|Domaine et sous-domaine du moteur Fedow|
 |`PUBLIC`|Tous|Non|TiBillet Coop.|Nom de l'instance principale|
 |`TIME_ZONE`|Tous|Non|Europe/Paris|Plage horaire TZ de l'instance|
 |`ADMIN_EMAIL`|Tous|Non||Email administrateur (pour le⋅a premier⋅e admin)|
@@ -271,7 +271,7 @@ Pour lancer l'environnement virtuel de Poetry depuis le conteneur :
 poetry shell
 ```
 
-Bien, ça va nous simplifier le développement Django, qui se gère habituellement avec un script appelé `manage.py`. Deux commandes nous intéressent à l'heure actuelle :
+Django se gère avec un script appelé `manage.py`. Deux commandes nous intéressent à l'heure actuelle :
 
 - `rsp` (alias de  `./manage.py runserver 0.0.0.0:8000`) démarre Django sans réinitialiser les données. Ça nous servira quand on veut garder des données entre deux démarrages. Généralement, si on a pas besoin de lancer les tests, c'est cette commande qu'on utilise plutôt que `flush`.
 
