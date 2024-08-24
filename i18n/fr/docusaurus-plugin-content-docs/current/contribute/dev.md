@@ -4,7 +4,7 @@ slug: development
 title: Développement
 keywords: [contribuer, bénévolat, open source, git, pull request, issue, soutien, code, développement, programmation, python, django, docker, poetry, tests, tdd]
 tags: [contribuer, open source, git, soutien, tdd, python, django, docker, poetry]
-authors: kaya
+authors: kaya, guillaume
 ---
 
 # Développement
