@@ -1,3 +1,5 @@
+-include .env
+
 SHELL := /bin/bash
 
 NAME=$$(git config user.name)
@@ -6,7 +8,8 @@ EMAIL=$$(git config user.email)
 start: env_check
 	@echo "== 🟢 Starting containers... ==============="
 	@docker compose up -d
-	@echo "== 💜 TiBillet docs running! ==============="
+	@make -s url_print
+	@echo "== 💜 TiBillet docs are up! ==============="
 
 en: env_check
 	@echo "== 🗨  Selecting English locale. ============"
@@ -21,17 +24,18 @@ stop:
 	@docker compose down
 	@echo "== 💀 TiBillet docs shut down. ============="
 
-rebuild: env_check
+build: env_check
 	@echo "== ➰ Building containers... ==============="
 	@docker compose up -d --build
+	@make -s url_print
 	@echo "== 🛠️  TiBillet docs built from scratch! ===="
 
-open: env_check
+shell: env_check
 	@echo "== 🔐 Entering container... ================"
 	@docker exec -ti tibillet_docusaurus bash
 	@echo "== 🔒 Welcome back! ========================"
 
-deploy: rebuild
+deploy: build
 	@echo "== 🐱 Deploying to Github... ==============="
 	@docker exec -ti tibillet_docusaurus yarn deploy
 	@echo "== 🚀 TiBillet docs are online! ============"
@@ -47,3 +51,8 @@ init:
 
 env_check:
 	@[ -f .env ] || make -s init
+
+url_print:
+	@echo ".. Running at http://localhost:3000/$$( \
+		[ ${DOCUSAURUS_LOCALE} = "en" ] || echo "${DOCUSAURUS_LOCALE}/" \
+	)"

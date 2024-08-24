@@ -44,6 +44,10 @@ const config = {
             },
         },
     },
+
+    markdown: {
+        mermaid: true,
+    },
     presets: [
         [
             'classic',
@@ -73,6 +77,8 @@ const config = {
             }),
         ],
     ],
+
+    themes: ['@docusaurus/theme-mermaid'],
 
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
