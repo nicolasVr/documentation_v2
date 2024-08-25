@@ -171,7 +171,7 @@ Irene is always energetic and very involved in the soup kitchen she cofounded wi
 
 Hamza is the first in his family to speak fluently the language of this place. At 14, he dreams of making his way into the world and taking some of the burden off his parent's back. They all see a social worker at TiSpace on a regular basis (he translates). After hearing a few of his bars, he was invited to perform there by Adoni. His parents accepted with reservations, as he is a minor in a very adult space. They also don't like him working.
 
-#### Their stories
+#### His stories
 
 > *As* a rapper,  
 > *I want* to get notified of open mic nights  
@@ -425,7 +425,7 @@ Alastair has a vision, and a bigger-than-life attitude. Whether he's displaying 
 
 After spending her twenties in sales, Shane left it all behind in order to pursue jewelry crafting. She has a little stall in the TiSpace courtyard, and an "arrangement" with the other members where she can drink on a tab as long as she makes it back in sales.
 
-#### Their stories
+#### Her stories
 
 > *As* resident,  
 > *I want to* have a tab  
