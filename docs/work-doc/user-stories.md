@@ -158,6 +158,42 @@ Irene is always energetic and very involved in the soup kitchen she cofounded wi
 <figure style={{ width: '18rem' }}>
 <div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
 
+![Hamza](/img/persona/hamza.png)
+
+</div>
+<figcaption>
+
+### Hamza, he/him, aspiring rapper
+
+</figcaption>
+</figure>
+<div>
+
+Hamza is the first in his family to speak fluently the language of this place. At 14, he dreams of making his way into the world and taking some of the burden off his parent's back. They all see a social worker at TiSpace on a regular basis (he translates). After hearing a few of his bars, he was invited to perform there by Adoni. His parents accepted with reservations, as he is a minor in a very adult space. They also don't like him working.
+
+#### Their stories
+
+> *As* a rapper,  
+> *I want* to get notified of open mic nights  
+> *in order to* perform and get recognition.
+
+> *As* Hamza,  
+> *I want* to be able to bring my friends and pay soft drinks for them  
+> *in order to* look cool.
+
+> *As* a minor,  
+> *I want* the HeartBits on my card to be of usable in shops by my parents  
+> *in order to* help with household expenses.
+
+</div>
+</article>
+
+---
+
+<article style={{ display: 'flex' }}>
+<figure style={{ width: '18rem' }}>
+<div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
+
 ![James](/img/persona/james.png)
 
 </div>
@@ -335,5 +371,150 @@ Cynthia has lived in the neighboorhood for fifty years. Young people might not a
 </article>
 
 ---
+
+<article style={{ display: 'flex' }}>
+<figure style={{ width: '18rem' }}>
+<div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
+
+![Alastair](/img/persona/alastair.png)
+
+</div>
+<figcaption>
+
+### Alastair, he/him, artist and performer at TiSpace
+
+</figcaption>
+</figure>
+<div>
+
+Alastair has a vision, and a bigger-than-life attitude. Whether he's displaying his lastest chainsaw sculptures or performing as Mimi Zandry, he's giving it his all. He wants to encourage the federation's growth by accepting HeartBits for his performances and some of his art.
+
+#### His stories
+
+> *As* a featured artist,  
+> *I want* to be able to show my pieces up for sale to people with HeartBits  
+> *in order to* sell them.
+
+> *As* Alastair,  
+> *I want* to be able to operate my own Lespass and Laboutik from my smartphone  
+> *in order to* get tips and manage my sales.
+
+> *As* a performer,  
+> *I want* be able to update my TiSpace events  
+> *in order to* not let my voice get diluted by institution.
+
+</div>
+</article>
+
+---
+
+<article style={{ display: 'flex' }}>
+<figure style={{ width: '18rem' }}>
+<div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
+
+![Shane](/img/persona/shane.png)
+
+</div>
+<figcaption>
+
+### Shane, she/her, resident craftswoman at TiSpace
+
+</figcaption>
+</figure>
+<div>
+
+After spending her twenties in sales, Shane left it all behind in order to pursue jewelry crafting. She has a little stall in the TiSpace courtyard, and an "arrangement" with the other members where she can drink on a tab as long as she makes it back in sales.
+
+#### Their stories
+
+> *As* resident,  
+> *I want to* have a tab  
+> *in order to* have more freedom with my income.
+
+> *As* an craftswoman,  
+> *I want* my jewelry to be claimed online but only paid on physical hand-off  
+> *in order to* not have to deal with deliveries.
+
+> *As* Shane,  
+> *I want* to be able to ask for a minimum ratio of "real money" from my buyers  
+> *in order to* help with rent.
+
+</div>
+</article>
+
+---
+
+<article style={{ display: 'flex' }}>
+<figure style={{ width: '18rem' }}>
+<div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
+
+![Fezaar](/img/persona/fezaar.png)
+
+</div>
+<figcaption>
+
+### Fezaar, he/them, co-creator of PotoPotes and SoberUp bartender
+
+</figcaption>
+</figure>
+<div>
+
+Fezaar co-created PotoPotes but doesn't manage it anymore. They have instead invested their time in the TiSpace bar. As a recovered alcoholic, he understands the importance of sober-friendly spaces in his community and hold SoberUp, a mocktail bar, half of every week.
+
+#### His stories
+
+> *As* a part of a vulnerable community,  
+> *I want* to be able to voice my concerns and needs  
+> *in order to* be safe in the federation spaces.
+
+> *As* a former alcoholic,  
+> *I want* to know in advance which events and going to be alcohol-free  
+> *in order to* not show up at the wrong time.
+
+> *As* a bartender,  
+> *I want* be able to signal misbehaving members  
+> *in order to* compare notes and have discussions with them / about them before incidents happen.
+
+</div>
+</article>
+
+---
+
+<article style={{ display: 'flex' }}>
+<figure style={{ width: '18rem' }}>
+<div style={{ height: '16rem', width: '15rem', marginBottom: '1rem' }}>
+
+![Pat](/img/persona/pat.png)
+
+</div>
+<figcaption>
+
+### Pat, they/them, art curator and KindCity member
+
+</figcaption>
+</figure>
+<div>
+
+Pat loooves the indie scene. They don't tend to go out much as they get really sick in crowds and have a ton of allergies. They turned an inherited sandwich shop into a gallery and they're hoping to find upcoming artists to exhibit there.
+
+#### Their stories
+
+> *As* someone fragile,  
+> *I want* to be able to find detailed info on events  
+> *in order to* not get sick in public.
+
+> *As* an art curator,  
+> *I want* a list of past events and exhibits  
+> *in order to* see what I missed.
+
+> *As* Pat,  
+> *I want* to be reminded of the exhibitions that interest me  
+> *in order to* attend them.
+
+</div>
+</article>
+
+---
+
 
 [Random avatars](https://getavataaars.com) curtesy of Pablo Stanley & Fang-Pen Lin.
