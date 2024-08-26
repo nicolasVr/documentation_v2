@@ -13,46 +13,26 @@ One of the straight-forward ways to define features is through user stories. I'm
 
 ## Who uses TiBillet?
 
-Different roles use each engine. A first draft:
+Different roles use each engine.
 
-- Cashiers (LaBoutik) 🖥️ register app users
-    - hold the LaBoutik register
-    - have an understanding of sales, stocks and the LaBoutik register app
-    - interact with Buyers, Card Holders and Accountants
-
-- Accountants (LaBoutik) 💻 laptop website users
-    - survey cash and cashless flow
-    - have an understanding of money regulations, budget and LaBoutik transaction history
-    - interact with Cashiers, Event Planners and Coordinators
-
-- Buyers (LaBoutik) 🖥️ register app users
-    - buy cash articles
-    - hear about cashless cards and benefits for volunteers
-    - interact with Cashiers
-
-- Card Holders (LaBoutik, Lespass) 💻📱 website users
-    - suscribers, collective members or cashless buyers
-    - have an understanding of their cashless wallet, Lespass navigation and events
-    - interact with Cashiers and Ushers
-
-- Ushers (Lespass) 📱 smarthpone website users
-    - open and check in for events
-    - understand Card Holder profiles, Lespass events and bookings
-    - interact with Card Holders and Event Planners
-
-- Event Planners (Lesspass) 💻 laptop website users
-    - organize events plan for use of a specific Lespass space
-    - have an understanding or planning, cultural networks, the Lespass calendar and ticket pricing
-    - interact with Accountants, Ushers and Coordinators
-
-- Coordinators (Fedow) 💻 laptop website users
-    - consult with spaces, federations and the general population to reach consensus on what is federated where and how
-    - have an understanding of horizontal organizing, mediation, local economics and the Fedow administration
-    - interact with Accountants, Event Planners and anyone with a opinion
+|Role|Engines|Device|Requirements|
+|----|-------|------|-------|
+|Cashiers|LaBoutik|🔢 Register|- hold the LaBoutik register<br/>- have an understanding of sales, stocks and the LaBoutik register app<br/>- interact with Buyers, Card Holders and Accountants|
+|Accountants|LaBoutik|💻 Laptop|- survey cash and cashless flow<br/>- have an understanding of money regulations, budget and LaBoutik transaction history<br/>- interact with Cashiers, Event Planners and Coordinators|
+|Buyers|LaBoutik|🔢 Register|- buy cash articles<br/>- hear about cashless cards and benefits for volunteers<br/>- interact with Cashiers|
+|Card Holders|LaBoutik, Lespass|💻📱 Laptop and smartphone|- suscribers, collective members or cashless buyers<br/>- have an understanding of their cashless wallet, Lespass navigation and events<br/>- interact with Cashiers and Ushers|
+|Ushers|Lespass|📱 Smarthphone|- open and check in for events<br/>- understand Card Holder profiles, Lespass events and bookings<br/>- interact with Card Holders and Event Planners|
+|Event Planners|Lesspass|💻 Laptop|- organize events plan for use of a specific Lespass space<br/>- have an understanding or planning, cultural networks, the Lespass calendar and ticket pricing<br/>- interact with Accountants, Ushers and Coordinators|
+|Coordinators|Fedow|💻 Laptop|- consult with spaces, federations and the general population to reach consensus on what is federated where and how<br/>- have an understanding of horizontal organizing, mediation, local economics and the Fedow administration<br/>- interact with Accountants, Event Planners and anyone with a opinion|
 
 ![](/img/roles-diagram.png)
 
-{/*
+:::note[First draft]
+This is a first attempt at defining the user roles that TiBillet has to account for. Feel free to correct or add to them, this work document will be better for it!
+:::
+
+{/* the mermaid ext doesn't work but you can generate the diagram in the live editor on the mermaid website following this code:
+
 graph LR
     
     a <--> c & e & o
