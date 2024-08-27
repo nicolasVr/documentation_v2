@@ -20,6 +20,8 @@ Requirements:
 - `make shell` to enter a bash shell in the container
 - `make deploy` to deploy the docs to github pages (all locales)
 
+> Don't be in too much of a hurry! at first start, the container needs to build your documentation, it might take it around 30 seconds to show up, doesn't mean anything's wrong with it…
+
 ## Running from the container
 
 Requirements:
