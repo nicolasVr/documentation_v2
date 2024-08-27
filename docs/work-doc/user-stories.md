@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 30
 slug: user-stories
 title: User stories
 keywords: [third places, volunteer, admin, customer, bar, festival, organizer, user stories, user persona]

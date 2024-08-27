@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 slug: development
 title: Development
 keywords: [contribute, volunteer, open source, git, pull request, issue, help, code, development, programming, python, django, docker, poetry, testing, tdd]
