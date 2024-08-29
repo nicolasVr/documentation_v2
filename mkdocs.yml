@@ -37,8 +37,10 @@ nav:
     - standalone/self-hosting.md
     - standalone/diy-cashless.md
   - Contributing:
-    - contribution/docs.md
+    # - contribution/docs.md
     - contribution/dev.md
+  - Resources:
+    - resources/design.md
   - API:
     - api/index.md
     - api/keys.md
@@ -125,6 +127,7 @@ extra_css:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -144,8 +147,7 @@ plugins:
   # - privacy
   - tags
   - glightbox
-  - search:
-      lang: en
+  - search
   - i18n:
       docs_structure: folder
       languages:
@@ -159,6 +161,7 @@ plugins:
           nav_translations:
             Standalone install: Installation autonome
             Contributing: Contribuer
+            Resources: Ressources
           theme:
             language: fr
             

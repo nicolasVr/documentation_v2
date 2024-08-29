@@ -5,6 +5,12 @@
 :root {
     --md-hue: 316.67deg;
     --md-text-font: Luciole;
+    /* --always-light: hsla(var(--md-hue),15%,90%,0.82); */
+}
+
+table img[src$=".svg"] {
+    /* background: var(--always-light); */
+    height: 100px;
 }
 
 .md-header {
