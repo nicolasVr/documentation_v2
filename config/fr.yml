@@ -38,7 +38,7 @@ nav:
   - Installation autonome:
     - standalone/self-hosting.md
     - standalone/diy-cashless.md
-  - Guides de contribution:
+  - Contribuer:
     - contribution/docs.md
     - contribution/dev.md
   - API:
