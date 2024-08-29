@@ -19,4 +19,4 @@ Dans le menu déroulant en bas, à gauche de ENVOYER, selectionnez "Supprimez le
 !!! danger
     Attention ! Il n'y aura pas de confirmation et impossible de revenir en arrière.
 
-<video width="100%" controls src="/media/video/order-deletion.mp4"></video>
+<video width="100%" controls src="/assets/video/order-deletion.mp4"></video>

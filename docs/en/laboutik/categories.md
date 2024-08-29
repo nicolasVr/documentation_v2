@@ -20,4 +20,4 @@ Article categories are useful for:
 - Choose an icon that will be displayed on the cashless interface shortcuts.
   - All icons are listed on [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/)
 
-<video width="100%" controls src="/media/video/categories.mp4"></video>
+<video width="100%" controls src="/assets/video/categories.mp4"></video>

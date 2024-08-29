@@ -17,7 +17,7 @@ authors: [ jonas ]
 
 ### Billetterie ( nighty build ) :
 
-![BilletDemo1.jpg](/media/screenshots/lespass1.jpg)
+![BilletDemo1.jpg](/assets/screenshots/lespass1.jpg)
 
 
 #### Tenant (une instance solo, un lieu, un organisateur, un artiste) :
@@ -32,7 +32,7 @@ Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard gala
 
 ### Caisse enregistreuse / Cashless / Monnaie locale ( nighty build ) :
 
-![maq2-420.jpg](/media/maq2-420.jpg)
+![maq2-420.jpg](/assets/maq2-420.jpg)
 
 #### administration :
 

@@ -11,4 +11,4 @@ authors: [jonas, mike]
 !!! info
     In progress, draft here : [https://codimd.communecter.org/s/radZYLweP#](https://codimd.communecter.org/s/radZYLweP#)
 
-![coucou](/media/diy-cashless.jpg)
+![coucou](/assets/diy-cashless.jpg)

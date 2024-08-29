@@ -19,11 +19,11 @@ A time clocking system has been developed to count passages at a given point. Th
 
 Enable the option in the setup menu. This will create the “Time-clock machine” asset and the corresponding item.
 
-![Config Badge](/media/screenshots/time-clock/activation.jpg)
+![Config Badge](/assets/screenshots/time-clock/activation.jpg)
 
 You can now add the "Time-clock machine" item to any point of sale.
 
-![Config Badge](/media/screenshots/time-clock/outlet.jpg)
+![Config Badge](/assets/screenshots/time-clock/outlet.jpg)
 
 For greater clarity, you can deactivate "Show prices" if your point of sale only includes the "Time-clock machine" item
 
@@ -31,7 +31,7 @@ For greater clarity, you can deactivate "Show prices" if your point of sale only
 
 If you have created a new point of sale for the Time Clock card reader, remember to link this point of sale to the primary cards.
 
-![Config Badge](/media/screenshots/time-clock/terminal.jpg)
+![Config Badge](/assets/screenshots/time-clock/terminal.jpg)
 
 To punch a card, select the “Time-clock machine” box, validate, then scan the card.
 
@@ -40,7 +40,7 @@ To punch a card, select the “Time-clock machine” box, validate, then scan th
 On the main page (Dashboard), you will find the link to the time spend reports.
 You can also access it via the address `https://<URL>/rapport/badgeuse/`
 
-![Config Badge](/media/screenshots/time-clock/report.jpg)
+![Config Badge](/assets/screenshots/time-clock/report.jpg)
 
 Passages are sorted by entry/exit pair.
 
@@ -54,11 +54,11 @@ Join a TiBillet/Fedow federation, configure the time-clock asset as federated, a
 
 Configure the "Time-clock machine" item on the federated asset. In the Item/Special menu:
 
-![Config Badge](/media/screenshots/time-clock/fedow-asset.jpg)
+![Config Badge](/assets/screenshots/time-clock/fedow-asset.jpg)
 
 You can now punch a card, and the passages will be recorded in the FEDOW blockchain:
 
-![Config Badge](/media/screenshots/time-clock/fedow-report.jpg)
+![Config Badge](/assets/screenshots/time-clock/fedow-report.jpg)
 
 ## Go further with Dokos
 

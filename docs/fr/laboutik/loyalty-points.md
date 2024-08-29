@@ -9,7 +9,7 @@ tags: [fidelity, fidélité, access card, cashless, billetterie, ticketing, cash
 
 Ajoutez des points de fidélité pour chaque vente réalisée en cashless ou autre !
 
-![Config Badge](/media/screenshots/loyalty-points.jpg)
+![Config Badge](/assets/screenshots/loyalty-points.jpg)
 
 Choisissez un ou plusieurs assets déclencheur ainsi que le facteur de points.
 Exemple, pour 10 tokens pour 1€ dépensé, choisissez le token € et le facteur 10.

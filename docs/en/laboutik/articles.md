@@ -31,4 +31,4 @@ of sale to which they are attached.
     For a point of sale to be visible in the interface, it must contain articles. 
     It is best to create the items first and then assign them to a point of sale.
 
-<video width="100%" controls src="/media/video/articles.mp4"></video>
+<video width="100%" controls src="/assets/video/articles.mp4"></video>

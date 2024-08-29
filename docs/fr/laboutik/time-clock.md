@@ -19,11 +19,11 @@ Un système de badgeuse a été développé pour comptabiliser des passages à u
 
 Activez l'option dans le menu de configuration. Cela va créer l'asset "Badgeuse" et l'article correspondant.
 
-![Config Badge](/media/screenshots/time-clock/activation.jpg)
+![Config Badge](/assets/screenshots/time-clock/activation.jpg)
 
 Vous pouvez desormais ajouter l'article "Badger" dans n'importe quel point de vente.
 
-![Config Badge](/media/screenshots/time-clock/outlet.jpg)
+![Config Badge](/assets/screenshots/time-clock/outlet.jpg)
 
 Pour plus de clarté, vous pouvez désactiver "Afficher les prix" si votre point de vente ne comprend que l'article "Badger"
 
@@ -31,7 +31,7 @@ Pour plus de clarté, vous pouvez désactiver "Afficher les prix" si votre point
 
 Si vous avez créé un nouveau point de vente pour la badgeuse, pensez à lier ce point de vente aux cartes primaires.
 
-![Config Badge](/media/screenshots/time-clock/terminal.jpg)
+![Config Badge](/assets/screenshots/time-clock/terminal.jpg)
 
 Pour badger une carte, selectionner la case "Badger", validez, puis scannez la carte.
 
@@ -40,7 +40,7 @@ Pour badger une carte, selectionner la case "Badger", validez, puis scannez la c
 Sur la page principale (Dashboard), vous trouverez le lien vers les rapports de badgeage. 
 Vous pouvez aussi y acceder via l'adresse `https://<URL>/rapport/badgeuse/`
 
-![Config Badge](/media/screenshots/time-clock/report.jpg)
+![Config Badge](/assets/screenshots/time-clock/report.jpg)
 
 Les passages sont classé par paire d'entrée / sortie.
 
@@ -54,11 +54,11 @@ Rejoignez une fédération TiBillet/Fedow, configurez l'asset de badge comme fé
 
 Configurez l'article "Badger" sur l'asset fédéré. Dans le menu Article/Special :
 
-![Config Badge](/media/screenshots/time-clock/fedow-asset.jpg)
+![Config Badge](/assets/screenshots/time-clock/fedow-asset.jpg)
 
 Vous pouvez maintenant badger une carte, et les passages seront enregistrés dans la blockchain FEDOW :
 
-![Config Badge](/media/screenshots/time-clock/fedow-report.jpg)
+![Config Badge](/assets/screenshots/time-clock/fedow-report.jpg)
 
 ## Aller plus loin avec Dokos
 

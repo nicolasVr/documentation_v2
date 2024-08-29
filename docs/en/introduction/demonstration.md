@@ -14,7 +14,7 @@ authors: [ jonas ]
 
 ### Lespass : Ticketing, membership, qr code scan :
 
-![BilletDemo1.jpg](/media/screenshots/lespass1.jpg)
+![BilletDemo1.jpg](/assets/screenshots/lespass1.jpg)
 
 **[https://demo.tibillet.ovh](https://demo.tibillet.ovh)**
 
@@ -26,7 +26,7 @@ To test payment on Stripe, use the Greatest Galactic Backpacker card :
 
 ### Cash register / Cashless / Local currency ( nighty build ) :
 
-![maq2-420.jpg](/media/maq2-420.jpg)
+![maq2-420.jpg](/assets/maq2-420.jpg)
 
 #### administration :
 

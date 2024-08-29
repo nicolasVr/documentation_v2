@@ -56,4 +56,4 @@ This last section makes it possible to condition the ticket reservation on a cas
         *reminder: memberships must be created in the “Products” section.
     - Click on the “save” button at the bottom of the page
 
-<video width="100%" controls src="/media/video/event-creation.mp4"></video>
+<video width="100%" controls src="/assets/video/event-creation.mp4"></video>

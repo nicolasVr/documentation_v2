@@ -41,4 +41,4 @@ paiement.
 - Scanner la carte à la demande de l'application.
 - Vérifiez que vous avez bien uniquement les points de ventes associés à la carte.
 
-<video width="100%" controls src="/media/video/primary-card.mp4"></video>
+<video width="100%" controls src="/assets/video/primary-card.mp4"></video>

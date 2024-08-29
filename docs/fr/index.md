@@ -58,4 +58,4 @@ Cafés associatifs, salles de concert, festivals, restaurants, tiers-lieux, orga
 ponctuels ou permanents) et même commerçant ! Pratiquement tout établissement recevant du public peut simplifier sa
 gestion avec TiBillet.
 
-![/media/tibilletcircle.jpg](/media/tibilletcircle.jpg)
+![/assets/tibilletcircle.jpg](/assets/tibilletcircle.jpg)

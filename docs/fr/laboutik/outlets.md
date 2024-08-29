@@ -25,4 +25,4 @@ certains points de vente aux utilisateurs concernés.
     Un point de vente est visible dans l'interface s'il contient des articles. Il est préférable de créer
     les articles en premier et de les assigner par la suite à un point de vente.
 
-<video width="100%" controls src="/media/video/outlet.mp4"></video>
+<video width="100%" controls src="/assets/video/outlet.mp4"></video>

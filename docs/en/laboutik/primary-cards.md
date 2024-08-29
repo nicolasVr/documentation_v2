@@ -39,4 +39,4 @@ The person responsible for the point of sale is visible in each payment.
 - Scan the card when requested by the app.
 - Check that you only have the points of sale associated with the card.
 
-<video width="100%" controls src="/media/video/primary-card.mp4"></video>
+<video width="100%" controls src="/assets/video/primary-card.mp4"></video>

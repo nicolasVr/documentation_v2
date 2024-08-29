@@ -33,4 +33,4 @@ ventes auquels ils sont rattachés.
     Pour qu'un point de vente soit visible dans l'interface, il faut qu'il contienne des articles. Il est préférable de créer
     les articles en premier et de les assigner par la suite à un point de vente.
 
-<video width="100%" controls src="/media/video/articles.mp4"></video>
+<video width="100%" controls src="/assets/video/articles.mp4"></video>

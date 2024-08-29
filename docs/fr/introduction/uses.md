@@ -10,7 +10,7 @@ tags: [ cashless, billetterie, ticketing, caisse enregistreuse, prise de command
 
 Une caisse enregistreuse qui accepte espèce, carte bancaire, carte d'adhésion, de fidélité et carte cashless.
 
-![caisse1](/media/maq2-420.jpg)
+![caisse1](/assets/maq2-420.jpg)
 
 ## Cashless
 
@@ -18,14 +18,14 @@ Un bracelet NFC pour le cashless de votre festival. Rechargeable en ligne ou sur
 d'abonnement ou d'adhésion associative sur laquelle vous pouvez charger des euros commes des monnaies temps pour
 valoriser votre bénévolat.
 
-![caisse1](/media/cartes.jpg)
+![caisse1](/assets/cartes.jpg)
 
 ## Gestion d'adhésion et valorisation de bénévolat
 
 Paiement en ligne, renouvellement automatique, gestion de cotisation, gestion du portefeuille de monnaie temps.
 Abonnement commun à plusieurs lieux, fédération d'associations.
 
-![adhésion](/media/screenshots/lespass2.jpg)
+![adhésion](/assets/screenshots/lespass2.jpg)
 
 ## Billetterie fédérée
 
@@ -36,7 +36,7 @@ Abonnement commun à plusieurs lieux, fédération d'associations.
 - Un évènement gratuit mais avec une recharge cashless obligatoire.
 - Location et reservation à l'heure de salle type coworking
 
-![billet](/media/screenshots/lespass1.jpg)
+![billet](/assets/screenshots/lespass1.jpg)
 
 ## Agenda fédéré
 
@@ -47,13 +47,13 @@ Un agenda fédéré à plusieurs lieux pour promouvoir vos évènements au sein 
 Prise de commande pour buvette et salle de restauration. Impréssion de ticket en cuisine et au bar. Prise de commande
 par le client.
 
-![commande](/media/screenshots/laboutik1.jpg)
+![commande](/assets/screenshots/laboutik1.jpg)
 
 ## Gestion de monnaies locales / temps / libres
 
 Blockchain multi asset, gestion de carte cashless pour plusieurs sites et/lieux
 
-![fedow](/media/screenshots/fedow1.jpg)
+![fedow](/assets/screenshots/fedow1.jpg)
 
 ## Système de paiement dématérialisé
 

@@ -9,7 +9,7 @@ tags: [fidelity, fidélité, access card, cashless, billetterie, ticketing, cash
 
 Add loyalty points for each sale made cashless or other !
 
-![Config Badge](/media/screenshots/loyalty-points.jpg)
+![Config Badge](/assets/screenshots/loyalty-points.jpg)
 
 Choose one or more trigger assets as well as the points factor.
 Example, for 10 tokens for 1€ spent, choose the € token and the factor 10.

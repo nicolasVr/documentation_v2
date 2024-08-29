@@ -56,4 +56,4 @@ Cette dernière section permet de conditonner la réservation de billet à une r
         *rappel : les adhésions sont à créer dans la section "Produits".
     - Cliquez sur le bouton "enregistrer" en bas de page
 
-<video width="100%" controls src="/media/video/event-creation.mp4"></video>
+<video width="100%" controls src="/assets/video/event-creation.mp4"></video>

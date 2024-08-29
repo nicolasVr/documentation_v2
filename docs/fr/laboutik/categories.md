@@ -21,4 +21,4 @@ Les catégories d'articles sont utiles pour :
   - Toutes les icones sont répertoriées sur [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/)
 
 
-<video width="100%" controls src="/media/video/categories.mp4"></video>
+<video width="100%" controls src="/assets/video/categories.mp4"></video>

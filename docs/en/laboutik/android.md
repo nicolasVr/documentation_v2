@@ -18,7 +18,7 @@ https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
 
 Or scan this qrcode on a phone to visit the download page.
 
-![App QR code](/media/qrcode-app-android.png)
+![App QR code](/assets/qrcode-app-android.png)
 
 ## Launch
 

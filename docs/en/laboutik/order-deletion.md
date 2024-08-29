@@ -19,4 +19,4 @@ In the drop-down menu at the bottom left of SEND, select "Delete Orders".
 !!! danger
     Attention ! There will be no confirmation and there will be no going back.
 
-<video width="100%" controls src="/media/video/order-deletion.mp4"></video>
+<video width="100%" controls src="/assets/video/order-deletion.mp4"></video>

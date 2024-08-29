@@ -23,4 +23,4 @@ Thanks to the primary cards which are requested each time the application is ope
     A point of sale is visible in the interface if it contains articles. 
     It is best to create the items first and then assign them to a point of sale.
 
-<video width="100%" controls src="/media/video/outlet.mp4"></video>
+<video width="100%" controls src="/assets/video/outlet.mp4"></video>
