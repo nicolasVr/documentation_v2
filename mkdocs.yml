@@ -41,6 +41,10 @@ nav:
     - contribution/dev.md
   - Resources:
     - resources/design.md
+    - resources/user-roles.md
+    - resources/user-stories.md
+    - UI:
+      - resources/ui/event-planning.md
   - API:
     - api/index.md
     - api/keys.md
@@ -89,16 +93,21 @@ extra:
 
 theme:
   name: material
-  logo: /assets/icon.svg
-  favicon: /assets/favicon.svg
+  logo: assets/icon.svg
+  favicon: assets/favicon.svg
   language: en
   custom_dir: theme
+  icon:
+    admonition:
+      abstract: fontawesome/solid/user-tag
   
   palette:
 
     # dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: purple
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
@@ -106,6 +115,8 @@ theme:
     # light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: purple
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
@@ -127,6 +138,7 @@ extra_css:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -138,16 +150,29 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - toc:
+      toc_depth: 3
 
 plugins:
   # - privacy
   - tags
   - glightbox
   - search
+  - social:
+      # cache: false
+      # cards_layout: default/variant
+      cards_layout_options:
+        # logo: theme/assets/logo.svg
+        # background_image: theme/assets/gradient.svg
+        background_color: '#291e26'
   - i18n:
       docs_structure: folder
       languages:

@@ -27,7 +27,7 @@ table img[src$=".svg"] {
 .md-nav {
     font-size: .9rem;
 }
-    .md-nav__title, .md-typeset .admonition-title {
+    .md-nav__title, .md-typeset .admonition-title, .md-typeset summary {
         font-family: Playwrite IS, Luciole, sans-serif;
         font-size: 1rem;
         font-weight: 400;
@@ -38,13 +38,16 @@ table img[src$=".svg"] {
 .md-typeset {
     font-size: 1rem;
 }
-    .md-typeset h1 {
+    .md-typeset figcaption {
+        font-style: normal;
+    }
+    .md-typeset h1, .md-typeset h3 {
         font-family: Staatliches, Luciole, sans-serif;
     }
-    .md-typeset .admonition {
+    .md-typeset .admonition, .md-typeset details {
         font-size: .9rem;
     }
-        .md-typeset .admonition-title::before {
+        .md-typeset .admonition-title::before, .md-typeset summary::before, .md-typeset summary::after {
             top: .75rem;
         }
 
@@ -78,3 +81,10 @@ table img[src$=".svg"] {
     .md-social__link svg {
         max-height: 1.5rem;
     }
+
+@media screen and (max-width: 76.2344em) {
+    .md-nav--primary .md-nav__title[for="__drawer"] {
+        background-image: url(/assets/gradient.svg);
+        background-size: 100% 200%;
+    }
+}
