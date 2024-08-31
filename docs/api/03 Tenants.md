@@ -18,6 +18,17 @@ locataires, mais un schéma par locataire.
 
 Pour plus d'information : https://django-tenants.readthedocs.io/
 
+:::note
+Pour créer de nouveaux tenants, vous pouvez utiliser l'api, mais tout aussi bien rediriger vers le formulaire de création en ligne.
+
+ex : https://agenda.tibillet.ovh/tenant/new/?email=jturbeaux@pm.me&name=jojo
+En option, vous pouvez ajouter les arguments :
+- name = Nom de la structure
+- email = Email du futur administrateur
+
+N'hésitez pas à venir discuter avec nous sur **[Discord](https://discord.gg/7FJvtYx)** ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) pour avoir plus d'informations !
+:::
+
 ## Catégories
 
 Nous avons défini plusieurs catégories de tenant qui determinent les comportements et templates.
