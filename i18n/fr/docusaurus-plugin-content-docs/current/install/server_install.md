@@ -524,7 +524,7 @@ mkdir Laboutik && cd Laboutik
 Prepare the logs, assets, backup and database folder
 
 ```bash
-mkdir logs www backup database nginx
+mkdir logs www backup database nginx ssh
 ```
 
 create .env file and fill it with your own variable
@@ -560,7 +560,7 @@ LANGUAGE_CODE='fr'
 
 # No Cashless if no Fedow nor Lespass tenant manager
 FEDOW_URL='' # ex : https://fedow.tibillet.localhost/
-LESPASS_TENANT_URL='' # ex : https://demo.tibillet.localhost/
+LESPASS_TENANT_URL='' # ex : https://festival.tibillet.localhost/
 
 # The name of your cashless asset ex : TestCoin, FestivalCoin, etc ....
 MAIN_ASSET_NAME='' 
@@ -568,7 +568,8 @@ MAIN_ASSET_NAME=''
 ########## FOR SAVE CRON TASK ##########dex
 
 # can be empty if you don't backup
-BORG_PASSPHRASE=""
+BORG_REPO=''
+BORG_PASSPHRASE=''
 ```
 
 ### Nginx rules
@@ -688,8 +689,7 @@ services:
       - laboutik_memcached
     networks:
       - laboutik_backend
-    command: "poetry run celery -A Cashless worker -l INFO"
-
+    command: "bash start_celery.sh"
 
   laboutik_nginx:
     image: nginx
