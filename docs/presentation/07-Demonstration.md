@@ -12,7 +12,7 @@ authors: jonas
 :::caution
 TiBillet's development is very active. These demonstration instances are “nighty builds”, i.e. development versions. 
 These instances may also be undergoing maintenance. Please do not hesitate to contact us by [mail](mailto:contact@tibillet.re),
-with [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
+or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
 :::
 
 # Demonstration

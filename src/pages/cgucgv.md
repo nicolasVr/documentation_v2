@@ -11,7 +11,7 @@ tags: [cgu, cgv]
 
 ## **Article 1 : C'est quoi TiBillet ?**
 
-TiBillet, c'est une super application pour organiser des événements et acheter des billets. Quand vous utilisez TiBillet, vous acceptez ces règles. Pas de panique, c'est juste pour que tout se passe bien entre nous !
+TiBillet, c'est un ensemble de super outils pour organiser un lieu collectif. Quand vous utilisez TiBillet, vous acceptez ces règles. Pas de panique, c'est juste pour que tout se passe bien entre nous !
 
 ## **Article 2 : Qui sommes-nous ?**
 
@@ -34,9 +34,15 @@ Si on vous demande des infos (par exemple, pour envoyer un billet de concert), c
 
 ## **Article 5 : Qui possède quoi ?**
 
-Tout ce qu'on a créé pour TiBillet (comme le code et les images), c'est à nous. Cn est sympa, alors vous pouvez l'utiliser mais pas pour le vendre ou dire que c'est à vous !
+Tout ce qu'on a créé pour TiBillet (comme le code et les images), c'est à la coopérative. 
+
+C'est un logiciel libre : vous pouvez l'utiliser et le modifier comme vous voulez. 
 
 Le code de l’application est sur GitHub et vous pouvez le voir ici : [GitHub TiBillet](https://github.com/TiBillet/tibillet) sous licence AGPLv3.
+
+Seule obligation : Redistribuer sous la même licence vos modifications ! 
+
+Si vous nous prévenez, on peut même vous aider :)
 
 ## **Article 6 : Responsabilité - Pas de Promesses Magiques**
 
@@ -59,7 +65,7 @@ Si jamais il y a un désaccord entre nous et qu'on ne trouve pas de solution en 
 Toujours pas de nouvelle de votre part ? On récupère 1€ par mois pour le réinvestir dans le réseau (1/3 pour les lieux partenaires, 1/3 pour créer de nouveaux projets, 1/3 pour nos salaires,).
 
 - **Ce qu’on Attend de Vous :** En utilisant TiBillet, vous vous engagez à :
-•	Ne pas faire de bêtises (pas de hacking, pas de fraude, pas de mauvaises utilisations).
+•	Ne pas faire de bêtises (pas de piratage, pas de fraude, pas de mauvaises utilisations).
 •	Respecter les autres utilisateurs et notre équipe.
 •	Suivre les lois en vigueur. Oui, même si c’est pas marrant, c’est important.
   

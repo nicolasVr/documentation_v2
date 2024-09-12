@@ -10,9 +10,8 @@ authors: jonas
 
 :::caution
 La documentation est en cours de rédaction.
-N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re),
-sur [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) ou sur [Discord](https://discord.gg/ecb5jtP7vY) si
-vous avez la moindre question.
+N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org)
+si vous avez la moindre question.
 :::
 
 Il est possible de gérerer une clé d'api pour certaines actions.

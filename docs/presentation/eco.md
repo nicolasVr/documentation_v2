@@ -49,6 +49,6 @@ Find out more : https://www.gnu.org/licenses/why-affero-gpl.fr.html
 
 The solution can be installed as is without any operational guarantee or after-sales service.
 
-Do not hesitate to contact us by [mail](mailto:contact@tibillet.re), with [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
+Do not hesitate to contact us by [mail](mailto:contact@tibillet.re), or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
 
 Freely yours :) 

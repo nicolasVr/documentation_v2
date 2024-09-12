@@ -140,10 +140,6 @@ const config = {
                                 href: 'https://discord.gg/7FJvtYx',
                             },
                             {
-                                label: 'Rocket Chat',
-                                href: 'https://chat.tiers-lieux.org/channel/TiBillet',
-                            },
-                            {
                                 label: 'Matrix',
                                 href: 'https://matrix.to/#/#tibillet:tiers-lieux.org',
                             },

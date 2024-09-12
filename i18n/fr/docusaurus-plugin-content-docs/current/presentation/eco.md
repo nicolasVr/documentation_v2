@@ -61,6 +61,6 @@ Pour en savoir plus : https://www.gnu.org/licenses/why-affero-gpl.fr.html
 
 La solution est installable telle quelle sans garantie de fonctionnement ni aucun service après-vente.
 
-N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Rocket Chat](https://chat.communecter.org/channel/Tibillet/) ou sur [Discord](https://discord.gg/ecb5jtP7vY) si vous avez la moindre question.
+N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) si vous avez la moindre question.
 
 Librement votre :) 
