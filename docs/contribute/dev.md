@@ -82,27 +82,6 @@ tibillet-dev
 └── Traefik
 ```
 
-### Traefik
-
-We are going to need an application proxy. TiBillet provides a basic configuration for a containerized Traefik + LetsEncrypt, so let's roll with it:
-
-```bash title="tibillet-dev$"
-git clone git@github.com:TiBillet/Traefik-reverse-proxy.git Traefik
-```
-
-To start it:
-
-```bash title="tibillet-dev$"
-cd Traefik
-docker compose up -d
-```
-
-Navigating to `https://localhost` should now prompt you with a security warning about self-signed certificates (it's fine in this instance) and a `404 page not found`. Good!
-
-:::note
-Remember to `compose up` Traefik every time you start a dev session on this project.
-:::
-
 ### Key generation
 
 <mark>TODO: Complicated and heavy for no reason.</mark>
@@ -231,7 +210,10 @@ cp Test-Driven-Development/env_example Test-Driven-Development/.env
 
 There! Setup done ☺️ Now we can start running the entire project from inside the test folder:
 
+## Manual engine start
+
 ```bash title="Test-Driven-Development$"
+docker network create frontend # only the first time. Traefik need this virtual network.
 docker compose up -d
 ```
 
@@ -241,11 +223,15 @@ You can access the logs with:
 docker compose logs -f
 ```
 
+To delete the containers :
+```bash title="Test-Driven-Development$"
+docker compose doww -v # -v for the volumes used by database.
+```
+
 :::warning[Careful!]
 This particular `docker-compose.yml` relies on the folder structure of its *parent folder* shown in the beginning with the example name of `tibillet-dev`. Counterintuitive, but hey: now you know!
 :::
 
-## Manual engine start
 
 The main difference between dev and prod containers is that running the `docker compose` command will not start the individual Django apps. It's a level of granularity that helps with development, but it means you get to start them manually by entering the containers. Lucky you! 🍀
 

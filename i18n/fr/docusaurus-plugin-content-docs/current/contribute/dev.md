@@ -81,28 +81,6 @@ tibillet-dev
 └── Traefik
 ```
 
-### Traefik
-
-On va avoir besoin d'un *proxy d'application* (un outil qui va aider à rediriger le trafic des conteneurs vers des adresses locales). TiBillet fournit une configuration de base pour un conteneur Trafik + LetsEncrypt (certificats SSL), partons donc là-dessus :
-
-
-```bash title="tibillet-dev$"
-git clone git@github.com:TiBillet/Traefik-reverse-proxy.git Traefik
-```
-
-Pour le démarrer :
-
-```bash title="tibillet-dev$"
-cd Traefik
-docker compose up -d
-```
-
-Consulter le navigateur à l'adresse [`https://localhost`](https://localhost) devrait vous donner un avertissement de sécurité sur les certificats auto-signés (pas un problème dans ce cas précis) et une `404 page not found`. Parfait !
-
-:::note
-Rappelez-vous de `compose up` Traefik chaque fois que vous démarrez une session de travail sur TiBillet.
-:::
-
 ### Génération des clés
 
 <mark>TODO: à simplifier ? lourd et compliqué pour aucune raison valable</mark>
@@ -220,19 +198,31 @@ cp LaBoutik/env_example LaBoutik/.env
 
 La configuration devrait être maintenant complète pour les trois moteurs.
 
-### Mise en place des tests
 
-Pour une raison de cohérence d'environnement, l'image Docker de dev est assemblée à partir des tests. L'installation est similaire au moteurs :
+### Le dossier Test Driven Development
+
+On peut lancer tout notre environnement depuis le dépot des tests. 
+
+L'installation est similaire aux moteurs :
 
 ```bash title="tibillet-dev$"
 git clone git@github.com:TiBillet/Test-Driven-Development.git
 cp Test-Driven-Development/env_example Test-Driven-Development/.env
 ```
 
-C'est fait ☺️ On peut maintenant conteneuriser l'application entière depuis le dossier des tests :
+C'est fait ☺️ On peut maintenant conteneuriser l'application entière depuis le dossier des tests.
+
+Ce dernier contient un conteneur supplémentaire : Traefik.
+
+C'est un reverse proxy. Il permet permet de router les requetes https en direction des conteneurs.
+
+## Démarrage des moteurs 
+
+Lancement des moteurs depuis le dépot des tests :
 
 ```bash title="Test-Driven-Development$"
-docker compose up -d
+docker network create frontend # uniquement la première fois, c'est un réseau virtuel utilisé par Traefik.
+docker compose up -d # Le premier lancement peut être long, il télécharge et construit toute les images.
 ```
 
 Vous pouvez accéder en prime aux logs avec la commande :
@@ -241,11 +231,15 @@ Vous pouvez accéder en prime aux logs avec la commande :
 docker compose logs -f
 ```
 
+Pour supprimer les conteneurs :
+```bash title="Test-Driven-Development$"
+docker compose doww -v # -v pour les volumes utilisé par les bases de données.
+```
+
 :::warning[Attention]
 Ce `docker-compose.yml` en particulier s'appuie sur la structure décrite au début de l'installation, donc sur la structure du dossier *parent* aux tests, appelé pour l'exemple `tibillet-dev`. Contre-intuitif, mais maintenant vous savez 😉
 :::
 
-## Démarrage des moteurs 
 
 La principale différence entre les conteneurs de dev et de prod, c'est qu'en dev la commande `docker compose up` ne démarre pas les applications Django individuelles. C'est un niveau de contrôle fin qui est utile pour le développement, mais ça veut dire que vous avez besoin de les lancer manuellement.
 
