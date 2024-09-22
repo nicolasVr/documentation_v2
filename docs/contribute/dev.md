@@ -212,6 +212,10 @@ There! Setup done ☺️ Now we can start running the entire project from inside
 
 ## Manual engine start
 
+:::warning
+If you've downloaded the ready-to-install folder, remember to perform a git pull in each of the 4 repositories before launching!
+:::
+
 ```bash title="Test-Driven-Development$"
 docker network create frontend # only the first time. Traefik need this virtual network.
 docker compose up -d

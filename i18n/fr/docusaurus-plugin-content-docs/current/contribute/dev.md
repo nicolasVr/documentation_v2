@@ -218,6 +218,10 @@ C'est un reverse proxy. Il permet permet de router les requetes https en directi
 
 ## Démarrage des moteurs 
 
+:::warning
+Si vous avez téléchargé le dossier prêt à installer, pensez à faire un git pull dans chacun des 4 dépots avant de lancer !
+:::
+
 Lancement des moteurs depuis le dépot des tests :
 
 ```bash title="Test-Driven-Development$"
