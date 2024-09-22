@@ -55,10 +55,20 @@ Pour coder et tester votre code, vous allez avoir besoin d'une instance (à peu 
 
 Vérifions que vous avez l'outillage requis sous la main. Vous avez besoin de :
 
-- Docker CLI et l'extension `docker-compose`,
-- `git`,
+- Docker CLI et l'extension `docker-compose`. S'installe super facilement [ici](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+- `git`
 - un compte Github avec une clé SSH enregistrée (pour un accès authentifié à la forge),
 - un IDE (environnement de développement). Des coupons pour PyCharm sot disponibles sur demande, mais un IDE généraliste comme VSCodium fonctionne assez bien - c'est ce que j'utilise 😉.
+
+:::info
+A partir de la, vous avez le choix entre deux chemins : 
+- Le chemin **Trop facile !** : [je télécharge une archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) dans laquelle tout est déja installé et je peux passer directement au [démarrage des moteurs](#démarrage-des-moteurs).
+- Le chemin **Je veux comprendre !** : Chaque étape pour créer son environnement est détaillée dans le [tuto ci dessous](#je-veux-comprendre-).
+
+Vous pouvez même faire les deux, pour un effet maximal ! 
+:::
+
+## Je veux comprendre !
 
 On va commencer en créant un dossier qui contiendra les différents dépôts requis à sa racine, dans votre dossier de travail par exemple. Ça ressemblera à :
 
@@ -212,7 +222,7 @@ La configuration devrait être maintenant complète pour les trois moteurs.
 
 ### Mise en place des tests
 
-Pour une raison… une raison, l'image Docker de dev est assemblée à partir des tests. L'installation est similaire au moteurs :
+Pour une raison de cohérence d'environnement, l'image Docker de dev est assemblée à partir des tests. L'installation est similaire au moteurs :
 
 ```bash title="tibillet-dev$"
 git clone git@github.com:TiBillet/Test-Driven-Development.git
@@ -235,9 +245,9 @@ docker compose logs -f
 Ce `docker-compose.yml` en particulier s'appuie sur la structure décrite au début de l'installation, donc sur la structure du dossier *parent* aux tests, appelé pour l'exemple `tibillet-dev`. Contre-intuitif, mais maintenant vous savez 😉
 :::
 
-### Démarrage des moteurs
+## Démarrage des moteurs 
 
-La principale différence entre les conteneurs de dev et de prod, c'est qu'en dev la commande `docker compose` ne démarre pas les applications Django individuelles. C'est un niveau de contrôle fin qui est utile pour le développement, mais ça veut dire que vous avez besoin de les lancer manuellement.
+La principale différence entre les conteneurs de dev et de prod, c'est qu'en dev la commande `docker compose up` ne démarre pas les applications Django individuelles. C'est un niveau de contrôle fin qui est utile pour le développement, mais ça veut dire que vous avez besoin de les lancer manuellement.
 
 On va les lancer de préférence dans l'ordre :
 
@@ -297,7 +307,7 @@ Si vous avez utilisé la configuration des sous-domaines par défaut, vous avez 
 
 - au moteur de fédération Fedow sur [fedow.tibillet.localhost](https://fedow.tibillet.localhost),
 - à une instance du moteur de billetterie Lespass sur [lespass.tibillet.localhost](https://lespass.tibillet.localhost),
-- au serveur de caisse LaBoutik sur [laboutik.tibillet.localhost](https://laboutik.tibillet.localhost)
+- au serveur de caisse LaBoutik sur [laboutik.tibillet.localhost](https://laboutik.tibillet.localhost) pour l'admin. Cliquez sur "voir le site" pour lancer la simulation d'un terminal.
 
 Si tout marche comme prévu, félicitations : vous êtes prêt⋅es à vous lancer 🔧
 
@@ -313,11 +323,11 @@ Si vous avez peur de ne pas vous en souvenir, enlevez l'option `-d` à `compose 
 
 ### Mises à jour
 
-Pour rester à jour durant le développement, télécharger l'image la plus récente :
+Pour rester à jour durant le développement, pensez à télécharger les images les plus récente et/ou à builder les images django :
 
 ```bash title="Test-Driven-Development$"
 docker compose pull
-docker compose up -d # démarrer ou redémarrer les conteneurs
+docker compose up -d --build # démarrer ou redémarrer les conteneurs
 ```
 
 ### Tests
