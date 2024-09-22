@@ -49,7 +49,7 @@ Si vous ne vous sentez pas à l'aise avec la pile logicielle, la meilleure chose
 En particulier, des connaissances de bases avec Git feront une différence. C'est assez facile de semer le chaos dans un dépôt quand on ne comprend pas comment le versionnage marche. Il y a des sécurités en place, mais vous pourriez avoir beaucoup plus de difficultés que nécessaire! Je dis ça par expérience 😑
 :::
 
-## Installation locale
+## Installation locale simple
 
 Pour coder et tester votre code, vous allez avoir besoin d'une instance (à peu près) fonctionnelle de TiBillet sur votre ordinateur.
 
@@ -63,12 +63,12 @@ Vérifions que vous avez l'outillage requis sous la main. Vous avez besoin de :
 :::info
 A partir de la, vous avez le choix entre deux chemins : 
 - Le chemin **Trop facile !** : [je télécharge une archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) dans laquelle tout est déja installé et je peux passer directement au [démarrage des moteurs](#démarrage-des-moteurs).
-- Le chemin **Je veux comprendre !** : Chaque étape pour créer son environnement est détaillée dans le [tuto ci dessous](#je-veux-comprendre-).
+- Le chemin **Je veux comprendre !** : Chaque étape pour créer son environnement est détaillée dans le [tuto ci dessous](#installation-locale-detaillée).
 
 Vous pouvez même faire les deux, pour un effet maximal ! 
 :::
 
-## Je veux comprendre !
+## Installation locale détaillée
 
 On va commencer en créant un dossier qui contiendra les différents dépôts requis à sa racine, dans votre dossier de travail par exemple. Ça ressemblera à :
 

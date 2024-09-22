@@ -49,7 +49,7 @@ If you don't feel at ease with the software stack, the best thing you can do is 
 In particular, basic knowledge of Git can help. It is relatively easy to make a complete mess of a project by not grasping the way versioning works. There are safeguards, but you might struggle a lot more than necessary! I remember how that feels 😑
 :::
 
-## Local install
+## Simple local install
 
 In order to develop and test things out, you're gonna need a (mostly) functional instance of TiBillet on your computer.
 
@@ -63,12 +63,12 @@ Let's make sure you have the required tools at hand. You need:
 :::info
 From here, you can choose between two paths: 
 - The **Too easy !** path: [I download an archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) in which everything is already installed and I can go straight to [engine startup](#manual-engine-start).
-- The **I want to understand! path**: Each step in creating your environment is detailed in the [tuto below](#i-want-to-understand-).
+- The **I want to understand! path**: Each step in creating your environment is detailed in the [tuto below](#detailed-local-installation).
 
 You can even do both, for maximum effect!
 :::
 
-## I want to understand !
+## Detailed local installation
 
 Translated with DeepL.com (free version)
 We're gonna start by creating a folder that will hold the different repositories required, in your local repository or work folder if you have one for example. It will look like this:
