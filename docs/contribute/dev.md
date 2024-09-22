@@ -60,6 +60,17 @@ Let's make sure you have the required tools at hand. You need:
 - a Github account with a registered SSH key for forge access
 - an IDE (there are open-source gift licenses of PyCharm available on request, but a regular IDE like VSCodium works reasonably well - that's what I'm using 😉)
 
+:::info
+From here, you can choose between two paths: 
+- The **Too easy !** path: [I download an archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) in which everything is already installed and I can go straight to [engine startup](#manual-engine-start).
+- The **I want to understand! path**: Each step in creating your environment is detailed in the [tuto below](#i-want-to-understand-).
+
+You can even do both, for maximum effect!
+:::
+
+## I want to understand !
+
+Translated with DeepL.com (free version)
 We're gonna start by creating a folder that will hold the different repositories required, in your local repository or work folder if you have one for example. It will look like this:
 
 ```bash
@@ -234,7 +245,7 @@ docker compose logs -f
 This particular `docker-compose.yml` relies on the folder structure of its *parent folder* shown in the beginning with the example name of `tibillet-dev`. Counterintuitive, but hey: now you know!
 :::
 
-### Manual engine start
+## Manual engine start
 
 The main difference between dev and prod containers is that running the `docker compose` command will not start the individual Django apps. It's a level of granularity that helps with development, but it means you get to start them manually by entering the containers. Lucky you! 🍀
 
