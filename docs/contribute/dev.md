@@ -229,7 +229,7 @@ docker compose logs -f
 
 To delete the containers :
 ```bash title="Test-Driven-Development$"
-docker compose doww -v # -v for the volumes used by database.
+docker compose down -v # -v for the volumes used by database.
 ```
 
 :::warning[Careful!]

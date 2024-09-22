@@ -237,7 +237,7 @@ docker compose logs -f
 
 Pour supprimer les conteneurs :
 ```bash title="Test-Driven-Development$"
-docker compose doww -v # -v pour les volumes utilisés par les bases de données.
+docker compose down -v # -v pour les volumes utilisés par les bases de données.
 ```
 
 :::warning[Attention]
