@@ -306,7 +306,6 @@ STRIPE_KEY_TEST=''
 STRIPE_TEST=0 # set to 1 for use stripe test env
 
 # Database
-POSTGRES_HOST='lespass_postgres'
 POSTGRES_USER='lespass_postgres_user'
 POSTGRES_PASSWORD='' # strong ! generate a new fernet for exemple.
 POSTGRES_DB='lespass'
