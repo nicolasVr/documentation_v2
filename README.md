@@ -13,7 +13,7 @@ Requirements:
 ### Commands
 
 - `make init` to initiate your environment (done automatically if .env is absent)
-- `make start` and `make stop` to start and stop the container (and serve the node app) *somethimes flimsy, use build instead if it fails too often, sorry*
+- `make start` and `make stop` to start and stop the container (and serve the node app) *sometimes flimsy, use build instead if it fails too often, sorry*
 - `make en` or `make fr` to change the environment locale
     - combine the targets to restart in a different locale, ex `make fr start`
 - `make build` to rebuild your docker containers

@@ -8,7 +8,6 @@ import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-
 function HeroBanner() {
     return (
         <div className={clsx(styles.announcement, styles.announcementDark)}>
@@ -17,8 +16,8 @@ function HeroBanner() {
                     <img
                         alt={translate({message: ''})}
                         className={styles.heroLogo}
-                        src={useBaseUrl('/img/logoTibMJ5-300.png')}
-                        width="200"
+                        src={useBaseUrl('/img/design/logo-couleur.svg')}
+                        width="400"
                         height="200"
                     />
                     <span

@@ -17,8 +17,8 @@ function HeroBanner() {
                     <img
                         alt={translate({message: ''})}
                         className={styles.heroLogo}
-                        src={useBaseUrl('/img/logoTibMJ5-300.png')}
-                        width="200"
+                        src={useBaseUrl('/img/design/logo-couleur.svg')}
+                        width="400"
                         height="200"
                     />
                     <span

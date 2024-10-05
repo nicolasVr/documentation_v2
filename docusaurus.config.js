@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
     title: 'TiBillet',
     tagline: "Outils coopératifs",
-    favicon: 'img/favicon.ico',
+    favicon: 'img/design/favicon.svg',
 
     // Set the production url of your site here
     url: 'https://tibillet.org/',
@@ -84,12 +84,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: 'img/tibillet-social-card.jpg',
+            image: 'img/design/social-card.jpg',
             navbar: {
                 title: 'TiBillet',
                 logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/logoTibMJ5-300.png',
+                    alt: 'Tb%iBillet Logo',
+                    src: 'img/design/icon-color.svg',
                 },
                 items: [
                     {
