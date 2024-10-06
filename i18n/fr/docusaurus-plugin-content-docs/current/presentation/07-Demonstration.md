@@ -9,43 +9,53 @@ tags: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, 
 authors: jonas
 ---
 
+# Démonstration
+
+
 :::caution
 Le développement de TiBillet est trés actif. Ces instances de démonstrations sont des "nighty build", c'est à dire des
 versions de développement. Il se peut aussi que les instances soient en maintenance. Si vous avez des questions,
-n'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) si
-vous avez la moindre question.
+n'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org).
 :::
 
-# Démonstration
+:::info
+Pour tester le paiement sur Stripe, utilisez la carte bancaire du plus grand routard galactique :
 
-### Billetterie ( nighty build ) :
+- Douglas ADAM
+- 4242 4242 4242 4242
+- 02/42
+- 424
+:::
+
+## Lespass - Adhésion : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
+
+![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
+
+## Lespass - Billetterie ( nighty build ) : [https://lespass.demo.tibillet.org/agenda/](https://lespass.demo.tibillet.org/agenda/)
+
+:::danger
+La Billetterie est en cours de redesign. Sortie prévue : fin 2024.
+L'instance de démonstration n'est pas 100% fonctionnelle, n'hésitez pas à repasser de temps en temps :)
+:::
+
 
 ![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
 
 
-#### Tenant (une instance solo, un lieu, un organisateur, un artiste) :
+## LaBoutik - Caisse enregistreuse / Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
 
-**[https://demo.tibillet.ovh](https://demo.tibillet.ovh)**
-
-Pour tester le paiement sur Stripe, utilisez la carte du plus grand routard galactique :
-
-    Douglas ADAM        
-    4242 4242 4242 4242 
-    02/42 / 424
-
-### Caisse enregistreuse / Cashless / Monnaie locale ( nighty build ) :
+Pour voir l'interface de caisse, cliquez sur "voir le site" de la page d'administration
 
 ![maq2-420.jpg](/img/demo/maq2-420.jpg)
 
-#### administration :
+## Je scanne le QrCode de ma carte tirelire : [https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
 
-**[https://cashless.tibillet.ovh](https://cashless.tibillet.ovh)**
+Dans l'interface LaBoutik, cette carte correspond à "Client 1".
 
-#### Interface de caisse :
+![cartes.jpg](/img/demo/cartes.jpg)
 
-Cliquez sur " voir le site " tout en haut du menu, ou visitez
-**[https://cashless.tibillet.ovh/wv/](https://cashless.tibillet.ovh/wv/)** après vous être loggué.
+## Fedow - Création de fédération : [https://fedow.demo.tibillet.org/dashboard/](https://fedow.demo.tibillet.org/dashboard/)
 
-### Fedow Blockchain explorer :
+Une carte tirelire, une monnaie et une adhésion peuvent être utilisées dans un ou plusieurs lieux. On parle alors de fédération de lieux.
 
-**[https://fedow.tibillet.ovh/dashboard/](https://fedow.tibillet.ovh/dashboard/)**
+![fedow_beta.jpg](/img/demo/fedow_beta.jpg)
