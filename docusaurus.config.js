@@ -84,7 +84,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: 'img/design/social-card.jpg',
+            image: 'img/design/social-card.png',
             navbar: {
                 title: 'TiBillet',
                 logo: {
