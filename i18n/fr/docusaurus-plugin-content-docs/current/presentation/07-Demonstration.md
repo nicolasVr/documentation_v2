@@ -14,7 +14,7 @@ authors: jonas
 :::caution
 Le développement de TiBillet est trés actif. Ces instances de démonstrations sont des "nighty build", c'est à dire des
 versions de développement. Il se peut aussi que les instances soient en maintenance. Si vous avez des questions,
-n'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY)
+n'hésitez pas à nous contacter par [e-mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY)
 ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org).
 :::
 

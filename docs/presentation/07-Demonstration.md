@@ -1,47 +1,62 @@
 ---
 sidebar_position: 5
 slug: demonstration
-title: Demonstration
-description: Demonstration instances of ticketing (TiBillet/Event) and cash register (TiBillet/LaBoutik) which accepts payments in local currency and/or cashless, and which allows refreshment and catering orders to be managed.
+title: Démonstration
+description: Instances de démonstration de la billetterie ( TiBillet/Event ) et de la caisse enregistreuse ( TiBillet/LaBoutik ) qui accepte les paiements en monnaie locale et/ou en cashless, et qui permet de gérer les commandes de buvette et de restauration.
 image: /img/demo/maq2-420.jpg
-keywords: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux, venue, catering ]
-tags: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux, venue, catering ]
+keywords: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux ]
+tags: [ cashless, billetterie, ticketing, monnaie locale, caisse enregistreuse, démonstration, festival, tiers-lieux ]
 authors: jonas
 ---
 
-:::caution
-TiBillet's development is very active. These demonstration instances are “nighty builds”, i.e. development versions. 
-These instances may also be undergoing maintenance. Please do not hesitate to contact us by [mail](mailto:contact@tibillet.re),
-or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
-:::
-
 # Demonstration
 
-### Lespass : Ticketing, membership, qr code scan :
+:::caution
+TiBillet development is very active. These demo instances are “nighty builds”, i.e. development versions.
+Instances may also be under maintenance. If you have any questions
+don't hesitate to contact us [e-mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY)
+ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org).
+:::
+
+:::info
+To test payment on Stripe, use the bank card of the galaxy's greatest backpacker:
+
+- Douglas ADAM
+- 4242 4242 4242 4242
+- 02/42
+- 424
+  :::
+
+## Lespass - Memberships : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
+
+![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
+
+## Lespass - Ticketing ( nighty build ) : [https://lespass.demo.tibillet.org/agenda/](https://lespass.demo.tibillet.org/agenda/)
+
+:::danger
+Ticketing is currently being redesigned. Expected release: end 2024.
+The demo instance is not 100% functional, so please check back from time to time :)
+:::
 
 ![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
 
-**[https://demo.tibillet.ovh](https://demo.tibillet.ovh)**
+## LaBoutik - Cashier/ Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
 
-To test payment on Stripe, use the Greatest Galactic Backpacker card :
-
-    Douglas ADAM        
-    4242 4242 4242 4242 
-    02/42 / 424
-
-### Cash register / Cashless / Local currency ( nighty build ) :
+To view the cashier interface, click on “View site” on the administration page.
 
 ![maq2-420.jpg](/img/demo/maq2-420.jpg)
 
-#### administration :
+## I scan the QrCode on my cashless card : [https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
 
-**[https://cashless.tibillet.ovh](https://cashless.tibillet.ovh)**
+In the LaBoutik interface, this card corresponds to "Client 1".
 
-#### Cash register interface :
+The page we arrive on after a qrcode allows us to recharge our wallet, see our memberships and declare a lost card:
 
-Click on “view site” at the top of the menu, or visit
-**[https://cashless.tibillet.ovh/wv/](https://cashless.tibillet.ovh/wv/)** after logging in.
+![scan_qrcode_triptik.jpg](/img/demo/scan_qrcode_triptik.jpg)
+![cartes.jpg](/img/demo/cartes.jpg)
 
-### Fedow Blockchain explorer :
+## Fedow - Federation creation : [https://fedow.demo.tibillet.org/dashboard/](https://fedow.demo.tibillet.org/dashboard/)
 
-**[https://fedow.tibillet.ovh/dashboard/](https://fedow.tibillet.ovh/dashboard/)**
+A piggy bank card, a coin and a membership can be used at one or more locations. This is known as a federation of venues.
+
+![fedow_beta.jpg](/img/demo/fedow_beta.jpg)
