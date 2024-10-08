@@ -12,50 +12,15 @@ authors: Jonas
 
 You can integrate ticketing into your website using an iframe tag by modifying the appropriate route.
 
-Example :
+Exemple :
 
-- event link : https://demo.betabillet.tech/event/concert-sly-sugar-090626-2114/
-- embed link : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
-
-Example :
-
-- embed link : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
+- Membership : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
+- embed : [https://lespass.demo.tibillet.org/memberships/?embed=true](https://lespass.demo.tibillet.org/memberships/?embed=true)
 
 ```html title="iframe"
-<iframe src="https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/" width="100%" height="1000px"
+<iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
         frameborder="0"></iframe>
 ```
 
-<iframe src="https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/" width="100%" height="1000px"
+<iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
         frameborder="0"></iframe>
-
-<details>
-<summary>Documentation technique</summary>
-In "../Front/src/router/routes.js", 2 possibilities :
-
-### 1 - existing route, add alias :
-
-```
-{
-    path: '/event/:slug',
-    // si iframe
-    alias: '/event/embed/:slug',
-    name: 'Event',
-    component: () => import(/* webpackChunkName: "Event" */ '../views/Event.vue')
-}
-```
-
-### 2 - new route :
-
-```
-{
-    path: '/event/embed/:slug',
-    name: 'Event',
-    component: () => import(/* webpackChunkName: "Event" */ '../views/Event.vue')
-}
-```
-
-### Attention :
-
-All urls containing the word "embed" are to be used only in an "iframe".
-</details>

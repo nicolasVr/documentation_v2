@@ -19,9 +19,6 @@ Exemple :
 - lien de la page adhésion : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
 - lien embed : [https://lespass.demo.tibillet.org/memberships/?embed=true](https://lespass.demo.tibillet.org/memberships/?embed=true)
 
-- lien de l'évènenement : https://demo.betabillet.tech/event/concert-sly-sugar-090626-2114/
-- lien embed : https://demo.betabillet.tech/event/embed/concert-sly-sugar-090626-2114/
-
 ```html title="iframe"
 <iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
         frameborder="0"></iframe>
