@@ -1,0 +1,8 @@
+{
+  "label": "Raspberry Box",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Construisez votre propre borne de TiBillet"
+  }
+}
