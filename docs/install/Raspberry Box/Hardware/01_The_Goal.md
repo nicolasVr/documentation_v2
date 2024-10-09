@@ -10,7 +10,7 @@ authors: jonas, mike
 
 # Build your own cash and cashless register box. 
 We will realease all steps to go from this :
-![coucou](/img/pi_diy/Kit.jpg)
+![coucou](../../../../static/img/pi_diy/Kit.jpg)
 
 To this :
 
