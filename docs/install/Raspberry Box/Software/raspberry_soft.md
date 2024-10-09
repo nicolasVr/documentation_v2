@@ -1,25 +1,26 @@
 ---
-sidebar_position: 2
-slug: raspberry_soft
-title: Raspberry Box - Software
+sidebar_position: 1
+slug: raspberry_OS
+title: Install Raspberry OS
 description: Construct your own cash and cashless register box. 
 keywords: [ cashless, billetterie, ticketing ]
 wiktags: [ cashless, billetterie, ticketing ]
-image: /img/pi_diy/upload_10663804ccd7cef9c498a13818a459d3.jpg
 authors: jonas, mike
 ---
 
  
 
 
-# Software install on Raspberry :
+# install Raspberry PiOS on Raspberry :
 Prerequisite: 
 - If you don't have an ssh key on your computer, create one: open a command prompt and type : 
 ``` ssh-keygen ```
 - Download raspberry imager : https://www.raspberrypi.com/software/
 - Make sure you can connect a micro SD card to your computer .  
+> Note : At this time, LaBoutik, only works with PI 3B/B+ and Pi4 .  
+> PiZero doesn't work and Pi5 has not been tested .
 
-## 1 - intall Raspberry Pi OS (Legacy,32-bit) Lite : 
+##  Install Raspberry Pi OS (Legacy,32-bit) Lite : 
 Before doing so, I advise you to place the Pi on the simply support that has been 3D printed previously, to avoid contact with the table and any screws or other objects that might be on it.
 > Note : place the power connector on the narrowest corner.  
 ![Coner_support_pi.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fpi_diy%2FConer_support_pi.png)  
@@ -90,54 +91,6 @@ type : "yes" .
 
 You are now connected to your Pi :)  
 
-## 2 - Download and launch the script to install: "LaBoutik" :  
-On your Pi connecting by ssh : 
-```
-updates the package list
-sudo apt-get update  
-
-#install git on your Pi
-sudo apt-get install git -y  
-
-#git clone this repro
-git clone https://github.com/TiBillet/client-raspberry-cashless-LaBoutik  
-
-#go to the repositorie
-cd client-raspberry-cashless-LaBoutik  
-
-#permit exec
-sudo chmod +x LaBoutik.sh
-```
-run the script  
-```
-sudo ./LaBoutik.sh 
-```  
-And take a coffe :)
-> Note: Run the script, without parameters, is for an installation hosted by Tibillet with the default settings.
-> If you have hosted your own server, read more below  
-## if you use your own server :
-Run the script like this
-
-sudo ./LaBoutik.sh nfc_type :: server_pin_code :: nfc_server_port :: nfc_server_address :: nfc_server_version :: front_type :: rotate
-
-with :  
-nfc_type : gpio or usb
-
-server_pin_code : Your pin code server adress
-
-nfc_server_port: by default :3000
-
-nfc_server_address: by default :localhost
-
-nfc_server_version: by default(to day) :2.24.04.11.15.58
-
-front_type:for raspberry : FPI for laptop: FPO
-
-rotate: 0 -> Normal , 1 -> 90°, 2 -> 180°, 3 -> 270°
-
-## Troubleshooting :
-#### After "sudo apt-get install git -y" I have return "E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?"
-Make sudo apt-get update and try again
 
 
 
