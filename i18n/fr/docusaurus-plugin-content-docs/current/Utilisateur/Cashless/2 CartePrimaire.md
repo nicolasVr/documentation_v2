@@ -16,25 +16,29 @@ Préférez toujours ajouter des cartes primaires nominatives. C'est-à-dire reli
 pourrez retracer chaque transaction plus précisément : La personne responsable du point de vente est visible dans chaque
 paiement.
 
-## 1- Enregistrez un nouveau membre.
+## 1- Enregistrez un nouveau membre reponsable.
 
-- Cliquez sur la catégorie "Membres" dans la colonne de gauche.
-- Cliquez sur le bouton "Ajouter Membre" en haut à droite.
-- Vous pouvez ajouter ou non une ahdésion associative.
+- Cliquez sur la catégorie "Membres Responsables" dans la colonne de gauche.
+- Cliquez sur le bouton "Ajouter Membre Responsables" en haut à droite.
 - Renseignez le numéro de la nouvelle carte dans le champ correspondant.
 - Enregistrez.
 
+:::info
+On parle ici de niveau d'autorisation pas d'ahdésion associative. :::
+
 ## 2- Créez la carte primaire.
 
-- Cliquez sur la catégorie "Cartes Maitresse" dans le menu de gauche.
-- Cliquez sur le bouton "Ajouter Carte Primaire" en haut à droite.
+- Cliquez sur la catégorie "Cartes primaires" dans le menu de gauche.
+- Cliquez sur le bouton "Ajouter Carte primaire" en haut à droite.
 - Renseignez le numéro de la carte.
 - Désignez les points de vente contrôlés (ou non) par cette carte.
-    - Vous pouvez ici determiner le niveau d'authorisation dont dispose votre utilisateur.
+    - Vous pouvez ici determiner le niveau d'autorisation dont dispose votre utilisateur.
 - Activez le mode gérant si vous le souhaitez.
     - Le "Mode gérant" permet d'annuler une commande déjà effecutée, même si elle est payée. C'est un super-pouvoir qui
       nécéssite de grandes responsabilités :)
 - Enregistrez.
+:::info
+Un membre peut posséder plusieurs cartes primaires à condition de ne pas avoir entré d'adresse mail lors de la création de membre responsable. :::
 
 ## 3- Tester la carte sur un point de vente
 
