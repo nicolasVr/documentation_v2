@@ -37,6 +37,7 @@ On parle ici de niveau d'autorisation pas d'ahdésion associative. :::
     - Le "Mode gérant" permet d'annuler une commande déjà effecutée, même si elle est payée. C'est un super-pouvoir qui
       nécéssite de grandes responsabilités :)
 - Enregistrez.
+
 :::info
 Un membre peut posséder plusieurs cartes primaires à condition de ne pas avoir entré d'adresse mail lors de la création de membre responsable. :::
 
