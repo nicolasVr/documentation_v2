@@ -40,7 +40,7 @@ On parle ici de niveau d'autorisation pas d'adhésion associative.
 - Enregistrez.
 
 :::info  
-Un membre peut posséder plusieurs cartes primaires à condition de ne pas avoir entré d'adresse mail lors de la création de membre responsable. 
+Un membre responsable peut posséder plusieurs cartes primaires à condition de ne pas avoir entré d'adresse mail lors de sa création. 
 :::
 
 ## 3- Tester la carte sur un point de vente
