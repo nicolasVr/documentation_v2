@@ -59,7 +59,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/TiBillet/documentation_v2/',
+                        'https://github.com/TiBillet/documentation_v2/tree/main',
                 },
                 blog: {
                     showReadingTime: true,
