@@ -59,7 +59,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/TiBillet/documentation/tree/main/tibillet/',
+                        'https://github.com/TiBillet/documentation_v2/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -70,7 +70,7 @@ const config = {
                     blogSidebarCount: 'ALL',                    // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/TiBillet/documentation/tree/main/tibillet/',
+                        'https://github.com/TiBillet/documentation_v2/',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
