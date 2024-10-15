@@ -24,7 +24,7 @@ paiement.
 - Enregistrez.
 
 :::info
-On parle ici de niveau d'autorisation pas d'adhésion association. :::
+On parle ici de niveau d'autorisation pas d'adhésion associative. :::
 
 ## 2- Créez la carte primaire.
 
