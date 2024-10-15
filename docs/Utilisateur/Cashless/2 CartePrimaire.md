@@ -19,13 +19,14 @@ The person responsible for the point of sale is visible in each payment.
 
 - Click on the "Members" category in the left column.
 - Click on the "Add Member" button at the top right.
-- You can add or not an associative membership.
 - Enter the new card number in the corresponding field.
 - Save.
-- 
+
+:::info We are talking here about authorization level, not associative membership. :::
+
 ## 2- Create the primary card.
 
-- Click on the “Master Cards” category in the left menu.
+- Click on the “Primary Cards” category in the left menu.
 - Click on the "Add Primary Card" button at the top right.
 - Enter the card number.
 - Designate the points of sale controlled (or not) by this card.
@@ -34,6 +35,7 @@ The person responsible for the point of sale is visible in each payment.
      - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :)
 - Save.
 
+:::info A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. :::
 ## 3- Test the card at a point of sale
 
 - Start the TiBillet application on a terminal or smartphone.
