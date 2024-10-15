@@ -22,7 +22,9 @@ The person responsible for the point of sale is visible in each payment.
 - Enter the new card number in the corresponding field.
 - Save.
 
-:::info We are talking here about authorization level, not associative membership. :::
+:::info 
+We are talking here about authorization level, not associative membership. 
+:::
 
 ## 2- Create the primary card.
 
@@ -35,7 +37,10 @@ The person responsible for the point of sale is visible in each payment.
      - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :)
 - Save.
 
-:::info A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. :::
+:::info 
+A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
+:::
+
 ## 3- Test the card at a point of sale
 
 - Start the TiBillet application on a terminal or smartphone.
