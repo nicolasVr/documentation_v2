@@ -48,4 +48,4 @@ Une fois TiBillet installé sur votre équipement, celui-ci vous demande un code
 
 
 Maintenant quand vous démarrez votre appareil l'instance de votre lieu s'affiche en vert. Il vous suffit de cliquer dessus pour démarrer l'application.
-Si tout se passe bien cette dernière devrait vous demander votre [carte primaire](/docs/Utilisateur/Cashless/android/admin_add_primary)
+Si tout se passe bien cette dernière devrait vous demander votre [carte primaire](/docs/Utilisateur/Cashless/admin_add_primary)
