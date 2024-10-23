@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: android
-title: Application Android
+title: Application Android et Appairage
 description: Android app disponible sur https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
 keywords: [cashless, billetterie, ticketing, android]
 wiktags: [cashless, billetterie, ticketing, android]
@@ -33,18 +33,19 @@ L'application a été testée sur le matériel suivant :
 
 ## Appairage
 
-Au premier lancement, indiquez :
-- l'adresse DNS de votre serveur cashless 
+Une fois TiBillet installé sur votre équipement, celui-ci vous demande un code PIN :
 
-    Demandez à votre administrateur. C'est l'adresse de votre interface d'administration sans https:// ni /adminstaff 
-    
-    exemple : ```manapanycashless.tibillet.re```
+- Rendez-vous sur votre interface d'administration 
+    exemple : ```https://votrelieu.laboutik.tibillet.coop)```
 
-- Donnez un nom explicite à votre appareil pour pouvoir le retrouver facilement (ex : Redmi9Alex)
+- Dans le menu de gauche, cliquez sur "Appareils" puis sur le bouton "Ajouter Appareil" situé en haut à droite de votre écran.
 
-Un écran avec un fond orange apparait. Il vous indique le nom de l'appareil à valider.
-Sur votre page d'administration, allez dans la partie Appareil (/adminstaff/APIcashless/appareil/)
+- Donnez lui un nom explicite pour pouvoir le retrouver facilement (ex : Redmi9John) et cliquez sur "Enregistrer".
 
-Cliquez sur "actif" puis enregistrez. Votre appareil est maintenant appairé !
+- Le code PIN devrait être indiqué à coté du nom de votre appareil. Vous n'avez plus qu'à le rentrer directement sur votre équipement.
 
-Sur votre téléphone, appuyez sur l'écran orange, l'application se lance et vous demande votre carte primaire :)
+ Votre appareil est maintenant appairé !
+
+
+Maintenant quand vous démarrez votre appareil l'instance de votre lieu s'affiche en vert. Il vous suffit de cliquer dessus pour démarrer l'application.
+Si tout se passe bien cette dernière devrait vous demander votre [carte primaire](/docs/Utilisateur/Cashless/android/admin_add_primary)
