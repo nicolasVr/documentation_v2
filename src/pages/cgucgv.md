@@ -56,6 +56,10 @@ Ces règles sont valables pour tout le temps où vous utilisez TiBillet. Si vous
 
 Si jamais il y a un désaccord entre nous et qu'on ne trouve pas de solution en discutant, ce sera à un tribunal français de trancher. Mais franchement, on préfère tout régler à l'amiable !
 
+## **Article 9 : Rejoignez la coopérative !**
+
+TiBillet, c’est plus qu’une simple plateforme : c’est une aventure collective ! En tant qu’utilisateur, festival ou lieu culturel, vous avez la possibilité de devenir sociétaire et de prendre part aux décisions de la coopérative. Envie de contribuer au projet ? Écrivez-nous, on vous explique tout 
+
 ---
 
 ### **Quelques petites choses en plus :**
