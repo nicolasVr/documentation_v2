@@ -27,18 +27,19 @@ Pour tester le paiement sur Stripe, utilisez la carte bancaire du plus grand rou
 - 424
   :::
 
-## Lespass - Adhésion : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
 
-![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
-
-## Lespass - Billetterie ( nighty build ) : [https://lespass.demo.tibillet.org/agenda/](https://lespass.demo.tibillet.org/agenda/)
+## Billetterie ( nighty build ) : [https://tibillet.github.io/tibillet-ui/agenda/](https://tibillet.github.io/tibillet-ui/agenda/)
 
 :::danger
-La Billetterie est en cours de redesign. Sortie prévue : fin 2024.
+La Billetterie est en cours de redesign. Sortie prévue : premier trimestre 2025.
 L'instance de démonstration n'est pas 100% fonctionnelle, n'hésitez pas à repasser de temps en temps :)
 :::
 
 ![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
+
+## Adhésion : [https://tibillet.github.io/tibillet-ui/adherer/](https://tibillet.github.io/tibillet-ui/adherer/)
+
+![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
 
 ## LaBoutik - Caisse enregistreuse / Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
 
