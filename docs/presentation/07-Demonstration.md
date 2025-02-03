@@ -27,11 +27,11 @@ To test payment on Stripe, use the bank card of the galaxy's greatest backpacker
 - 424
   :::
 
-## Lespass - Memberships : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
+## Memberships : [https://tibillet.github.io/tibillet-ui/adherer/](https://tibillet.github.io/tibillet-ui/adherer/)
 
 ![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
 
-## Lespass - Ticketing ( nighty build ) : [https://lespass.demo.tibillet.org/agenda/](https://lespass.demo.tibillet.org/agenda/)
+## Events & Ticketing ( nighty build ) : [https://tibillet.github.io/tibillet-ui/agenda/](https://tibillet.github.io/tibillet-ui/agenda/)
 
 :::danger
 Ticketing is currently being redesigned. Expected release: end 2024.
