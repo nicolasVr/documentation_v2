@@ -41,7 +41,7 @@ We are talking here about authorization level, not associative membership.
 A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
 :::
 
-<video width="100%" controls src="carteprimaire-1.mp4" title="Title"></video>
+<video width="100%" controls src="/docs/Utilisateur/img-source/carteprimaire.mp4" title="Title"></video>
 
 ## 3- Test the card at a point of sale
 
@@ -50,4 +50,3 @@ A member can have several primary cards provided that they did not enter an emai
 - Scan the card when requested by the app.
 - Check that you only have the points of sale associated with the card.
 
-<video width="100%" controls src="/img/CartePrimaire.mp4"></video>
