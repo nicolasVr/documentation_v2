@@ -37,12 +37,11 @@ We are talking here about authorization level, not associative membership.
 - Activate manager mode if you wish.
      - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :
 - Save.
-
 :::info 
 A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
 :::
 
-<video width="100%" controls src="/carteprimaire.mp4" title="Title"></video>
+<video width="100%" controls src="carteprimaire-1.mp4" title="Title"></video>
 
 ## 3- Test the card at a point of sale
 
