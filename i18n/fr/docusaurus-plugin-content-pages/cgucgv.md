@@ -68,7 +68,13 @@ Toujours pas de nouvelle de votre part ? On récupère 1€ par mois pour le ré
 •	Ne pas faire de bêtises (pas de piratage, pas de fraude, pas de mauvaises utilisations).
 •	Respecter les autres utilisateurs et notre équipe.
 •	Suivre les lois en vigueur. Oui, même si c’est pas marrant, c’est important.
-  
+
+Et enfin : **Respect et Bienveillance**
+
+Notre coopérative est engagée dans la lutte contre les violences et le harcèlement sexistes et sexuels. Des personnes référentes dans l'équipe ont suivi une formation VHSS afin garantir un espace sûr pour tous. En utilisant TiBillet, vous vous engagez à respecter ces principes et à adopter un comportement bienveillant.
+Si vous êtes témoin ou victime d’un problème, parlez-nous-en. On est là pour écouter et agir.
+Restons bienveillants et profitons ensemble !
+
 - **Contactez-nous !** On est là pour vous. Si vous avez des questions ou des idées, envoyez un email à **contact@tibillet.re** ou venez sur notre Discord **https://discord.gg/7FJvtYx**
 
 Merci d’utiliser TiBillet et de faire partie de notre belle aventure coopérative ! 🎉
