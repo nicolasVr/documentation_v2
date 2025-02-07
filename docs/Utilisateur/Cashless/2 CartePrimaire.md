@@ -50,3 +50,4 @@ A member can have several primary cards provided that they did not enter an emai
 - Scan the card when requested by the app.
 - Check that you only have the points of sale associated with the card.
 
+Ajouter photo sumni boitier et telephone
