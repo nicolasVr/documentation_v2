@@ -37,3 +37,22 @@ It is best to create the items first and then assign them to a point of sale.
 :::
 
 <video width="100%" controls src="/img/addarticles.mp4"></video>
+
+Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie, et chaque catégorie est associée à un point de vente spécifique.
+
+1- Créer un article
+
+    Cliquez sur "Articles et tarifs" dans le menu de gauche.
+    Cliquez sur le bouton "Ajouter article" en haut à droite.
+    Renseignez le prix de vente.
+    Le prix d'achat sert à estimer les bénéfices d'une soirée affichés sur le rapport comptable quotidient. Ce n'est pas une valeur obligatoire.
+    Renseignez la catégorie de l'article (Cela determine la façon dont il est affiché sur l'interface de la caisse enregistreuse. Cf Catégorie.)
+    Changez la couleur du texte si vous souhaitez un meilleur contraste d'affichage.
+    Enregistrez
+
+2- L'ajouter à un point de vente
+
+    Cliquez sur la catégorie "Points de vente" dans la colonne de gauche.
+    Cliquez sur le nom d'un point de vente existant auquel vous voulez ajouter votre article.
+    Renseignez les articles qui seront disponibles dans le champ "Articles". Vous pouvez en selectionner plusieurs en maintenant la touche ctrl.
+    Enregistrez

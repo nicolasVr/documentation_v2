@@ -25,5 +25,4 @@ Go to the “Article categories” menu in the left-hand column.
 Your item category has now been created! Now all you have to do is register your items, define their prices and associate them with this category.
 If your partners (exhibitors, artists, musicians, etc.) have a reduced price, you can create a dedicated category to save time.
 
-
-<video width="100%" controls src="/img/addcategories.mp4"></video>
+<video width="100%" controls src="categorie-article.mp4" title="Title"></video>
