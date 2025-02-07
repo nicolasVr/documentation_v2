@@ -26,7 +26,7 @@ A point of sale is visible in the interface if it contains articles.
 It is best to create the items first and then assign them to a point of sale.
 :::
 
-<video width="100%" controls src="/docs/Utilisateur/img-source/point-de-vente.webm"></video>
+<video width="100%" controls src="/img/point-de-vente.mp4" title="Title"></video>
 
 
 ## Point of sale activation and management

@@ -9,9 +9,11 @@ authors: Axel
 ---
 
 Article categories are useful for:
+Item categories are useful for :
 - Organize items by type on the cash register interface.
-- Set background color and icon to match item.
+- Set the background color and icon corresponding to the item category.
 - Classify items for preparation. For example, for printing orders in the kitchen or at the bar.
+- Manage VAT for better accounting management.
 
 ## Create a new article category
 
@@ -25,4 +27,4 @@ Go to the “Article categories” menu in the left-hand column.
 Your item category has now been created! Now all you have to do is register your items, define their prices and associate them with this category.
 If your partners (exhibitors, artists, musicians, etc.) have a reduced price, you can create a dedicated category to save time.
 
-<video width="100%" controls src="categorie-article.mp4" title="Title"></video>
+<video width="100%" controls src="/img/categorie-article.mp4" title="Title"></video>

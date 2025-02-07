@@ -36,9 +36,9 @@ It is best to create the items first and then assign them to a point of sale.
 
 :::
 
-<video width="100%" controls src="/img/addarticles.mp4"></video>
+<video width="100%" controls src="/img/"></video>
 
-Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie, et chaque catégorie est associée à un point de vente spécifique.
+Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie, et chaque catégorie est associée à un point de vente spécifique ou un article directement dans le point de vente.
 
 1- Créer un article
 

@@ -15,7 +15,7 @@ point of sale without giving access to the "CASHLESS" point of sale which allows
 Always prefer to add named primary cards (linked to a user). This way, you will be able to trace each transaction more precisely.
 The person responsible for the point of sale is visible in each payment.
 
-## 1- Register a new member.
+## 1- Register a new responsible member.
 
 - Click on the "Members" category in the left column.
 - Click on the "Add Member" button at the top right.
@@ -25,6 +25,10 @@ The person responsible for the point of sale is visible in each payment.
 :::info 
 We are talking here about authorization level, not associative membership. 
 :::
+
+
+| ![Image 1](1-membre-responsable-1.png) | ![Image 2](1.membre-responsable-bis.png) |
+|------------------------|------------------------|
 
 
 ## 2- Create the primary card.
@@ -41,7 +45,12 @@ We are talking here about authorization level, not associative membership.
 A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
 :::
 
-<video width="100%" controls src="/docs/Utilisateur/img-source/carteprimaire.mp4" title="Title"></video>
+
+| ![alt text](2-carte-primaire.png)| ![alt text](2-carte-primaire-bis.png)|
+|------------------------|------------------------|
+
+<video width="100%" controls src="/img/carteprimaire.mp4" title="Title"></video>
+
 
 ## 3- Test the card at a point of sale
 
