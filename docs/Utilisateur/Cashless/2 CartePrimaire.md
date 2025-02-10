@@ -22,13 +22,13 @@ The person responsible for the point of sale is visible in each payment.
 - Enter the new card number in the corresponding field.
 - Save. 
 
+|![membre responsable](/img/membre-responsable.png)|![membre responsable](/img/membre-responsable-bis.png)                  |
+| ------------------ | ---------------------------- |
+
 :::info 
 We are talking here about authorization level, not associative membership. 
 :::
 
-
-| ![Image 1](1-membre-responsable-1.png) | ![Image 2](1.membre-responsable-bis.png) |
-|------------------------|------------------------|
 
 
 ## 2- Create the primary card.
@@ -41,15 +41,12 @@ We are talking here about authorization level, not associative membership.
 - Activate manager mode if you wish.
      - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :
 - Save.
+
+<video width="100%" src="/img/CartePrimaire.mp4"></video>
+
 :::info 
 A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
 :::
-
-
-| ![alt text](2-carte-primaire.png)| ![alt text](2-carte-primaire-bis.png)|
-|------------------------|------------------------|
-
-<video width="100%" controls src="/img/CartePrim.mp4" title="Title"></video>
 
 
 ## 3- Test the card at a point of sale

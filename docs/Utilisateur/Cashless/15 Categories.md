@@ -9,22 +9,23 @@ authors: Axel
 ---
 
 Article categories are useful for:
-Item categories are useful for :
+
 - Organize items by type on the cash register interface.
-- Set the background color and icon corresponding to the item category.
+- Define the background color and icon corresponding to the item category.
 - Classify items for preparation. For example, for printing orders in the kitchen or at the bar.
-- Manage VAT for better accounting management.
+- Manage VAT for better accounting.
 
-## Create a new article category
+## Create a new item category
 
-Go to the “Article categories” menu in the left-hand column.
-- Click on “Add category” at top right.
-- Enter the category name, choose a color for the text and background.
-- Select an icon to appear on the cash register interface.
+Go to the “Item categories” menu in the left-hand column.
+- Click on “Add a category” in the top right-hand corner.
+- Enter the category name
+- Choose a color for the text and background.
+- Select an icon to appear on the checkout interface.
+  - All icons are listed at [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/).
 - Click on “Save”.
-  - All icons are listed on [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/)
-
-Your item category has now been created! Now all you have to do is register your items, define their prices and associate them with this category.
-If your partners (exhibitors, artists, musicians, etc.) have a reduced price, you can create a dedicated category to save time.
 
 <video width="100%" controls src="/img/categorie-article.mp4" title="Title"></video>
+
+Your product category has been created! Now all you have to do is register your items, define their prices and associate them with this category.
+If your partners (exhibitors, artists, musicians, etc.) have a reduced price, you can create a dedicated category to save time.
