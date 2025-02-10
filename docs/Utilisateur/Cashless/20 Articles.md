@@ -38,17 +38,25 @@ It is best to create the items first and then assign them to a point of sale.
 
 <video width="100%" controls src="/img/"></video>
 
-Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie, et chaque catégorie est associée à un point de vente spécifique ou un article directement dans le point de vente.
+Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie et est associé à un point de vente spécifique.
+
+Lors de la création d’un article, vous pouvez renseigner ses informations générales (nom, prix, catégorie, couleur d’affichage) ainsi que des informations spéciales, comme la méthode de vente, l’asset fédéré (adhésion, panier, etc) ou encore des instructions pour l’envoi de tickets en restauration. Vous avez également la possibilité de le connecter directement à un point de vente pour qu’il soit immédiatement disponible à la vente.
+Tous ceci sera visible dans le menu secondaire dans "ajouter un article" :
+
+![alt text](menu-article.png)
 
 1- Créer un article
 
-    Cliquez sur "Articles et tarifs" dans le menu de gauche.
-    Cliquez sur le bouton "Ajouter article" en haut à droite.
-    Renseignez le prix de vente.
-    Le prix d'achat sert à estimer les bénéfices d'une soirée affichés sur le rapport comptable quotidient. Ce n'est pas une valeur obligatoire.
-    Renseignez la catégorie de l'article (Cela determine la façon dont il est affiché sur l'interface de la caisse enregistreuse. Cf Catégorie.)
-    Changez la couleur du texte si vous souhaitez un meilleur contraste d'affichage.
-    Enregistrez
+- Cliquez sur "Articles et tarifs" dans le menu de gauche.
+- Cliquez sur le bouton "Ajouter article" en haut à droite.
+- Renseignez le prix de vente.
+- Le prix d'achat sert à estimer les bénéfices d'une soirée qui sera affichés sur le rapport comptable quotidient. Ce n'est pas une valeur obligatoire.
+- Renseignez la catégorie de l'article (Cela détermine la façon dont il est affiché sur l'interface de la caisse enregistreuse. Cf Catégorie.)
+- Changez la couleur du texte si vous souhaitez un meilleur contraste d'affichage.
+- Enregistrez
+
+<video width="100%" controls src="/img/ajout-article-pdv.mp4" title="Title"></video>
+
 
 2- L'ajouter à un point de vente
 
