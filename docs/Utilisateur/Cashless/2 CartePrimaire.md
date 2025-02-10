@@ -49,7 +49,7 @@ A member can have several primary cards provided that they did not enter an emai
 | ![alt text](2-carte-primaire.png)| ![alt text](2-carte-primaire-bis.png)|
 |------------------------|------------------------|
 
-<video width="100%" controls src="/img/carteprimaire.mp4" title="Title"></video>
+<video width="100%" controls src="/img/CartePrim.mp4" title="Title"></video>
 
 
 ## 3- Test the card at a point of sale

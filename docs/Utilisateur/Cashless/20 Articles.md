@@ -36,11 +36,13 @@ It is best to create the items first and then assign them to a point of sale.
 
 :::
 
-<video width="100%" controls src="/img/"></video>
 
-Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. Pour mieux organiser la boutique, chaque article appartient à une catégorie et est associé à un point de vente spécifique.
 
-Lors de la création d’un article, vous pouvez renseigner ses informations générales (nom, prix, catégorie, couleur d’affichage) ainsi que des informations spéciales, comme la méthode de vente, l’asset fédéré (adhésion, panier, etc) ou encore des instructions pour l’envoi de tickets en restauration. Vous avez également la possibilité de le connecter directement à un point de vente pour qu’il soit immédiatement disponible à la vente.
+Vous choisissez ici les articles qui apparaîtront dans l’interface, en fixant leur prix et en les reliant à un point de vente. 
+Pour mieux organiser la boutique, chaque article appartient à une catégorie et est associé à un point de vente spécifique.
+
+Lors de la création d’un article, vous pouvez renseigner ses informations générales (nom, prix, catégorie, couleur d’affichage) ainsi que des informations spéciales, comme la méthode de vente, l’asset fédéré (adhésion, panier, etc) ou encore des instructions pour l’envoi de tickets en restauration. 
+Vous avez également la possibilité de le connecter directement à un point de vente pour qu’il soit immédiatement disponible à la vente.
 Tous ceci sera visible dans le menu secondaire dans "ajouter un article" :
 
 ![alt text](menu-article.png)
@@ -60,7 +62,11 @@ Tous ceci sera visible dans le menu secondaire dans "ajouter un article" :
 
 2- L'ajouter à un point de vente
 
+Vous pouvez utiliser une autre méthode en inscrivant vos différents articles directement dans la catégorie "point de vente"
+
     Cliquez sur la catégorie "Points de vente" dans la colonne de gauche.
     Cliquez sur le nom d'un point de vente existant auquel vous voulez ajouter votre article.
     Renseignez les articles qui seront disponibles dans le champ "Articles". Vous pouvez en selectionner plusieurs en maintenant la touche ctrl.
     Enregistrez
+
+<video width="100%" controls src="/img/article-pdv-bis.mp4"></video>
