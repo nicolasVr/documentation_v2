@@ -5,7 +5,7 @@ title: Article categories
 description: Add one or more article categories.
 keywords: [cashless, android, articles, categories]
 wiktags: [cashless, android, articles, categories]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Article categories are useful for:

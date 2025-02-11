@@ -5,7 +5,7 @@ title: Articles
 description: Add one or more items in categories and points of sale and assign them a price.
 keywords: [cashless, android, articles, items]
 wiktags: [cashless, android, articles, items]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Here you choose the items that will appear in the interface, setting their price and linking them to a point of sale. 

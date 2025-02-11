@@ -5,7 +5,7 @@ title: Primary Cards
 description: Ajouter une ou plusieurs cartes primaires.
 keywords: [cashless, android, Primary, Cards]
 wiktags: [cashless, android, Primary, Cards]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Primary cards are required to open a point of sale (Android or terminal). They determine the level 
@@ -22,8 +22,9 @@ The person responsible for the point of sale is visible in each payment.
 - Enter the new card number in the corresponding field.
 - Save. 
 
-|![membre responsable](/img/membre-responsable.png)|![membre responsable](/img/membre-responsable-bis.png)                  |
-| ------------------ | ---------------------------- |
+![membre responsable](/img/membre-responsable.png)
+![membre responsable](/img/membre-responsable-bis.png)                
+
 
 :::info 
 We are talking here about authorization level, not associative membership. 
@@ -42,7 +43,7 @@ We are talking here about authorization level, not associative membership.
      - “Manager mode” allows you to cancel an order already placed, even if it is paid. It's a superpower that requires great responsibilities :
 - Save.
 
-<video width="100%" src="/img/CartePrimaire.mp4"></video>
+<video width="100%" controls src="/img/CartePrimaire.mp4"></video>
 
 :::info 
 A member can have several primary cards provided that they did not enter an email address when creating the member in section 1. 
@@ -51,7 +52,7 @@ A member can have several primary cards provided that they did not enter an emai
 
 ## 3- Test the card at a point of sale
 
-- Start the TiBillet application on a terminal or smartphone.
+- Start the TiBillet application on a terminal or smartphone with NFT reader.
      - Follow the [pairing procedure](/docs/Utilisateur/Cashless/android) if you have not already done so.
 - Scan the card when requested by the app.
 - Check that you only have the points of sale associated with the card.

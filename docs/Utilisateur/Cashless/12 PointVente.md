@@ -5,7 +5,7 @@ title: Points of sale
 description: Add one or more points of sale.
 keywords: [cashless, android, pos, point of sale]
 wiktags: [cashless, android, pos, point of sale]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Points of sale represent the physical space(s) in your venue where a TiBillet box has been installed. Once in the interface, you can choose the one that concerns you (Bar, Restaurant, Membership, Cashless...). 
