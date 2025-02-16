@@ -141,6 +141,10 @@ const config = {
                                 href: 'https://discord.gg/7FJvtYx',
                             },
                             {
+                                label: 'Mastodon',
+                                href: 'https://pouet.chapril.org/@tibillet',
+                            },
+                            {
                                 label: 'Matrix',
                                 href: 'https://matrix.to/#/#tibillet:tiers-lieux.org',
                             },

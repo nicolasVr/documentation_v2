@@ -11,7 +11,7 @@ authors: jonas
 :::caution
 La documentation est en cours de rédaction.
 N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re),
-ou sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) si
+ou sur [Discord](https://discord.gg/ecb5jtP7vY) ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) ou [Mastodon](https://pouet.chapril.org/@tibillet) si
 vous avez la moindre question.
 :::
 

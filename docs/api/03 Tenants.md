@@ -26,7 +26,7 @@ En option, vous pouvez ajouter les arguments :
 - name = Nom de la structure
 - email = Email de l'admin
 
-'hésitez pas à venir discuter avec nous sur **[Discord](https://discord.gg/7FJvtYx)** ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) pour avoir plus d'informations !
+'hésitez pas à venir discuter avec nous sur **[Discord](https://discord.gg/7FJvtYx)** ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) ou [Mastodon](https://pouet.chapril.org/@tibillet) pour avoir plus d'informations !
 :::
 
 ## Catégories

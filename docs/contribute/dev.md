@@ -31,7 +31,7 @@ When you work with *Git forges* like Github, there are ways in which you can mak
 - Last but not least: **don't create pull requests without running the tests**! Happens to the best of us. Ideally, you should run them before committing, with the help of a *git hook* for example.
 
 :::note[Getting help]
-If you have any questions regarding Git, Github, or an aspect of development, join us on [Discord](https://discord.gg/7FJvtYx) or [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org). These are mostly French-speaking spaces as the founders are from La Reunion, but we'll do our best to help (with a bit of *un accent* 🍷🥖).
+If you have any questions regarding Git, Github, or an aspect of development, join us on [Discord](https://discord.gg/7FJvtYx) or [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) or [Mastodon](https://pouet.chapril.org/@tibillet). These are mostly French-speaking spaces as the founders are from La Reunion, but we'll do our best to help (with a bit of *un accent* 🍷🥖).
 :::
 
 ## Tools and languages used

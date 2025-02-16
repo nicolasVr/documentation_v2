@@ -15,7 +15,7 @@ authors: jonas
 TiBillet development is very active. These demo instances are “nighty builds”, i.e. development versions.
 Instances may also be under maintenance. If you have any questions
 don't hesitate to contact us [e-mail](mailto:contact@tibillet.re), sur [Discord](https://discord.gg/ecb5jtP7vY)
-ou [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org).
+or [Matrix](https://matrix.to/#/#tibillet:tiers-lieux.org) or [Mastodon](https://pouet.chapril.org/@tibillet).
 :::
 
 :::info
