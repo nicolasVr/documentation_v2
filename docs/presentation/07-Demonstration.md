@@ -27,18 +27,23 @@ To test payment on Stripe, use the bank card of the galaxy's greatest backpacker
 - 424
   :::
 
-## Memberships : [https://tibillet.github.io/tibillet-ui/adherer/](https://tibillet.github.io/tibillet-ui/adherer/)
 
-![BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
-
-## Events & Ticketing ( nighty build ) : [https://tibillet.github.io/tibillet-ui/agenda/](https://tibillet.github.io/tibillet-ui/agenda/)
+## Events & Ticketing : [https://lespass.demo.tibillet.org/](https://lespass.demo.tibillet.org/)
 
 :::danger
 Ticketing is currently being redesigned. Expected release: end 2024.
 The demo instance is not 100% functional, so please check back from time to time :)
 :::
 
-![BilletDemo1.jpg](/img/demo/BilletDemo1.jpg)
+## Administration & My Account access : [https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
+
+## Memberships : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
+
+For complex and conditional forms, we've integrated [Formbricks](https://formbricks.com/).
+
+Feel free to test with “Membership with Formbricks”.
+
+
 
 ## LaBoutik - Cashier/ Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
 
@@ -52,7 +57,6 @@ In the LaBoutik interface, this card corresponds to "Client 1".
 
 The page we arrive on after a qrcode allows us to recharge our wallet, see our memberships and declare a lost card:
 
-![scan_qrcode_triptik.jpg](/img/demo/scan_qrcode_triptik.jpg)
 ![cartes.jpg](/img/demo/cartes.jpg)
 
 ## Fedow - Federation creation : [https://fedow.demo.tibillet.org/dashboard/](https://fedow.demo.tibillet.org/dashboard/)

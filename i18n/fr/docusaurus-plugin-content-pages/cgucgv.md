@@ -71,7 +71,9 @@ Toujours pas de nouvelle de votre part ? On récupère 1€ par mois pour le ré
 
 Et enfin : **Respect et Bienveillance**
 
-Notre coopérative est engagée dans la lutte contre les violences et le harcèlement sexistes et sexuels. Des personnes référentes dans l'équipe ont suivi une formation VHSS afin garantir un espace sûr pour tous. En utilisant TiBillet, vous vous engagez à respecter ces principes et à adopter un comportement bienveillant.
+Notre coopérative est engagée dans la lutte contre les violences et les harcèlements sexistes et sexuels. 
+Des personnes référentes dans l'équipe ont suivi une formation VHSS afin garantir un espace sûr pour tous. 
+En utilisant TiBillet, vous vous engagez à respecter ces principes et à adopter un comportement bienveillant.
 Si vous êtes témoin ou victime d’un problème, parlez-nous-en. On est là pour écouter et agir.
 Restons bienveillants et profitons ensemble !
 
