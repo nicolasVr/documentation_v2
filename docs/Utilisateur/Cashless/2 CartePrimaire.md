@@ -61,3 +61,6 @@ A member can have several primary cards provided that they did not enter an emai
 ![tpe-primary card request](/img/tpe1.png)
 ![tpe-I place my primary card on the reader](/img/tpe2.png)
 ![tpe-product access](/img/tpe3.png)
+
+### On phone :
+![tpe-phone nfc](/img/phone-nfc.png)
