@@ -30,10 +30,10 @@ Change the payment method and save.
 
 ## 3) If the cash register has already been closed, you can relaunch the cash register calculation by going to the corresponding menu :
 - Follow the above procedure, because even if the till is closed, you will still have access to its sales in the “sales” tab in the left-hand column, in order to correct any errors.
-- Click on the “Cash desk closing” category in the left-hand column.
-- Click on the “reload” button in the “action” section.
+- Click on the "Cash desk closing" category in the left-hand column.
+- Click on the "reload" button in the "action" section.
 - The payment method used is now updated in the checkout.
-- You can check this by clicking on “ticketZ” in the “action” section.
+- You can check this by clicking on "ticketZ" in the "action" section.
 
 ![/img/cashless/ventilation/reload_cloture.jpg](/img/cashless/ventilation/reload_cloture.jpg)
 
@@ -46,11 +46,11 @@ For refunds, see the Refund section.
 
 # Terminal management 
 
-You can also manage the breakdown of means of payment directly on the terminal **if your primary card has the “Manager”** option (see primary card).
+You can also manage the breakdown of means of payment directly on the terminal **if your primary card has the "Manager"** option (see primary card).
 
 This feature allows you to rectify means of payment in real time, without the need for computer access.
 
-<video width=“100%” controls src=“/img/ventilation.mp4”></video>
+<video width="100%" controls src="/img/ventilation.mp4"></video>
 
 :::note
 
