@@ -53,7 +53,7 @@ A member can have several primary cards provided that they did not enter an emai
 ## 3- Test the card at a point of sale
 
 - Launch the TiBillet application on a terminal or smartphone equipped with an NFC reader.
-     - Follow the [pairing procedure](/docs/User/Cashless/android) if you haven't already.
+     - Follow the [pairing procedure](/User/Cashless/android) if you haven't already.
 - Scan the card when prompted.
 - If you don't see your point of sale, check that the points of sale are associated with the card.
 - You can now access your products.
