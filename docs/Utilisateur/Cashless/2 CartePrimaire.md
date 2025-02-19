@@ -64,3 +64,10 @@ A member can have several primary cards provided that they did not enter an emai
 
 ### On phone :
 ![tpe-phone nfc](/img/phone-nfc.png)
+
+The NFC sensor on smartphones is generally located :
+
+- On iPhones: top right or top left of the phone.
+- On Android phones: often in the center, on the back of the device.
+
+When using an NFC card, remember to position the card in the right place for optimum reading.
