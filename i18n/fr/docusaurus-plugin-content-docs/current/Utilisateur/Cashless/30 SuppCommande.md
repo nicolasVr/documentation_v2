@@ -10,7 +10,7 @@ authors: jonas
 
 ## Sélectionner et supprimer des commandes
 
-Plutôt que de passer par le mode Manager pour supprimer les commandes non servies ou non payées, il est possible de les supprimer en une seule fois depuis l'interface d'administration.
+Plutôt que de passer par le mode Gestionnaire pour supprimer les commandes non servies ou non payées, il est possible de les supprimer en une seule fois depuis l'interface d'administration.
 
 Dans l'administration de votre instance cashless TiBillet : 
 
@@ -23,6 +23,6 @@ Dans l'administration de votre instance cashless TiBillet :
 
 Attention ! Il n'y aura pas de confirmation et il ne sera pas possible de revenir en arrière.
 
-:: :
+:::
 
 <video width="100%" controls src="/img/suppressioncommande.mp4"></video>

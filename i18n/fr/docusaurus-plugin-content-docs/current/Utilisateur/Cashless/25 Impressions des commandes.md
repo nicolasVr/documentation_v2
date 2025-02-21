@@ -18,7 +18,7 @@ Voici comment procéder :
 
 - Allez dans la rubrique « Préparations et impressions » dans le menu de gauche.
 - Cliquez sur « Ajouter une préparation et une impression ».
-- Saisissez le nom de la zone concernée (par exemple Cuisine / Bar).
+- Saisissez le nom du lieu concerné (par exemple Cuisine / Bar).
 - Sélectionnez les catégories d'articles à envoyer à ce lieu.
 - Choisissez une icône pour identifier rapidement la zone (optionnel).
 - Sélectionner l'imprimante dédiée à l'impression des commandes (option ajouter imprimante et modifier).

@@ -17,8 +17,8 @@ Le responsable du point de vente est visible à chaque paiement.
 
 ## 1- Enregistrer un nouveau membre responsable.
 
-- Cliquez sur la catégorie « Membres » dans la colonne de gauche.
-- Cliquez sur le bouton « Ajouter un membre » en haut à droite.
+- Cliquez sur la catégorie « Membres responsables» dans la colonne de gauche.
+- Cliquez sur le bouton « Ajouter membre responsable» en haut à droite.
 - Saisissez le nouveau numéro de carte dans le champ correspondant.
 - Sauvegardez. 
 
@@ -41,7 +41,7 @@ Nous parlons ici du niveau d'autorisation et non de l'appartenance à une associ
 - Désignez les points de vente contrôlés (ou non) par cette carte.
      - Déterminez ici le niveau d'autorisation de votre utilisateur.
 - Activez le mode gestionnaire si vous le souhaitez.
-     - Le « mode gestionnaire » vous permet d'annuler une commande déjà passée, même si elle est payée. C'est un super pouvoir qui demande de grandes responsabilités :
+     - Le « mode gestionnaire » vous permet de supprimer une commande déjà passée, même si elle est payée. C'est un super pouvoir qui demande de grandes responsabilités :
 - Sauvegarder.
 
 <video width="100%" controls src="/img/CartePrimaire.mp4"></video>

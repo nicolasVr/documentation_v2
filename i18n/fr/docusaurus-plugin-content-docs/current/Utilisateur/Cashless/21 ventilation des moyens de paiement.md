@@ -31,8 +31,8 @@ Modifier le mode de paiement et sauvegarder.
 ## 3) Si la caisse a déjà été fermée, vous pouvez relancer le calcul de la caisse en allant dans le menu correspondant :
 
 - Suivez la procédure ci-dessus, car même si la caisse est fermée, vous aurez toujours accès à ses ventes dans l'onglet « ventes » de la colonne de gauche, afin de corriger d'éventuelles erreurs.
-- Cliquez sur la catégorie « Fermeture de caisse » dans la colonne de gauche.
-- Cliquez sur le bouton « recharger » dans la section « action ».
+- Cliquez sur la catégorie « Clôture de caisse » dans la colonne de gauche.
+- Cliquez sur le bouton « reload » dans la section « action ».
 - Le mode de paiement utilisé est maintenant mis à jour dans la caisse.
 - Vous pouvez le vérifier en cliquant sur « ticketZ » dans la section « action ».
 

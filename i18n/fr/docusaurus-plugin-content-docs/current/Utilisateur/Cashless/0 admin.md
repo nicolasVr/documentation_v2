@@ -4,7 +4,7 @@ slug: espace_admin
 title: L'espace admin
 description: Bienvenue sur votre espace administration TiBillet !
 keywords: [cashless, android, pos, administration]
-wiktags: [cashless, android, pos, points de vente]
+wiktags: [cashless, android, pos, administration]
 authors: Axel, Adrienne
 ---
 # Espace d'administration
@@ -14,7 +14,7 @@ authors: Axel, Adrienne
 
 ## Bienvenue dans l'espace d'administration de TiBillet !
 
-Cet espace est conçu pour vous aider à gérer facilement tous les aspects de votre application TiBillet, du point de vente à la gestion des cartes sans espèces et au suivi des transactions.
+Cet espace est conçu pour vous aider à gérer facilement tous les aspects de votre application TiBillet, du point de vente à la gestion des cartes cashless et au suivi des transactions.
 Vous y trouverez tous les outils nécessaires pour configurer, contrôler et surveiller votre système TiBillet de manière simple et intuitive.
 
 ### Une interface accessible à tous

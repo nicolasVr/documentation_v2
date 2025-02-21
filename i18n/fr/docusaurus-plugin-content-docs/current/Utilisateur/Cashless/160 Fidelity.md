@@ -10,7 +10,7 @@ tags: [fidelity, fidélité, access card, cashless, billetterie, ticketing, cash
 
 # Point de fidélités.
 
-Ajoutez des points de félité pour chaque vente réalisée en cashless ou autre !
+Ajoutez des points de fidélité pour chaque vente réalisée en cashless ou autre !
 
 ![Config Badge](/img/fidelite.png)
 

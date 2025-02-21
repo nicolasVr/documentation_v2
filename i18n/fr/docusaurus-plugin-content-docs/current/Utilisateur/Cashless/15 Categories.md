@@ -17,13 +17,13 @@ Les catégories d'articles sont utiles pour :
 
 ## Créer une nouvelle catégorie d'articles
 
-Allez dans le menu « Catégories d'articles » dans la colonne de gauche.
+- Allez dans le menu « Catégories d'articles » dans la colonne de gauche.
 - Cliquez sur « Ajouter une catégorie » en haut à droite.
 - Saisissez le nom de la catégorie.
 - Choisissez une couleur pour le texte et l'arrière-plan.
 - Sélectionnez une icône qui apparaîtra sur l'interface de la caisse.
   - Toutes les icônes sont répertoriées à l'adresse suivante : [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/).
-- Cliquez sur « Enregistrer ».
+- Enregistrer.
 
 <video width="100%" controls src="/img/categorie-article.mp4"></video>
 
