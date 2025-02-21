@@ -1,15 +1,15 @@
 ---
 sidebar_position: 0
-slug: admin_space
+slug: espace_admin
 title: L'espace admin
-description: Bienvenue sur votre espace administration TiBilleet !
+description: Bienvenue sur votre espace administration TiBillet !
 keywords: [cashless, android, pos, administration]
-wiktags: [cashless, android, pos, point of sale]
+wiktags: [cashless, android, pos, points de vente]
 authors: Axel, Adrienne
 ---
 # Espace d'administration
 
-![Administration space](/img/0.admin.png)
+![Espace administration ](/img/0.admin.png)
 
 
 ## Bienvenue dans l'espace d'administration de TiBillet !

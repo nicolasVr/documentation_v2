@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-slug: admin_add_article
+slug: admin_ajouter_article
 title: Articles
 description: Ajouter un ou plusieurs articles dans des catégories et point de vente et leur assigner un prix.
 keywords: [cashless, android]
@@ -28,7 +28,7 @@ Tout cela sera visible dans le menu secondaire sous « ajouter un article » :
 - Possibilité d'ajouter l'article au point de vente et autres spécifications dans le menu secondaire comme expliqué ci-dessus.
 - Sauvegarder
 
-<video width="100%" controls src="/img/ajout-article-pdv.mp4" title="Title"></video>
+<video width="100%" controls src="/img/ajout-article-pdv.mp4"></video>
 
 
 

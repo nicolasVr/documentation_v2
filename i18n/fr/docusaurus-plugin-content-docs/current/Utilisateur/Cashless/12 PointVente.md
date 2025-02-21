@@ -24,9 +24,9 @@ Grâce aux cartes primaires qui sont demandées à chaque ouverture de l'applica
 
 Un point de vente est visible dans l'interface s'il contient des articles. 
 Il est préférable de créer d'abord les articles et de les affecter ensuite à un point de vente.
-:: :
+:::
 
-<video width="100%" controls src="/img/point-de-vente.mp4" title="Title"></video>
+<video width="100%" controls src="/img/point-de-vente.mp4"></video>
 
 
 ## Activation et gestion des points de vente

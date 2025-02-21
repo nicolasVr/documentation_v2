@@ -43,7 +43,7 @@ Modifier le mode de paiement et sauvegarder.
 Avertissement : Il est interdit de supprimer un article vendu, car il s'agit d'une pratique illégale. Il est préférable d'ajouter un commentaire sur l'article concerné, qui sera pris en compte par le comptable.
 
 Pour les remboursements, voir la section Remboursement.
-:: :
+:::
 
 # Gestion des terminaux 
 
@@ -56,4 +56,4 @@ Cette fonctionnalité vous permet de rectifier les moyens de paiement en temps r
 :::note
 
 Ce cas est pratique pour changer le mode de paiement pour l'ensemble de la commande. Toutefois, si le changement ne concerne qu'un seul article, il doit être effectué en utilisant la première méthode.
-:: :
+:::
