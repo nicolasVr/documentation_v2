@@ -8,20 +8,21 @@ wiktags: [cashless, billetterie, ticketing, android]
 authors: jonas
 ---
 
-## Selectionner et supprimer des commandes
+## Sélectionner et supprimer des commandes
 
-Plutôt que de passer par le mode Gerant pour supprimer les commandes non servies ou non payées, il est possible de toutes les supprimer d'un coup depuis l'interface admin.
+Plutôt que de passer par le mode Gestionnaire pour supprimer les commandes non servies ou non payées, il est possible de les supprimer en une seule fois depuis l'interface d'administration.
 
-Dans l'adminstration de votre instance cashless TiBillet, allez dans le menu VENTES / Commandes.
-Filter à l'aide du menu déroulant les commandes (Par table, par statuts, etc ...)
-Selectionnez-les une par une ou toute en même temps avec le bouton radio du menu, à gauche de TABLE.
+Dans l'administration de votre instance cashless TiBillet : 
 
-Dans le menu déroulant en bas, à gauche de ENVOYER, selectionnez "Supprimez les commandes".
+- Allez dans « Commande » dans la colonne de gauche.
+- Filtrez les commandes à l aide du menu déroulant (par table, par statut, ).
+- Sélectionnez-les une par une ou toutes à la fois avec le bouton radio menu à gauche de TABLE.
+- Dans le menu déroulant en bas à gauche de ENVOI, sélectionnez « Supprimer les commandes ».
 
 :::danger
 
-Attention ! Il n'y aura pas de confirmation et impossible de revenir en arrière.
+Attention ! Il n'y aura pas de confirmation et il ne sera pas possible de revenir en arrière.
 
 :::
 
-<video width="100%" controls src="/img/suppcomm.mp4"></video>
+<video width="100%" controls src="/img/suppressioncommande.mp4"></video>

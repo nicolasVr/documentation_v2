@@ -11,5 +11,5 @@ authors: Adrienne
 
 :::note
 
-En cours de rédaction
+Currently being written
 :::

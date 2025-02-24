@@ -8,7 +8,7 @@ wiktags: [cashless, android, order, printing, impressions, preparations]
 authors: Axel, Adrienne
 ---
 
-# Préparations et impressions
+# Preparations and impressions
 
 To facilitate organization in the kitchen or at the bar, orders can be printed out directly on a dedicated printer. This enables preparation teams to receive instant details of orders to be processed, reducing errors and improving speed of service.
 
@@ -28,9 +28,9 @@ Here's how to do it:
 
 <video width="100%" controls src="/img/preparationimpression.mp4"></video>
 
-## Ajouter une imprimante
+## Add printer
 
-En plus de la configuration via "Préparations et impressions", vous pouvez ajouter une imprimante In addition to configuration via “Preparations and printing”, you can add a printer directly from the dedicated menu. This method allows you to integrate a printer even before associating it with a point-of-sale or preparation location.
+In addition to configuration via “Preparations and printing”, you can add a printer directly from the dedicated menu. This method allows you to integrate a printer even before associating it with a point-of-sale or preparation location.
 
 - Go to “Printer” in the left-hand column.
 - Click on “Add printer”.

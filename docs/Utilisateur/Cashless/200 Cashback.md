@@ -38,17 +38,17 @@ If she tops up €101, she wins 5 as a gift (x2).
 
 <video width="100%" controls src="/img/cashback.mp4"></video>
 
-## Cashback échange de carte bancaire à espèce
+## Cashback exchange from credit card to cash
 
-Le système de cashback peut aussi être utilisé si vos clients ont tendance à vous demander de la monnaie (ex: Paiement espèce pour les exposants).
+The cashback system can also be used if your customers tend to ask you for change (e.g. cash payment for exhibitors).
 
-Suivre la méthode :
+Follow the instructions :
 
 <video width="100%" controls src="/img/cashbackcashless.mp4"></video>
 
 :::note
 
-Attention : Dans cette méthode, il faudra spécifier dans la comptabilité que le Cashbach signifie que l'argent à été rendu. Pour chaque échange, un gain de 0.50 centimes est réalisé, afin de prévoir les commission bancaire.
+Please note: with this method, you'll need to specify in your accounting that Cashbach means that the money has been returned. For each exchange, a gain of 0.50 centimes is realized, to allow for bank commission.
 
 :::
 
