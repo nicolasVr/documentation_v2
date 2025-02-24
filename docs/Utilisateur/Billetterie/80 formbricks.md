@@ -107,6 +107,3 @@ Assurez-vous aussi que le "Placement de l'enquête dans l'application" est bien 
 :::
 
 Il y a pour l'instant un problème de cache sur les serveurs Formbricks et toutes modifications apportées à votre instance mettra 10 minutes à apparaitre sur TiBillet.
-
-
-<video width="100%" controls src="/img/point-de-vente.mp4"></video>
