@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 slug: formbricks_settings
-title: Parametrer Formbricks
+title: Connecter ses formulaires Formbricks
 description: Créer un nouvel évènement en détails.
 keywords: [billetterie, ticketing, event, free, formbricks]
 wiktags: [billetterie, ticketing, event, free, formbricks]
