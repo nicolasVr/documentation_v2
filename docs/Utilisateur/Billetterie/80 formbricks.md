@@ -18,6 +18,7 @@ Dans l'administration de votre espace (https://votrestructure.lespass.tibillet.o
 - Cliquez sur "Formbricks" tout en bas dans le menu de gauche puis "Configuration"
 
 > Api host est l'adresse de base de votre compte formbricks (https://app.formbricks.com) sauf si vous l'hébergez vous-même (adresse url de votre Formbricks : https://votrestructure.formbricks.com).
+
 Avant d'enregistrer rendez-vous sur votre logiciel Formbricks :
   - Dans le menu "Configuration" cliquez sur "Clés API" et "ajouter la clé api de production".
   - Donnez-lui un nom et copiez la clé qui est apparu en dessous (elle n'est visible qu'une seule fois).
