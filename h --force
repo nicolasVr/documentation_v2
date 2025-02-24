@@ -1,0 +1,958 @@
+[33mcommit 453eaff7d52f84e08bf7f326256879742ce005c5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Wed Feb 19 22:41:32 2025 +0100
+
+    finalisation doc caisse enregistreuse
+
+[33mcommit f55f671132e9a4f6a8bc8c8fd10ea23b3eb19c26[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 17 18:55:34 2025 +0100
+
+    done
+
+[33mcommit dc2f7fca2149b15905f223400e43df8ea678f0f6[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 17 18:16:19 2025 +0100
+
+    skzk
+
+[33mcommit 3af162271c60ffce47f5d3b5c5628a4f1f6b4c5e[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 17 18:13:39 2025 +0100
+
+    test crash1
+
+[33mcommit 0735315af14527d06e9f9dd5a4b32ef5d0d7238a[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 17 18:04:56 2025 +0100
+
+    1er deploy + ajout photo sumni
+
+[33mcommit 0ef32b1d50f7884a8e496603155597bc0fdb37fd[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Tue Feb 11 17:53:30 2025 +0100
+
+    finalisation partie service direct et ventilation
+
+[33mcommit eda19bc89e61a11c8f15ea36ef723a87853bcf2b[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 10 15:45:05 2025 +0100
+
+    debug reussi / recréa lien assets / info admin,carteprim, categorie, article et pdv complet / ajouter juste visuel + photo sumni
+
+[33mcommit 50370f082772e3a73a2fc766885101558f630019[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 10 13:12:32 2025 +0100
+
+    test debug
+
+[33mcommit a8572a84c188240bb8cc5a6e9b677d514fd6ee6b[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Mon Feb 10 12:06:05 2025 +0100
+
+    changement
+
+[33mcommit 23f3f9dbd5805df4f43cd17df7313a4e4b3aa470[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Fri Feb 7 15:38:01 2025 +0100
+
+    modif lien video
+
+[33mcommit 79aaeec486e6e35eb02f1147e9b2d9d446aab874[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Fri Feb 7 12:45:08 2025 +0100
+
+    test suppression assets
+
+[33mcommit c99ecfcbeea465f752044249ffe23f95c14471a3[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Fri Feb 7 09:06:51 2025 +0100
+
+    categorie
+
+[33mcommit 9ad5a0d75895c70eb52bc68e497d492b89bf3b9c[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Tue Feb 4 17:19:49 2025 +0100
+
+    assets
+
+[33mcommit 07438bc71004052b76e9d3fcda1bece58a79fe02[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Tue Feb 4 17:19:26 2025 +0100
+
+    assets
+
+[33mcommit 31f4cd26b7dd334aac5df3cff3c816ce3826bc70[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Tue Feb 4 17:11:59 2025 +0100
+
+    video tuto carte primaire
+
+[33mcommit 78a4ecdd5bd1c2915a2993de7d4fb93b0658b9d4[m
+Author: Adrienne <aremylacor@gmail.com>
+Date:   Tue Feb 4 16:40:54 2025 +0100
+
+    page admin & carte primaire
+
+[33mcommit e5bf44425546fea09697fdc905e1f5df66fb2f2c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AdrienneRL34 <aremylacor@gmail.com>
+Date:   Tue Jan 28 12:20:11 2025 +0100
+
+    Add files via upload
+
+[33mcommit d06b93a62c18ca6ef1b8dd7a72c6d809885a93a3[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Wed Jan 8 14:07:35 2025 +0100
+
+    wallet api
+
+[33mcommit 2ae00e117ca75f439720c32e56dcb6c337b2d146[m
+Merge: cbb53b53 eb4b63cc
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Sat Nov 23 14:59:15 2024 +0100
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit cbb53b5342924631eddff0f59234f8f3ff9cd8e8[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Sat Nov 23 14:59:09 2024 +0100
+
+    vetilation
+
+[33mcommit eb4b63cc762feda29ad691925671bc98ab100a72[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Thu Oct 31 16:01:20 2024 +0100
+
+    Update cgucgv.md
+    
+    ajout section 9 pour introduire une passerelle entre les utilisateurs et la coopérative.
+
+[33mcommit cfd46ed27958cb396e5b5e8bbd6fbfe66822b5b7[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Wed Oct 23 15:10:48 2024 +0200
+
+    Update 1 Application android.md
+    
+    mauvais url corrigée
+
+[33mcommit 435d47f05f7c134ac7eb00f1b17766a93596f76c[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Wed Oct 23 15:10:17 2024 +0200
+
+    Update 1 Application android.md
+    
+    nouvelle procédure appairage
+
+[33mcommit 667129523535dae50883fa53bab53d1ba29c1064[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 22:20:24 2024 +0200
+
+    Update docusaurus.config.js
+
+[33mcommit f962df70c3d2fa418aa213adba77f59e36fd358b[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 22:01:19 2024 +0200
+
+    Update docusaurus.config.js
+
+[33mcommit 228a5e612fd203b3275eb92e241bcc59d627403a[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 21:45:32 2024 +0200
+
+    Update docusaurus.config.js
+    
+    lien edit documentation changé
+
+[33mcommit 49bae2afde03f2b91d4501440a57579df912184e[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 21:38:14 2024 +0200
+
+    Update 2 CartePrimaire.md
+
+[33mcommit 104549da20339f1c178c072c9cff7e3bead5626c[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Tue Oct 15 21:33:26 2024 +0200
+
+    ;;;
+
+[33mcommit a759382f0e9071a6a8864fc53b899fd3040d805a[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 14:04:47 2024 +0200
+
+    Update 2 CartePrimaire.md
+    
+    primary updates
+
+[33mcommit 7dfc3b02ca5fa5e0fa925b62929987d7af08e271[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 14:02:28 2024 +0200
+
+    Update 2 CartePrimaire.md
+
+[33mcommit 8dbf60fdb1f9857573418bff5687d425dbaf2109[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 14:01:45 2024 +0200
+
+    Update 2 CartePrimaire.md
+    
+    fautes
+
+[33mcommit 91e9eadde97b9d38460373420b21964154c34eea[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 14:00:44 2024 +0200
+
+    Update 2 CartePrimaire.md
+
+[33mcommit ee40ee461ca6675a1864ed46ad3dfb1b5627ebc4[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Tue Oct 15 13:51:49 2024 +0200
+
+    Update 2 CartePrimaire.md
+    
+    maj cartes primaires
+
+[33mcommit e7aec8b79d8596b2bbaf6a6c0f80d42b8884c520[m
+Author: samijuju <49335121+samijuju@users.noreply.github.com>
+Date:   Wed Oct 9 09:05:42 2024 +0400
+
+    Update 01_The_Goal.md
+    
+    modif one path image
+
+[33mcommit 39f200e68bef2a453cffe06ef53a6562657725b7[m
+Author: samijuju <samijuju@gmail.com>
+Date:   Wed Oct 9 08:33:54 2024 +0400
+
+    little change doc DIY hard and soft
+
+[33mcommit e5cc69143ca60fddb318209b1cb7884debcc318d[m
+Author: samijuju <samijuju@gmail.com>
+Date:   Wed Oct 9 06:29:10 2024 +0400
+
+    add doc DIY
+
+[33mcommit 056762d99b46b8db087206fb5a63e007f6f28b28[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Tue Oct 8 09:48:28 2024 +0200
+
+    embed
+
+[33mcommit 4439aa8a25bb877fcd8585e905df9c9d9142a420[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Tue Oct 8 09:33:07 2024 +0200
+
+    embed
+
+[33mcommit e521e0feb0b3beda56b936b7f2cf3b27f2d97e07[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Mon Oct 7 11:35:14 2024 +0200
+
+    copyright
+
+[33mcommit dbbf233d27670821f1b806e7ec93532802fb786a[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Sun Oct 6 19:18:57 2024 +0200
+
+    en
+
+[33mcommit 165b48f6d887a510917217e2857da4ccc0375899[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Sun Oct 6 19:10:43 2024 +0200
+
+    demonstration
+
+[33mcommit 4b7a4bbf8d6a02f4a87b5d5808d5bc3c84e7404a[m
+Author: JonasFW13 <jturbeaux@pm.me>
+Date:   Sun Oct 6 18:55:29 2024 +0200
+
+    demonstration
+
+[33mcommit 6c3db65b6323a87c3f2269d42e82564f5c88d6e4[m
+Author: Diane Alma Kay <pro@kayathommy.fr>
+Date:   Sun Oct 6 11:43:43 2024 +0200
+
+    social card typo fix
+
+[33mcommit 17599ad29558dcef08a53ee1f230185b2550fdb8[m
+Author: Diane Alma Kay <pro@kayathommy.fr>
+Date:   Sun Oct 6 11:11:59 2024 +0200
+
+    social card fix
+
+[33mcommit bb23d833d2daba89d226d89b273a61b5fbbce8a3[m
+Author: Diane Alma Kay <pro@kayathommy.fr>
+Date:   Sat Oct 5 20:18:23 2024 +0200
+
+    logo, favicon, social card change
+
+[33mcommit eab6a7de54656bfe588a3e2befcdc2d0f565c1ae[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 29 11:28:47 2024 +0200
+
+    postgres variable removed from production docker install documentation
+
+[33mcommit 5bb6506bd36e25e5fc8823c63558feb87239a2b3[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 14:06:31 2024 +0200
+
+    faute
+
+[33mcommit 541de30b5bc087bcd732de616419c75be237d4b0[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 14:04:24 2024 +0200
+
+    faute
+
+[33mcommit 37fc15448addbc7dace88269081b41b3168ffd84[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 14:01:22 2024 +0200
+
+    warning git pull
+
+[33mcommit f6d61103df1229d0e4b32affa8bc1222acffd099[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 13:58:44 2024 +0200
+
+    add network traefik and manual start
+
+[33mcommit 4f77d70151fa5a967204961ef49e3bd4c95b6683[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 12:09:49 2024 +0200
+
+    Installation locale détaillée
+
+[33mcommit a0c59430c5c1e9260d749f8c175f284775d44c01[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 12:06:40 2024 +0200
+
+    Installation locale détaillée
+
+[33mcommit 3f549e71566a928ce005214554a1091c2d57e075[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 11:50:55 2024 +0200
+
+    easy way and i want to learn
+
+[33mcommit cb3c0997f06a886ce8c1fccdfbf9cd4c03824de8[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Sep 22 11:43:19 2024 +0200
+
+    easy way and i want to learn
+
+[33mcommit 8cab55038a8b604123f320eaec954083447bc60e[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Sep 12 15:21:10 2024 +0200
+
+    Rocket chat et cgu
+
+[33mcommit 02ab7aa54ef5843ebcbef97eb44ba02912a64390[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Sep 11 12:28:07 2024 +0200
+
+    celery docker up
+
+[33mcommit af679eae7871c44fbddfa40edd2d38171d20464d[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sat Aug 31 17:26:44 2024 +0200
+
+    add form tenant
+
+[33mcommit bfc8d28b61169ee53db49cb5e94b0ad6de9f93ab[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Aug 30 11:35:56 2024 +0200
+
+    Update cgucgv.md
+    
+    CGU/CGV  pour le logiciel, un peu plus fun avec une base FALC
+
+[33mcommit 0da0d9c7469d28b1811d4595cb3990fdc15daa3d[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Tue Aug 27 16:47:11 2024 +0200
+
+    design research document
+
+[33mcommit 12184c9bd675b6fe476cc5bca08e8425160050e7[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Tue Aug 27 16:46:46 2024 +0200
+
+    warning for startup delays in readme
+
+[33mcommit 4ff41828ea6522c80d2cfa8b4681a3f45e09ec88[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Mon Aug 26 12:41:49 2024 +0200
+
+    user roles as table
+
+[33mcommit 9f3d29fb6045b12cc51d7234599afda01a6e103f[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sun Aug 25 21:09:06 2024 +0200
+
+    makefile step-by-step comments
+
+[33mcommit 2e88aca0063b2bf6fa4397a49781fa9818f93bbb[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sun Aug 25 19:29:57 2024 +0200
+
+    pronoun fixes
+
+[33mcommit f40a71ed41edddf7f1b0a5997034f8bdbba1c296[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sun Aug 25 19:12:19 2024 +0200
+
+    remaining user stories addition
+
+[33mcommit 36a16ff1bc3c8234c63a6cbfefbdaf6e5452cba4[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 23:31:54 2024 +0200
+
+    additional persona avatars cause maybe
+
+[33mcommit 8c4576b325a316ac0d7ce459794c8b183e129c57[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 23:31:23 2024 +0200
+
+    no more mermaid theme, user stories
+
+[33mcommit df1da35d1506ae9c2d705382276b04f0e6f1360f[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 09:41:57 2024 +0200
+
+    add guillaume as contributor for dev guide
+
+[33mcommit 6ecccc69677cbf979edeb6eac31eca1c56bc0c10[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 09:39:34 2024 +0200
+
+    make url print, mermaid diagrams
+
+[33mcommit 959dbe87fd72f01da91c9a13a2f3868685f275af[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 07:31:56 2024 +0200
+
+    english dev corrections
+
+[33mcommit b551c17783396a0d071582a399e9e41d6a2f5e81[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Sat Aug 24 00:15:34 2024 +0200
+
+    makefile commands precisions
+
+[33mcommit 03f85cf6b9b89928821c41c4fa3846457a4355e2[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Fri Aug 23 23:59:55 2024 +0200
+
+    yarn package fixes, version bump
+
+[33mcommit 5efab542705164c3232b107e86e659cdb5f2a7f5[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Fri Aug 23 23:59:25 2024 +0200
+
+    makefile and explanations
+
+[33mcommit 0086e14314de0b455fcda20cc5b416c500a0178a[m
+Author: Kay Navarro <pro@kayathommy.fr>
+Date:   Fri Aug 23 22:57:54 2024 +0200
+
+    fix yarn warning
+
+[33mcommit f8cc67e7295c84fc1225dc8129b27000c5da457b[m
+Author: Kay Navarro <com-libre@kayathommy.fr>
+Date:   Fri Aug 23 18:05:16 2024 +0200
+
+    yarn deploy functional in container
+
+[33mcommit f61c651e24dc8ec600f0084d151baa25043ddc72[m
+Author: Kay Navarro <com-libre@kayathommy.fr>
+Date:   Fri Aug 23 13:27:57 2024 +0200
+
+    fr dev guide corrections
+
+[33mcommit be343d3df342c61434571646ea13759eb45f2d48[m
+Author: Kay Navarro <com-libre@kayathommy.fr>
+Date:   Thu Aug 22 12:58:04 2024 +0200
+
+    docker config
+
+[33mcommit ba3e194554cddb92e79188d2dd4cc9c62a8df5b0[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 21 14:27:06 2024 +0200
+
+    add if needed
+
+[33mcommit 1fcda7fb09d9b07e243dbf50eb384de41d75556a[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 21 08:34:24 2024 +0200
+
+    add if needed
+
+[33mcommit ad620aaf5145091baf1bca84e47325c164dd7a16[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 21 08:28:42 2024 +0200
+
+    add if needed
+
+[33mcommit 19e19343478345de44b2026b05526cebc78d102d[m
+Merge: 11878f5e 1f5978f5
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 21 08:14:14 2024 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 11878f5ef55e4dbb083a03e867b848a3deac6bb8[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 21 08:14:07 2024 +0200
+
+    add if needed
+
+[33mcommit 1f5978f5273653e9849843d7540a6d36b0ddc4d2[m
+Author: Kay Navarro <com-libre@kayathommy.fr>
+Date:   Tue Aug 20 20:14:50 2024 +0200
+
+    dev contribution guide
+
+[33mcommit 825b81da8277a583a9688a925848e32df53d76c6[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Wed Aug 7 17:58:58 2024 +0200
+
+    extra host on django
+
+[33mcommit 3ce4aeed08d26d2ed6f28948bc24f876eccd9322[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Aug 5 13:08:47 2024 +0200
+
+    ssh on compose
+
+[33mcommit 1a1eb6897e747024a1bae460c2e2177f7b5df876[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Tue Jul 23 16:35:15 2024 +0200
+
+    backup, restart and ssh on volume laboutik
+
+[33mcommit 36e85283530845c3b37aa390f787e809a2df86eb[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sat Jun 1 12:19:57 2024 +0200
+
+    all install
+
+[33mcommit 39c895a5fe6b59b7168cc2340f26c6f1081c6a5d[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri May 31 17:08:46 2024 +0200
+
+    laboutik in diy
+
+[33mcommit 36ad89d9f02331365f85bcf6ffe0e22ee685bf70[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu May 30 20:54:59 2024 +0200
+
+    memcache on compose
+
+[33mcommit 1ed654c2cd0e295e96b9fff5c801559859a9f4da[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu May 30 12:06:44 2024 +0200
+
+    Demo and diy
+
+[33mcommit cb9a51d074ff247c7676a8f6279d670ca1544c43[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu May 30 12:05:50 2024 +0200
+
+    documentation for lespass and fedow instance
+
+[33mcommit 10be45ee1da3cc14a588a5b0951140368ff5553e[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Apr 25 09:14:26 2024 +0200
+
+    ignore yarn lock
+
+[33mcommit bc5e5bf6a414a788c204cd99bb10c9b1a32cbde0[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Fri Apr 12 15:17:00 2024 +0200
+
+    doc
+
+[33mcommit d39ab68b83521aa58661a06100b14f3dceb8835d[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Fri Apr 12 15:02:22 2024 +0200
+
+    start self hosted tuto
+
+[33mcommit c82f486696947b4c28df719a093a13c27043817e[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Fri Apr 12 11:48:45 2024 +0200
+
+    start self hosted tuto
+
+[33mcommit 9c8f981a8069985623483612b9f452e28c9d6412[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Fri Apr 12 10:51:38 2024 +0200
+
+    start self hosted tuto
+
+[33mcommit 7ef0b5b32cf1f7660c37ea236f0a19cfdf206dea[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Fri Apr 12 10:49:52 2024 +0200
+
+    add diy server install
+
+[33mcommit 894bab80f0278c226a6a420a8764a74ff9860f27[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Thu Apr 11 14:44:53 2024 +0200
+
+    start self hosted tuto
+
+[33mcommit dd21b0ff8288b657058d826618016ffe0b51a941[m
+Author: Jonas Aorus <jturbeaux@pm.me>
+Date:   Thu Apr 11 14:44:32 2024 +0200
+
+    start self hosted tuto
+
+[33mcommit 4e2dbe86dc2e888395a1d9aad282ee5c92047dc3[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Mar 4 17:36:44 2024 +0100
+
+    no blog
+
+[33mcommit a461a26c901a3cc4b9d097112c06b5f5a34bd302[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Mar 3 11:23:54 2024 +0100
+
+    remove build and add social card
+
+[33mcommit c8cab2edf6613a267fd5f9ee3ff2ca84bcaaf208[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Sun Mar 3 11:06:55 2024 +0100
+
+    remove build and add social card
+
+[33mcommit 80bc955d11b05a3307c54723327328befc2bff7d[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Feb 12 16:24:55 2024 +0100
+
+    cgucgv
+
+[33mcommit 53b45be93841d87bb49da8c7b1a942ba03933efd[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 18:50:14 2024 +0100
+
+    page acceuil sauf titre
+
+[33mcommit afb6c65cd578a1a384fb8e9762fc66cad0a6b3cd[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 18:05:18 2024 +0100
+
+    accent nav  fr
+
+[33mcommit 26ad407a1a1cdd985aed8878ee7b4aebcfb2bb79[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 18:00:12 2024 +0100
+
+    trad fr
+
+[33mcommit 90f23472f26424dc81e3352a029010dc13120c12[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 17:17:48 2024 +0100
+
+    accent en
+
+[33mcommit 0a00fecac2984d1bd3594bef68f4e8d06fd36270[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 17:12:49 2024 +0100
+
+    en doc badge et fidelite
+
+[33mcommit 58b3158b7f0035fb0a26bd1105359f69269683f7[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri Feb 9 16:28:53 2024 +0100
+
+    trad
+
+[33mcommit 7be9665aaa08b071de57a3a73d0ffb41e6bb7ecc[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri Feb 9 16:20:56 2024 +0100
+
+    trad
+
+[33mcommit 18780feadf3e13119c007cc93ad0834c255a4c0e[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri Feb 9 16:05:55 2024 +0100
+
+    fidelity
+
+[33mcommit 385c0bbe340f21cdfb7bffc1b6b01464571dd8ad[m
+Merge: 2429862e 45f62b23
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri Feb 9 15:48:41 2024 +0100
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 2429862e5ddb902cfc987087659fcc358dda4edc[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Fri Feb 9 15:48:32 2024 +0100
+
+    add img
+
+[33mcommit 45f62b237c212a3aa46ab2e245ac2fce8fabccae[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Fri Feb 9 14:30:59 2024 +0100
+
+    en trad landing page et fctio
+
+[33mcommit faf321573e6c6a5273252a82c7f6e63093987029[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Thu Feb 8 16:02:14 2024 +0100
+
+    coucou
+
+[33mcommit 9dc45d91c0f972f54dd504b924dc7203e23f8d88[m
+Author: Axel <chabran.axel@gmail.com>
+Date:   Thu Feb 8 15:23:43 2024 +0100
+
+    Ajout de coucou
+
+[33mcommit c3a0c736c1c6c27d1a525ea6832a169c4e71ecaa[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Wed Feb 7 13:51:53 2024 +0100
+
+    Update usage.md
+    
+    encore deso
+
+[33mcommit f34066641d3576ae218d25e6e62bf9bff4261e2f[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Wed Feb 7 13:51:14 2024 +0100
+
+    Update usage.md
+    
+    en trad modif
+
+[33mcommit 51cad3a9a860fb60fc56aa9649727a245855410f[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Wed Feb 7 13:50:19 2024 +0100
+
+    Update usage.md
+    
+    en trad
+
+[33mcommit 9efb390509044cffd12fff401b88fb643c5dbdc5[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 18:16:59 2024 +0100
+
+    Update 30 SuppCommande.md
+    
+    en trad
+
+[33mcommit 3bcd3ac0602d336f082ca1445fbd1c0694eb600f[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 18:14:10 2024 +0100
+
+    Update 25 Impressions des commandes.md
+    
+    en trad
+
+[33mcommit 394a7d01cfe4adaa027d548855dfca52907382e4[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 18:13:07 2024 +0100
+
+    Update 200 Cashback.md
+    
+    en trad
+
+[33mcommit 35059329ef9a2e4dffabf0062b023c67bdd1249d[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 18:10:03 2024 +0100
+
+    Update 20 Articles.md
+    
+    en trad
+
+[33mcommit 571e9e5734574c18bb4bb369b1bbb2a5869a8099[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 18:06:06 2024 +0100
+
+    Update 2 CartePrimaire.md
+    
+    en trad
+
+[33mcommit 39d1184b91112c8190ce499cadd952b5eef0f11e[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:59:49 2024 +0100
+
+    Update 15 Categories.md
+    
+    en trad
+
+[33mcommit c34f4cfca00623a8438138a8daf524521d7a475a[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:57:14 2024 +0100
+
+    Update 12 PointVente.md
+    
+    en trad
+
+[33mcommit 9561d1ef64310cc3c4861e7f09b34ffe7aa40ef4[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:20:03 2024 +0100
+
+    Update 1 Application android.md
+    
+    en trad
+
+[33mcommit fe3fbab259d448185e62bedb580ca2b52aca122e[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:15:49 2024 +0100
+
+    Update 70 event gratuit.md
+    
+    en trad
+
+[33mcommit c5fa62798def0f029f621f5db0557b09a953531d[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:13:55 2024 +0100
+
+    Update 60 creation event.md
+    
+    en trad
+
+[33mcommit c87bb1eba5b2e63e59dedc90f2b6ff1e803e43b2[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:05:04 2024 +0100
+
+    Update 50 rss.md
+    
+    en trad
+
+[33mcommit 619732a61b7fed802ceff9d2d0ae83aa85c041c9[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 17:02:03 2024 +0100
+
+    Update 41 Intégration.md
+    
+    en trad
+
+[33mcommit 33871154ff26f8d88c32eb88f9afa13e9b17d1c7[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 16:59:30 2024 +0100
+
+    Update 40 webhook.md
+    
+    en trad
+
+[33mcommit 363ffcf26448bad9723ed6ecd78270eceb04347a[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Mon Feb 5 16:56:15 2024 +0100
+
+    Update usage.md
+    
+    en trad
+
+[33mcommit 72481ecb096c3ba40322d058a471cfb4a6e7482c[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 15:44:46 2024 +0100
+
+    Update philo.md
+    
+    en trad
+
+[33mcommit cf5475ca6bd69ae314434993de440f56ed02268d[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 15:19:49 2024 +0100
+
+    Update eco.md
+    
+    en-trad
+
+[33mcommit e15d5cad5daa1976925c088c8c646136d7e4c694[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 15:06:16 2024 +0100
+
+    Update 07-Demonstration.md
+    
+    en trad
+
+[33mcommit 5a93482d2a10758f81be7f073eff612e65c85228[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 13:37:13 2024 +0100
+
+    Update 01-intro.md
+    
+    en trad
+
+[33mcommit aa1a9717f8c1072b6e65089d3f963be5493cf423[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 13:24:35 2024 +0100
+
+    Update 05-restauration.md
+    
+    en trad
+
+[33mcommit ebf04377e4653c7142b36e6d7359d0cb15e1c405[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 13:10:18 2024 +0100
+
+    Update 04-Billetterie.md
+    
+    en trad
+
+[33mcommit 7ff1e1cffa2cb5bc2b896f78e8624dc4923bdaaa[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 12:54:09 2024 +0100
+
+    Update facebook.md
+    
+    en trad
+
+[33mcommit da579cb1bb0ac0ce2d122b926a9c9e7146eec8ba[m
+Author: achabran <95669774+achabran@users.noreply.github.com>
+Date:   Fri Feb 2 12:50:44 2024 +0100
+
+    Update 03-Cashless.md
+    
+    trad englais cashless doc
+
+[33mcommit 230190032d9a5b4fe50c11c7f4083098c1373221[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Feb 1 18:00:14 2024 +0100
+
+    low tech
+
+[33mcommit 529337e4cd706592a86fa9f60fa9684501958114[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Feb 1 15:56:20 2024 +0100
+
+    en et fr trad
+
+[33mcommit efbab0ffecd236123e878a5a27e6190dfbb1c007[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Feb 1 15:42:12 2024 +0100
+
+    en traduction
+
+[33mcommit 2d8590f0a502378602d8a5b36ba65a1825505734[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Feb 1 15:37:52 2024 +0100
+
+    first page
+
+[33mcommit 13b377a8628aaf8a0450eb2ddbd0d7e05f223313[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Thu Feb 1 14:47:52 2024 +0100
+
+    docusaurus config
+
+[33mcommit 5175b0c73d4aa33549ddb827b3d9dec63ed772e9[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Jan 22 14:24:30 2024 +0100
+
+    add gitignore
+
+[33mcommit 69281130f9e07aadb8852ab03acdf665d275695e[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Jan 22 14:19:06 2024 +0100
+
+    first !
+
+[33mcommit 5504d380dc3d7509b0161e76b00f50fe3ce45608[m
+Author: Jonas Legion <jturbeaux@pm.me>
+Date:   Mon Jan 22 14:17:49 2024 +0100
+
+    first !

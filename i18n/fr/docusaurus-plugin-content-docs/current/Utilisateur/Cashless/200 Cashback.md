@@ -8,28 +8,46 @@ wiktags: [cashless, billetterie, ticketing, cashback, stripe]
 authors: jonas
 ---
 
-## Récompensez les recharges de sommes importantes en ligne.
+## Récompensez les recharges importantes en ligne.
 
-Nous avons implémenté un système de cashback en token cadeau suite à la demande de nos clients.
+Nous avons mis en place un système de cashback par chèque-cadeau à la demande de nos clients.
 
-L'idée est d'encourager les personnes à effectuer eux même leurs rechargements en ligne pour soulager les points
-d'acceuil et de rechargement cashless d'un site.
+L'idée est d'inciter les gens à effectuer eux-mêmes leurs recharges en ligne et de désengorger l'accueil cashless d'un site et les points de recharge.
 
-Dans l'administration de votre page cashless, allez dans "Configuration Générale", puis sur l'onglet "CASHBACK".
-Indiquez la somme à partir de laquelle la récompense s'active, la valeur de la récompense, puis activez la case "Activez le cashback pour les rechargements".
-Enfin, validez avec le bouton "Enregistrer".
+Dans l'administration :
+- Allez dans « Configuration générale » dans la colonne de gauche, puis dans l'onglet « CASHBACK ».
+- Indiquez le montant à partir duquel la récompense s'active et la valeur de la récompense
+- Activez ensuite la case « Activer le cashback pour les recharges ».
+- Sauvegarder
 
-Résultat : A chaque rechargement supérieur au montant prévu, des tokens "Cadeau" sont crédités sur la carte.
+Résultat : Chaque fois que vous rechargez plus que le montant prévu, des jetons « Cadeau » sont crédités sur la carte.
 
-À noter que ces tokens "Cadeau" sont considéré différemment par la comptabilité et ne rentrent pas dans les
-chiffres du calcul du bénéfice (même monnaie que pour les bénévoles, par exemple).
+Veuillez noter que ces jetons « Cadeau » sont considérés différemment par la comptabilité 
+et n'entrent pas dans le calcul du bénéfice (même devise que pour les bénévoles, par exemple).
 
-### Exemple :
+### Example :
 
-Par exemple :
+par exemple :
 
 - Cashback start = 50
 - Cashback value = 2.50
 
-Si la personne recharge 55€, elle gagne 2.50 en cadeau.
-Si elle recharge 101€, elle gagne 5 en cadeau (x2).
+Si la personne recharge 55 €, elle gagne 2,50 en cadeau.
+Si elle recharge 101 €, elle gagne 5 en cadeau (x2).
+
+<video width="100%" controls src="/img/cashback.mp4"></video>
+
+
+## Échange de cashback d'une carte de crédit contre de l'argent liquide
+
+Le système de cashback peut également être utilisé si vos clients ont tendance à vous demander de la monnaie (par exemple, paiement en espèces pour les exposants).
+
+Suivez les instructions :
+
+<video width="100%" controls src="/img/cashbackcashless.mp4"></video>
+
+:::note
+
+Attention : Dans cette méthode, il faudra spécifier dans la comptabilité que le Cashbach signifie que l'argent à été rendu. Pour chaque échange, un gain de 0.50 centimes est réalisé, afin de prévoir les commission bancaire.
+
+:::
