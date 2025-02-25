@@ -8,102 +8,131 @@ wiktags: [billetterie, ticketing, event, free, formbricks]
 authors: Axel
 ---
 
+# Paramétrer TiBillet
 
-## Paramétrer TiBillet
+## 1. Clé API
 
-#### 1. Clé API
-Dans l'administration de votre espace (https://votrestructure.lespass.tibillet.org/)
-- Cliquez sur "Mon compte" en haut à droite
-- Bouton rouge "administration" avec le symbole de clé
-- Cliquez sur "Formbricks" tout en bas dans le menu de gauche puis "Configuration"
+Dans l'administration de votre espace ([https://votrestructure.lespass.tibillet.org/](https://votrestructure.lespass.tibillet.org/)) :
 
-> Api host est l'adresse de base de votre compte formbricks (https://app.formbricks.com) sauf si vous l'hébergez vous-même (adresse url de votre Formbricks : https://votrestructure.formbricks.com).
+1. Cliquez sur **"Mon compte"** en haut à droite.
+2. Cliquez sur le bouton rouge **"Administration"** (icône de clé).
+3. Dans le menu de gauche, tout en bas, cliquez sur **"Formbricks"** puis **"Configuration"**.
 
-Avant d'enregistrer rendez-vous sur votre logiciel Formbricks :
-  - Dans le menu "Configuration" cliquez sur "Clés API" et "ajouter la clé api de production".
-  - Donnez-lui un nom et copiez la clé qui est apparu en dessous (elle n'est visible qu'une seule fois).
-  - Retournez sur votre espace TiBillet et collez la clé dans "API KEY".
+> **API Host** est l'adresse de base de votre compte Formbricks :
+> - Par défaut : [https://app.formbricks.com](https://app.formbricks.com)
+> - Si auto-hébergé : [https://votrestructure.formbricks.com](https://votrestructure.formbricks.com)
 
-Enregistrez
+**Sur votre logiciel Formbricks :**
 
-Si tout fonctionne bien, un bouton vert devrait indiquer "Api ok".
+1. Allez dans **"Configuration"** > **"Clés API"**.
+2. Cliquez sur **"Ajouter la clé API de production"**.
+3. Donnez-lui un nom et copiez la clé générée (visible une seule fois).
+
+**Retournez sur TiBillet :**
+
+1. Collez la clé dans le champ **"API KEY"**.
+2. Enregistrez.
+
+Si tout est correct, un indicateur vert affichera **"API ok"**.
 
 <video width="100%" controls src="/img/apiformbricks.mp4"></video>
 
+---
 
+## 2. Environnement
 
-#### 2. Environnement
-Sur le logiciel Formbricks :
-- Allez dans configuration
-- "Connexion Site Web & Application"
-- Descendez jusqu'à "Votre identifiant d'environnement"
+**Sur Formbricks :**
 
-Copiez la clé
+1. Allez dans **"Configuration"** > **"Connexion Site Web & Application"**.
+2. Descendez jusqu'à **"Votre identifiant d'environnement"** et copiez la clé.
 
-Retournez dans votre administration (lespass) tibillet :
-- Cliquez sur le + en haut à droite pour ajouter un nouveau formulaire
-- Collez la clé dans "EnvironmentId"
-- "Trigger name" correspond au déclencheur d'enquète dans Formbricks. Pour le retrouvez :
-  - Sur Formbricks dans votre enquête (cliquez sur modifier si elle est déjà postée)
-  - Allez dans Paramètres
-  - Puis "Déclencheur d'enquète"
-  - Supprimez ce qui existe déjà si c'est la première fois.
-  - "ajouter une action"
-  - Capturer une nouvelle action
-  - Code
-  - Ajoutez une clé (n'importe quel texte)
-  - Remplissez la case obligatoire "Que fait votre utilisateur ?" pour définir l'action.
-  - Cliquez sur "Créer une action"
+**Sur TiBillet :**
 
-C'est cette clé qui est à renseigner dans votre administration TiBillet après "Trigger name".
+1. Cliquez sur le **"+"** pour ajouter un nouveau formulaire.
+2. Collez la clé dans le champ **"EnvironmentId"**.
+3. Renseignez le **"Trigger name"** (déclencheur d'enquête) :
+   - Sur Formbricks, ouvrez votre enquête.
+   - Allez dans **"Paramètres"** > **"Déclencheur d'enquête"**.
+   - Supprimez les anciens déclencheurs si nécessaire.
+   - Cliquez sur **"Ajouter une action"** > **"Capturer une nouvelle action"**.
+   - Remplissez les champs obligatoires, notamment **"Que fait votre utilisateur ?"**.
+   - Créez l'action et copiez la clé générée.
+4. Collez cette clé dans **"Trigger name"** sur TiBillet.
 
->Product sont les produits auxquels ce formulaire s'applique : dans votre cas cela peut-être les adhésions ou un panier par exemple.
-- Enregistrez
+> **Product** : sélectionnez les produits associés à ce formulaire (ex : adhésions, panier).
 
 :::note
-Le trigger sert à déclencher l'enquête Formbricks seulement quand le premier pré formulaire tibillet est validé (nom prénom adresse).
+Le **trigger** lance l'enquête Formbricks uniquement après validation du pré-formulaire TiBillet (nom, prénom, adresse).
 :::
-
 
 <video width="100%" controls src="/img/envtriggerformbricks.mp4"></video>
 
+---
 
-## Paramétrer Formbricks
+# Paramétrer Formbricks
 
-#### 3. Rendre l'enquête fixe dans la page tibillet
+## 3. Rendre l'enquête fixe dans TiBillet
 
-Dans les paramètres de votre enquête sur le logiciel Formbricks :
-- Option de recontact 
-- Choisir "Continuer à afficher tant que les conditions correspondent"
+1. Ouvrez les paramètres de votre enquête dans Formbricks.
+2. Activez l'option **"Continuer à afficher tant que les conditions correspondent"**.
+3. Cochez également :
+   - **"Ignorer le temps d'attente entre les enquêtes"**
+   - **"Afficher toujours l'enquête"**
 
->Cela permet à l'enquête d'être réouverte à chaque fois
+> Cela permet à l'enquête de rester visible tant que les conditions sont remplies.
 
-- Cochez "Ignorer le temps d'attente entre les enquêtes" et "afficher toujours l'enquête" (sinon elle ne s'affiche qu'une fois).
+---
 
-#### 4. Mise en page et affichage 
+## 4. Mise en page et affichage
 
-Toujours dans les paramètres Formbricks de votre enquête :
-- Cliquez sur "Placement de l'enquête".
-- Activez "Surcharge de placement", "Modal centré", "Couleur de la superposition" selon votre envie et surtout "Ne pas permettre" (sinon l'enquête se ferme quand on clique en dehors du cadre).
+1. Allez dans **"Placement de l'enquête"**.
+2. Activez les options suivantes :
+   - **"Surcharge de placement"**
+   - **"Modal centré"**
+   - **"Couleur de la superposition"** (selon vos préférences)
+   - **"Ne pas permettre"** (pour empêcher la fermeture de l'enquête en cliquant en dehors du cadre)
 
-**Autres :**
+:::danger
+Assurez-vous que le **"Placement de l'enquête dans l'application"** est bien configuré en **"Modal centré"** et **"Ne pas permettre"** dans **"Configuration"** > **"Apparence et sensation"**.
+:::
 
-Certains éléments sont déjà récupérés par TiBillet lors de pré formulaire comme : 
-- « Name » (nom)
-- « email » (mail)
-- « membership_uuid » (numéro d’adhésion)
-- « product_name » (nom du produit)
-- « price_name » (prix du produit)
+---
 
-Vous pouvez les ajouter aux "Champs cachés" dans la partie "Questions" de votre enquête Formbricks et y faire appel avec des "@".
+## 5. Fonctionnalités supplémentaires
 
-Ils permettent de faire des rappels de leur sélections aux utilisateurs mais aussi de s’assurer que les réponses seront bien catégorisées.
+### Remplissage automatique et champs cachés
+
+TiBillet transmet automatiquement certaines informations à Formbricks :
+
+- `name` : Nom de l'utilisateur
+- `email` : Email
+- `membership_uuid` : Numéro d'adhésion
+- `product_name` : Nom du produit
+- `price_name` : Prix du produit
+
+**Utilisation dans Formbricks :**
+
+1. Allez dans **"Questions"** de votre enquête.
+2. Ajoutez des **champs cachés** pour ces données.
+3. Utilisez-les dans vos questions avec `@` (ex : *Bonjour @name, vous avez choisi @product_name.*).
+
+> Les champs cachés permettent de personnaliser l'enquête et d'assurer un suivi précis dans les résultats.
+
+### Affichage des slugs
+
+Les valeurs des champs cachés apparaissent telles qu'elles sont stockées (espaces remplacés par des tirets). Pour un affichage plus naturel, utilisez les **slugs** :
+
+- `product_slug`
+- `price_slug`
+
+**Pour récupérer les slugs :**
+
+1. Dans l'administration TiBillet, allez dans **"Formbricks"**.
+2. Ouvrez votre formulaire.
+3. Les slugs s'afficheront en bleu en haut de la page.
 
 <video width="100%" controls src="/img/optionsformbricks.mp4"></video>
 
-
 :::danger
-Assurez-vous aussi que le "Placement de l'enquête dans l'application" est bien "Modal centré" et "Ne pas permettre" dans le menu Configuration puis "Apparence et sensation" de votre logiciel Formbricks.
+Un problème de cache sur les serveurs Formbricks peut retarder l'affichage des modifications (~10 minutes).
 :::
-
-Il y a pour l'instant un problème de cache sur les serveurs Formbricks et toutes modifications apportées à votre instance mettra 10 minutes à apparaitre sur TiBillet.
