@@ -120,7 +120,7 @@ TiBillet transmet automatiquement certaines informations à Formbricks :
 
 ### Affichage des slugs
 
-Pour que les valeurs des champs cachés apparaissent telles qu'elles sont stockées (espaces remplacés par des tirets), notamment dans les espaces conditionnel des enquêtes utilisez les **slugs** :
+Pour que les valeurs des champs cachés apparaissent telles qu'elles sont stockées (espaces remplacés par des tirets), notamment dans les espaces conditionnels des enquêtes utilisez les **slugs** :
 
 - `product_slug`
 - `price_slug`
