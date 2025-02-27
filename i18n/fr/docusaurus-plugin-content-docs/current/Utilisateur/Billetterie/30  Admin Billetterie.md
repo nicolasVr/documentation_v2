@@ -3,10 +3,8 @@ sidebar_position: 39
 slug: Administration Billetterie et événements
 title: Administration Billetterie et événements
 description: Gérez votre billetterie ainsi que la publication de vos événements
-keywords: [ billet, billetterie, événements, api ]
-wiktags: [ billet, billetterie, événements, api ]
-image: https://tibillet.org/img/embed_email.jpg
-
+keywords: [ ticketing, billetterie, événements, api ]
+wiktags: [ ticketing, billetterie, événements, api ]
 authors: Adrienne
 ---
 
