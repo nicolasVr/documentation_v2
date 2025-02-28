@@ -41,7 +41,7 @@ Une fois les informations de l'onglet général inscritent, allez dans l'onglet 
 - Cliquer sur le bouton "Ajouter un objet Tarif supplémentaire".
 - Précisez le nom du tarif (ex: Prix adhérent / Prix adulte / Prix plein / Prix sur place / Prix en ligne).
 - Renseignez le prix, si ce n'est pas pour le prix libre.
-- Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisi lors de son paiement stripe).
+- Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisis lors de son paiement stripe).
 - Définissez la "durée de l'abonnement" en sélectionnant "Non applicable".
 - Activez "publier" pour la rendre visible.
 - Enregistrez

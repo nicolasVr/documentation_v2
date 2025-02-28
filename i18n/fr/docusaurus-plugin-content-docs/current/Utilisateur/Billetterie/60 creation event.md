@@ -8,9 +8,8 @@ wiktags: [billetterie, ticketing, event]
 authors: Axel, Adrienne
 ---
 
-Dans un premier temps il faudra vous connecter sur la page d'administration de votre instance de billetterie en passant par votre compte.
+Dans un premier temps, connectez-vous à la page d'administration de votre instance de billetterie en utilisant votre compte.
 
-![alt text](compte.png)
 
 ## Ajouter un nouvel événement
 
@@ -32,6 +31,22 @@ Dans un premier temps il faudra vous connecter sur la page d'administration de v
   - Entrée une "Jauge Maximal" (permet de jauger le nombre de personne pour un evenement avec réservation). Si votre évènement ne prend pas en compte les réservations, inscrivez 0.
   - Renseignez l'adresse postale de votre lieu (cf. Adresse).
   - Cliquez sur le bouton "publier" (permet d'afficher ou non votre événement dans l'agenda).
+
+
+  - Cliquez sur la catégorie **"Événements"** dans la colonne de gauche sous l'onglet **"Événementiel"**.  
+- Cliquez sur le bouton **"AJOUTER ÉVÉNEMENT +"** en haut à droite.  
+- Remplissez le formulaire :  
+  - **Nom de l'événement** : renseignez le titre de votre événement.  
+  - **Catégorie d'événement** : sélectionnez la catégorie correspondante.  
+  - **Date et heure** : indiquez la date et l'heure de début
+                        indiquez la date et l'heure de fin (optionnel).  
+  - **Image principale** : importez une image qui servira de **miniature** sur la page agenda.  
+  - **Images du carrousel** : ajoutez une ou plusieurs images qui apparaîtront en **entête** dans la page de description de l'événement.  
+  - **Description courte** : rédigez une phrase d’accroche qui sera affichée sous le titre.  
+  - **Description longue** : ajoutez plus d’informations sur votre événement dans la section **"programme"**.
+  - **Jauge maximale** : définissez un nombre maximal de participants pour un événement avec réservation. Si l'événement ne nécessite pas de réservation, inscrivez **0**.  
+  - **Adresse** : renseignez l'adresse postale du lieu de l'événement.  
+  - **Publication** : cliquez sur le bouton **"Publier"** pour afficher ou masquer votre événement dans l'agenda.
 
 #### 2- Produits (Réservations)
 
