@@ -25,10 +25,10 @@ Voici la démarche :
   - Renseignez le nom de l'adhésion (ex: Adhesion Tendresse 2025).
   - Choisissez le type de produit "Abonnement et/ou adhésion associative".
   - Activez sur le bouton nominatif, afin de voir le nom et prénom visible sur l'adhésion.
-  - Inscrivez une description courte
-  - Inscrivez une description longue
+  - Inscrivez une description courte. (Optionnel)
+  - Inscrivez une description longue. (Optionnel)
   - Importez une image 
-  - Le poid permet de choisir l'ordre d'apparition des vos différentes adhésions du plus léger au plus lourd.
+  - Le poid permet de choisir l'ordre d'apparition de vos différentes billets du plus léger au plus lourd.
   - Choisissez une option de choix unique, vous pourrez choisir entre une seule des options selectionnés. (Optionnel)
   - Choisissez une option de choix multiple, vous pourrez choisir plusieurs options selectionnés. (Optionnel)
   - Ajouter un lien pour une mention légale. (Optionnel)
@@ -40,11 +40,19 @@ Voici la démarche :
 Une fois les informations de l'onglet général inscritent, allez dans l'onglet tarif.
 
 - Cliquer sur le bouton "Ajouter un objet Tarif supplémentaire".
-- Précisez le nom du tarif (ex: prix libre / Tarif adhérent mensuelle / Tarif adhérent annuel)
+- Précisez le nom du tarif (ex: Tarif adulte / tarif adhérent)
 - Renseignez le prix, si ce n'est pas pour le prix libre.
 - Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisi lors de son paiement stripe).
 - Définissez la "durée de l'abonnement".
 - Activez "publier" pour la rendre visible.
 - Enregistrez
+
+Pour inscrire différents prix pour une seule réservation, une fois votre premier prix inscrit :
+
+- Ajoutez autant de prix que vous le souhaitez 
+- Enregistrez et continuez les modifications
+- Vous aurez un lien au dessus de chaque tarif avec la mention "modification".
+- Cliquez sur le lien pour modifier le tarif utilisé pour les adhérents.
+- Allez dans le champs "Adhésion obligatoire" (cela vous permettra de connecter )
 
 Votre adhésion est maintenant visible en ligne sur Lespass dans la page "Adhérer".
