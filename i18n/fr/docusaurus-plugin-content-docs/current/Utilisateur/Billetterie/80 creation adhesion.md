@@ -40,9 +40,9 @@ Voici la démarche :
 Une fois les informations de l'onglet général inscritent, allez dans l'onglet tarif.
 
 - Cliquer sur le bouton "Ajouter un objet Tarif supplémentaire".
-- Précisez le nom du tarif (ex: Tarif prix libre / Tarif adhérant mensuelle / Tarif adhérant annuel)
+- Précisez le nom du tarif (ex: prix libre / Tarif adhérent mensuelle / Tarif adhérent annuel)
 - Renseignez le prix, si ce n'est pas pour le prix libre.
-- Activez le bouton "prix libre" (Si activé, le prix sera à spécifier dans stripe).
+- Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisi lors de son paiement stripe).
 - Définissez la "durée de l'abonnement".
 - Activez "publier" pour la rendre visible.
 - Enregistrez
