@@ -5,7 +5,7 @@ title: Créer un nouvel évènement de A à Z
 description: Créer un nouvel évènement en détails.
 keywords: [billetterie, ticketing, event]
 wiktags: [billetterie, ticketing, event]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Dans un premier temps il faudra vous connecter sur la page d'administration de votre instance de billetterie en passant par votre compte.

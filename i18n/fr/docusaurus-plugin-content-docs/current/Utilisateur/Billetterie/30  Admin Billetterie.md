@@ -1,6 +1,6 @@
 ---
 sidebar_position: 39
-slug: Administration Billetterie et événements
+slug: admin_ticketing_add_event
 title: Administration Billetterie et événements
 description: Gérez votre billetterie ainsi que la publication de vos événements
 keywords: [ ticketing, billetterie, événements, api ]

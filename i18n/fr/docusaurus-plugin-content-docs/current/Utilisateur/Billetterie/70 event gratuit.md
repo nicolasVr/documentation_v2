@@ -5,20 +5,21 @@ title: Créer un évènement gratuit
 description: Créer un nouvel évènement en détails.
 keywords: [billetterie, ticketing, event, free]
 wiktags: [billetterie, ticketing, event, free]
-authors: Axel
+authors: Axel, Adrienne
 ---
 
 Pour ce faire, rien de plus simple !
 
 ## 1- Ajouter ou modifier un événement 
 
-- Cliquez sur la catégorie "Evenements" dans la colonne de gauche sous l'onglet Billetterie
-Si vous n'avez pas encore créé votre événement, cliquez sur le bouton "AJOUTER EVENEMENT +" en haut à droite
-Si votre événement existe déjà cliquez sur son nom dans le tableau
-  *il est possible de trier par ordre alphabétique, par date ou d'utiliser la barre de recherche
+- Cliquez sur la catégorie "Evenements" dans la colonne de gauche sous l'onglet Evenementiel.
+Si vous n'avez pas encore créé votre événement, cliquez sur le bouton "AJOUTER EVENEMENT +" en haut à droite.
+Si votre événement existe déjà cliquez sur son nom dans le tableau.
+  *il est possible de trier par ordre alphabétique, par date ou d'utiliser la barre de recherche.
   
-- Rendez-vous dans la partie "Articles"
-- Désélectionnez tous les produits (ctrl + clique gauche)
+- Rendez-vous dans le champs "Produits".
+- Désélectionnez tous les produits (ctrl + clique gauche).
   * les produits ne doivent plus être grisés ou surlignés en bleus.
+  * Ou cliquez sur la croix à côté de chaque produits sélectionnés.
   
-- Enregistrer en bas de page
+- Enregistrer en bas de page.
