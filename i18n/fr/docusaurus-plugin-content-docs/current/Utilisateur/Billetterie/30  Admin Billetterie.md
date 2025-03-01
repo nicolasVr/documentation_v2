@@ -1,5 +1,5 @@
 ---
-sidebar_position: 39
+sidebar_position: 1
 slug: admin_ticketing_add_event
 title: Administration Billetterie et événements
 description: Gérez votre billetterie ainsi que la publication de vos événements
