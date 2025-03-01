@@ -8,51 +8,53 @@ wiktags: [adhésion, billetterie, ticketing, event]
 authors: Adrienne
 ---
 
-# Créer une adhésion
+# Créer une adhésion  
 
-Afin de correspondre aux différentes demandent des associations et tiers lieux, nous avons mis au point plusieurs types de produits c'est-à-dire :
-   - Billet pour réservation payante
-   - Abonnement et/ou adhésion associative
-   - Badgeuse
-   - Réservation gratuite
+Afin de répondre aux différentes demandes des associations et tiers-lieux, nous avons mis au point plusieurs types de produits, à savoir :  
+   - Billet pour réservation payante  
+   - Abonnement et/ou adhésion associative  
+   - Badgeuse  
+   - Réservation gratuite  
 
-Ces adhésions sont à créer dans la catégorie "Produits" dans la colonne de gauche sous l'onglet Produits.
+Ces adhésions sont à créer dans la catégorie **"Produits"** dans la colonne de gauche sous l'onglet **"Produits"**.  
 
-Voici la démarche :
+### Voici la démarche :  
 
-- Cliquez sur le bouton AJOUTER PRODUITS + 
-- Remplissez les informations générales (onglet général).
-  - Renseignez le nom de l'adhésion (ex: Adhesion Tendresse 2025).
-  - Choisissez le type de produit "Abonnement et/ou adhésion associative".
-  - Activez sur le bouton nominatif, afin de voir le nom et prénom visible sur l'adhésion.
-  - Inscrivez une description courte. (Optionnel)
-  - Inscrivez une description longue. (Optionnel)
-  - Importez une image 
-  - Le poid permet de choisir l'ordre d'apparition de vos différentes billets du plus léger au plus lourd.
-  - Choisissez une option de choix unique, vous pourrez choisir entre une seule des options selectionnés. (Optionnel)
-  - Choisissez une option de choix multiple, vous pourrez choisir plusieurs options selectionnés. (Optionnel)
-  - Ajouter un lien pour une mention légale. (Optionnel)
-  - Activer le bouton "publier" pour afficher l'adhésion dans Lespass "Adhérer".
-  - Activer le bouton "archiver" pour supprimer votre adhésion.
+- Cliquez sur le bouton **"AJOUTER PRODUITS +"**  
+- Remplissez les informations générales (onglet "Général") :  
+  - Renseignez le nom de l'adhésion (ex : *Adhésion Tendresse 2025*).  
+  - Choisissez le type de produit **"Abonnement et/ou adhésion associative"**.  
+  - Activez le bouton **"Nominatif"**, afin d'afficher le nom et prénom sur l'adhésion.  
+  - Inscrivez une **description courte** (*optionnel*).  
+  - Inscrivez une **description longue** (*optionnel*).  
+  - Importez une image.  
+  - **Poids** : Permet de choisir l'ordre d'apparition de vos différents billets (du plus léger au plus lourd).  
+  - **Choix unique** : Permet de sélectionner une seule des options disponibles (*optionnel*).  
+  - **Choix multiple** : Permet de sélectionner plusieurs options (*optionnel*).  
+  - Ajoutez un **lien vers une mention légale** (*optionnel*).  
+  - Activez le bouton **"Publier"** pour afficher l'adhésion dans **Lespass > Adhérer**.  
+  - Activez le bouton **"Archiver"** pour supprimer votre adhésion.  
 
-## Ajouter le tarif
+---
 
-Une fois les informations de l'onglet général inscritent, allez dans l'onglet tarif.
+## Ajouter un tarif  
 
-- Cliquer sur le bouton "Ajouter un objet Tarif supplémentaire".
-- Précisez le nom du tarif (ex: Tarif adulte / tarif adhérent)
-- Renseignez le prix, si ce n'est pas pour le prix libre.
-- Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisi lors de son paiement stripe).
-- Définissez la "durée de l'abonnement".
-- Activez "publier" pour la rendre visible.
-- Enregistrez
+Une fois les informations de l'onglet "Général" renseignées, allez dans l'onglet **"Tarif"**.  
 
-Pour inscrire différents prix pour une seule réservation, une fois votre premier prix inscrit :
+- Cliquez sur le bouton **"Ajouter un objet Tarif supplémentaire"**.  
+- Précisez le **nom du tarif** (ex : *Tarif adulte* / *Tarif adhérent*).  
+- Renseignez le **prix**, sauf s'il s'agit d'un prix libre.  
+- Activez le bouton **"Prix libre"** (Si activé, seul le nom du tarif sera visible, le prix sera défini par le client lors du paiement via Stripe).  
+- Définissez la **durée de l'abonnement**.  
+- Activez **"Publier"** pour le rendre visible.  
+- **Enregistrez**.  
 
-- Ajoutez autant de prix que vous le souhaitez 
-- Enregistrez et continuez les modifications
-- Vous aurez un lien au dessus de chaque tarif avec la mention "modification".
-- Cliquez sur le lien pour modifier le tarif utilisé pour les adhérents.
-- Allez dans le champs "Adhésion obligatoire" (cela vous permettra de connecter )
+### Pour proposer différents prix pour une seule réservation :  
 
-Votre adhésion est maintenant visible en ligne sur Lespass dans la page "Adhérer".
+- Ajoutez autant de tarifs que nécessaire.  
+- **Enregistrez** et continuez les modifications.  
+- Un lien apparaîtra au-dessus de chaque tarif avec la mention **"Modification"**.  
+- Cliquez sur ce lien pour modifier le tarif utilisé pour les adhérents.  
+- Allez dans le champ **"Adhésion obligatoire"** (cela vous permettra de connecter l'adhésion avec la réservation).  
+
+Votre adhésion est maintenant visible en ligne sur **Lespass** dans la page **"Adhérer"**.

@@ -8,42 +8,48 @@ wiktags: [billetterie, ticketing, event]
 authors: Adrienne
 ---
 
-# Créer un billet 
+# Créer un billet  
 
-**Créez vos billets et gérez vos réservations en toute simplicité !**
+**Créez vos billets et gérez vos réservations en toute simplicité !**  
 
-Si vous organisez un événement avec un nombre de places limité payante ou nécessitant une réservation gratuite, connectez directement ces réservations à vos événements pour un suivi optimal et une gestion fluide des participants. 
+Si vous organisez un événement avec un nombre de places limité, payantes ou nécessitant une réservation gratuite, connectez directement ces réservations à vos événements pour un suivi optimal et une gestion fluide des participants.  
 
-La création d’un billet ou d’une réservation fonctionne comme une adhésion, avec une fonctionnalité supplémentaire détaillée ci-dessous pour enrichir votre gestion d’événements.
+La création d’un billet ou d’une réservation fonctionne comme une adhésion, avec une fonctionnalité supplémentaire détaillée ci-dessous pour enrichir votre gestion d’événements.  
 
-Voici la démarche :
+---
 
-- Les réservation sont à créer dans la catégorie "Produits" dans la colonne de gauche sous l'onglet Produits.
-- Cliquez sur le bouton AJOUTER PRODUITS + 
-- Remplissez les informations générales (onglet général).
-  - Renseignez le nom du billet (ex: Billet Mama Africa).
-  - Choisissez le type de produit "Billet pour réservation payante".
-  - Activez sur le bouton nominatif, afin de voir le nom et prénom visible sur le billet.
-  - Inscrivez une description courte. (Optionnel)
-  - Inscrivez une description longue. (Optionnel)
-  - Importez une image 
-  - Le poid permet de choisir l'ordre d'apparition de vos différentes adhésions du plus léger au plus lourd.
-  - Choisissez une option de choix unique, vous pourrez choisir entre une seule des options selectionnés. (Optionnel)
-  - Choisissez une option de choix multiple, vous pourrez choisir plusieurs options selectionnés. (Optionnel)
-  - Ajouter un lien pour une mention légale. (Optionnel)
-  - Activer le bouton "publier" pour afficher la réservation dans la page de description de l'événement.
-  - Activer le bouton "archiver" pour supprimer le billet.
+## Étapes de création  
 
-## Ajouter le tarif
+- Les réservations sont à créer dans la catégorie **"Produits"** dans la colonne de gauche sous l'onglet **"Produits"**.  
+- Cliquez sur le bouton **"AJOUTER PRODUITS +"**.  
+- Remplissez les informations générales (onglet "Général") :  
+  - **Nom du billet** : (ex : *Billet Mama Africa*).  
+  - **Type de produit** : Sélectionnez **"Billet pour réservation payante"**.  
+  - **Nominatif** : Activez ce bouton pour afficher le **nom et prénom** sur le billet.  
+  - **Description courte** (*optionnel*).  
+  - **Description longue** (*optionnel*).  
+  - **Image** : Importez une image.  
+  - **Poids** : Détermine l’ordre d’apparition des billets (du plus léger au plus lourd).  
+  - **Choix unique** : Permet de sélectionner une seule option (*optionnel*).  
+  - **Choix multiple** : Permet de sélectionner plusieurs options (*optionnel*).  
+  - **Lien vers une mention légale** (*optionnel*).  
+  - **Publication** : Activez ce bouton pour afficher la réservation dans la page de description de l'événement.  
+  - **Archivage** : Activez ce bouton pour supprimer le billet.  
 
-Une fois les informations de l'onglet général inscritent, allez dans l'onglet tarif.
+---
 
-- Cliquer sur le bouton "Ajouter un objet Tarif supplémentaire".
-- Précisez le nom du tarif (ex: Prix adhérent / Prix adulte / Prix plein / Prix sur place / Prix en ligne).
-- Renseignez le prix, si ce n'est pas pour le prix libre.
-- Activez le bouton "prix libre" (Si activé, le nom du tarif sera visible et non le prix, car c'est le client qui le choisis lors de son paiement stripe).
-- Définissez la "durée de l'abonnement" en sélectionnant "Non applicable".
-- Activez "publier" pour la rendre visible.
-- Enregistrez
+## Ajouter un tarif  
 
-Vous avez maintenant une proposition de réservation de billet avec plusieurs prix possibles en comptant potentiellement un tarif adhérent, tarif plein ou encore tarif enfant.
+Une fois les informations de l’onglet **"Général"** renseignées, allez dans l’onglet **"Tarif"**.  
+
+- Cliquez sur le bouton **"Ajouter un objet Tarif supplémentaire"**.  
+- **Nom du tarif** : (ex : *Prix adhérent / Prix adulte / Prix plein / Prix sur place / Prix en ligne*).  
+- **Prix** : Renseignez le montant du billet (sauf pour un tarif libre).  
+- **Prix libre** : Activez ce bouton si vous souhaitez que le client définisse lui-même le prix lors du paiement Stripe.  
+- **Durée de l’abonnement** : Sélectionnez **"Non applicable"**.  
+- **Publication** : Activez ce bouton pour rendre le tarif visible.  
+- **Enregistrez**.  
+
+---
+
+Vous avez maintenant une **proposition de réservation de billet** avec plusieurs prix possibles, incluant un **tarif adhérent, tarif plein ou encore tarif enfant**. 🎟️
