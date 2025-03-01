@@ -1,5 +1,5 @@
 ---
-sidebar_position: 80
+sidebar_position: 3
 slug: admin_add_new_membership
 title: Créer une adhésion
 description: Créer un nouvel adhésion en détails.

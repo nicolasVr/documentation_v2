@@ -43,3 +43,4 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 ![Configuration parametre](/img/config3.png)
 
 ## Compte utilisateur(trice)
+

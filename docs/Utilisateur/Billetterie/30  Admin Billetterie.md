@@ -1,5 +1,5 @@
 ---
-sidebar_position: 39
+sidebar_position: 1
 slug: admin_ticketing_add_event
 title: Administration Billetterie et événements
 description: Gérez votre billetterie ainsi que la publication de vos événements
@@ -12,34 +12,36 @@ authors: Adrienne
 # Admin Billetterie / Evenement
 
 
-## Configuration
+## Configuration
 
-La configuration de votre espace vous permet de renseigner vos informations générales et ainsi les connecter aux pages qui vous appartiennent.
-Remplissez les informations suivantes :
+The configuration of your space allows you to enter your general information and connect them to the pages that belong to you.
+Fill in the following information:
 
-- Nom de l'organisation
-- Description courte
-- Description longue
+- Organization name
+- Short description
+- Long description
 
 :::note
 
-Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entrée du client dans votre espace.
+This information will be displayed on the home page, to welcome the customer to your space.
 
 :::
 
-![Configuration page d'accueil](/img/config.png)
-![Page d'accueil](/img/config2.png)
+![Home page configuration](/img/config.png)
+![Home page](/img/config2.png)
 
-- Choisissez une image d'arrière plan (présent en tête sur les mail envoyés)
-- Placez votre logo
-- Renseignez votre adresse
-- Votre numéro
-- L'adresse mail (page aide et contact)
-- Site web (Si vous possédez déjà un site ex:mamasound)
-- Renseignez le fuseau horaire
-- Section Stripe
-  - Cette section permet de voir si votre espace admin est bien connecté à votre compte stripe.
+- Choose a background image (present at the top of sent e-mails)
+- Place your logo
+- Enter your address
+- Your number
+- E-mail address (help and contact page)
+- Website (if you already have a website ex:mamasound)
+- Enter your time zone
+- Stripe section
+  - This section allows you to check whether your admin area is connected to your stripe account.
 
-![Configuration parametre](/img/config3.png)
+![Parameter configuration](/img/config3.png)
+
+Translated with DeepL.com (free version)
 
 ## Compte utilisateur(trice)
