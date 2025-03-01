@@ -1,5 +1,5 @@
 ---
-sidebar_position: 90
+sidebar_position: 4
 slug: admin_add_new_ticket
 title: Création d'une billetterie
 description: Créer un billet pour votre billetterie
