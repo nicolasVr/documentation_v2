@@ -14,7 +14,7 @@ N'hésitez pas à nous contacter par [mail](mailto:contact@tibillet.re), sur [Di
 si vous avez la moindre question.
 :::
 
-Il est possible de gérerer une clé d'api pour certaines actions.
+Il est possible de générer une clé d'api pour certaines actions.
 
 - Allez sur votre interface d'administration.
 
