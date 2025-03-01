@@ -79,3 +79,17 @@ Pour ce faire :
 :::
 
 <video width="100%" controls src="/img/addevent.mp4"></video>
+
+## Gestion des événements
+
+Afin de gérer vos événements, un système de filtre est utilisé pour facilité la recherche et l'organisation 
+
+Filtre :
+  - Par Catégorie d'évènement 
+  - Par Date de début 
+
+![alt text](/img/filtreevent.png)
+
+  - tapez la date dans la barre de recherche (au format ricain, YYYY-MM-DD)
+
+![alt text](/img/dateevent.png)
