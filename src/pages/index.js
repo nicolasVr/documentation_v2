@@ -77,7 +77,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Free event and economic tools creating cooperative networks: Cashless, ticketing, blockchain.">
+            description="Free event and business tools that create cooperative networks: Federation of diaries, ticketing systems, cash registers and cashless!">
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>
