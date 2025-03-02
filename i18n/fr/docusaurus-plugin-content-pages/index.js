@@ -58,7 +58,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Outils évènementiels et économiques libres créateurs de réseaux coopératifs: Fédération d'agendas, de billetteries, de caisses enregistreuses et cashless !">
+            description="Outils évènementiels et économiques libres créateurs de réseaux coopératifs: Fédérations d'agendas, de billetteries, de caisses enregistreuses et cashless !">
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>
