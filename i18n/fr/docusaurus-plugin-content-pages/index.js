@@ -43,12 +43,14 @@ function HeroBanner() {
                     <Link className="button button--info" to="/docs/presentation/demonstration">
                         <Translate>Démonstration</Translate>
                     </Link>
+                    <Link className="button button--warning" to="https://m.tibillet.coop/tenant/new/">
+                        <Translate>Créer son espace</Translate>
+                    </Link>
                 </div>
             </div>
         </div>
     );
 }
-
 
 
 export default function Home() {
