@@ -372,6 +372,12 @@ server {
         proxy_set_header X-Forwarded-Host $server_name;
     }
 }
+
+include mime.types;
+types {
+    # here are additional types
+    application/javascript mjs;
+}
 ```
 
 ### Docker compose
