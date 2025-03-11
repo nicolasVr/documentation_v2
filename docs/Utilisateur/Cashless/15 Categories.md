@@ -25,7 +25,7 @@ Go to the “Item categories” menu in the left-hand column.
   - All icons are listed at [https://fontawesome.com/v4/icons/](https://fontawesome.com/v4/icons/).
 - Click on “Save”.
 
-<video width="100%" controls src="/img/categorie-article.mp4" title="Title"></video>
+<video width="100%" controls src="/img/creacollectif.mp4"></video>
 
 Your product category has been created! Now all you have to do is register your items, define their prices and associate them with this category.
 If your partners (exhibitors, artists, musicians, etc.) have a reduced price, you can create a dedicated category to save time.
