@@ -24,11 +24,11 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 - Cliquez sur **"Confirmer"**.  
 - Vous recevrez un e-mail de bienvenue ainsi qu'un lien pour créer votre compte **Stripe**. (Pensez à regarder vos spams !)
 
-![eefr](/img/creationespace/1-bouton.png)
-![rrr](/img/creationespace/2-a.png)
-![rr](/img/creationespace/2-b.png)
-![rrrr](/img/creationespace/3.png)
-![rr](/img/creationespace/4-mail.png)
+![1-bouton.png](/img/creationespace/1-bouton.png)
+![2-a.png](/img/creationespace/2-a.png)
+![2-b.png](/img/creationespace/2-b.png)
+![3.png](/img/creationespace/3.png)
+![4-mail.png](/img/creationespace/4-mail.png)
 
 :::note  
 Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
@@ -44,7 +44,7 @@ Comme spécifié précédemment, votre compte stripe vous permettra de gérer vo
 - Renseignez votre adresse mail
 - Cliquez sur **"envoyer"** 
 
-![rr](/img/creationespace/5.png)
-![rr](/img/creationespace/5b.png)
+![5.png](/img/creationespace/5.png)
+![5b.png](/img/creationespace/5b.png)
 
 - Renseignez le code pour demande de vérification de vos identifiants présent dans le e-mail qui vous sera envoyé.
