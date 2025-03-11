@@ -26,9 +26,9 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 
 ![1-bouton.png](/img/1-bouton.png)
 ![2-a.png](/img/2.a.png)
-![2-b.png](/img/creationespace/2.b.png)
-![3.png](/img/creationespace/3.png)
-![4-mail.png](/img/creationespace/4-mail.png)
+![2-b.png](/img/2.b.png)
+![3.png](/img/3.png)
+![4-mail.png](/img/4-mail.png)
 
 :::note  
 Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
@@ -44,13 +44,13 @@ Comme spécifié précédemment, votre compte Stripe vous permettra de gérer vo
 - Renseignez votre adresse mail.  
 - Cliquez sur **"Envoyer"**.  
 
-![5.png](/img/creationespace/5.png)  
-![5b.png](/img/creationespace/5b.png)  
-![5b.png](/img/creationespace/5c.png)  
-![5b.png](/img/creationespace/5d.png)  
-![5b.png](/img/creationespace/5e.png)  
-![5b.png](/img/creationespace/5f.png)  
-![5b.png](/img/creationespace/5g.png)  
+![5.png](/img/5.png)  
+![5b.png](/img/5b.png)  
+![5b.png](/img/5c.png)  
+![5b.png](/img/5d.png)  
+![5b.png](/img/5e.png)  
+![5b.png](/img/5f.png)  
+![5b.png](/img/5g.png)  
 
 - Cliquez sur **"Continuer"** (l'authentification par QR code et code n'est pas obligatoire).  
 - Un mail vous sera envoyé.  
