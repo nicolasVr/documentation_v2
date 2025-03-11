@@ -14,13 +14,19 @@ You can integrate ticketing into your website using an iframe tag by modifying t
 
 Exemple :
 
-- Membership : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
-- embed : [https://lespass.demo.tibillet.org/memberships/?embed=true](https://lespass.demo.tibillet.org/memberships/?embed=true)
+- Memberships : [https://lespass.demo.tibillet.org/memberships/embed/](https://lespass.demo.tibillet.org/memberships/embed/)
+- Events : [https://lespass.demo.tibillet.org/event/embed/](https://lespass.demo.tibillet.org/event/embed/)
 
-```html title="iframe"
-<iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
+```html title="iframe event"
+<iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px"
+        frameborder="0"></iframe>
+```
+<iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px" frameborder="0"></iframe>
+
+```html title="iframe membership"
+<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px"
         frameborder="0"></iframe>
 ```
 
-<iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
-        frameborder="0"></iframe>
+
+<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px" frameborder="0"></iframe>
