@@ -24,9 +24,11 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 - Cliquez sur **"Confirmer"**.  
 - Vous recevrez un e-mail de bienvenue ainsi qu'un lien pour créer votre compte **Stripe**. (Pensez à regarder vos spams !)
 
-![]
-2
-3
+![](/img/creation-espace/1-bouton.png)
+![](/img/creation-espace/2-a.png)
+![](/img/creation-espace/2-b.png)
+![](/img/creation-espace/3.png)
+![](/img/creation-espace/4.png)
 
 :::note  
 Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
@@ -37,5 +39,12 @@ Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jo
 Comme spécifié précédemment, votre compte stripe vous permettra de gérer vos transactions et paiement.
 
 - Rendez-vous dans vos e-mail (titre : "TiBillet : Création d'un nouvel espace").
-- Cliquez sur le lien "Valider sa demande et continuer sur Stripe".
+- Cliquez sur le lien **"Valider sa demande et continuer sur Stripe"**.
+- Une page stripe va s'ouvrir 
+- Renseignez votre adresse mail
+- Cliquez sur **"envoyer"** 
 
+![](/img/creation-espace/5.png)
+![](/img/creation-espace/5b.png)
+
+- Renseignez le code pour demande de vérification de vos identifiants présent dans le e-mail qui vous sera envoyé.
