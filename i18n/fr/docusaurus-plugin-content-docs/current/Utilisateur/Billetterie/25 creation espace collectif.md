@@ -25,8 +25,8 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 - Vous recevrez un e-mail de bienvenue ainsi qu'un lien pour créer votre compte **Stripe**. (Pensez à regarder vos spams !)
 
 ![1-bouton.png](/img/creationespace/1-bouton.png)
-![2-a.png](/img/creationespace/2-a.png)
-![2-b.png](/img/creationespace/2-b.png)
+![2-a.png](/img/creationespace/2.a.png)
+![2-b.png](/img/creationespace/2.b.png)
 ![3.png](/img/creationespace/3.png)
 ![4-mail.png](/img/creationespace/4-mail.png)
 
@@ -34,17 +34,28 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
 :::
 
-## Création compte stripe
+## Création compte Stripe
 
-Comme spécifié précédemment, votre compte stripe vous permettra de gérer vos transactions et paiement.
+Comme spécifié précédemment, votre compte Stripe vous permettra de gérer vos transactions et paiements.
 
-- Rendez-vous dans vos e-mail (titre : "TiBillet : Création d'un nouvel espace").
-- Cliquez sur le lien **"Valider sa demande et continuer sur Stripe"**.
-- Une page stripe va s'ouvrir 
-- Renseignez votre adresse mail
-- Cliquez sur **"envoyer"** 
+- Rendez-vous dans vos e-mails (titre : "TiBillet : Création d'un nouvel espace").  
+- Cliquez sur le lien **"Valider sa demande et continuer sur Stripe"**.  
+- Une page Stripe va s'ouvrir.  
+- Renseignez votre adresse mail.  
+- Cliquez sur **"Envoyer"**.  
 
-![5.png](/img/creationespace/5.png)
-![5b.png](/img/creationespace/5b.png)
+![5.png](/img/creationespace/5.png)  
+![5b.png](/img/creationespace/5b.png)  
+![5b.png](/img/creationespace/5c.png)  
+![5b.png](/img/creationespace/5d.png)  
+![5b.png](/img/creationespace/5e.png)  
+![5b.png](/img/creationespace/5f.png)  
+![5b.png](/img/creationespace/5g.png)  
 
-- Renseignez le code pour demande de vérification de vos identifiants présent dans le e-mail qui vous sera envoyé.
+- Cliquez sur **"Continuer"** (l'authentification par QR code et code n'est pas obligatoire).  
+- Un mail vous sera envoyé.  
+- Cliquez sur **"Verify email"**.  
+- Une page Stripe s'ouvre.  
+- Cliquez sur **"Continuer vers le Dashboard"**.  
+- Puis cliquez sur **"Démarrer la configuration"**.  
+- Suivez la démarche et renseignez les informations demandées.
