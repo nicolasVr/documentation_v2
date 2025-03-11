@@ -28,5 +28,4 @@ Exemple :
         frameborder="0"></iframe>
 ```
 
-
 <iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px" frameborder="0"></iframe>

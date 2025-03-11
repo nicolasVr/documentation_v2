@@ -19,11 +19,15 @@ Exemple :
 - Page adhésion : [https://lespass.demo.tibillet.org/memberships/embed/](https://lespass.demo.tibillet.org/memberships/embed/)
 - Page évènement : [https://lespass.demo.tibillet.org/event/embed/](https://lespass.demo.tibillet.org/event/embed/)
 
-```html title="iframe"
+```html title="iframe event"
 <iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px"
         frameborder="0"></iframe>
 ```
+<iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px" frameborder="0"></iframe>
 
-<iframe src="https://lespass.demo.tibillet.org/memberships/?embed=true" width="100%" height="1000px"
+```html title="iframe membership"
+<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px"
         frameborder="0"></iframe>
+```
 
+<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px" frameborder="0"></iframe>
