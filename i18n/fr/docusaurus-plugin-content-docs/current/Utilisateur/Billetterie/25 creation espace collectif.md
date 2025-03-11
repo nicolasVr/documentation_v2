@@ -30,10 +30,6 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 ![3.png](/img/3.png)
 ![4-mail.png](/img/4-mail.png)
 
-:::note  
-Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
-:::
-
 ## Création compte Stripe
 
 Comme spécifié précédemment, votre compte Stripe vous permettra de gérer vos transactions et paiements.
@@ -54,8 +50,14 @@ Comme spécifié précédemment, votre compte Stripe vous permettra de gérer vo
 
 - Cliquez sur **"Continuer"** (l'authentification par QR code et code n'est pas obligatoire).  
 - Un mail vous sera envoyé.  
-- Cliquez sur **"Verify email"**.  
+- Cliquez sur **"Verify e-mail"**.  
 - Une page Stripe s'ouvre.  
 - Cliquez sur **"Continuer vers le Dashboard"**.  
 - Puis cliquez sur **"Démarrer la configuration"**.  
 - Suivez la démarche et renseignez les informations demandées.
+
+:::note  
+Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
+:::
+
+<video controls src="/img/creacollectif.mp4"></video>

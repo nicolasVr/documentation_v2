@@ -1,50 +1,63 @@
 ---
 sidebar_position: 5
 slug: creation_of_the_collective_space
-title: Création espace du collectif
-description: Créez l'espace de votre collectif
+title: Creation of collective space
+description: Create a space for your collective
 keywords: [ ticketing, billetterie, événements, api ]
 wiktags: [ ticketing, billetterie, événements, api ]
 authors: Adrienne
 ---
 
-La création de votre espace vous permettra de gérer vos événements, réservations et adhésions, que vous publierez via votre espace admin.  
-Lors de cette création, vous devrez également configurer un compte Stripe afin d'assurer le suivi des transactions et des paiements.
+Creating your space will enable you to manage your events, reservations and memberships, which you will publish via your admin area.  
+You'll also need to set up a Stripe account to track transactions and payments.
 
-## Création de votre espace 
+## Creating your space 
 
-Pour créer votre espace, rendez-vous en bas de la page web :  
+To create your space, go to the bottom of the web page:  
 
-- Cliquez sur le bouton **"Je crée un espace pour mon collectif"**.  
-- Renseignez votre adresse e-mail et confirmez-la une seconde fois.  
-- Indiquez le nom de votre collectif.  
-- Activez le bouton si vous souhaitez avoir une caisse enregistreuse **Laboutik**.  
-- Activez le bouton pour accepter les conditions d'utilisation, faciles à lire et à comprendre !  
-- Choisissez votre nom de domaine entre **tibillet.coop** et **tibillet.re**.  
-- Cliquez sur **"Confirmer"**.  
-- Vous recevrez un e-mail de bienvenue ainsi qu'un lien pour créer votre compte **Stripe**. (Pensez à regarder vos spams !)
+- Click on the button **"I create a space for my collective ”**.  
+- Enter your e-mail address and confirm it a second time.  
+- Enter the name of your collective.  
+- Activate the button if you wish to have a **Laboutik** cash register.  
+- Click to accept the easy-to-read and easy-to-understand terms of use!  
+- Choose your domain name between **tibillet.coop** and **tibillet.re**.  
+- Click on **"Confirm ”**.  
+- You'll receive a welcome e-mail and a link to create your **Stripe** account. (Don't forget to check your spam!)
 
-![1-bouton.png](/img/creationespace/1-bouton.png)
-![2-a.png](/img/creationespace/2-a.png)
-![2-b.png](/img/creationespace/2-b.png)
-![3.png](/img/creationespace/3.png)
-![4-mail.png](/img/creationespace/4-mail.png)
+![1-bouton.png](/img/1-bouton.png)
+![2-a.png](/img/2.a.png)
+![2-b.png](/img/2.b.png)
+![3.png](/img/3.png)
+![4-mail.png](/img/4-mail.png)
+
+## Création compte Stripe
+
+As previously specified, your Stripe account will enable you to manage your transactions and payments.
+
+- Go to your e-mails (title: “TiBillet: Creation of a new space”).  
+- Click on the link **"Validate your request and continue on Stripe ”**.  
+- A Stripe page will open.  
+- Enter your e-mail address.  
+- Click on **"Send ”**.  
+
+![5.png](/img/5.png)  
+![5b.png](/img/5b.png)  
+![5b.png](/img/5c.png)  
+![5b.png](/img/5d.png)  
+![5b.png](/img/5e.png)  
+![5b.png](/img/5f.png)  
+![5b.png](/img/5g.png)  
+
+- Click **"Continue ”** (QR code and code authentication not required).  
+- An e-mail will be sent to you.  
+- Click on **"Verify e-mail ”**.  
+- A Stripe page will open.  
+- Click on **"Continue to Dashboard ”**.  
+- Then click on **"Start configuration ”**.  
+- Follow the steps and fill in the requested information.
 
 :::note  
-Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
+Once your account has been verified by us, we'll contact you within one working day to finalize your registration, as your follow-up is very important to us.  
 :::
 
-## Création compte stripe
-
-Comme spécifié précédemment, votre compte stripe vous permettra de gérer vos transactions et paiement.
-
-- Rendez-vous dans vos e-mail (titre : "TiBillet : Création d'un nouvel espace").
-- Cliquez sur le lien **"Valider sa demande et continuer sur Stripe"**.
-- Une page stripe va s'ouvrir 
-- Renseignez votre adresse mail
-- Cliquez sur **"envoyer"** 
-
-![5.png](/img/creationespace/5.png)
-![5b.png](/img/creationespace/5b.png)
-
-- Renseignez le code pour demande de vérification de vos identifiants présent dans le e-mail qui vous sera envoyé.
+<video controls src="/img/creacollectif.mp4"></video>
