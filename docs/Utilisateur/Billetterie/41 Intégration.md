@@ -5,8 +5,7 @@ title: Integration
 description: Integrate your reservations on your website.
 keywords: [ ticketing, billetterie, webhook, api, reservations, booking ]
 wiktags: [ ticketing, billetterie, webhook, api, reservations, booking ]
-image: https://tibillet.org/img/embed_email.jpg
-
+image: https://tibillet.org/img/embed.jpg
 authors: Jonas
 ---
 
