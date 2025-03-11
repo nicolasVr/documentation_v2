@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 20
 slug: admin_add_new_free_event
 title: Créer un évènement gratuit
 description: Créer un nouvel évènement en détails.

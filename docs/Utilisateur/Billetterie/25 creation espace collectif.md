@@ -36,6 +36,6 @@ Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jo
 
 Comme spécifié précédemment, votre compte stripe vous permettra de gérer vos transactions et paiement.
 
-- Rendez-vous dans vos e-mail (titre : "TiBillet : Création d'un nouvel espace").
-- Cliquez sur le lien "Valider sa demande et continuer sur Stripe".
+- Rendez-vous dans vos e-mail (titre : "TiBillet : Création d'un nouvel espace")
+- Cliquez sur le lien "-> Valider sa demande et continuer sur Stripe <-"
 

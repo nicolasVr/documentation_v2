@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 20
 slug: admin_add_new_event
 title: Créer un nouvel évènement de A à Z
 description: Créer un nouvel évènement en détails.
