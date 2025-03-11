@@ -24,7 +24,7 @@ Pour créer votre espace, rendez-vous en bas de la page web :
 - Cliquez sur **"Confirmer"**.  
 - Vous recevrez un e-mail de bienvenue ainsi qu'un lien pour créer votre compte **Stripe**. (Pensez à regarder vos spams !)
 
-![](/img/creation-espace/1-bouton.png)
+![](/img/1-bouton.png)
 ![](/img/creation-espace/2-a.png)
 ![](/img/creation-espace/2-b.png)
 ![](/img/creation-espace/3.png)
