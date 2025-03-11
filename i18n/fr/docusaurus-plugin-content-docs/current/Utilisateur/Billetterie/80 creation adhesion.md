@@ -65,6 +65,6 @@ Votre adhésion est maintenant visible en ligne sur **Lespass** dans la page **"
 Attention a la façon dont on exporte les données avec Libre Office :
 
   - UTF8
-  - Cocher uniquemen "comma" -> c'est la virgule qui sépare les champs.
+  - Cocher uniquement "commande" -> c'est la virgule qui sépare les champs.
 
 ![export adhésion](/img/exportadhesion.png)
