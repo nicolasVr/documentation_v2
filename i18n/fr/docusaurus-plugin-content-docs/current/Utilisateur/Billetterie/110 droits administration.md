@@ -9,18 +9,19 @@ authors: Adrienne
 ---
 
 
-## Donner les droits d'administration
 
-Dans le cadre de la gestion de votre espace, il peut être nécessaire de donner des droits administrateur à certains membres de votre organisation. Ces droits permettent à ces utilisateurs de gérer les paramètres de l'espace, d'ajouter ou modifier des événements, de gérer les abonnements, et d’avoir un accès complet à toutes les fonctionnalités nécessaires pour un bon suivi et une gestion efficace.
-Voici comment procéder pour attribuer ces droits à un membre :
+## Donner les droits d'administration
 
-- Allez dans "Utilisateur-rice" du menu à gauche
-- Sélectionnez le mail qui vous intéressent
-- Cliquez sur le bouton "Donner les droits d'administration" 
-  - Si donner les droits ne fonctionne pas, c'est que l'email n'a pas été validé, la personne doit refaire la manipulation de création de compte Lespass, afin de recevoir le mail de confirmation.
-- Un message s'affiche pour confirmer la manipulation.
+Dans le cadre de la gestion de votre espace, il peut être nécessaire de donner des droits administrateur à certains membres de votre organisation. Ces droits permettent à ces utilisateurs de gérer les paramètres de l'espace, d'ajouter ou de modifier des événements, de gérer les abonnements, et d’avoir un accès complet à toutes les fonctionnalités nécessaires pour un suivi et une gestion efficaces.
 
+Voici comment attribuer ces droits à un membre :
+
+- Allez dans "Utilisateur-rice" depuis le menu à gauche.
+- Sélectionnez l'adresse e-mail du membre concerné.
+- Cliquez sur le bouton **"Donner les droits d'administration"**.
+  - Si l'option pour donner les droits ne fonctionne pas, cela signifie que l'email n’a pas encore été validé. Dans ce cas, la personne devra refaire la procédure de création de compte sur Lespass, afin de recevoir le mail de confirmation.
+- Un message s'affichera pour confirmer la manipulation.
 
 :::warning
-Accorder ces droits doit être fait de manière réfléchie, car ces utilisateurs auront un contrôle total sur l’administration de l’espace.
+Accorder ces droits doit être fait avec précaution, car ces utilisateurs auront un contrôle total sur l’administration de l’espace.
 :::
