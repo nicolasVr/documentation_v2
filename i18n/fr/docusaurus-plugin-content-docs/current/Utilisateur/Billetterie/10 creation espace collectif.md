@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 10
 slug: creation_of_the_collective_space
 title: Création espace du collectif
 description: Créez l'espace de votre collectif

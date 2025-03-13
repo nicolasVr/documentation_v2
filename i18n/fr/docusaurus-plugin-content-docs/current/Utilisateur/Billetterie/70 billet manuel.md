@@ -1,5 +1,5 @@
 ---
-sidebar_position: 36
+sidebar_position: 70
 slug: create_a_ticket_manually
 title: Création d'une billetterie
 description: Créer un billet manuellement

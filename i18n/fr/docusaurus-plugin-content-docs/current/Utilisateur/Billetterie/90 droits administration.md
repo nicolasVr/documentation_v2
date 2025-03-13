@@ -1,5 +1,5 @@
 ---
-sidebar_position: 41
+sidebar_position: 90
 slug: Add_administrator_member
 title: Ajout membre administrateur
 description: Donnez des droits d'administration à vos membres responsables

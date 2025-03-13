@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 80
 slug: user_management
 title: Gestion des utilisateurs
 description: Gérez vos utilisateurs en ayant accès à l'historique des abonnements et réservations

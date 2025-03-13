@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 20
 slug: admin_ticketing_add_event
 title: Paramètres de Lespass
 description: Gérez vos paramètres
@@ -44,5 +44,4 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 
 ![Configuration parametre](/img/config3.png)
 
-## Compte utilisateur(trice)
 
