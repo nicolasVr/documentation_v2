@@ -8,109 +8,126 @@ wiktags: [billetterie, ticketing, event]
 authors: Adrienne
 ---
 
-Vous pouvez gérer et avoir une visibilité sur les comptes utilisateur-rice et sur leurs abonnements sous forme de liste. Vous avez la possibilité de rechercher via à un système de recherche interne, ainsi qu'un système de filtre.
 
-# Comptes utilisateur-rice 
+Vous pouvez gérer et avoir une visibilité sur les comptes utilisateur·rice et sur leurs abonnements sous forme de liste. Vous avez la possibilité de rechercher via un système de recherche interne, ainsi qu'un système de filtre.
 
-- Cliquez sur "Comptes utilisateur-rice " dans l'onglet **"utilisateur-rice"**, vous y verrez une barre de navigation secondaire contenant :
+# Comptes utilisateur·rice 
 
-## Tous-tes
+- Cliquez sur "Comptes utilisateur·rice" dans l'onglet **"utilisateur·rice"**, vous y verrez une barre de navigation secondaire contenant :
 
-Cet onglet contient une liste de tous les utilisateurs, nous pouvons y voir :
-- Le mail de l'utilisateur
-- Le prénom (si vous avez choisi lors de la création d'une adhésion ou réservation, cochez la case nominative)
+## Tous·tes
+
+Cet onglet contient une liste de tous les utilisateurs. Nous pouvons y voir :
+- L'email de l'utilisateur
+- Le prénom (si vous avez choisi lors de la création d'une adhésion ou réservation de cocher la case nominative)
 - Le nom de famille
-- L'abonnement que possède l'utilisateur (status "Aucun" et "Valid")
-- Actif permet de voir si l'adresse à été validée (status "False" quand le mail n'est pas valide et "True" lorsqu'il est vérifié).
+- L'abonnement que possède l'utilisateur (statuts "Aucun" et "Valid")
+- "Actif" permet de voir si l'adresse a été validée (statut "False" quand le mail n'est pas valide et "True" lorsqu'il est vérifié).
 
-Afin de gérez vos utilisateurs vous avez la possibilité de cliquer sur l'adresse mail afin d'ouvrir une page contenant ses informations personnelles, ainsi que les différents abonnements qu'il possède.
+Afin de gérer vos utilisateurs, vous avez la possibilité de cliquer sur l'adresse mail pour ouvrir une page contenant ses informations personnelles, ainsi que les différents abonnements qu'il possède.
+
 
 ### Gestion des informations utilisateurs
 
-- Cliquez sur le mail
-- Saisissez le nom et prénom de l'utilisateur si besoins 
-- Activez le bouton "Actif" (Précise si l’utilisateur doit être considéré comme actif. Décochez ceci plutôt que de supprimer le compte).
+- Cliquez sur l'adresse e-mail
+- Saisissez le nom et prénom de l'utilisateur si nécessaire
+- Activez le bouton "Actif" (Cela précise si l’utilisateur doit être considéré comme actif. Décochez cette option plutôt que de supprimer le compte).
 
-- Cliquez dans l'onglet "Abonnements" à coté de "General" au dessus du tableau.
-- Vous pouvez à présent voir les différents abonnement que possède l'utilisateur contenant :
+- Cliquez sur l'onglet "Abonnements" à côté de "Général" au-dessus du tableau.
+- Vous pouvez maintenant voir les différents abonnements que possède l'utilisateur, contenant :
   - Prénom
-  - Nom de famille 
-  - La date du paiement
-  - Produit/prix (il sagit de l'abonnement)
-  - La contibution
-  - La fin de l'abonnement
-  - Status de validité
+  - Nom de famille
+  - Date du paiement
+  - Produit/prix (il s'agit de l'abonnement)
+  - Contribution
+  - Fin de l'abonnement
+  - Statut de validité
 
-## Abonnements en cours 
+## Abonnements en cours
 
-Dans cet onglet vous trouverez la liste des utilisateurs possèdant un abonnement en cours, ainsi que leurs informations :
+Dans cet onglet, vous trouverez la liste des utilisateurs possédant un abonnement en cours, ainsi que leurs informations :
 
-- Email
+- E-mail
 - Prénom
-- Nom de famille 
-- Abonnements (status "Valid")
+- Nom de famille
+- Abonnements (statut "Valid")
 - Actif
 
 :::note
-A chaque fois que vous cliquerez sur le mail d'un utilisateur, vous pourrez saisir son nom et prénom ainsi que son status.
-:::
+À chaque fois que vous cliquerez sur l'e-mail d'un utilisateur, vous pourrez saisir son nom et prénom ainsi que son statut.
+::: 
 
-## Membres sans abonnements 
+
+## Membres sans abonnements
 
 Liste des utilisateurs sans abonnement
 
 - Email
 - Prénom
-- Nom de famille 
-- Abonnements (status "Aucun")
+- Nom de famille
+- Abonnements (statut "Aucun")
 - Actif
 
 ## Abonnements
 
-Liste et gestions des abonnements
+Liste et gestion des abonnements
 
 - Email
 - Prénom
-- Nom de famille 
-- Produit/prix (il sagit de l'abonnement)
-- La contibution
+- Nom de famille
+- Produit/prix (il s'agit de l'abonnement)
+- Contribution
 - Option
-- La date du paiement
+- Date du paiement
 - Date de fin de l'abonnement
 
-## Exporter la liste des abonnements :
+## Exporter la liste des abonnements :
 
 ### Première méthode
 
-- Sélectionnez la case à cocher à coté de "email" pour tout sélectionner ou sélectionnez manuellement.
-- Allez dans le menu déroulant "Select action"
-- Cliquez sur "Exporter abonnements sélectionné(e)s"
-- Cliquez sur le bouton "Run"
-- Choisissez votre format d'export
-- Cliquez sur le bouton "Soumettre", afin de télécharger le fichier.
+- Sélectionnez la case à cocher à côté de "Email" pour tout sélectionner ou sélectionnez manuellement.
+- Allez dans le menu déroulant "Select action".
+- Cliquez sur "Exporter abonnements sélectionné(e)s".
+- Cliquez sur le bouton "Run".
+- Choisissez votre format d'export.
+- Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
 
 ### Deuxième méthode
 
-Pour tout importer :
-- Cliquez sur le bouton "Exporter" en haut à droite
-- Sélectionnez votre format d'export
-- Cliquez sur le bouton "Soumettre", afin de télécharger le fichier.
+Pour tout exporter :
+- Cliquez sur le bouton "Exporter" en haut à droite.
+- Sélectionnez votre format d'export.
+- Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
 
 ## Système de filtre
 
-Afin de filtrer efficacement vos abonnements un système de filtre par onglet à été créé.
+Afin de filtrer efficacement vos abonnements, un système de filtre par onglet a été créé.
 
-Pour les onglets "Tous-tes", "Abonnements en cours", "Membres sans abonnements" le filtre se fait par : 
+Pour les onglets "Tous-tes", "Abonnements en cours", "Membres sans abonnements", le filtre se fait par : 
 
-- Actif (choix: Tous-tes / oui / non)
-- Mail error (choix: Tous-tes / oui / non)
-- Abonnement valide (choix: Tous-tes / oui / non / expire bientôt / pas d'abonnement)
-- Status équipe (choix: Tous-tes / oui / non)
-- email valide (choix: Tous-tes / oui / non)
+- Actif (choix : Tous-tes / Oui / Non)
+- Mail error (choix : Tous-tes / Oui / Non)
+- Abonnement valide (choix : Tous-tes / Oui / Non / Expire bientôt / Pas d'abonnement)
+- Statut équipe (choix : Tous-tes / Oui / Non)
+- Email valide (choix : Tous-tes / Oui / Non)
 
-Pour l'onglets "TAbonnements" le filtre se fait par : 
+Pour l'onglet "Abonnements", le filtre se fait par : 
 
-- Produit (choix: Tous-tes / liste des produits)
-- Date de paiement (choix: Toutes les dates / Aujourd’hui / Les 7 derniers jour / Ce mois-ci / Cette année / Aucune date / Possède une date).
-- fin d'abonnement (choix: Toutes les dates / Aujourd’hui / Les 7 derniers jour / Ce mois-ci / Cette année / Aucune date / Possède une date).
+- Produit (choix : Tous-tes / Liste des produits)
+- Date de paiement (choix : Toutes les dates / Aujourd'hui / Les 7 derniers jours / Ce mois-ci / Cette année / Aucune date / Possède une date)
+- Fin d'abonnement (choix : Toutes les dates / Aujourd'hui / Les 7 derniers jours / Ce mois-ci / Cette année / Aucune date / Possède une date)
 
+## Création d'un abonnement pour un utilisateur
+
+Vous avez la possibilité de faire souscrire manuellement un utilisateur à un abonnement.
+
+- Cliquez sur le bouton **"+"**.
+- Renseignez le nom et prénom de l'utilisateur.
+- Ajoutez des options si nécessaire.
+- Saisissez l'email de l'utilisateur.
+- Sélectionnez l'abonnement souhaité (cf. Page "Produits" pour créer un abonnement).
+- Spécifiez la contribution (montant de la contribution).
+- Sélectionnez le mode de paiement (Offert / Carte de crédit TPE / Espèce / Chèque bancaire).
+- Enregistrez.
+
+Une fois enregistré, l'abonnement sera visible dans la liste des abonnés.
