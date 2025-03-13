@@ -16,3 +16,13 @@ Il est également possible de créer un billet manuellement et en direct, idéal
 Pour ce faire :
 
 - Allez dans l'onglet **"billets"** dans le menu de gauche
+- Cliquez sur le bouton **"+"** en haut à droite
+- Remplissez le formulaire :
+  - Prénom
+  - Nom
+  - email
+  - Tarif (Sélectionnez votre évènement lié au prix)
+  - Choisissez le mode de paiement
+  - Enregistrez
+
+Le billet est maintenant créé et visible dans les "billets".
