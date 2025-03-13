@@ -53,3 +53,4 @@ Une fois les informations de l’onglet **"Général"** renseignées, allez dans
 ---
 
 Vous avez maintenant une **proposition de réservation de billet** avec plusieurs prix possibles, incluant un **tarif adhérent, tarif plein ou encore tarif enfant**. 🎟️
+
