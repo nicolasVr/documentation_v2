@@ -14,7 +14,7 @@ Vous pouvez gérer et avoir une visibilité sur les comptes utilisateur-rice et 
 
 - Cliquez sur "Comptes utilisateur-rice " dans l'onglet **"utilisateur-rice"**, vous y verrez une barre de navigation secondaire contenant :
 
-## "Tous-tes
+## Tous-tes
 
 Cet onglet contient une liste de tous les utilisateurs, nous pouvons y voir :
 - Le mail de l'utilisateur
@@ -78,12 +78,39 @@ Liste et gestions des abonnements
 - La date du paiement
 - Date de fin de l'abonnement
 
-Vous pouvez exporter la liste des abonnements :
+## Exporter la liste des abonnements :
+
+### Première méthode
 
 - Sélectionnez la case à cocher à coté de "email" pour tout sélectionner ou sélectionnez manuellement.
 - Allez dans le menu déroulant "Select action"
 - Cliquez sur "Exporter abonnements sélectionné(e)s"
 - Cliquez sur le bouton "Run"
 - Choisissez votre format d'export
-- Cliquez sur le bouton "soumettre", afin de télécharger le fichier
+- Cliquez sur le bouton "Soumettre", afin de télécharger le fichier.
+
+### Deuxième méthode
+
+Pour tout importer :
+- Cliquez sur le bouton "Exporter" en haut à droite
+- Sélectionnez votre format d'export
+- Cliquez sur le bouton "Soumettre", afin de télécharger le fichier.
+
+## Système de filtre
+
+Afin de filtrer efficacement vos abonnements un système de filtre par onglet à été créé.
+
+Pour les onglets "Tous-tes", "Abonnements en cours", "Membres sans abonnements" le filtre se fait par : 
+
+- Actif (choix: Tous-tes / oui / non)
+- Mail error (choix: Tous-tes / oui / non)
+- Abonnement valide (choix: Tous-tes / oui / non / expire bientôt / pas d'abonnement)
+- Status équipe (choix: Tous-tes / oui / non)
+- email valide (choix: Tous-tes / oui / non)
+
+Pour l'onglets "TAbonnements" le filtre se fait par : 
+
+- Produit (choix: Tous-tes / liste des produits)
+- Date de paiement (choix: Toutes les dates / Aujourd’hui / Les 7 derniers jour / Ce mois-ci / Cette année / Aucune date / Possède une date).
+- fin d'abonnement (choix: Toutes les dates / Aujourd’hui / Les 7 derniers jour / Ce mois-ci / Cette année / Aucune date / Possède une date).
 
