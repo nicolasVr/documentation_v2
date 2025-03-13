@@ -1,64 +1,62 @@
 ---
 sidebar_position: 20
 slug: admin_ticketing_add_event
-title: Paramètres de Lespass
-description: Gérez vos paramètres
-keywords: [ ticketing, billetterie, événements, api ]
-wiktags: [ ticketing, billetterie, événements, api ]
+title: Lespass settings
+description: Manage your settings
+keywords: [ ticketing, ticketing, events, api ]
+wiktags: [ ticketing, ticketing, events, api ]
 authors: Adrienne
 ---
 
-## Tableau de bord
+## Dashboard
 
-Vous avez décidé de passer à TiBillet mais vous avez besoin d'aide ? N'hésitez pas à nous contacter pour une consultation, un support prioritaire pour des demandes spécifiques ou des services de développement. 
+You've decided to switch to TiBillet, but need some help? Don't hesitate to contact us for a consultation, priority support for specific requests or development services. 
 
-Cliquez sur le bouton **"Prendre rendez-vous avec l'équipe"**.
+Click on **"Make an appointment with the team ”**.
 
-Si la documentation suffit cliquez sur **"Je vais m'en sortir avec la documentation"**.
+If documentation is sufficient, click on **"I'll get by with documentation ”**.
 
-Vous pourrez suivre :
+You'll be able to follow :
 
-- La performance des produits dans les derniers 28 jours.
-- Les produits les plus demandés dans les 2 dernières semaines.
-- La santé actuelle du système.
+- Product performance over the last 28 days.
+- Most popular products in the last 2 weeks.
+- Current system health.
 
 ![](/img/tdb1.png)
 ![](/img/tdb2.png)
+## Space settings
 
-## Paramètres de votre espace
+### Settings
 
-### Paramètres
+Your space settings allow you to enter your general information and connect it to the pages that belong to you.  
+Fill in the following information:
 
-La configuration de votre espace vous permet de renseigner vos informations générales et ainsi les connecter aux pages qui vous appartiennent.  
-Remplissez les informations suivantes :
-
-- Nom du collectif
-- Description courte  
-- Description longue  
+- Collective name
+- Short description  
+- Long description  
 
 :::note  
-Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entrée du client dans votre espace.  
+This information will be displayed on the home page, to welcome the customer to your space.  
 :::
 
-![Configuration page d'accueil](/img/config.png)
-![Page d'accueil](/img/config2.png)
+![Home page configuration](/img/config.png)
+![Home page](/img/config2.png)
 
-- Choisissez l'image de votre page d'accueil  
-- Placez votre logo  
-- Renseignez votre adresse  
-- Votre numéro de contact  
-- L'adresse mail (page aide et contact)  
-- Renseignez l'adresse de votre site web  
-- Renseignez le fuseau horaire  
-- Gérez la **"jauge maximale par défaut"** (elle vous permet de sélectionner le nombre de clients pouvant réserver les billets).  
-- Choisissez le **"Nom de la page d'abonnement"** (vous pouvez laisser le terme par défaut).  
-- Choisissez le **"Nom de la page d'agenda"** (vous pouvez laisser le terme par défaut).  
-- Activez l'autorisation des réservations simultanées (Les événements ont besoin de dates de début et de fin pour être comparables).  
-- **Section Stripe**  
-  - Cette section permet de vérifier si votre espace admin est bien connecté à votre compte Stripe.  
-- Enregistrez
+- Choose your home page image  
+- Place your logo  
+- Enter your address  
+- Your contact number  
+- Your e-mail address (help and contact page)  
+- Enter your website address  
+- Set your time zone  
+- Manage the **"default maximum gauge ”** (this allows you to select the number of customers who can reserve tickets).  
+- Choose the **"Subscription page name ”** (you can leave the default term).  
+- Choose the **"Agenda page name ”** (you can leave the default term).  
+- Enable simultaneous bookings (events need start and end dates to be comparable).  
+- Stripe section**  
+  - This section allows you to check whether your admin area is connected to your Stripe account.  
+- Register
 
 ![Configuration parametre](/img/config3.png)
 ![Configuration parametre](/img/config4.png)
-
 

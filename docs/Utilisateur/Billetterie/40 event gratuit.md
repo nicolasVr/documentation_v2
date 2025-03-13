@@ -1,28 +1,28 @@
 ---
 sidebar_position: 40
 slug: admin_add_new_free_event
-title: Créer un évènement gratuit
-description: Créer un nouvel évènement en détails.
+title: Create a free event
+description: Create a new event in details.
 keywords: [billetterie, ticketing, event, free]
 wiktags: [billetterie, ticketing, event, free]
 authors: Axel, Adrienne
 ---
 
-Pour ce faire, rien de plus simple !  
+It's that simple!  
 
-## 1- Ajouter ou modifier un événement  
+## 1- Add or modify an event  
 
-- Cliquez sur la catégorie "Événements" dans la colonne de gauche sous l'onglet "Événementiel".  
-  - Si vous n'avez pas encore créé votre événement, cliquez sur le bouton **"AJOUTER ÉVÉNEMENT +"** en haut à droite.  
-  - Si votre événement existe déjà, cliquez sur son nom dans le tableau.  
-    *Il est possible de trier par ordre alphabétique, par date ou d'utiliser la barre de recherche.*  
+- Click on the “Events” category in the left-hand column under the “Events” tab.  
+  - If you haven't yet created your event, click on the **“ADD EVENT +”** button in the top right-hand corner.  
+  - If your event already exists, click on its name in the table.  
+    *You can sort alphabetically, by date or use the search bar.  
 
-- Rendez-vous dans le champ **"Produits"**.  
-- Désélectionnez tous les produits (Ctrl + clic gauche).  
-  *Les produits ne doivent plus être grisés ou surlignés en bleu.*  
-  *Ou cliquez sur la croix à côté de chaque produit sélectionné.*  
+- Go to the **"Products ”** field.  
+- Unselect all products (Ctrl + left-click).  
+  *Products should no longer be grayed out or highlighted in blue.  
+  *Or click on the cross next to each selected product.  
 
-- **Enregistrez** en bas de page.
+- Save** at the bottom of the page.
 
 
 ![](/img/creaeventg.png)
