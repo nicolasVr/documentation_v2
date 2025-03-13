@@ -25,3 +25,9 @@ Voici comment attribuer ces droits à un membre :
 :::warning
 Accorder ces droits doit être fait avec précaution, car ces utilisateurs auront un contrôle total sur l’administration de l’espace.
 :::
+
+
+:::note
+Une fois les droits d'administration accordés, la carte cashless reliée à cette adresse email sera considérée comme une carte primaire (cf. Caisse enregistreuse > Carte primaire).
+Pour retirer les droits d'administration, il vous suffit de cliquer sur le bouton "Retirer les droits d'admin" en haut à droite.
+:::
