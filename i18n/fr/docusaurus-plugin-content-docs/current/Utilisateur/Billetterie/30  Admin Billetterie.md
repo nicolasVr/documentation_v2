@@ -9,7 +9,7 @@ authors: Adrienne
 ---
 
 
-# Admin Billetterie / Evenement
+# Paramètres de votre espace
 
 
 ## Paramètres
