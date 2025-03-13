@@ -8,6 +8,22 @@ wiktags: [ ticketing, billetterie, événements, api ]
 authors: Adrienne
 ---
 
+## Tableau de bord
+
+Vous avez décidé de passer à TiBillet mais vous avez besoin d'aide ? N'hésitez pas à nous contacter pour une consultation, un support prioritaire pour des demandes spécifiques ou des services de développement. 
+
+Cliquez sur le bouton **"Prendre rendez-vous avec l'équipe"**.
+
+Si la documentation suffit cliquez sur **"Je vais m'en sortir avec la documentation"**.
+
+Vous pourrez suivre :
+
+- La performance des produits dans les derniers 28 jours.
+- Les produits les plus demandés dans les 2 dernières semaines.
+- La santé actuelle du système.
+
+![](/img/tdb1.png)
+![](/img/tdb2.png)
 
 ## Paramètres de votre espace
 
@@ -16,7 +32,7 @@ authors: Adrienne
 La configuration de votre espace vous permet de renseigner vos informations générales et ainsi les connecter aux pages qui vous appartiennent.  
 Remplissez les informations suivantes :
 
-- Nom de l'organisation  
+- Nom du collectif
 - Description courte  
 - Description longue  
 
@@ -43,5 +59,6 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 - Enregistrez
 
 ![Configuration parametre](/img/config3.png)
+![Configuration parametre](/img/config4.png)
 
 

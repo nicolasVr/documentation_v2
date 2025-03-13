@@ -23,3 +23,6 @@ Pour ce faire, rien de plus simple !
   *Ou cliquez sur la croix à côté de chaque produit sélectionné.*  
 
 - **Enregistrez** en bas de page.
+
+
+![](/img/creaeventg.png)
