@@ -1,8 +1,8 @@
 ---
 sidebar_position: 10
 slug: admin_ticketing_add_event
-title: Administration Billetterie et événements
-description: Gérez votre billetterie ainsi que la publication de vos événements
+title: Paramètres de Lespass
+description: Gérez vos paramètres
 keywords: [ ticketing, billetterie, événements, api ]
 wiktags: [ ticketing, billetterie, événements, api ]
 authors: Adrienne
@@ -12,7 +12,7 @@ authors: Adrienne
 # Admin Billetterie / Evenement
 
 
-## Configuration
+## Paramètres
 
 La configuration de votre espace vous permet de renseigner vos informations générales et ainsi les connecter aux pages qui vous appartiennent.
 Remplissez les informations suivantes :
@@ -30,15 +30,20 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 ![Configuration page d'accueil](/img/config.png)
 ![Page d'accueil](/img/config2.png)
 
-- Choisissez une image d'arrière plan (présent en tête sur les mail envoyés)
+- Choisissez l'image de votre page d'accueil
 - Placez votre logo
 - Renseignez votre adresse
-- Votre numéro
+- Votre numéro de contact
 - L'adresse mail (page aide et contact)
-- Site web (Si vous possédez déjà un site ex:mamasound)
+- Renseignez l'adresse de votre site web
 - Renseignez le fuseau horaire
+- gérez la **"jauge maximale par défaut"** (elle vous permet de sélectionner le nombre de client qui pourront réserver les billets).
+- Choisissez le **"Nom de la page d'abonnement"** (vous pouvez laissez le terme par défaut)
+- Choisissez le **"Nom de la page d'agenda"** (vous pouvez laissez le terme par défaut)
+- Activez l'autorisation des réservations simultanées (Les évènements ont besoin de dates de début et de fin pour être comparables).
 - Section Stripe
   - Cette section permet de voir si votre espace admin est bien connecté à votre compte stripe.
+- Enregistrez
 
 ![Configuration parametre](/img/config3.png)
 
