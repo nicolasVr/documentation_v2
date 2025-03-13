@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 50
 slug: admin_add_new_membership
 title: Créer une adhésion
 description: Créer un nouvel adhésion en détails.
@@ -58,3 +58,13 @@ Une fois les informations de l'onglet "Général" renseignées, allez dans l'ong
 - Allez dans le champ **"Adhésion obligatoire"** (cela vous permettra de connecter l'adhésion avec la réservation).  
 
 Votre adhésion est maintenant visible en ligne sur **Lespass** dans la page **"Adhérer"**.
+
+
+# Exporter les adhésions
+
+Attention a la façon dont on exporte les données avec Libre Office :
+
+  - UTF8
+  - Cocher uniquement "commande" -> c'est la virgule qui sépare les champs.
+
+![export adhésion](/img/exportadhesion.png)

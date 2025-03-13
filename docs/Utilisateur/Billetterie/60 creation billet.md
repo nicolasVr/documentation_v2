@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 60
 slug: admin_add_new_ticket
 title: Création d'une billetterie
 description: Créer un billet pour votre billetterie
@@ -53,3 +53,4 @@ Une fois les informations de l’onglet **"Général"** renseignées, allez dans
 ---
 
 Vous avez maintenant une **proposition de réservation de billet** avec plusieurs prix possibles, incluant un **tarif adhérent, tarif plein ou encore tarif enfant**. 🎟️
+
