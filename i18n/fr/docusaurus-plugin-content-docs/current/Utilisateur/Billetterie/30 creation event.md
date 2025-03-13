@@ -16,7 +16,7 @@ Dans un premier temps, connectez-vous à la page d'administration de votre insta
 ### 1- Onglet Général
 
   - Cliquez sur la catégorie **"Événements"** dans la colonne de gauche sous l'onglet **"Événementiel"**.  
-- Cliquez sur le bouton **"AJOUTER ÉVÉNEMENT +"** en haut à droite.  
+- Cliquez sur le bouton **"+"** en haut à droite.  
 - Remplissez le formulaire :  
   - **Nom de l'événement** : renseignez le titre de votre événement.  
   - **Catégorie d'événement** : sélectionnez la catégorie correspondante.  
@@ -29,6 +29,10 @@ Dans un premier temps, connectez-vous à la page d'administration de votre insta
   - **Jauge maximale** : définissez un nombre maximal de participants pour un événement avec réservation. Si l'événement ne nécessite pas de réservation, inscrivez **0**.  
   - **Adresse** : renseignez l'adresse postale du lieu de l'événement.  
   - **Publication** : cliquez sur le bouton **"Publier"** pour afficher ou masquer votre événement dans l'agenda.
+
+![](/img/creaevent.png)
+![](/img/creaevent2.png)
+
 
 #### 2- Produits (Réservations)
 
@@ -45,6 +49,12 @@ Vos produits doivent désormais apparaître dans la liste de la section "Article
 - Sélectionnez ceux que vous souhaitez afficher sur votre page de réservation en maintenant la touche **Ctrl** et en cliquant dessus. Ils seront surlignés en bleu.  
   *Vous pouvez les désélectionner de la même façon : **Ctrl** et clic droit.*
 
+![](/img/creaevent3.png)
+
+![](/img/produits.png)
+![](/img/produits2.png)
+
+
 #### 3- Tags et formulaires
 
 - Ajoutez des tags en lien avec votre événement, ils vous permettent de les filtrer et de les catégoriser.  
@@ -52,15 +62,20 @@ Vos produits doivent désormais apparaître dans la liste de la section "Article
   - "Choix unique" oblige la personne qui réserve à sélectionner une (et une seule) option parmi celles proposées.  
   - "Choix multiple" permet au public d'ajouter ou non cette option de manière libre.
 
-## 4- Onglet Actions
+![](/img/creaevent4.png)
 
-Lorsque vous retournez en haut de la page, à droite de l'onglet "Général", cliquez sur l'onglet "Action".  
-- Cliquez sur le bouton "Ajouter un objet action supplémentaire".  
-  - Renseignez le nom de l'événement.  
+## 4- Onglet Volontariats
+
+Lorsque vous retournez en haut de la page, à droite de l'onglet "Général", cliquez sur l'onglet "Volontariats".  
+- Cliquez sur le bouton "Ajouter un objet volontariat supplémentaire".  
+  - Renseignez le nom de l'événement. 
   - Indiquez la date de début et de fin.  
   - Renseignez un nombre pour la jauge de spectateurs.  
 
 Ces actions permettent de créer plusieurs espaces de spectacles dans un même lieu avec un nombre de personnes limité.
+
+![](/img/creaevent5.png)
+![](/img/creaevent6.png)
 
 ## 5- Publier votre événement
 
@@ -78,7 +93,15 @@ Pour ce faire :
 - Cliquez sur le bouton "Enregistrer" en bas de page.  
 :::
 
-<video width="100%" controls src="/img/addevent.mp4"></video>
+![](/img/produits3.png)
+
+
+
+### Rendu Lespass
+
+![](/img/creaevent7.png)
+![](/img/creaevent8.png)
+![](/img/creaevent9.png)
 
 ## Gestion des événements
 
