@@ -51,8 +51,8 @@ Your products should now appear in the list in the “Items” section.
 
 ![](/img/creaevent3.png)
 
-![](/img/products.png)
-![](/img/products2.png)
+![](/img/produits.png)
+![](/img/produits2.png)
 
 
 #### 3- Tags and forms
@@ -93,7 +93,7 @@ To do so :
 - Click on the “Save” button at the bottom of the page.  
 :::
 
-![](/img/products3.png)
+![](/img/produits3.png)
 
 
 

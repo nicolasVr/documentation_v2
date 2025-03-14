@@ -24,7 +24,7 @@ To create your space, go to the bottom of the web page:
 - Click on **"Confirm ”**.  
 - You'll receive a welcome e-mail and a link to create your **Stripe** account. (Don't forget to check your spam!)
 
-![1-button.png](/img/1-button.png)
+![1-button.png](/img/1-bouton.png)
 ![2-a.png](/img/2.a.png)
 ![2-b.png](/img/2.b.png)
 ![3.png](/img/3.png)
@@ -60,4 +60,4 @@ As previously specified, your Stripe account will enable you to manage your tran
 Once your account has been verified by us, we'll contact you within one working day to finalize your registration, as your follow-up is very important to us.  
 :::
 
-<video controls src=“/img/creacollectif.mp4”></video>
+<video controls src="/img/creacollectif.mp4"></video>
