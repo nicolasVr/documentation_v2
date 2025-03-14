@@ -9,58 +9,58 @@ tags: [ cashless, billetterie, ticketing ]
 authors: jonas
 ---
 
-# Introduction
+# Ti-billet, c’est quoi ?
 
-TiBillet est une solution de paiement, d'adhésion associative, de reservation et billetterie en ligne,
-de gestion de monnaie temps et monnaie locale,
-de cashless de festival et de gestion de prise de commande pour buvette et salle de restauration.
+TiBillet est comme une boîte à outils.  ![](/img/icone-boite-a-outils.png)
 
-L'idée générale est d'élargir le champ d'action d'une carte d'adhésion et/ou cashless déjà en circulation dans beaucoup
-de lieux et de festivals pour la création d'un réseau coopératif.
-
-La plateforme vise à encourager la circulation des publics et la coopération entre les différents acteurs d'un
-territoire tels que les tiers-lieux, les associations, les festivals, les artistes, les artisans et les développeurs informatiques d'outils libres.
-
-Les utilisateurs disposent d'une carte NFC valable dans tout le réseau TiBillet, sans frais d'abonnement ni de
-rechargement, qui permet de gérer et d'associer les adhésions associatives, les abonnements, des monnaies temps, locales et/ou libres
-et fédérées à plusieurs lieux.
-
-Enfin, TiBillet est un logiciel libre développé par la société coopérative d'interet communn (SCIC) : **[Code Commun](https://codecommun.coop)**.
-
-Utiliser TiBillet, c'est intégrer un réseau d'économie sociale et solidaire qui vous accompagne de A à Z.
-
-## Pourquoi faire ?
-
-
-TiBillet a été conçu pour répondre à plusieurs objectifs :
-
-- Élargir le champ d'action d'une carte d'adhésion et/ou cashless déjà en circulation dans certains lieux et festivals.
-
-- Créer un réseau coopératif de lieux culturels dans une région ou une ville, permettant ainsi la circulation des
-  artistes et des publics entre différents événements culturels.
-
-- Offrir des solutions de gestion événementielle et de restauration accessibles aux petites ou jeunes structures.
-
-- Créer un système de monnaie "temps" pour la gestion et la valorisation du bénévolat, voire de création de monnaie
-  locale à l'échelle d'un
-  territoire.
-
-- Créer un agenda fédéré comme outil de communication destiné à promouvoir les évènements culturels organisés par
-  plusieurs membres d'une même instance sur un territoire donné.
-
-- Fournir une solution innovante, mais écologique en utilisant le matériel existant, la Low-tech et les réseaux de
-  Fablabs locaux pour réduire l'empreinte carbone.
-
-- Répondre aux besoins d'une fédération de tiers-lieux à l'échelle d'un territoire.
-
-- Réfléchir ensemble à une nouvelle façon de créer de la valeur en commun.
-
-
-## Pour qui ?
-
-Cafés associatifs, salles de concert, festivals, restaurants, tiers-lieux, organisateurs d'événements culturels (
-ponctuels ou permanents) et même commerçant ! Pratiquement tout établissement recevant du public peut simplifier sa
-gestion avec TiBillet.
-
-![/img/tibilletcircle.jpg](/img/tibilletcircle.jpg)
-**[Voir en grand](/img/tibilletcircle.jpg)**.
+Dans TiBillet, il y a 3 outils :
+		
+le site internet Lespass	la caisse enregistreuse LaBoutik	la carte sans contact Pass
+Chaque outil a des fonctionnalités différentes.
+Lespass
+Lespass est un site internet.
+Je peux aller sur Lespass en cliquant sur ce lien : Aller sur le site internet Lespass
+Lespass est utilisé par tout le monde : 
+	les collectifs
+	les publics
+Lespass permet par exemple de :
+	voir les évènements des collectifs TiBillet
+	réserver des places pour des évènements
+	voir les adhésions que les collectifs TiBillet proposent
+	me connecter à mon compte ou à mon compte Administration
+[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur Lespass
+[Bouton] Je fais partie des publics : je clique ici pour en savoir plus sur Lespass
+LaBoutik
+LaBoutik est la caisse enregistreuse.
+C’est une application pour : 
+	tablettes
+	smartphones
+	Sunmi
+Un Sunmi est un appareil qui permet aux publics de payer par carte.
+LaBoutik est pour les collectifs qui ont un ou plusieurs points de vente.
+Un point de vente est un lieu où je peux vendre des choses, comme :
+	de la nourriture et des boissons
+	des vêtements
+	des billets pour des concerts
+	la location d’une salle à l’heure
+	des adhésions
+LaBoutik permet par exemple de :
+	ajouter mes points de vente
+	enregistrer la liste des produits que je veux vendre dans chaque point de vente
+	voir mon chiffre d’affaires et faire ma comptabilité
+	prendre les commandes des publics
+	ajouter de la monnaie sur le compte TiBillet d’un Public
+[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur LaBoutik
+Pass
+Pass est une carte sans contact. 
+Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
+Pass est utilisé par les publics.
+Il est donné par les collectifs TiBillet.
+Avec une seule carte, Pass permet aux publics d’accéder à :
+	mes adhésions
+	mes billets pour des évènements des collectifs
+	mes abonnements
+	mes cartes de fidélité
+	de la monnaie
+[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur Pass
+[Bouton] Je fais partie des publics : je clique ici pour en savoir plus sur Pass
