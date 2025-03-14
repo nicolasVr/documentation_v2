@@ -116,3 +116,16 @@ Filter :
   - type the date in the search bar (in US format, YYYY-MM-DD)
 
 ![alt text](/img/dateevent.png)
+
+## Add labels
+
+Add labels if required, to better categorize your events.
+
+- Go to the **"Labels ”** category in the left-hand column menu.  
+- Enter a label name.  
+- Choose a color (optional).
+
+
+![alt text](/img/lab1.png)
+
+![alt text](/img/lab2.png)

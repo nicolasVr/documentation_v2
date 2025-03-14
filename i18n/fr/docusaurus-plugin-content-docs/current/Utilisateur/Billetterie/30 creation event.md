@@ -116,3 +116,17 @@ Filtre :
   - tapez la date dans la barre de recherche (au format ricain, YYYY-MM-DD)
 
 ![alt text](/img/dateevent.png)
+
+
+## Ajout labels
+
+Ajoutez des labels si besoin, afin de mieux catégoriser vos événements.
+
+- Allez dans la catégorie **"Labels"** dans le menu de la colonne de gauche.  
+- Inscrivez le nom du label.  
+- Choisissez une couleur (optionnel).
+
+
+![alt text](/img/lab1.png)
+
+![alt text](/img/lab2.png)

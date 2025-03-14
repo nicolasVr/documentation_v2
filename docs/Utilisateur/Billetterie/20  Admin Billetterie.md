@@ -60,3 +60,15 @@ This information will be displayed on the home page, to welcome the customer to 
 ![Configuration parametre](/img/config3.png)
 ![Configuration parametre](/img/config4.png)
 
+## Carrousel
+
+Add your event banners to the **"Carrousel ”** category, and they'll be visible in the calendar carrousel.
+
+![](/img/carrou1.png)
+
+### Add an image
+
+- Click on the **“+”** button at top right.
+- Fill in the form.
+
+![](/img/carrou2.png)

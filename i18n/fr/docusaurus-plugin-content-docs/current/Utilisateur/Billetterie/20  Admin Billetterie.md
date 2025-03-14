@@ -62,3 +62,17 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 ![Configuration parametre](/img/config4.png)
 
 
+## Carrousel
+
+Ajoutez les bandeaux de vos événements dans la catégorie **"Carrousel"**, ils seront visibles dans le carrousel de l'agenda.
+
+![](/img/carrou1.png)
+
+### Ajouter une image
+
+- Cliquez sur le bouton **"+"** en haut à droite.
+- Remplissez le formulaire.
+
+![](/img/carrou2.png)
+
+
