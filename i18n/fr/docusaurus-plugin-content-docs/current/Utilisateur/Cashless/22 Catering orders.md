@@ -1,7 +1,7 @@
 ---
 sidebar_position: 22
 slug: commande
-title: Commande rastauration
+title: Commande restauration
 description: Gérez vos commandes
 keywords: [ cashless, android, caisse enregistreuse]
 wiktags: [ cashless, android, ccaisse enregistreuse ]
