@@ -45,7 +45,7 @@ Ces produits peuvent être des tarifs, des adhésions, des abonnements, des rech
   - "Poids" permet de choisir l'ordre d'affichage des produits sur la page de réservation (le plus petit sera le premier).  
   - Cliquez sur le bouton "Enregistrer" en bas de cette nouvelle fenêtre pour valider.  
 
-Vos produits doivent désormais apparaître dans la liste de la section "Articles".  
+Vos produits doivent désormais apparaître dans la liste de la section "Produits".  
 - Sélectionnez ceux que vous souhaitez afficher sur votre page de réservation en maintenant la touche **Ctrl** et en cliquant dessus. Ils seront surlignés en bleu.  
   *Vous pouvez les désélectionner de la même façon : **Ctrl** et clic droit.*
 

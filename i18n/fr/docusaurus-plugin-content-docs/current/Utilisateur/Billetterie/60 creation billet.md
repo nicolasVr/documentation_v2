@@ -36,7 +36,10 @@ La création d’un billet ou d’une réservation fonctionne comme une adhésio
   - **Publication** : Activez ce bouton pour afficher la réservation dans la page de description de l'événement.  
   - **Archivage** : Activez ce bouton pour supprimer le billet.  
 
----
+
+![](/img/billet1.png)
+![](/img/billet2.png)
+![](/img/billet3.png)
 
 ## Ajouter un tarif  
 
@@ -50,7 +53,9 @@ Une fois les informations de l’onglet **"Général"** renseignées, allez dans
 - **Publication** : Activez ce bouton pour rendre le tarif visible.  
 - **Enregistrez**.  
 
----
+![](/img/billet4.png)
 
 Vous avez maintenant une **proposition de réservation de billet** avec plusieurs prix possibles, incluant un **tarif adhérent, tarif plein ou encore tarif enfant**. 🎟️
+
+
 
