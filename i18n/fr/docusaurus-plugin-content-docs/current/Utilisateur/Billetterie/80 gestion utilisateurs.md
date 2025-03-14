@@ -19,7 +19,7 @@ Vous pouvez gérer et avoir une visibilité sur les comptes utilisateur·rice et
 
 Cet onglet contient une liste de tous les utilisateurs. Nous pouvons y voir :
 - L'email de l'utilisateur
-- Le prénom (si vous avez choisi lors de la création d'une adhésion ou réservation de cocher la case nominative)
+- Le prénom 
 - Le nom de famille
 - L'abonnement que possède l'utilisateur (statuts "Aucun" et "Valid")
 - "Actif" permet de voir si l'adresse a été validée (statut "False" quand le mail n'est pas valide et "True" lorsqu'il est vérifié).
@@ -130,4 +130,6 @@ Vous avez la possibilité de faire souscrire manuellement un utilisateur à un a
 - Sélectionnez le mode de paiement (Offert / Carte de crédit TPE / Espèce / Chèque bancaire).
 - Enregistrez.
 
-Une fois enregistré, l'abonnement sera visible dans la liste des abonnés.
+:::note
+Une fois enregistré, l'abonnement sera visible dans la liste des abonnés. Vous pourrez cliquer sur l'email de l'abonnement fait précédement, afin d'envoyer une facture en cliquantsur le bouton **"Envoyer une facture par mail"** ou **"Gérer une facture"**.
+:::

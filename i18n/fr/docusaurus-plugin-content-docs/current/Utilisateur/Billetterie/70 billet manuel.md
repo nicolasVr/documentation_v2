@@ -26,3 +26,6 @@ Pour ce faire :
   - Enregistrez
 
 Le billet est maintenant créé et visible dans les "billets".
+
+![](/img/billetm1.png)
+![](/img/billetm2.png)

@@ -22,6 +22,10 @@ Voici comment attribuer ces droits à un membre :
   - Si l'option pour donner les droits ne fonctionne pas, cela signifie que l'email n’a pas encore été validé. Dans ce cas, la personne devra refaire la procédure de création de compte sur Lespass, afin de recevoir le mail de confirmation.
 - Un message s'affichera pour confirmer la manipulation.
 
+![](/img/droitadmin1.png)
+![](/img/droitadmin2.png)
+![](/img/droitadmin3.png)
+
 :::warning
 Accorder ces droits doit être fait avec précaution, car ces utilisateurs auront un contrôle total sur l’administration de l’espace.
 :::
