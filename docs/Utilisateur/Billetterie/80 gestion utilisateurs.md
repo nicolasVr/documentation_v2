@@ -1,133 +1,133 @@
 ---
 sidebar_position: 80
 slug: user_management
-title: Gestion des utilisateurs
-description: Gérez vos utilisateurs en ayant accès à l'historique des abonnements et réservations
-keywords: [billetterie, ticketing, event]
-wiktags: [billetterie, ticketing, event]
+title: User Management
+description: Manage your users by having access to the history of subscriptions and reservations
+keywords: [ticketing, event]
+wiktags: [ticketing, event]
 authors: Adrienne
 ---
 
 
-Vous pouvez gérer et avoir une visibilité sur les comptes utilisateur·rice et sur leurs abonnements sous forme de liste. Vous avez la possibilité de rechercher via un système de recherche interne, ainsi qu'un système de filtre.
+You can manage and have visibility on rice user accounts and their subscriptions as a list. You have the possibility to search through an internal search system, as well as a filter system.
 
-# Comptes utilisateur·rice 
+# rice user accounts 
 
-- Cliquez sur "Comptes utilisateur·rice" dans l'onglet **"utilisateur·rice"**, vous y verrez une barre de navigation secondaire contenant :
+- Click on "User accounts rice" in the tab **"utilisateur rice"**, you will see a secondary navigation bar containing:
 
-## Tous·tes
+## All your
 
-Cet onglet contient une liste de tous les utilisateurs. Nous pouvons y voir :
-- L'email de l'utilisateur
-- Le prénom (si vous avez choisi lors de la création d'une adhésion ou réservation de cocher la case nominative)
-- Le nom de famille
-- L'abonnement que possède l'utilisateur (statuts "Aucun" et "Valid")
-- "Actif" permet de voir si l'adresse a été validée (statut "False" quand le mail n'est pas valide et "True" lorsqu'il est vérifié).
+This tab contains a list of all users. We can see:
+- The user’s email
+- The first name 
+- The last name
+- The subscription that the user has (status "None" and "Valid")
+- "Active" allows to see if the address has been validated (status "False" when the mail is not valid and "True" when it is verified).
 
-Afin de gérer vos utilisateurs, vous avez la possibilité de cliquer sur l'adresse mail pour ouvrir une page contenant ses informations personnelles, ainsi que les différents abonnements qu'il possède.
+In order to manage your users, you can click on the email address to open a page containing his personal information, as well as the different subscriptions he has.
 
+![](/img/util1.png)
 
-### Gestion des informations utilisateurs
+### Managing user information
 
-- Cliquez sur l'adresse e-mail
-- Saisissez le nom et prénom de l'utilisateur si nécessaire
-- Activez le bouton "Actif" (Cela précise si l’utilisateur doit être considéré comme actif. Décochez cette option plutôt que de supprimer le compte).
+- Click on the email address
+- Enter the user’s first and last name if necessary
+- Enable the "Active" button (This specifies whether the user should be considered as active. Uncheck this option rather than delete the account).
 
-- Cliquez sur l'onglet "Abonnements" à côté de "Général" au-dessus du tableau.
-- Vous pouvez maintenant voir les différents abonnements que possède l'utilisateur, contenant :
-  - Prénom
-  - Nom de famille
-  - Date du paiement
-  - Produit/prix (il s'agit de l'abonnement)
+- Click on the "Subscriptions" tab next to "General" above the table.
+- You can now see the different subscriptions that the user has, containing:
+  - First name
+  - Last name
+  - Date of payment
+  - Product/price (this is subscription)
   - Contribution
-  - Fin de l'abonnement
-  - Statut de validité
+  - End of subscription
+  - Validity status
 
-## Abonnements en cours
+![](/img/util2.png)
+![](/img/util3.png)
 
-Dans cet onglet, vous trouverez la liste des utilisateurs possédant un abonnement en cours, ainsi que leurs informations :
+## Subscriptions in progress
+
+In this tab, you will find the list of users with a current subscription and their information:
 
 - E-mail
-- Prénom
-- Nom de famille
-- Abonnements (statut "Valid")
-- Actif
+- First name
+- Last name
+- Subscriptions (status "Valid")
+- Active
+
+![](/img/util4.png)
 
 :::note
-À chaque fois que vous cliquerez sur l'e-mail d'un utilisateur, vous pourrez saisir son nom et prénom ainsi que son statut.
+Each time you click on a user’s email, you can enter their first and last name and status.
 ::: 
 
 
-## Membres sans abonnements
+## Members without subscriptions
 
-Liste des utilisateurs sans abonnement
-
-- Email
-- Prénom
-- Nom de famille
-- Abonnements (statut "Aucun")
-- Actif
-
-## Abonnements
-
-Liste et gestion des abonnements
+List of non-subscription users
 
 - Email
-- Prénom
-- Nom de famille
-- Produit/prix (il s'agit de l'abonnement)
+- First name
+- Last name
+- Subscriptions (status "None")
+- Active
+
+![](/img/util5.png)
+
+## Subscriptions
+
+Subscription list and management
+
+- Email
+- First name
+- Last name
+- Product/price (this is subscription)
 - Contribution
 - Option
-- Date du paiement
-- Date de fin de l'abonnement
+- Date of payment
+- Subscription end date
 
-## Exporter la liste des abonnements :
+![](/img/util6.png)
 
-### Première méthode
+## Export subscription list:
 
-- Sélectionnez la case à cocher à côté de "Email" pour tout sélectionner ou sélectionnez manuellement.
-- Allez dans le menu déroulant "Select action".
-- Cliquez sur "Exporter abonnements sélectionné(e)s".
-- Cliquez sur le bouton "Run".
-- Choisissez votre format d'export.
-- Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
+### First method
 
-### Deuxième méthode
+- Select the check box next to "Email" to select all or select manually.
+- Go to the "Select action" drop-down menu.
+- Click on "Export selected subscriptions(s)".
+- Click the "Run" button.
+- Choose your export format.
+- Click the "Submit" button to download the file.
 
-Pour tout exporter :
-- Cliquez sur le bouton "Exporter" en haut à droite.
-- Sélectionnez votre format d'export.
-- Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
+![](/img/util7.png)
 
-## Système de filtre
+### Second method
 
-Afin de filtrer efficacement vos abonnements, un système de filtre par onglet a été créé.
+To export everything:
+- Click on the "Export" button at the top right.
+- Select your export format.
+- Click the "Submit" button to download the file.
 
-Pour les onglets "Tous-tes", "Abonnements en cours", "Membres sans abonnements", le filtre se fait par : 
+![](/img/util8.png)
 
-- Actif (choix : Tous-tes / Oui / Non)
-- Mail error (choix : Tous-tes / Oui / Non)
-- Abonnement valide (choix : Tous-tes / Oui / Non / Expire bientôt / Pas d'abonnement)
-- Statut équipe (choix : Tous-tes / Oui / Non)
-- Email valide (choix : Tous-tes / Oui / Non)
+## Filter System
 
-Pour l'onglet "Abonnements", le filtre se fait par : 
+In order to effectively filter your subscriptions, a tab-based filtering system has been created.
 
-- Produit (choix : Tous-tes / Liste des produits)
-- Date de paiement (choix : Toutes les dates / Aujourd'hui / Les 7 derniers jours / Ce mois-ci / Cette année / Aucune date / Possède une date)
-- Fin d'abonnement (choix : Toutes les dates / Aujourd'hui / Les 7 derniers jours / Ce mois-ci / Cette année / Aucune date / Possède une date)
+For the "All you", "Subscriptions in progress" and "Members without subscriptions" tabs, the filter is made by: 
 
-## Création d'un abonnement pour un utilisateur
+- Active (choice: All/ Yes/ No)
+- Mail error (choice: All of you / Yes / No)
+- Valid subscription (choice: All/ Yes/ No/ Expires soon/ No subscription)
+- Team status (choice: All of you / Yes / No)
+- Valid email (choice: All of you/ Yes/ No)
 
-Vous avez la possibilité de faire souscrire manuellement un utilisateur à un abonnement.
+For the "Subscriptions" tab, the filter is made by: 
 
-- Cliquez sur le bouton **"+"**.
-- Renseignez le nom et prénom de l'utilisateur.
-- Ajoutez des options si nécessaire.
-- Saisissez l'email de l'utilisateur.
-- Sélectionnez l'abonnement souhaité (cf. Page "Produits" pour créer un abonnement).
-- Spécifiez la contribution (montant de la contribution).
-- Sélectionnez le mode de paiement (Offert / Carte de crédit TPE / Espèce / Chèque bancaire).
-- Enregistrez.
+- Product (choice: All/ List of products)
+- Payment date (choice: All dates/ Today/ Last 7 days/ This month/ This year/ No date/ Has a date)
+- End of subscription (choice: All dates/ Today/ Last 7 days/ This month/ This year/ No date/ Has a date)
 
-Une fois enregistré, l'abonnement sera visible dans la liste des abonnés.

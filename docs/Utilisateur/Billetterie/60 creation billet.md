@@ -1,56 +1,60 @@
 ---
-sidebar_position: 60
+sidebar: 60
 slug: admin_add_new_ticket
-title: Création d'une billetterie
-description: Créer un billet pour votre billetterie
-keywords: [billetterie, ticketing, event]
-wiktags: [billetterie, ticketing, event]
+title: Creation of a ticket office
+description: Create a ticket for your ticketing
+keywords: [ticketing, event]
+wiktags: [ticketing, event]
 authors: Adrienne
 ---
 
-# Créer un billet  
+# Create a post  
 
-**Créez vos billets et gérez vos réservations en toute simplicité !**  
+**Create your tickets and manage your reservations with ease! **  
 
-Si vous organisez un événement avec un nombre de places limité, payantes ou nécessitant une réservation gratuite, connectez directement ces réservations à vos événements pour un suivi optimal et une gestion fluide des participants.  
+If you are hosting an event with limited number of seats, paying or requiring a free reservation, connect these reservations directly to your events for optimal follow-up and smooth participant management.  
 
-La création d’un billet ou d’une réservation fonctionne comme une adhésion, avec une fonctionnalité supplémentaire détaillée ci-dessous pour enrichir votre gestion d’événements.  
+Creating a ticket or booking works like a membership, with an additional feature detailed below to enrich your event management.  
 
----
 
-## Étapes de création  
+## Steps to create  
 
-- Les réservations sont à créer dans la catégorie **"Produits"** dans la colonne de gauche sous l'onglet **"Produits"**.  
-- Cliquez sur le bouton **"AJOUTER PRODUITS +"**.  
-- Remplissez les informations générales (onglet "Général") :  
-  - **Nom du billet** : (ex : *Billet Mama Africa*).  
-  - **Type de produit** : Sélectionnez **"Billet pour réservation payante"**.  
+- Reservations are to be created in the category **"Products"** in the left column under the tab **"Products"**.  
+- Click the **"ADD PRODUCTS +"** button.  
+- Fill in the general information ("General" tab):  
+  - **Ticket Name** (ex: *Mama Africa Ticket*).  
+  - **Product type** : Select **"Ticket for Paid Booking"***.  
+  -**Name**: Activate this button to display the **first name** on the ticket.  
+  - **Short description** (*optional*).  
+  - **Long description** (*optional*).  
+  - **Image**: Import an image.  
+  - **Weight**: Determines the order in which the banknotes appear (from lighter to heavier).  
+  - **Single Choice**: Select only one option (*optional*).  
+  - **Multiple Choice**: Allows you to select multiple options (*optional*).  
+  - **Link to a legal notice** (*optional*).  
+  - **Post**: Activate this button to display the booking in the event description page.  
+  - **Archive**: Activate this button to delete the ticket.  
 
-  - **Description courte** (*optionnel*).  
-  - **Description longue** (*optionnel*).  
-  - **Image** : Importez une image.  
-  - **Poids** : Détermine l’ordre d’apparition des billets (du plus léger au plus lourd).  
-  - **Choix unique** : Permet de sélectionner une seule option (*optionnel*).  
-  - **Choix multiple** : Permet de sélectionner plusieurs options (*optionnel*).  
-  - **Lien vers une mention légale** (*optionnel*).  
-  - **Publication** : Activez ce bouton pour afficher la réservation dans la page de description de l'événement.  
-  - **Archivage** : Activez ce bouton pour supprimer le billet.  
 
----
+![](/img/billet1.png)
+![](/img/billet2.png)
+![](/img/billet3.png)
 
-## Ajouter un tarif  
+## Add a rate  
 
-Une fois les informations de l’onglet **"Général"** renseignées, allez dans l’onglet **"Tarif"**.  
+Once the information of the tab **"General"** has been filled in, go to the tab **"Tariff"***.  
 
-- Cliquez sur le bouton **"Ajouter un objet Tarif supplémentaire"**.  
-- **Nom du tarif** : (ex : *Prix adhérent / Prix adulte / Prix plein / Prix sur place / Prix en ligne*).  
-- **Prix** : Renseignez le montant du billet (sauf pour un tarif libre).  
-- **Prix libre** : Activez ce bouton si vous souhaitez que le client définisse lui-même le prix lors du paiement Stripe.  
-- **Durée de l’abonnement** : Sélectionnez **"Non applicable"**.  
-- **Publication** : Activez ce bouton pour rendre le tarif visible.  
-- **Enregistrez**.  
+- Click on the **"Add Additional Rate Object"** button.  
+- **Name of the fare** (e.g.: *Member’s price / Adult’s price / Full price / On-site price / Online price*).  
+- **Price**: Fill in the ticket amount (except for a free fare).  
+- **Free price**: Activate this button if you want the customer to set the price themselves when paying with Stripe.  
+- **Subscription Term** Select **"Not applicable"***.  
+- **Publication** Activate to make the rate visible.  
+- **Save**.  
 
----
+![](/img/billet4.png)
 
-Vous avez maintenant une **proposition de réservation de billet** avec plusieurs prix possibles, incluant un **tarif adhérent, tarif plein ou encore tarif enfant**. 🎟️
+You now have a **ticket booking proposal** with several possible prices, including a **Member rate, full rate or child rate**. 🎟️
+
+
 

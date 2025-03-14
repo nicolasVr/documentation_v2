@@ -1,33 +1,37 @@
 ---
-sidebar_position: 90
+sidebar: 90
 slug: Add_administrator_member
-title: Ajout membre administrateur
-description: Donnez des droits d'administration à vos membres responsables
-keywords: [billetterie, ticketing, event]
-wiktags: [billetterie, ticketing, event]
+title: Add admin member
+Description: Give admin rights to your responsible members
+keywords: [ticketing, event]
+wiktags: [ticketing, event]
 authors: Adrienne
 ---
 
 
 
-## Donner les droits d'administration
+## Give admin rights
 
-Dans le cadre de la gestion de votre espace, il peut être nécessaire de donner des droits administrateur à certains membres de votre organisation. Ces droits permettent à ces utilisateurs de gérer les paramètres de l'espace, d'ajouter ou de modifier des événements, de gérer les abonnements, et d’avoir un accès complet à toutes les fonctionnalités nécessaires pour un suivi et une gestion efficaces.
+As part of managing your space, it may be necessary to give administrator rights to some members of your organization. These rights allow these users to manage space settings, add or edit events, manage subscriptions, and have full access to all the features needed for effective tracking and management.
 
-Voici comment attribuer ces droits à un membre :
+How to assign these rights to a member:
 
-- Allez dans "Utilisateur-rice" depuis le menu à gauche.
-- Sélectionnez l'adresse e-mail du membre concerné.
-- Cliquez sur le bouton **"Donner les droits d'administration"**.
-  - Si l'option pour donner les droits ne fonctionne pas, cela signifie que l'email n’a pas encore été validé. Dans ce cas, la personne devra refaire la procédure de création de compte sur Lespass, afin de recevoir le mail de confirmation.
-- Un message s'affichera pour confirmer la manipulation.
+- Go to "User-rice" from the menu on the left.
+- Select the email address of the member concerned.
+- Click the **"Give administration rights"** button.
+  - If the option to give permissions does not work, it means that the email has not yet been validated. In this case, the person will have to redo the account creation procedure on Lespass, in order to receive the confirmation email.
+- A message will be displayed to confirm the manipulation.
 
-:::warning
-Accorder ces droits doit être fait avec précaution, car ces utilisateurs auront un contrôle total sur l’administration de l’espace.
+![](/img/droitadmin1.png)
+![](/img/droitadmin2.png)
+![](/img/droitadmin3.png)
+
+::warning
+Granting these rights must be done with care, as these users will have full control over the administration of the space.
 :::
 
 
 :::note
-Une fois les droits d'administration accordés, la carte cashless reliée à cette adresse email sera considérée comme une carte primaire (cf. Caisse enregistreuse > Carte primaire).
-Pour retirer les droits d'administration, il vous suffit de cliquer sur le bouton "Retirer les droits d'admin" en haut à droite.
+Once administration rights are granted, the cashless card linked to this email address will be considered as a primary card (cf. Cash register > Primary card).
+To remove the administration rights, simply click on the "Remove admin rights" button at the top right.
 :::

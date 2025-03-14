@@ -1,28 +1,31 @@
 ---
 sidebar_position: 70
-slug: create_a_ticket_manually
-title: Création d'une billetterie
-description: Créer un billet manuellement
-keywords: [billetterie, ticketing, event]
-wiktags: [billetterie, ticketing, event]
+slug: creHelB a_ticket_manually
+title: Creating a post manually
+description: Create a post manually
+keywords: [ticketing, event]
+wiktags: [ticketing, event]
 authors: Adrienne
 ---
 
 
-# Créer un billet manuellement
+# Create a post manually
 
-Il est également possible de créer un billet manuellement et en direct, idéal pour gérer des inscriptions sur place ou répondre à des demandes spécifiques sans passer par le processus classique de réservation en ligne.
+It is also possible to create a ticket manually and live, ideal for managing on-site registrations or responding to specific requests without going through the classic online booking process.
 
-Pour ce faire :
+To do this:
 
-- Allez dans l'onglet **"billets"** dans le menu de gauche
-- Cliquez sur le bouton **"+"** en haut à droite
-- Remplissez le formulaire :
-  - Prénom
-  - Nom
+- Go to the tab **"tickets"** in the left menu
+- Click on the **"+"** button in the top right corner
+- Complete the form:
+  - First name
+  - Name
   - email
-  - Tarif (Sélectionnez votre évènement lié au prix)
-  - Choisissez le mode de paiement
-  - Enregistrez
+  - Rate (Select your event related to the price)
+  - Choose the payment method
+  - Record
 
-Le billet est maintenant créé et visible dans les "billets".
+The ticket is now created and visible in "tickets".
+
+![](/img/billetm1.png)
+![](/img/billetm2.png)
