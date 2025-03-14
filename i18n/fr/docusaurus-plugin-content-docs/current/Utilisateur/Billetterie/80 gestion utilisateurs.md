@@ -26,6 +26,7 @@ Cet onglet contient une liste de tous les utilisateurs. Nous pouvons y voir :
 
 Afin de gérer vos utilisateurs, vous avez la possibilité de cliquer sur l'adresse mail pour ouvrir une page contenant ses informations personnelles, ainsi que les différents abonnements qu'il possède.
 
+![](/img/util1.png)
 
 ### Gestion des informations utilisateurs
 
@@ -43,6 +44,9 @@ Afin de gérer vos utilisateurs, vous avez la possibilité de cliquer sur l'adre
   - Fin de l'abonnement
   - Statut de validité
 
+![](/img/util2.png)
+![](/img/util3.png)
+
 ## Abonnements en cours
 
 Dans cet onglet, vous trouverez la liste des utilisateurs possédant un abonnement en cours, ainsi que leurs informations :
@@ -52,6 +56,8 @@ Dans cet onglet, vous trouverez la liste des utilisateurs possédant un abonneme
 - Nom de famille
 - Abonnements (statut "Valid")
 - Actif
+
+![](/img/util4.png)
 
 :::note
 À chaque fois que vous cliquerez sur l'e-mail d'un utilisateur, vous pourrez saisir son nom et prénom ainsi que son statut.
@@ -68,6 +74,8 @@ Liste des utilisateurs sans abonnement
 - Abonnements (statut "Aucun")
 - Actif
 
+![](/img/util5.png)
+
 ## Abonnements
 
 Liste et gestion des abonnements
@@ -81,6 +89,8 @@ Liste et gestion des abonnements
 - Date du paiement
 - Date de fin de l'abonnement
 
+![](/img/util6.png)
+
 ## Exporter la liste des abonnements :
 
 ### Première méthode
@@ -92,12 +102,16 @@ Liste et gestion des abonnements
 - Choisissez votre format d'export.
 - Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
 
+![](/img/util7.png)
+
 ### Deuxième méthode
 
 Pour tout exporter :
 - Cliquez sur le bouton "Exporter" en haut à droite.
 - Sélectionnez votre format d'export.
 - Cliquez sur le bouton "Soumettre" pour télécharger le fichier.
+
+![](/img/util8.png)
 
 ## Système de filtre
 
