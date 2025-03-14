@@ -1,7 +1,7 @@
 ---
 sidebar_position: 70
 slug: create_a_ticket_manually
-title: Création d'une billetterie
+title: Création d'un billet manuellement
 description: Créer un billet manuellement
 keywords: [billetterie, ticketing, event]
 wiktags: [billetterie, ticketing, event]
