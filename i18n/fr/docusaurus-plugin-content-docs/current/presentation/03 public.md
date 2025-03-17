@@ -130,19 +130,19 @@ Les informations des événements sont :
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>La description de l’évènement</div> | <img src={require('/static/img/descripevent.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>La description de l’évènement</div> | <img src={require('/static/img/descripevent.png').default} width="60%" /> |
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>la date et l’heure</div> | <img src={require('/static/img/date.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>la date et l’heure</div> | <img src={require('/static/img/date.png').default} width="60%" /> |
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>L’adresse</div> | <img src={require('/static/img/adresse.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>L’adresse</div> | <img src={require('/static/img/adresse.png').default} width="60%" /> |
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>le prix</div> | <img src={require('/static/img/prix.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>le prix</div> | <img src={require('/static/img/prix.png').default} width="60%" /> |
 
 
 ![page description événement](/img/event.png)
@@ -150,7 +150,10 @@ Les informations des événements sont :
 
 L’agenda permet aussi de :
 
-- réserver une ou plusieurs places pour un évènement
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>réserver une ou plusieurs places pour un évènement</div> | <img src={require('/static/img/benevoleco.png').default} width="60%" /> |
+
 - m’inscrire comme bénévole pour un évènement
 
 
@@ -176,12 +179,15 @@ Mon compte me permet d’accéder à mes informations personnelles.
 
 Mes informations personnelles sont regroupées en plusieurs catégories :
 
-- Tirelire
-- Abonnements
-- Réservations
-- Badgeuse
-- Carte Pass
-- préférences
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| Tirelire <img src={require('/static/img/itirelire.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Abonnements <img src={require('/static/img/iadhes.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Réservations <img src={require('/static/img/ireserv.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Badgeuse <img src={require('/static/img/itime.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Carte Pass <img src={require('/static/img/icard.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Préférences <img src={require('/static/img/ipref.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+
 
 `Dans « Ma tirelire », je peux gérer ma monnaie.`
 
@@ -196,6 +202,9 @@ Il y a 3 monnaies TiBillet différentes.
 **La 1ère monnaie est la monnaie globale.**
 
 La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
+
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</div> | <img src={require('/static/img/carteb.png').default} width="60%" /> |
 
 Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.
 
@@ -220,8 +229,13 @@ en donnant mon Pass à un collectif TiBillet qui utilise LaBoutik.
 
 Je peux ajouter ajouter de la monnaie locale sur mon compte TiBillet grâce à :
 
-- ma carte bancaire
-- de l’argent en espèces
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Ma carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="20%" /> |
+
+
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}> De l’argent en espèces</div> | <img src={require('/static/img/espece.png').default} width="20%" /> |
+
 
 **La 3ème monnaie est les bons cadeaux.**
 
