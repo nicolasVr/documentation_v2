@@ -13,7 +13,7 @@ authors: Adrienne
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je suis un public si <strong>je suis une personne</strong> <br/> <strong>qui participe à un ou plusieurs collectifs <span style={{ whiteSpace: 'nowrap' }}>TiBillet</span>.</strong> | <img src={require('/static/img/icone-publics.png').default} width="40%" /> |
+| Je suis un public si <strong>je suis une personne</strong> <br/> <strong>qui participe à un ou plusieurs collectifs <span style={{ whiteSpace: 'nowrap' }}>TiBillet</span>.</strong> | <img src={require('/static/img/icone-publics.png').default} width="20%" /> |
 
 
 
@@ -39,17 +39,31 @@ Cette page présente comment je peux utiliser les outils TiBillet.
 
 Les outils TiBillet pour les publics sont :
 
-la carte sans contact Pass    le site internet Lespass
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> |
 
-## Pass
 
-Mon Pass est donné par un collectif TiBillet.
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>LPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
-Pass est une carte sans contact.
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Mon Pass est donné par un collectif TiBillet.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="10%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="10%" /> |
+
 
 Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
 
-**Pass me permet de payer** des choses auprès d’un collectif TiBillet qui utilise LaBoutik.
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong>des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="30%" /> |
+
 
 LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, comme :
 
@@ -59,36 +73,34 @@ LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, c
 - la location d’une salle à l’heure
 - des adhésions
 
-Avec une seule carte, mon Pass me permet d’accéder à :
-
-- mes adhésions
-- mes billets pour des évènements des collectifs
-- mes abonnements
-- mes cartes de fidélité
-- de la monnaie
-
-Je peux gérer tout ça grâce au QR code qui est sur mon Pass.
-
-Un QR code est une image que je peux prendre en photo
-avec mon téléphone.
-
-Ensuite, le site internet Lespass s’ouvre tout seul sur mon téléphone.
+|                                                                                                      |                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Avec une seule carte, mon Pass me permet d’accéder à : <ul><li>mes adhésions</li><li>mes billets pour des évènements des collectifs</li><li>mes abonnements</li><li>mes cartes de fidélité</li><li>de la monnaie</li></ul> | <img src={require('/static/img/publiccarte.png').default} width="100%" /> |
 
 
-## Lespass
+|                                                                                                      |                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Je peux gérer tout ça grâce au QR code qui est sur mon Pass. Un QR code est une image que je peux prendre en photo avec mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
 
-Lespass est un site internet.
 
-Je peux aller sur Lespass :
+Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.
+
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+
+Lèspass est un site internet.
+
+Je peux aller sur Lèspass :
 
 - grâce au QR code qui est sur ma carte
-- ou en cliquant sur ce lien : [Aller sur le site internet Lespass](URL)
+- ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-Sur Lespass, il y a :
-
-- l’**agenda**
-- les **abonnements**
-- **mon compte**
+|                                                                                                      |                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Sur Lèspass, il y a : <ul><li>l’<strong>agenda</strong></li><li>les <strong>abonnements</strong></li><li><strong>mon compte</strong></li></ul> | <img src={require('/static/img/page accueil.png').default} width="100%" /> |
 
 ### Agenda
 
@@ -98,6 +110,10 @@ L’agenda est pour :
 - voir les informations des évènements des villages de mes collectifs TiBillet
 
 Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.</div> | <img src={require('/static/img/collectifs2.png').default} width="100%" /> |
+
 
 Les informations des événements sont :
 
@@ -107,6 +123,9 @@ Les informations des événements sont :
 - l’adresse
 - le prix
 
+![page description événement](/img/event.png)
+
+
 L’agenda permet aussi de :
 
 - réserver une ou plusieurs places pour un évènement
@@ -114,6 +133,10 @@ L’agenda permet aussi de :
 
 
 ### Adhésions
+<a href="#" class="d-inline-flex align-items-center">
+  <span>Texte à gauche de l'icône</span>
+  <i class="bi bi-house-door ms-2"></i>
+</a>
 
 Les adhésions sont pour :
 - voir toutes les adhésions que mes collectifs TiBillet proposent
