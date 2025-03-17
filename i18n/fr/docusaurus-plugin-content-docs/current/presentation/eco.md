@@ -16,7 +16,7 @@ Un logiciel libre veut dire que :
 - je peux le modifier
 - d’autres personnes peuvent utiliser ce que j’ai modifié
 
-## Je fais partie des publics : 
+## Je fais partie des publics : 
 
 Je peux utiliser la carte TiBillet toute ma vie. 
 
