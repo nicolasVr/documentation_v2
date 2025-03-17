@@ -45,9 +45,19 @@ Lespass est pour tous les collectifs TiBillet.
 **Chaque collectif TiBillet peut créer son propre Lespass.**
 
 
-|                                                                                                   |                                                   |
-|-------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Sur Lèspass, il y a : <br/><ul><li>l’**agenda**</li><li>les **abonnements**</li></ul> L’agenda est pour voir : <br/><ul><li>les évènements de mon collectif TiBillet</li><li>les évènements de mon village TiBillet</li></ul> | <img src={require('/static/img/page-accueil.png').default} width="100%" /> |
+Sur Lèspass, il y a :
+
+|                                        |                                        |
+|----------------------------------------|----------------------------------------|
+| <ul> <li><img src={require('/static/img/calendar-date.svg').default} width="16" /> l’<strong>agenda</strong></li> <li><img src={require('/static/img/person-badge.svg').default} width="16" /> les <strong>abonnements</strong></li> </ul> |  |
+
+
+L’agenda est pour voir : 
+
+- les évènements de mon collectif TiBillet
+- les évènements de mon village TiBillet
+
+<img src={require('/static/img/page-accueil.png').default} width="100%" /> 
 
 Un village TiBillet est un ensemble de collectifs TiBillet qui choisissent de se regrouper ensemble.
 
