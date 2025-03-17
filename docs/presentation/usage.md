@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 slug: usages
 title: Uses
 description: Contactless payment system, zero cash (cashless), event management, catering room management, associative engagement and online ticket purchasing... but not only that !

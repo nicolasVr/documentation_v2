@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 slug: usages
 title: Usages
 description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
