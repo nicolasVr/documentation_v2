@@ -11,8 +11,11 @@ authors: Adrienne
 
 # Je suis un public
 
-Je suis un public si **je suis une personne**
-**qui participe à un ou plusieurs collectifs TiBillet.**
+|                                                                                                      |                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Je suis un public si <strong>je suis une personne</strong> <br/> <strong>qui participe à un ou plusieurs collectifs <span style={{ whiteSpace: 'nowrap' }}>TiBillet</span>.</strong> | <img src={require('/static/img/icone-publics.png').default} width="40%" /> |
+
+
 
 Un collectif TiBillet est un collectif qui utilise les outils TiBillet.
 

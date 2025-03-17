@@ -242,14 +242,6 @@ Avec une seule carte, il leur permet d’accéder à :
 Pour en savoir plus sur comment les publics peuvent utiliser leur Pass, je clique ici : 
 [Pass pour les publics](URL)
 
-Si je commande plus de 1000 cartes,
-
-je peux changer l’image au dos de la carte
-
-pour que les Pass de mon collectif ressemblent à mon collectif.
-
-Par exemple, je peux mettre :
-
-- un dessin
-- une photographie
-- le logo de mon collectif
+|                                                                                                      |                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Si je commande plus de 1000 cartes, <br/> je peux changer l’image au dos de la carte <br/> pour que les Pass de mon collectif ressemblent à mon collectif. <br/> Par exemple, je peux mettre : <ul><li>un dessin</li><li>une photographie</li><li>le logo de mon collectif</li></ul> | <img src={require('/static/img/design/mockup-ticket.png').default} width="100%" /> |
