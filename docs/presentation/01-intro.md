@@ -2,55 +2,134 @@
 sidebar_position: 1
 slug: introduction
 title: Introduction
-description: Contactless payment system, zero cash (cashless), event management, catering room management, associative engagement and online ticket purchasing... but not only that!
+description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
 image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing, catering, venue, events, associations ]
-tags: [ cashless, billetterie, ticketing, catering, venue, events, associations ]
-authors: jonas
+keywords: [ cashless, billetterie, ticketing ]
+tags: [ cashless, billetterie, ticketing ]
+authors: Jonas, Adrienne
 ---
 
-# Introduction
+#  Ti-billet, c’est quoi ?
 
-TiBillet is a FLOSS solution for payment, associative membership, online booking and ticketing, time and local currency
-management, festival cashless and order management for refreshment stands and catering facilities.
 
-The general idea is to broaden the scope of a membership and/or cashless card already in circulation at many venues and
-festivals, to create a cooperative network.
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>TiBillet est <strong>comme une boîte à outils.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
 
-The platform aims to encourage the circulation of audiences and cooperation between the various players in an area, such
-as third-party venues, associations, festivals, artists, craftsmen and open-source software developers.
 
-Users have access to an NFC card valid throughout the TiBillet network, with no subscription or top-up fees, enabling
-them to manage and associate memberships, subscriptions, time currencies, local and/or free and federated to several
-venues.
+Dans TiBillet, il y a 3 outils :
 
-Last but not least, TiBillet is an open-source software package developed by Code Commun, a SCIC (community interest company).
+|                                                 |                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
 
-When you use TiBillet, you become part of a social economy network that supports you from A to Z.
 
-## To do what ?
+Chaque outil a **des fonctionnalités différentes.**
 
-TiBillet was designed to meet several goals:
 
-- Expand the scope of a membership and/or cashless card already in circulation in certain places and festivals.
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
-- Create a cooperative network of cultural places in a region or city, thus allowing the free flow of artists and audiences between different cultural events.
 
-- Offer event management and catering solutions accessible to small or young organizations.
 
-- Create a “time” currency system for the management and valorization of profits, or even the creation of local currency on a territory scale.
+Lespass est un site internet.
 
-- Create a federated agenda as a communication tool intended to promote cultural events organized by several members of a same body in a given territory.
+Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-- Provide an innovative, yet eco-friendly solution using existing hardware, low-tech and local Fablab networks to reduce the carbon footprint.
+**Lèspass est utilisé par tout le monde :**
+- les collectifs
+- les publics
 
-- Meet the needs of a federation of third places on a territorial scale.
+**Lèspass permet par exemple de :**
+
+- voir les évènements des collectifs TiBillet
+- réserver des places pour des évènements
+- voir les adhésions que les collectifs TiBillet proposent
+- me connecter à mon compte ou à mon compte Administration
 
-- Thinking together about a new way to create shared value.
 
-## For who ?
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
 
-Community cafés, concert halls, festivals, restaurants, third places, cultural events organizers (one-off or permanent) and even retailers! Almost any establishment open to the public can simplify its management with TiBillet.
 
-![/img/tibilletcircle.jpg](/img/tibilletcircle.jpg)
-**[Larger size](/img/tibilletcircle.jpg)**.
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
+
+
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+
+LaBoutik est la caisse enregistreuse.
+
+C’est une application pour : 
+
+- tablettes
+- smartphones
+- sunmi
+
+Un Sunmi est un appareil qui permet aux publics de payer par carte.
+
+
+LaBoutik est **pour les collectifs qui ont un ou plusieurs points de vente.**
+
+
+Un point de vente est un lieu où je peux vendre des choses, comme :
+
+- de la nourriture et des boissons
+- des vêtements
+- des billets pour des concerts
+- la location d’une salle à l’heure
+- des adhésions
+
+LaBoutik permet par exemple de :
+
+- ajouter mes points de vente
+- enregistrer la liste des produits que je veux vendre dans chaque point de vente
+- voir mon chiffre d’affaires et faire ma comptabilité
+- prendre les commandes des publics
+- ajouter de la monnaie sur le compte TiBillet d’un Public
+
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur LaBoutik</strong></span>
+</a>
+
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass <img src={require('/static/img/icone-sans-contact.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+
+
+Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
+
+Pass est utilisé par les publics.
+
+Il est donné par les collectifs TiBillet.
+
+**Avec une seule carte, Pass** permet aux publics d’accéder à :
+
+- mes adhésions
+- mes billets pour des évènements des collectifs
+- mes abonnements
+- mes cartes de fidélité
+- de la monnaie
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
+
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>

@@ -203,10 +203,12 @@ Il y a 3 monnaies TiBillet différentes.
 
 La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
 
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</div> | <img src={require('/static/img/carteb.png').default} width="60%" /> |
 
-Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+
 
 Je n’ai pas de frais bancaires quand je mets de l’argent sur mon Pass.
 
@@ -229,12 +231,14 @@ en donnant mon Pass à un collectif TiBillet qui utilise LaBoutik.
 
 Je peux ajouter ajouter de la monnaie locale sur mon compte TiBillet grâce à :
 
+|                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Ma carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>Ma carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
 
-
+|                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}> De l’argent en espèces</div> | <img src={require('/static/img/espece.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>De l’argent en espèces</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
+
 
 
 **La 3ème monnaie est les bons cadeaux.**
