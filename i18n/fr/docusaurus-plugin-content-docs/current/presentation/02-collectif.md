@@ -47,21 +47,9 @@ Lespass est pour tous les collectifs TiBillet.
 
 |                                                                                                   |                                                   |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Sur Lespass, il y a : <br/><ul><li>l’**agenda**</li><li>les **abonnements**</li></ul> L’agenda est pour voir : <br/><ul><li>les évènements de mon collectif TiBillet</li><li>les évènements de mon village TiBillet</li></ul> | <img src={require('/static/img/page-accueil.png').default} width="40%" /> |
-
-
-Sur Lespass, il y a :
-
-- l’**agenda**
-- les **abonnements**
-
-L’agenda est pour voir :
-
-- les évènements de mon collectif TiBillet
-- les évènements de mon village TiBillet
+| Sur Lèspass, il y a : <br/><ul><li>l’**agenda**</li><li>les **abonnements**</li></ul> L’agenda est pour voir : <br/><ul><li>les évènements de mon collectif TiBillet</li><li>les évènements de mon village TiBillet</li></ul> | <img src={require('/static/img/page-accueil.png').default} width="100%" /> |
 
 Un village TiBillet est un ensemble de collectifs TiBillet qui choisissent de se regrouper ensemble.
-<img src="chemin/vers/image.png" alt="Texte alternatif" class="ma-classe" />
 
 Les adhésions sont pour voir :
 
@@ -74,7 +62,7 @@ L’agenda et les adhésions sont pour :
 - leur permettre de faire leurs réservations
 - leur permettre de se connecter à leur compte
 
-Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](URL)
+Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](https://lespass.demo.tibillet.org/)
 
 Pour les collectifs, Lespass me permet aussi de **me connecter à mon panneau d'Administration.**
 
@@ -100,10 +88,13 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](URL)
+Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](Uhttps://tibillet.org/docs/presentation/demonstration/)
                                                                   
 
-## LaBoutik
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
 
 LaBoutik est **pour les collectifs qui ont un ou plusieurs points de vente.**
 
@@ -152,16 +143,27 @@ La 2ème partie me permet de :
 - gérer la monnaie des publics
 ```
 
-Gérer les achats des publics dans mes points de vente, c’est par exemple :
+**Gérer les achats des publics dans mes points de vente**, c’est par exemple :
 
 - enregistrer leurs achats
 - encaisser leurs achats
 
 Je peux encaisser les achats des publics :
 
-- en espèces
-- par carte bancaire
-- avec un Pass
+- 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>en espèces</div> | <img src={require('/static/img/icone-carte-pass.png').default} width="20%" /> |
+- 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>par carte bancaire</div> | <img src={require('/static/img/icone-carte-pass.png').default} width="20%" /> |
+
+- 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>avec un Pass</div> | <img src={require('/static/img/icone-carte-pass.png').default} width="20%" /> |
+
 
 Un Pass est une carte sans contact.
 
@@ -209,11 +211,17 @@ Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBill
 Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
 [Gérer les achats et la monnaie des publics avec LaBoutik](URL)
 
-## Pass
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass<img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
 
 Pass est donné aux publics par un collectif TiBillet.
 
-C’est une carte sans contact.
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>C’est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+
 
 Sans contact veut dire que les publics n’ont pas besoin de rentrer un code secret pour l’utiliser.
 
