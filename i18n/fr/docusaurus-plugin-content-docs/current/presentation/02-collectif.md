@@ -49,7 +49,8 @@ Sur Lèspass, il y a :
 
 |                                        |                                        |
 |----------------------------------------|----------------------------------------|
-| <ul> <li><img src={require('/static/img/calendar-date.svg').default} width="16" /> l’<strong>agenda</strong></li> <li><img src={require('/static/img/person-badge.svg').default} width="16" /> les <strong>abonnements</strong></li> </ul> |  |
+| <ul> <li><img src={require(/static/img/iagenda.png).default} width="16" /> l’<strong>agenda</strong></li> <li><img src={require(/static/img/iabonnements.png).default} width="16" /> les <strong>abonnements</strong></li> </ul> |  |
+
 
 
 L’agenda est pour voir : 
