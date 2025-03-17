@@ -132,16 +132,15 @@ L’agenda permet aussi de :
 - m’inscrire comme bénévole pour un évènement
 
 
-### Adhésions
-<a href="#" class="d-inline-flex align-items-center">
-  <span>Texte à gauche de l'icône</span>
-  <i class="bi bi-house-door ms-2"></i>
-</a>
+### Abonnements
 
-Les adhésions sont pour :
-- voir toutes les adhésions que mes collectifs TiBillet proposent
-- voir toutes les adhésions que les villages de mes collectifs TiBillet proposent
-- prendre une adhésion
+Les abonnements sont pour :
+- voir toutes les abonnements que mes collectifs TiBillet proposent 
+- voir toutes les abonnements que les villages de mes collectifs TiBillet proposent
+- prendre un abonnement
+
+![page abonnements](/img/abonnements.png)
+
 
 ### Mon compte
 

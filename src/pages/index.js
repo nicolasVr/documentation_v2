@@ -68,16 +68,3 @@ function HeroBanner() {
 }
 
 
-export default function Home() {
-    const {siteConfig} = useDocusaurusContext();
-    return (
-        <Layout
-            title={`${siteConfig.title}`}
-            description="Free event and economic tools creating cooperative networks: Cashless, ticketing, blockchain.">
-            <main>
-                <HeroBanner/>
-                <HomepageFeatures/>
-            </main>
-        </Layout>
-    );
-}
