@@ -14,7 +14,10 @@ authors: Jonas, Adrienne
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| TiBillet est **comme une boîte à outils.**      | ![]() |
+| <div style={{ whiteSpace: 'nowrap' }}>TiBillet est <strong>comme une boîte à outils.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
+
+
+
 
 <img src="/static/img/icone-boite-a-outils.png" class="img-fluid mb-3" alt="Image 1"/>
 Dans TiBillet, il y a 3 outils :
