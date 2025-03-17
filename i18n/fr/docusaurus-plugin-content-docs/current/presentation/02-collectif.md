@@ -163,16 +163,15 @@ La 2ème partie me permet de :
 
 Je peux encaisser les achats des publics :
 
-- 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>en espèces</div> | <img src={require('/static/img/espece.png').default} width="20%" /> |
-- 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>par carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>en espèces</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
 
-- 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>par carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+
+
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
 | <div style={{ whiteSpace: 'nowrap' }}>avec un Pass</div> | <img src={require('/static/img/icone-carte-pass.png').default} width="20%" /> |

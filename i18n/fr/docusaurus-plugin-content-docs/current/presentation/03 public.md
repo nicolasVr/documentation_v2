@@ -30,10 +30,13 @@ Un collectif est par exemple :
 
 Participer à un collectif TiBillet, c’est par exemple :
 
-- adhérer au collectif
-- aller à un évènement organisé par le collectif
-- acheter quelque chose dans un point de vente du collectif
-- être bénévole pour aider le collectif
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| **Réadhérer au collectif**           | <img src={require('/static/img/adherercollectif.png').default} width="30" /> |
+| **Aller à un évènement organisé par le collectif** | <img src={require('/static/img/eventco.png').default} width="30" /> |
+| **Acheter quelque chose dans un point de vente du collectif** | <img src={require('/static/img/venteco.png').default} width="30" /> |
+| **Être bénévole pour aider le collectif** | <img src={require('/static/img/benevoleco.png').default} width="30" /> |
+
 
 Cette page présente comment je peux utiliser les outils TiBillet.
 
