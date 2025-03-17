@@ -47,9 +47,11 @@ Lespass est pour tous les collectifs TiBillet.
 
 Sur Lèspass, il y a :
 
-|                                        |                                        |
-|----------------------------------------|----------------------------------------|
-| <ul> <li><img src={require(/static/img/iagenda.png).default} width="16" /> l’<strong>agenda</strong></li> <li><img src={require(/static/img/iabonnements.png).default} width="16" /> les <strong>abonnements</strong></li> </ul> |  |
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
+| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
+
 
 
 
