@@ -32,10 +32,10 @@ Participer à un collectif TiBillet, c’est par exemple :
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| **Réadhérer au collectif**           | <img src={require('/static/img/adherercollectif.png').default} width="30" /> |
-| **Aller à un évènement organisé par le collectif** | <img src={require('/static/img/eventco.png').default} width="30" /> |
-| **Acheter quelque chose dans un point de vente du collectif** | <img src={require('/static/img/venteco.png').default} width="30" /> |
-| **Être bénévole pour aider le collectif** | <img src={require('/static/img/benevoleco.png').default} width="30" /> |
+| **Adhérer au collectif**           | <img src={require('/static/img/adherercollectif.png').default} width="100" /> |
+| **Aller à un évènement organisé par le collectif** | <img src={require('/static/img/eventco.png').default} width="100" /> |
+| **Acheter quelque chose dans un point de vente du collectif** | <img src={require('/static/img/venteco.png').default} width="100" /> |
+| **Être bénévole pour aider le collectif** | <img src={require('/static/img/benevoleco.png').default} width="100" /> |
 
 
 Cette page présente comment je peux utiliser les outils TiBillet.
@@ -49,15 +49,15 @@ Les outils TiBillet pour les publics sont :
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>LPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '40px' }} /></h2> | 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Mon Pass est donné par un collectif TiBillet.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="10%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>Mon Pass est donné par un collectif TiBillet.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="20%" /> |
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="10%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
 
 
 Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
@@ -65,7 +65,7 @@ Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong>des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong>des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
 
 
 LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, comme :
@@ -101,11 +101,17 @@ Je peux aller sur Lèspass :
 - grâce au QR code qui est sur ma carte
 - ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-|                                                                                                      |                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Sur Lèspass, il y a : <ul><li>l’<strong>agenda</strong></li><li>les <strong>abonnements</strong></li><li><strong>mon compte</strong></li></ul> | <img src={require('/static/img/page accueil.png').default} width="100%" /> |
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
+| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
+| **Mon compte**                        | <img src={require('/static/img/icompte.png').default} width="30" /> |
 
-### Agenda
+
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Agenda <img src={require('/static/img/iagenda.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+
 
 L’agenda est pour :
 
@@ -121,10 +127,23 @@ Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se
 Les informations des événements sont :
 
 - le nom de l’évènement
-- la description de l’évènement
-- la date et l’heure
-- l’adresse
-- le prix
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>La description de l’évènement</div> | <img src={require('/static/img/descripevent.png').default} width="30%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>la date et l’heure</div> | <img src={require('/static/img/date.png').default} width="30%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>L’adresse</div> | <img src={require('/static/img/adresse.png').default} width="30%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>le prix</div> | <img src={require('/static/img/prix.png').default} width="30%" /> |
+
 
 ![page description événement](/img/event.png)
 
@@ -135,7 +154,10 @@ L’agenda permet aussi de :
 - m’inscrire comme bénévole pour un évènement
 
 
-### Abonnements
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mes abonnements<img src={require('/static/img/iabonnements.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+
 
 Les abonnements sont pour :
 - voir toutes les abonnements que mes collectifs TiBillet proposent 
@@ -145,7 +167,10 @@ Les abonnements sont pour :
 ![page abonnements](/img/abonnements.png)
 
 
-### Mon compte
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mon compte<img src={require('/static/img/icompte.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+
 
 Mon compte me permet d’accéder à mes informations personnelles.
 
@@ -158,7 +183,7 @@ Mes informations personnelles sont regroupées en plusieurs catégories :
 - Carte Pass
 - préférences
 
-`**Dans « Ma tirelire »** , je peux gérer ma monnaie.`
+`Dans « Ma tirelire », je peux gérer ma monnaie.`
 
 **Gérer ma monnaie, c’est par exemple :**
 
@@ -204,7 +229,7 @@ Les bons cadeaux sont donnés par un collectif TiBillet.
 
 Je peux utiliser les bons cadeaux seulement dans le collectif TiBillet qui me les donne.
 
-`Dans **« Mes abonnements »** , je peux gérer mes abonnements.`
+`Dans « Mes abonnements » , je peux gérer mes abonnements.`
 
 Gérer mes abonnements, c’est par exemple :
 - **voir** mes abonnements en cours
@@ -215,13 +240,13 @@ Renouveler veut dire continuer l'abonnement.
 
 Résilier veut dire arrêter l'abonnement.
 
-`Dans **« Mes réservations »**, je peux gérer mes réservations.`
+`Dans « Mes réservations », je peux gérer mes réservations.`
 
 **Gérer mes réservations**, c’est par exemple :
 - voir les places que j’ai réservées pour des évènements TiBillets
 - voir mes billets d’entrée pour ces évènements
 
-`**Dans « Badgeuse »** , je peux pointer ma présence.`
+`Dans « Badgeuse », je peux pointer ma présence.`
 
 Pointer ma présence permet de dire au collectif TiBillet que je suis bien là.
 
@@ -232,12 +257,12 @@ Un lieu de coworking est un lieu de travail partagé qui me prête un bureau en 
 Pointer ma présence quand j’arrive permet de savoir combien de temps je reste,
 et donc savoir combien de monnaie je dois quand je pars.
 
-`**Dans « Ma carte »** , je peux gérer ma carte.`
+`Dans « Ma carte », je peux gérer ma carte.`
 
 Gérer ma carte, c’est par exemple déclarer que j’ai perdu ma carte et en demander une nouvelle.
 
 
-`**Dans « Mes préférences »**, je peux gérer les informations qui parlent de moi.`
+`Dans « Mes préférences », je peux gérer les informations qui parlent de moi.`
 
 Gérer les information qui parlent de moi, c’est par exemple changer :
 
