@@ -21,33 +21,49 @@ Dans TiBillet, il y a 3 outils :
 
 |                                                 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| <img src={require('/static/icone-lespass.png').default} width="20%" /> <br/> Le site internet Lespass| <img src={require('/static/img/icone-laboutik.png').default} width="20%" /> <br/> La caisse enregistreuse LaBoutik| <img src={require('/static/img/icone-carte pass.png').default} width="20%" /> <br/> La carte sans contact Pass |
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
 
 
-		
 Chaque outil a **des fonctionnalités différentes.**
 
-## Lespass
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+
 
 Lespass est un site internet.
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](URL)
+Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-**Lespass est utilisé par tout le monde :**
+**Lèspass est utilisé par tout le monde :**
 - les collectifs
 - les publics
 
-**Lespass permet par exemple de :**
+**Lèspass permet par exemple de :**
 
 - voir les évènements des collectifs TiBillet
 - réserver des places pour des évènements
 - voir les adhésions que les collectifs TiBillet proposent
 - me connecter à mon compte ou à mon compte Administration
 
-[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur Lespass
-[Bouton] Je fais partie des publics : je clique ici pour en savoir plus sur Lespass
 
-## LaBoutik
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
+
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
+
+
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
 
 LaBoutik est la caisse enregistreuse.
 
@@ -79,16 +95,21 @@ LaBoutik permet par exemple de :
 - prendre les commandes des publics
 - ajouter de la monnaie sur le compte TiBillet d’un Public
 
-[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur LaBoutik
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur LaBoutik</strong></span>
+</a>
 
 
-## Pass
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass <img src={require('/static/img/icone-sans-contact.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
-<div class="col-12">
-  <p class="col-6">Pass est une carte sans contact.</p>
-<img class="col-6" src="/img/icone-boite-a-outils.png" alt="/img/icone-boite-a-outils.png" />
-</div>
- 
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+
 
 Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
 
@@ -104,5 +125,11 @@ Il est donné par les collectifs TiBillet.
 - mes cartes de fidélité
 - de la monnaie
 
-[Bouton] Je suis un collectif : je clique ici pour en savoir plus sur Pass
-[Bouton] Je fais partie des publics : je clique ici pour en savoir plus sur Pass
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
+
+
+<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+</a>
