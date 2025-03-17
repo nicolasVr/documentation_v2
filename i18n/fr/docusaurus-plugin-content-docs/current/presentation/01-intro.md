@@ -11,14 +11,12 @@ authors: Jonas, Adrienne
 
 #  Ti-billet, c’est quoi ?
 
-<div class="col-12 d-flex align-items-center">
-  <p class="col-6 mb-0">TiBillet est <b>comme une boîte à outils.</b></p>
-  <div class="col-6">
-    <img src="/img/icone-boite-a-outils.png" alt="Icône boîte à outils" class="img-fluid"/>
-  </div>
-</div>
 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| TiBillet est **comme une boîte à outils.**      | ![](/img/icone-boite-a-outils.png) |
 
+<img src="/static/img/icone-boite-a-outils.png" class="img-fluid mb-3" alt="Image 1"/>
 Dans TiBillet, il y a 3 outils :
 
 <section class="row text-center gap-3">

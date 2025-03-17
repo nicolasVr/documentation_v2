@@ -6,7 +6,7 @@ description: Je suis un collectif
 image: https://tibillet.org/img/logoTibMJ4300.png
 keywords: [ cashless, billetterie, ticketing ]
 tags: [ cashless, billetterie, ticketing ]
-authors: Jonas, Adrienne
+authors: Adrienne
 ---
 
 # Je suis un collectif TiBillet

@@ -6,7 +6,7 @@ description: Nous apportons une solution de cashless, de billetterie et de gesti
 image: https://tibillet.org/img/logoTibMJ4300.png
 keywords: [ cashless, billetterie, ticketing ]
 wiktags: [ cashless, billetterie, ticketing ]
-authors: jonas
+authors: jonas, adrienne
 ---
 
 # La philosophie & Lien CCC
