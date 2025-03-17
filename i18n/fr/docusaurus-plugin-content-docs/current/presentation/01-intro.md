@@ -17,25 +17,13 @@ authors: Jonas, Adrienne
 | <div style={{ whiteSpace: 'nowrap' }}>TiBillet est <strong>comme une boîte à outils.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
 
 
-
-
-<img src="/static/img/icone-boite-a-outils.png" class="img-fluid mb-3" alt="Image 1"/>
 Dans TiBillet, il y a 3 outils :
 
-<section class="row text-center gap-3">
-      <div class="col-md-4">
-        <img src="/img/icone-lespass.png" class="img-fluid mb-3" alt="Image 1"/>
-        <p>Le site internet Lespass</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/img/icone-laboutik.png" class="img-fluid mb-3" alt="Image 2"/>
-        <p>La caisse enregistreuse LaBoutik</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/img/icone-carte pass.png" class="img-fluid mb-3" alt="Image 3"/>
-        <p>La carte sans contact Pass</p>
-      </div>
-    </section>
+|                                                 |                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <img src={require('/static/icone-lespass.png').default} width="20%" /> <br/> Le site internet Lespass| <img src={require('/static/img/icone-laboutik.png').default} width="20%" /> <br/> La caisse enregistreuse LaBoutik| <img src={require('/static/img/icone-carte pass.png').default} width="20%" /> <br/> La carte sans contact Pass |
+
+
 		
 Chaque outil a **des fonctionnalités différentes.**
 
