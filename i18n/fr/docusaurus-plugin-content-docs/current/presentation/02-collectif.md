@@ -26,31 +26,29 @@ Cette page présente comment les collectifs TiBillet peuvent utiliser les 3 outi
 
 Les 3 outils TiBillet sont :
 
-<section class="row text-center gap-3">
-      <div class="col-md-4">
-        <img src="/img/icone-lespass.png" class="img-fluid mb-3" alt="Image 1"/>
-        <p>Le site internet Lespass</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/img/icone-laboutik.png" class="img-fluid mb-3" alt="Image 2"/>
-        <p>La caisse enregistreuse LaBoutik</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/img/icone-carte pass.png" class="img-fluid mb-3" alt="Image 3"/>
-        <p>La carte sans contact Pass</p>
-      </div>
-    </section>
+|                                                 |                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
 
 
-## Lespass
+
+|                                                 |                                                 |
+|-------------------------------------------------|-------------------------------------------------|
+| <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 Lespass est un site internet.
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](URL)
+Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
 Lespass est pour tous les collectifs TiBillet.
 
 **Chaque collectif TiBillet peut créer son propre Lespass.**
+
+
+|                                                                                                   |                                                   |
+|-------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Sur Lespass, il y a : <br/><ul><li>l’**agenda**</li><li>les **abonnements**</li></ul> L’agenda est pour voir : <br/><ul><li>les évènements de mon collectif TiBillet</li><li>les évènements de mon village TiBillet</li></ul> | <img src={require('/static/img/page-accueil.png').default} width="40%" /> |
+
 
 Sur Lespass, il y a :
 
