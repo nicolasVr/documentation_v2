@@ -12,7 +12,7 @@ authors: Adrienne
 # Je suis un collectif TiBillet
 
 Je suis un collectif si je représente :
-
+[text](<../../i18n/fr/docusaurus-plugin-content-docs/current/presentation/03 public.md>)
 - une association
 - un festival
 - un tiers-lieu
@@ -101,7 +101,7 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](Uhttps://tibillet.org/docs/presentation/demonstration/)
+Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://tibillet.org/docs/presentation/demonstration/)
                                                                   
 
 |                                                 |                                                 |
@@ -148,7 +148,7 @@ Le ticket Z est un ticket de caisse qui résume toutes les ventes de la journée
 J’ai besoin du ticket Z pour faire ma comptabilité.
 
 Pour voir comment gérer mes points de vente et ma comptabilité avec LaBoutik, je clique ici :
-[Gérer mes points de vente et ma comptabilité avec LaBoutik](URL)
+[Gérer mes points de vente et ma comptabilité avec LaBoutik]
 
 ```
 La 2ème partie me permet de :
@@ -197,7 +197,7 @@ La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
 Les publics peuvent ajouter de la monnaie globale sur leur compte TiBillet grâce à leur carte bancaire.
 
 Pour en savoir plus sur comment les publics peuvent ajouter de la monnaie sur leur compte TiBillet, je clique ici :
-[Ajouter de la monnaie sur un compte TiBillet](URL)
+[Ajouter de la monnaie sur un compte TiBillet]
 
 **La 2ème monnaie est la monnaie locale.**
 
@@ -221,7 +221,7 @@ Les bons cadeaux sont donnés par un collectif TiBillet.
 Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBillet qui les donne.
 
 Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
-[Gérer les achats et la monnaie des publics avec LaBoutik](URL)
+[Gérer les achats et la monnaie des publics avec LaBoutik]
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
@@ -252,7 +252,7 @@ Avec une seule carte, il leur permet d’accéder à :
 - de la monnaie
 
 Pour en savoir plus sur comment les publics peuvent utiliser leur Pass, je clique ici : 
-[Pass pour les publics](URL)
+[Pass pour les publics]
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
