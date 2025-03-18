@@ -1,54 +1,98 @@
 ---
 sidebar_position: 10
 slug: tarifs
-title: Prices, conditions and licenses
-authors: jonas
-wiktags: [ cashless, billetterie, ticketing, features, princing, prices, licences ]
+title: Tarifs, conditions et licences
+authors: jonas, adrienne
+wiktags: [ cashless, billetterie, ticketing, features ]
 ---
 
-# Social and solidarity-based economic model.
+# Tarifs, conditions et licencespour utiliser TiBillet
 
-TiBillet is a suite of free/open source software.
+TiBillet sont des logiciels libres. 
 
-We do not charge a subscription or percentage on transactions: 
-No commission is taken from sales and 
-you receive all of your ticketing and point of sale revenue.
+Un logiciel libre veut dire que :
 
-You purchase the equipment you need, at cost price.
-We support you in the implementation and use of those tools and we are particularly attentive to your needs and possible custom modifications.
+- je peux l’utiliser sans payer
+- je peux le modifier
+- d’autres personnes peuvent utiliser ce que j’ai modifié
 
-You are still responsible for financial transactions within your establishment (TiBillet does not 
-act as a bank) but your users now have a card valid across the entire TiBillet network. 
-Their wallet is valid for life, with no subscription or reload fees, provided they use it regularly.
+## Je fais partie des publics : 
 
-Your events benefit from all of our communication tools (local and federated calendar, social networks, mailing list, etc.) and we regularly invite network users to take advantage of your events throughout the year.
+Je peux utiliser la carte TiBillet toute ma vie. 
 
-Only condition: to finance the activities of the cooperative and the maintenance of the network, we re-inject part of the money into the wallets which have been inactive for more than a year.
+Je dois respecter une seule condition : utiliser la carte TiBillet régulièrement.
 
-Finally, if you wish, we will invite you to become a member of the cooperative (SCIC) so that you become an integral part of the TiBillet project and its entire network.
+## Je suis un collectif :
 
-# Solo model
+L’utilisation de la boite à outil TiBillet est gratuite. 
 
-You want to use TiBillet tools for your event, your venue or your association but without joining the network ?
+Je ne dois pas payer d’abonnement. 
 
-No problem: All the TiBillet tools just for you, in a kit sent by post. Contact us !
+La Coopérative Code Commun ne prend pas de pourcentage, ni de commission sur les ventes et les transactions d’argent. 
 
-[contact@tibillet.re](mailto:contact@tibillet.re)
+Cela veut dire par exemple : 
 
-## AGPLv3 license
+- quand vous payez avec la carte TiBillet, la Coopérative Code Commun ne prend pas d’argent
+- quand vous achetez un billet sur la billeterie, la Coopérative Code Commun ne prend pas d’argent
+J’ai la responsabilité des transactions d’argent dans TiBillet.
 
-The source code for all of the project's building blocks is open and available under the AGPLv3 license.
+Je peux installer TiBillet et l’utiliser : 
 
-The code is published on Github: [https://github.com/TiBillet](https://github.com/TiBillet).
+- sans garanti de fonctionnement
+- sans service après-vente
 
-The GNU Affero General Public License (GNU AGPL) is a modified version of version 3 of the regular GNU GPL.
+Cela veut dire que si ça ne marche pas, ce n’est pas la faute de la coopérative code commun. 
 
-It has just one additional requirement: if you run a modified program on a server and let other users communicate with it, your server must also allow them to download the source code for the modified version while it is running.
+Le matériel pour utiliser TiBillet est payant.
+Par exemple, la caisse enregistreuse et les cartes TiBillet sont payantes. 
 
-Find out more : https://www.gnu.org/licenses/why-affero-gpl.fr.html
+Je dois respecter une seule condition :
 
-The solution can be installed as is without any operational guarantee or after-sales service.
+Si TiBillet n’est pas utilisé pendant plus d’un an, l’argent dedans est donné à la Coopérative Code Commun. 
 
-Do not hesitate to contact us by [mail](mailto:contact@tibillet.re), or on [Discord](https://discord.gg/ecb5jtP7vY) if you have any questions.
+Cet argent sert à financer : 
 
-Freely yours :) 
+- La maintenance la boite à outil TiBillet
+- Les activités de la Coopérative Code Commun
+- Modèle Solo
+
+Je ne souhaite pas entrer dans le réseau TiBillet. 
+
+Je veux utiliser TiBillet. 
+
+Dans ce cas, un kit TiBillet m’est envoyé par la poste. 
+
+Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re](contact@tibillet.re)
+
+
+## Licence 
+
+Tibillet est sous la licence AGPLv3.
+
+Cela veut dire que le code source qui a permis de créer TiBillet est protégé par cette licence. 
+
+Je peux modifier TiBillet mais je dois respecter cette licence. 
+
+Une condition est importante dans cette licence : 
+
+Si j’utilise le code source de TiBillet sur mon serveur et que d’autres personnes y ont accès, ces autres personnes doivent pouvoir télécharger le code source depuis mon serveur. 
+
+Pour en savoir plus, je peux aller sur ce site internet :  https://www.gnu.org/licenses/why-affero-gpl.fr.html
+
+J’ai des questions, je veux en savoir plus : 
+
+[Bouton] Contactez la coopérative code commun
+
+
+
+Ce document est écrit en FALC.
+
+FALC veut dire Facile à Lire et à Comprendre.
+
+Ce document a été réalisé par PAIPS
+en partenariat avec l’ESAT Jacques Chavent
+de l’Adapei 69.
+
+Ce document a été relu et validé en 2025 par XXXXXX
+de l’Esat Jacques Chavent (Adapei 69).
+
