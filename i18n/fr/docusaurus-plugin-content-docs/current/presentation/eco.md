@@ -62,7 +62,7 @@ Je veux utiliser TiBillet.
 
 Dans ce cas, un kit TiBillet m’est envoyé par la poste. 
 
-Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re]()
+Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re](https://tibillet.org/)
 
 
 ## Licence 
