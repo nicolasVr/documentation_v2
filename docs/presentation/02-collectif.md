@@ -12,7 +12,7 @@ authors: Adrienne
 # Je suis un collectif TiBillet
 
 Je suis un collectif si je représente :
-
+[text](<../../i18n/fr/docusaurus-plugin-content-docs/current/presentation/03 public.md>)
 - une association
 - un festival
 - un tiers-lieu
@@ -101,7 +101,7 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](Uhttps://tibillet.org/docs/presentation/demonstration/)
+Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://tibillet.org/docs/presentation/demonstration/)
                                                                   
 
 |                                                 |                                                 |
