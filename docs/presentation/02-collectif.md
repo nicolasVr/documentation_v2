@@ -101,7 +101,7 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://tibillet.org/docs/presentation/demonstration/)
+Pour voir à quoi ressemble Lespass, je clique ici : **Démonstration de l’outil Lespass** (Lien en cours de création)
                                                                   
 
 |                                                 |                                                 |
