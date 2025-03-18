@@ -15,7 +15,7 @@ TiBillet permet de créer du lien entre les différents acteurs du territoire.
 
 Ces acteurs sont :
 
-- des collectif
+- des collectifs
 - des publics
 - des professionnels du spectacle
 
