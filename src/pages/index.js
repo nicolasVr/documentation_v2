@@ -67,4 +67,16 @@ function HeroBanner() {
     );
 }
 
-
+export default function Home() {
+    const {siteConfig} = useDocusaurusContext();
+    return (
+        <Layout
+            title={`${siteConfig.title}`}
+            description="Outils évènementiels et économiques libres créateurs de réseaux coopératifs: Cashless, billetterie, blockchain.">
+            <main>
+                <HeroBanner/>
+                <HomepageFeatures/>
+            </main>
+        </Layout>
+    );
+}
