@@ -12,7 +12,7 @@ authors: Adrienne
 # Je suis un collectif TiBillet
 
 Je suis un collectif si je représente :
-[text](<../../i18n/fr/docusaurus-plugin-content-docs/current/presentation/03 public.md>)
+
 - une association
 - un festival
 - un tiers-lieu
