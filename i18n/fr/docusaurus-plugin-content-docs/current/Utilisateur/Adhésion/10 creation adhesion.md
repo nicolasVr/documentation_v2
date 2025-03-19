@@ -1,8 +1,8 @@
 ---
 sidebar_position: 50
 slug: admin_add_new_membership
-title: Créer une adhésion
-description: Créer un nouvel adhésion en détails.
+title: Créer un produit
+description: Créer une nouvelle adhésion en détails.
 keywords: [adhésion, billetterie, ticketing, event]
 wiktags: [adhésion, billetterie, ticketing, event]
 authors: Adrienne

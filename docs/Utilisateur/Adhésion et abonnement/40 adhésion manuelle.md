@@ -1,7 +1,7 @@
 ---
 sidebar_position: 75
 slug: create_a_membership_manually
-title: Création d'un abonnement manuellement
+title: Création d'une adhésion manuellement
 description: Créer un abonnement manuellement
 keywords: [billetterie, ticketing, membership]
 wiktags: [billetterie, ticketing,  membership]

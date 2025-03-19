@@ -1,22 +1,20 @@
 ---
 sidebar_position: 110
 slug: iframe
-title: Intégration
-description: Integrer vos adhésions et évènements sur votre site web.
-keywords: [ ticketing, billetterie, webhook, api ]
-wiktags: [ ticketing, billetterie, webhook, api ]
+title: Integration
+description: Integrate your membership and events on your website.
+keywords: [ ticketing, billetterie, webhook, api, reservations, booking ]
+wiktags: [ ticketing, billetterie, webhook, api, reservations, booking ]
 image: https://tibillet.org/img/embed.jpg
 authors: Jonas
 ---
 
-Vous pouvez intégrer les pages d'adhésion et de billetterie à votre site web.
-
-Utilisez une balise iframe en modifiant la route adéquate.
+You can integrate ticketing into your website using an iframe tag by modifying the appropriate route.
 
 Exemple :
 
-- Page adhésion : [https://lespass.demo.tibillet.org/memberships/embed/](https://lespass.demo.tibillet.org/memberships/embed/)
-- Page évènement : [https://lespass.demo.tibillet.org/event/embed/](https://lespass.demo.tibillet.org/event/embed/)
+- Memberships : [https://lespass.demo.tibillet.org/memberships/embed/](https://lespass.demo.tibillet.org/memberships/embed/)
+- Events : [https://lespass.demo.tibillet.org/event/embed/](https://lespass.demo.tibillet.org/event/embed/)
 
 ```html title="iframe event"
 <iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px"
