@@ -1,7 +1,7 @@
 ---
 sidebar_position: 75
 slug: import_export
-title: Importez et exportez vos données
+title: Importez vos données
 description: Depuis un fichier csv
 keywords: [billetterie, ticketing, membership]
 wiktags: [billetterie, ticketing,  membership]
@@ -9,12 +9,12 @@ authors: Jonas
 ---
 
 
-# Importer ses donnée d'adhésion.
+# Importer ses données d'adhésion.
 
 Vous pouvez importer vos données d'adhésion depuis un fichier csv.
 Vous pouvez créer ce fichier via un tableur.
 
-CSV veut dire : valeur séparé par des virgules.
+CSV veut dire : valeur séparée par des virgules.
 La première ligne de ce fichier doit indiquer ce que chaque ligne suivante sera.
 
 ### Créer la premiere ligne :
