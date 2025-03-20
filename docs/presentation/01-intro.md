@@ -9,7 +9,7 @@ tags: [ cashless, billetterie, ticketing ]
 authors: Jonas, Adrienne
 ---
 
-#  Ti-billet, c’est quoi ?
+#  TiBillet, c’est quoi ?
 
 
 |                                                 |                              |
