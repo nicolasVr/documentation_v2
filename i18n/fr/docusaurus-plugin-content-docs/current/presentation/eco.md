@@ -6,7 +6,7 @@ authors: jonas, adrienne
 wiktags: [ cashless, billetterie, ticketing, features ]
 ---
 
-# Tarifs, conditions et licencespour utiliser TiBillet
+# Tarifs, conditions et licences pour utiliser TiBillet
 
 TiBillet sont des logiciels libres. 
 
@@ -54,15 +54,9 @@ Cet argent sert à financer :
 
 - La maintenance la boite à outil TiBillet
 - Les activités de la Coopérative Code Commun
-- Modèle Solo
 
-Je ne souhaite pas entrer dans le réseau TiBillet. 
 
-Je veux utiliser TiBillet. 
-
-Dans ce cas, un kit TiBillet m’est envoyé par la poste. 
-
-Pour en savoir plus, je contacte la coopérative code commun par mail : **contact@tibillet.re** (Lien en cours de création)
+Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re](mailto:contact@tibillet.re)
 
 
 ## Licence 
@@ -81,15 +75,26 @@ Pour en savoir plus, je peux aller sur ce site internet :  https://www.gnu.org
 
 J’ai des questions, je veux en savoir plus : 
 
-[Bouton] Contactez la coopérative code commun
+<a href="mailto:contact@tibillet.re" 
+   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}>
+    <strong>Contactez la coopérative code commun</strong>
+  </span>
+</a>
 
 
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Ce document est écrit en FALC.</div> | <img src={require('/static/img/falc.png').default} width="80%" /> |
 
-Ce document est écrit en FALC.
 
 FALC veut dire Facile à Lire et à Comprendre.
 
-Ce document a été réalisé par PAIPS
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Ce document a été réalisé par PAIPS</div> | <img src={require('/static/img/paips.png').default} width="80%" /> |
+
 en partenariat avec l’ESAT Jacques Chavent
 de l’Adapei 69.
 
