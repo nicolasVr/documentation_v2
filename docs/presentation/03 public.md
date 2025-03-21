@@ -1,15 +1,15 @@
 ---
-sidebar_position: 3
+sidebar_position : 3
 slug: i_am_an_audience
-title: Je suis un public
-description: Je suis un public
-image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing ]
-tags: [ cashless, billetterie, ticketing ]
-authors: Adrienne
+title: I am an audience
+description: I am an audience
+image : https://tibillet.org/img/logoTibMJ4300.png
+keywords: [ cashless, ticketing, ticketing ]
+tags : [ cashless, ticketing, ticketing ]
+authors : Adrienne
 ---
 
-# Je suis un public
+# I am an audience
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -17,34 +17,34 @@ authors: Adrienne
 
 
 
-Un collectif TiBillet est un collectif qui utilise les outils TiBillet.
+A TiBillet collective is a collective that uses TiBillet tools.
 
-Un collectif est par exemple :
+A collective is, for example :
 
-- une association
-- un festival
-- un tiers-lieu
-- un lieu qui organise des évènements
-- un lieu de restauration
-- une salle de spectacle
+- an association
+- a festival
+- a third-party venue
+- a venue that organizes events
+- a restaurant
+- a performance venue
 
-Participer à un collectif TiBillet, c’est par exemple :
+Participating in a TiBillet collective means, for example :
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| **Adhérer au collectif**           | <img src={require('/static/img/icone_adhesion.png').default} width="100" /> |
-| **Aller à un évènement organisé par le collectif** | <img src={require('/static/img/icone_evenement.png').default} width="100" /> |
-| **Acheter quelque chose dans un point de vente du collectif** | <img src={require('/static/img/icone_achat.png').default} width="100" /> |
-| **Être bénévole pour aider le collectif** | <img src={require('/static/img/icone_volontariat.png').default} width="100" /> |
+| **Join the collective**           | <img src={require('/static/img/icone_adhesion.png').default} width="100" /> |
+| **Go to an event organized by the collective**  | <img src={require('/static/img/icone_evenement.png').default} width="100" /> |
+| **Buy something at a collective outlet** | <img src={require('/static/img/icone_achat.png').default} width="100" /> |
+| **Volunteering to help the collective** | <img src={require('/static/img/icone_volontariat.png').default} width="100" /> |
 
 
-Cette page présente comment je peux utiliser les outils TiBillet.
+This page shows how I can use TiBillet tools.
 
-Les outils TiBillet pour les publics sont :
+TiBillet tools for audiences are :
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> |
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> The Pass contactless card</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> The web site Lèspass</div> |
 
 
 |                                                 |                                                 |
@@ -53,28 +53,28 @@ Les outils TiBillet pour les publics sont :
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Mon Pass est donné par un collectif TiBillet.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>My Pass is donated by a TiBillet collective.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="20%" /> |
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>Pass is a contactless card.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
 
 
-Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
+Contactless means I don't need to enter a secret code to use it.
 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong> des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass allows me to pay</strong> for things from a TiBillet collective that uses LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
 
 
-LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, comme :
+LaBoutik is a TiBillet tool that allows collectives to sell things like :
 
-- de la nourriture et des boissons
-- des vêtements
-- des billets pour des concerts
-- la location d’une salle à l’heure
-- des adhésions
+- food and drink
+- clothing
+- concert tickets
+- room rental by the hour
+- memberships
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -83,10 +83,10 @@ LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, c
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je peux gérer tout ça grâce au QR code qui est sur mon Pass.                                       Un QR code est une image que je peux prendre en photo grâce à une application de scan pour QR code sur mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
+| I can manage all this thanks to the QR code on my Pass. <br/> A QR code is an image that I can take a picture of using a QR code scanning application on my phone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
 
 
-Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.
+Then the Lèspass website opens up on my phone.
 
 
 |                                                 |                                                 |
@@ -94,196 +94,197 @@ Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.
 | <h2 style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 
-Lèspass est un site internet.
+Lèspass is a website.
 
-Je peux aller sur Lèspass :
+I can go to Lèspass :
 
-- grâce au QR code qui est sur ma carte
-- ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
-
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
-| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
-| **Mon compte**                        | <img src={require('/static/img/icompte.png').default} width="30" /> |
-
+- using the QR code on my card
+- or by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Agenda <img src={require('/static/img/iagenda.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
-
-
-L’agenda est pour :
-
-- voir les informations des évènements de mes collectifs TiBillet
-- voir les informations des évènements des villages de mes collectifs TiBillet
-
-Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.</div> | <img src={require('/static/img/collectifs2.png').default} width="100%" /> |
-
-
-Les informations des événements sont :
-
-- le nom de l’évènement
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>La description de l’évènement</div> | <img src={require('/static/img/descripevent.png').default} width="60%" /> |
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>la date et l’heure</div> | <img src={require('/static/img/date.png').default} width="60%" /> |
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>L’adresse</div> | <img src={require('/static/img/adresse.png').default} width="60%" /> |
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>le prix</div> | <img src={require('/static/img/prix.png').default} width="60%" /> |
-
-
-![page description événement](/img/event.png)
-
-
-L’agenda permet aussi de :
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>réserver une ou plusieurs places pour un évènement</div> | <img src={require('/static/img/benevoleco.png').default} width="60%" /> |
-
-- m’inscrire comme bénévole pour un évènement
+| **Calendar**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
+| **Subscriptions**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
+| **My account**                        | <img src={require('/static/img/icompte.png').default} width="30" /> |
 
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mes abonnements<img src={require('/static/img/iabonnements.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Calendar <img src={require('/static/img/iagenda.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
 
 
-Les abonnements sont pour :
-- voir toutes les abonnements que mes collectifs TiBillet proposent 
-- voir toutes les abonnements que les villages de mes collectifs TiBillet proposent
-- prendre un abonnement
+The agenda is for :
 
-![page abonnements](/img/abonnements.png)
+- view event information for my TiBillet collectives
+- view information on events in the villages of my TiBillet collectives
+
+A TiBillet village is a group of TiBillet collectives that choose to work together.
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>A TiBillet village is made up of several TiBillet collectives that choose to join forces.</div> | <img src={require('/static/img/collectifs2.png').default} width="100%" /> |
+
+
+Event information includes :
+
+- event name
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Description of the event</div> | <img src={require('/static/img/descripevent.png').default} width="60%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>The date and hour</div> | <img src={require('/static/img/date.png').default} width="60%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Adress</div> | <img src={require('/static/img/adresse.png').default} width="60%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Price</div> | <img src={require('/static/img/prix.png').default} width="60%" /> |
+
+
+![Description of the event page](/img/event.png)
+
+
+The calendar also allows you to :
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Reserve one or more seats for an event</div> | <img src={require('/static/img/benevoleco.png').default} width="60%" /> |
+
+- register as a volunteer for an event
 
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mon compte<img src={require('/static/img/icompte.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>My subscriptions<img src={require('/static/img/iabonnements.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
 
 
-Mon compte me permet d’accéder à mes informations personnelles.
+Subscriptions are for :
+- see all the subscriptions offered by my TiBillet collectives 
+- see all the subscriptions offered by the villages in my TiBillet collectives
+- take out a subscription
 
-Mes informations personnelles sont regroupées en plusieurs catégories :
+![subscriptions page](/img/abonnements.png)
+
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| Tirelire <img src={require('/static/img/itirelire.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Abonnements <img src={require('/static/img/iadhes.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>My account<img src={require('/static/img/icompte.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+
+
+My account gives me access to my personal information.
+
+My personal information is grouped into several categories:
+
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| Money box <img src={require('/static/img/itirelire.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Subscriptions <img src={require('/static/img/iadhes.png').default} width="30" style={{ marginLeft: '10px' }} /> |
 | Réservations <img src={require('/static/img/ireserv.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Badgeuse <img src={require('/static/img/itime.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Carte Pass <img src={require('/static/img/icard.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Préférences <img src={require('/static/img/ipref.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Badge reader <img src={require('/static/img/itime.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Pass Card <img src={require('/static/img/icard.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+| Preferences <img src={require('/static/img/ipref.png').default} width="30" style={{ marginLeft: '10px' }} /> |
 
 
-`Dans « Ma tirelire », je peux gérer ma monnaie.`
+In “My piggy bank”, I can manage my change.
 
-**Gérer ma monnaie, c’est par exemple :**
+Managing my change means, for example:** ** **Seeing my expenses**.
 
-- **voir mes dépenses**
-- **voir combien j’ai de monnaie** sur mon compte TiBillet
-- **ajouter de la monnaie** sur mon compte TiBillet
+- view my expenses
+- see how much change I have** in my TiBillet account
+- adding change** to my TiBillet account
 
-Il y a 3 monnaies TiBillet différentes.
+There are 3 different TiBillet currencies.
 
-**La 1ère monnaie est la monnaie globale.**
+**The 1st currency is the global currency**.
 
-La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
+The global currency can be used in all TiBillet collectives.
 
 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>I can add global currency to my TiBillet account using my credit card.</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
 
 
-Je n’ai pas de frais bancaires quand je mets de l’argent sur mon Pass.
+I don't have any bank charges when I put money on my Pass.
 
-Cela veut dire que si je charge 10 euros sur mon Pass,
-je peux dépenser 10 euros dans les collectifs TiBillet.
+This means that if I load 10 euros onto my Pass,
+I can spend 10 euros in TiBillet collectives.
 
-TiBillet, Stripe ou ma banque ne prennent pas d’argent en plus sur mon compte.
+TiBillet, Stripe or my bank don't take any extra money from my account.
 
-**La 2ème monnaie est la monnaie locale.**
+**The 2nd currency is the local currency **.
 
-La monnaie locale peut être utilisée dans :
+Local currency can be used in :
 
-- mon collectif TiBillet
-- dans les villages de mes collectifs TiBillet qui sont d’accord
+- my TiBillet collective
+- in the villages of my TiBillet collectives that agree.
 
-Un village TiBillet est un ensemble de collectifs TiBillet qui choisissent de se regrouper ensemble.
+A TiBillet village is a group of TiBillet collectives that choose to join together.
 
-Je peux ajouter de la monnaie locale sur mon compte TiBillet,
-en donnant mon Pass à un collectif TiBillet qui utilise LaBoutik.
+I can add local currency to my TiBillet account,
+by giving my Pass to a TiBillet collective that uses LaBoutik.
 
-Je peux ajouter ajouter de la monnaie locale sur mon compte TiBillet grâce à :
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Ma carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+I can add local currency to my TiBillet account thanks to :
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>De l’argent en espèces</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>My credit card</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+
+|                                                 |                              |
+|-------------------------------------------------|------------------------------|
+| <div style={{ whiteSpace: 'nowrap' }}>Cash</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
 
 
 
-**La 3ème monnaie est les bons cadeaux.**
+**The 3rd currency is gift vouchers.
 
-Les bons cadeaux sont donnés par un collectif TiBillet.
+Gift vouchers are donated by a TiBillet collective.
 
-Je peux utiliser les bons cadeaux seulement dans le collectif TiBillet qui me les donne.
+I can only use gift vouchers in the TiBillet collective that gives them to me.
 
-`Dans « Mes abonnements » , je peux gérer mes abonnements.`
+In “My subscriptions”, I can manage my subscriptions.
 
-Gérer mes abonnements, c’est par exemple :
-- **voir** mes abonnements en cours
-- **renouveler** un abonnement
-- **résilier** un abonnement
+Managing my subscriptions means, for example :
+- view** my current subscriptions
+- renew** a subscription
+- cancel** a subscription
 
-Renouveler veut dire continuer l'abonnement.
+Renewing means continuing the subscription.
 
-Résilier veut dire arrêter l'abonnement.
+To cancel means to stop the subscription.
 
-`Dans « Mes réservations », je peux gérer mes réservations.`
+In “My reservations”, I can manage my reservations.
 
-**Gérer mes réservations**, c’est par exemple :
-- voir les places que j’ai réservées pour des évènements TiBillets
-- voir mes billets d’entrée pour ces évènements
+**Managing my reservations** means, for example :
+- see the seats I've reserved for TiBillets events
+- see my tickets for these events
 
-`Dans « Badgeuse », je peux pointer ma présence.`
+In “Badge”, I can clock in and out.
 
-Pointer ma présence permet de dire au collectif TiBillet que je suis bien là.
+Indicating my presence lets the TiBillet collective know that I'm there.
 
-Par exemple, je peux pointer ma présence quand j’arrive dans un lieu de coworking.
+For example, I can check in when I arrive at a coworking space.
 
-Un lieu de coworking est un lieu de travail partagé qui me prête un bureau en échange de monnaie.
+A coworking space is a shared work space that lends me a desk in exchange for money.
 
-Pointer ma présence quand j’arrive permet de savoir combien de temps je reste,
-et donc savoir combien de monnaie je dois quand je pars.
+By checking in when I arrive, I know how long I'm staying,
+so I know how much change I owe when I leave.
 
-`Dans « Ma carte », je peux gérer ma carte.`
+In “My card”, I can manage my card.
 
-Gérer ma carte, c’est par exemple déclarer que j’ai perdu ma carte et en demander une nouvelle.
+Managing my card means, for example, declaring that I've lost my card and requesting a new one.
 
 
-`Dans « Mes préférences », je peux gérer les informations qui parlent de moi.`
+In “My preferences”, I can manage information about myself.
 
-Gérer les information qui parlent de moi, c’est par exemple changer :
+Managing information about myself means, for example, changing :
 
-- mon nom et mon prénom
-- mon adresse email
-- supprimer mon compte TiBillet
+- my first and last name
+- my email address
+- delete my TiBillet account

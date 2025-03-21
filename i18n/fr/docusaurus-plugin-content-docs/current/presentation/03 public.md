@@ -83,7 +83,7 @@ LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, c
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je peux gérer tout ça grâce au QR code qui est sur mon Pass.                                       Un QR code est une image que je peux prendre en photo grâce à une application de scan pour QR code sur mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
+| Je peux gérer tout ça grâce au QR code qui est sur mon Pass. <br/>   Un QR code est une image que je peux prendre en photo grâce à une application de scan pour QR code sur mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
 
 
 Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.

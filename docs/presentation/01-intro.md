@@ -1,30 +1,30 @@
 ---
-sidebar_position: 1
-slug: introduction
+sidebar_position : 1
+slug : introduction
 title: Introduction
-description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
-image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing ]
-tags: [ cashless, billetterie, ticketing ]
-authors: Jonas, Adrienne
+description: Contactless and cashless payment system, event management, catering management, community engagement and online ticketing... but not only!
+image : https://tibillet.org/img/logoTibMJ4300.png
+keywords: [ cashless, ticketing ]
+tags : [ cashless, ticketing ]
+authors : Jonas, Adrienne
 ---
 
-#  TiBillet, c’est quoi ?
+# What is TiBillet?
 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>TiBillet est <strong>comme une boîte à outils.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>TiBillet is <strong>like a toolbox.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
 
 
-Dans TiBillet, il y a 3 outils :
+In TiBillet, there are 3 tools:
 
 |                                                 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> The web site Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/>LaBoutik cash register</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/>The Pass contactless card</div> |
 
 
-Chaque outil a **des fonctionnalités différentes.**
+Each tool has **different functionalities.**
 
 
 |                                                 |                                                 |
@@ -32,34 +32,33 @@ Chaque outil a **des fonctionnalités différentes.**
 | <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 
+Lespass is a website.
 
-Lespass est un site internet.
+I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+**Lespass is used by everyone:**
+- groups
+- the public
 
-**Lèspass est utilisé par tout le monde :**
-- les collectifs
-- les publics
-
-**Lèspass permet par exemple de :**
+**For example, Lespass allows you to:**
 
-- voir les évènements des collectifs TiBillet
-- réserver des places pour des évènements
-- voir les adhésions que les collectifs TiBillet proposent
-- me connecter à mon compte ou à mon compte Administration
+- view TiBillet collective events
+- reserve tickets for events
+- view memberships offered by TiBillet collectives
+- log in to my account or my Administration account
 
 
 <a href="https://tibillet.org/fr/docs/presentation/i_am_a_collective/#lespass" 
    style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}>
-    <strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong>
+    <strong>I'm a collective: click here to find out more about Lèspass</strong>
   </span>
 </a>
 
 
 
 <a href="https://tibillet.org/fr/docs/presentation/i_am_an_audience/#lespass2" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>I'm part of the public: click here to find out more about Lèspass</strong></span>
 </a>
 
 
@@ -69,39 +68,39 @@ Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet
 | <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 
-LaBoutik est la caisse enregistreuse.
+LaBoutik is the cash register.
 
-C’est une application pour : 
+It's an application for : 
 
-- tablettes
+- tablets
 - smartphones
 - sunmi
 
-Un Sunmi est un appareil qui permet aux publics de payer par carte.
+A Sunmi is a device that allows the public to pay by card.
 
 
-LaBoutik est **pour les collectifs qui ont un ou plusieurs points de vente.**
+LaBoutik is **for collectives with one or more points of sale**.
 
 
-Un point de vente est un lieu où je peux vendre des choses, comme :
+An outlet is a place where I can sell things, such as :
 
-- de la nourriture et des boissons
-- des vêtements
-- des billets pour des concerts
-- la location d’une salle à l’heure
-- des adhésions
+- food and drink
+- clothing
+- concert tickets
+- room rental by the hour
+- memberships
 
-LaBoutik permet par exemple de :
+For example, LaBoutik lets you :
 
-- ajouter mes points de vente
-- enregistrer la liste des produits que je veux vendre dans chaque point de vente
-- voir mon chiffre d’affaires et faire ma comptabilité
-- prendre les commandes des publics
-- ajouter de la monnaie sur le compte TiBillet d’un Public
+- add my points of sale
+- record the list of products I want to sell in each outlet
+- view my sales figures and do my accounting
+- take orders from the public
+- add change to a customer's TiBillet account
 
 
 <a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur LaBoutik</strong></span>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>I'm a collective: click here to find out more about LaBoutik</strong></span>
 </a>
 
 
@@ -112,28 +111,28 @@ LaBoutik permet par exemple de :
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>Pass is a contactless card.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
 
 
-Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
+Contactless means that I don't need to enter a secret code to use it.
 
-Pass est utilisé par les publics.
+Pass is used by the public.
 
-Il est donné par les collectifs TiBillet.
+It is given by the TiBillet collectives.
 
-**Avec une seule carte, Pass** permet aux publics d’accéder à :
+**With a single card, Pass** gives members of the public access to :
 
-- mes adhésions
-- mes billets pour des évènements des collectifs
-- mes abonnements
-- mes cartes de fidélité
-- de la monnaie
+- my memberships
+- tickets for collective events
+- subscriptions
+- loyalty cards
+- change
 
 <a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>I'm a collective: click here to find out more about Lèspass</strong></span>
 </a>
 
 
 <a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Jam part of the public: click here to find out more about Lèspass</strong></span>
 </a>

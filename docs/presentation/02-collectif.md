@@ -1,107 +1,106 @@
 ---
 sidebar_position: 2
 slug: i_am_a_collective
-title: Je suis un collectif
-description: Je suis un collectif
+title: I am a collective
+description: I am a collective
 image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing ]
-tags: [ cashless, billetterie, ticketing ]
+keywords: [ cashless, ticketing, ticketing ]
+tags: [ cashless, ticketing, ticketing ]
 authors: Adrienne
 ---
 
-# Je suis un collectif TiBillet
+# I am a TiBillet collective
 
-Je suis un collectif si je représente :
+I'm a collective if I represent :
 
-- une association
-- un festival
-- un tiers-lieu
-- un lieu qui organise des évènements
-- un lieu de restauration
-- une salle de spectacle
+- an association
+- a festival
+- a third place
+- a venue that organizes events
+- a restaurant
+- a performance venue
 
-Je suis un collectif TiBillet si j’utilise les outils TiBillet.
+I'm a TiBillet collective if I use the TiBillet tools.
 
-Cette page présente comment les collectifs TiBillet peuvent utiliser les 3 outils TiBillet.
+This page shows how TiBillet collectives can use the 3 TiBillet tools.
 
-Les 3 outils TiBillet sont :
+The 3 TiBillet tools are :
 
 |                                                 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
-
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> The web site Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/>LaBoutik cash register</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/>The Pass contactless card</div> |
 
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
 | <h2 id="lespass" style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
-Lespass est un site internet.
+Lespass is a website.
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
 
-Lespass est pour tous les collectifs TiBillet.
+Lespass is for all TiBillet collectives.
 
-**Chaque collectif TiBillet peut créer son propre Lespass.**
+**Each TiBillet collective can create its own Lespass.
 
 
-Sur Lèspass, il y a :
+On Lespass, you'll find :
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|
-| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
-| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
+| **Calendar**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
+| **subscriptions**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
 
 
 
 
-L’agenda est pour voir : 
+The agenda is to see : 
 
-- les évènements de mon collectif TiBillet
-- les évènements de mon village TiBillet
+- events in my TiBillet collective
+- events in my village TiBillet
 
 <img src={require('/static/img/page-accueil.png').default} width="100%" /> 
 
-Un village TiBillet est un ensemble de collectifs TiBillet qui choisissent de se regrouper ensemble.
+A TiBillet village is a group of TiBillet collectives that choose to join together.
 
-Les adhésions sont pour voir :
+Memberships are to see :
 
-- toutes les adhésions que mon collectif TiBillet propose
-- toutes les adhésions que les collectifs de mon village TiBillet proposent
+- all the memberships offered by my TiBillet collective
+- all the memberships offered by the collectives in my TiBillet village.
 
-L’agenda et les adhésions sont pour :
+The agenda and memberships are for :
 
-- donner des informations aux publics
-- leur permettre de faire leurs réservations
-- leur permettre de se connecter à leur compte
+- provide information to the public
+- enable them to make reservations
+- enable them to log in to their account
 
-Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
+To find out more about how audiences can use Lespass, click here: [Lespass for audiences](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
 
-Pour les collectifs, Lespass me permet aussi de **me connecter à mon panneau d'Administration.**
+For groups, Lespass also allows me to **log in to my Administration panel.** !
 
 ![](/img/nav.png)
 
-Mon compte Administration me permet par exemple de :
-- ajouter des adhésions
-- voir la liste de mes adhérents
-- voir la liste des paiements reçus
-- gérer la billetterie en ligne
+My Administration account allows me, for example, to :
+- add memberships
+- view my member list
+- see the list of payments received
+- manage online ticketing
 
-Gérer la billetterie en ligne veut dire :
+Managing online ticketing means :
 
-- modifier ou ajouter des évènements
-- créer des billets d’entrée gratuits ou payants pour mes évènements
-- voir la liste des réservations à mes évènements
+- modify or add events
+- create free or paying tickets for my events
+- view the list of reservations for my events
 
-Dans mon compte Administration, je peux aussi personnaliser mon **Lespass**.
+In my Administration account, I can also personalize my **Lespass**.
 
-Personnaliser veut dire que je peux changer :
+Customize means I can change :
 
-- le logo
-- les images
-- la description de mon collectif
+- logo
+- images
+- the description of my collective
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://lespass.demo.tibillet.org/)
+To see what Lespass looks like, click here: [Lespass demo](https://lespass.demo.tibillet.org/)
                                                                   
 
 |                                                 |                                                 |
@@ -109,122 +108,121 @@ Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outi
 | <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 
-LaBoutik est **pour les collectifs qui ont un ou plusieurs points de vente.**
+LaBoutik is **for collectives with one or more points of sale**.
 
-Un point de vente est un lieu où je peux vendre des choses, comme :
+An outlet is a place where I can sell things, such as :
 
-- de la nourriture et des boissons
-- des vêtements
-- des billets pour des concerts
-- la location d’une salle à l’heure
-- des adhésions
+- food and drink
+- clothing
+- concert tickets
+- room rental by the hour
+- memberships
 
-LaBoutik est une application.
+LaBoutik is an application.
 
-Je peux utiliser LaBoutik sur :
-- tablettes
+I can use LaBoutik on :
+- tablets
 - smartphones
 - Sunmi
 
-Un Sunmi est un appareil qui permet aux publics de payer par carte.
+A Sunmi is a device that allows the public to pay by card.
 
-LaBoutik est composée de 2 parties différentes.
+LaBoutik is made up of 2 different parts.
 
-`La 1ère partie me permet de gérer mes points de vente et ma comptabilité.`
+The 1st part allows me to manage my points of sale and my accounting.
 
-**Gérer mes points de vente**, c’est par exemple :
+**Managing my points of sale** means, for example :
 
-- ajouter mes points de vente
-- enregistrer la liste des produits que je veux vendre dans chaque point de vente
-- choisir à quel prix je veux les vendre
+- adding my points of sale
+- record the list of products I want to sell in each outlet
+- choose the price at which I want to sell them
 
-**Gérer ma comptabilité**, c’est par exemple :
+**Manage my accounting**, for example :
 
-- voir mon chiffre d’affaires
-- fermer la caisse et créer un ticket Z
+- view my sales figures
+- close the cash register and create a Z ticket
 
-Le ticket Z est un ticket de caisse qui résume toutes les ventes de la journée.
+The Z ticket is a receipt that summarizes all sales for the day.
 
-J’ai besoin du ticket Z pour faire ma comptabilité.
+I need the Z ticket to do my accounting.
 
-Pour voir comment gérer mes points de vente et ma comptabilité avec LaBoutik, je clique ici :
-**Gérer mes points de vente et ma comptabilité avec LaBoutik** (Lien en cours de création).
+To see how to manage my points of sale and accounting with LaBoutik, click here:
+**Manage my points of sale and accounting with LaBoutik** (Link in progress).
 
 ```
-La 2ème partie me permet de :
-- gérer les achats des publics dans mes points de vente
-- gérer la monnaie des publics
+The 2nd part allows me to :
+- manage public purchases at my points of sale
+- manage public change
 ```
 
-**Gérer les achats des publics dans mes points de vente**, c’est par exemple :
+**Managing public purchases at my points of sale** means, for example :
 
-- enregistrer leurs achats
-- encaisser leurs achats
+- registering their purchases
+- cashing their purchases
 
-Je peux encaisser les achats des publics :
+I can cash in customers' purchases:
 
-| En espèces | Par carte bancaire | Avec un Pass |
+| In cash | By credit card | With a Pass |
 |------------|--------------------|-------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/espece.png').default} width="80%" /><br/>En espèces</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', whiteSpace: 'nowrap' }}><img src={require('/static/img/carteb.png').default} width="60%" /><br/>Par carte bancaire</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte-pass.png').default} width="20%" /><br/>Avec un Pass</div> |
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/espece.png').default} width="80%" /><br/>In cash</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', whiteSpace: 'nowrap' }}><img src={require('/static/img/carteb.png').default} width="60%" /><br/>By credit card</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte-pass.png').default} width="20%" /><br/>With a Pass</div> |
 
 
+A Pass is a contactless card.
 
-Un Pass est une carte sans contact.
+It's a TiBillet tool.
 
-C’est un outil TiBillet.
+I can find out more about the Pass below.
 
-Je peux en savoir plus sur le Pass plus bas dans cette page internet.
+**Managing change for audiences** means, for example :
 
-**Gérer la monnaie des publics**, c’est par exemple :
+- adding change to an audience's TiBillet account
+- see how much change an audience has in their TiBillet account
 
-- ajouter de la monnaie sur le compte TiBillet d’un Public
-- voir combien de monnaie un public a sur son compte TiBillet
+There are 3 different TiBillet currencies.
 
-Il y a 3 monnaies TiBillet différentes.
+**The 1st currency is the global currency **.
 
-**La 1ère monnaie est la monnaie globale.**
+Global currency can be used in all TiBillet collectives.
 
-La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
+Audiences can add global currency to their TiBillet account using their bank card.
 
-Les publics peuvent ajouter de la monnaie globale sur leur compte TiBillet grâce à leur carte bancaire.
+To find out more about how audiences can add change to their TiBillet account, click here:
+[Adding currency to a TiBillet account](https://lespass.demo.tibillet.org/my_account/)
 
-Pour en savoir plus sur comment les publics peuvent ajouter de la monnaie sur leur compte TiBillet, je clique ici :
-[Ajouter de la monnaie sur un compte TiBillet](https://lespass.demo.tibillet.org/my_account/)
+**The 2nd currency is local currency **.
 
-**La 2ème monnaie est la monnaie locale.**
+Local currency can be used in :
+- my TiBillet collective
+- in TiBillet Village collectives that agree to it
 
-La monnaie locale peut être utilisée dans :
-- mon collectif TiBillet
-- dans les collectifs de mon Village TiBillet qui sont d’accord
+I can choose the name I want to give my local currency.
 
-Je peux choisir le nom que je veux donner à ma monnaie locale.
+Thanks to LaBoutik, members of the public can add local currency to their TiBillet account
+account by donating their Pass to a collective.
 
-Grâce à LaBoutik, les publics peuvent ajouter de la monnaie locale sur leur compte TiBillet
-en donnant leur Pass à un collectif.
+They can add local currency using :
+- their bank card
+- cash
 
-Ils peuvent ajouter de la monnaie locale grâce à :
-- leur carte bancaire
-- de l’argent en espèces
+**The 3rd currency is gift vouchers.
 
-**La 3ème monnaie est les bons cadeaux.**
+Gift vouchers are donated by a TiBillet collective.
 
-Les bons cadeaux sont donnés par un collectif TiBillet.
+People can only use gift vouchers in the TiBillet collective that donates them.
 
-Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBillet qui les donne.
-
-Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
-[Gérer les achats et la monnaie des publics avec LaBoutik](https://laboutik.demo.tibillet.org/wv/)
+To see how to manage purchases and change with LaBoutik, click here:
+[Managing purchases and change with LaBoutik](https://laboutik.demo.tibillet.org/wv/)
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
 | <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass<img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 
-Pass est donné aux publics par un collectif TiBillet.
+Pass is given to audiences by a TiBillet collective.
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>C’est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>It's a contactless card.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
 
 
 Sans contact veut dire que les publics n’ont pas besoin de rentrer un code secret pour l’utiliser.
@@ -251,9 +249,9 @@ Pour en savoir plus sur comment les publics peuvent utiliser leur Pass, je cliqu
 **je peux changer l’image au dos de la carte** <br/> 
 **pour que les Pass de mon collectif ressemblent à mon collectif.** <br/> 
 
-Par exemple, je peux mettre : 
-- un dessin
-- une photographie
-- le logo de mon collectif 
+For example, I can put : 
+- a drawing
+- a photograph
+- my collective's logo 
 
 <img src={require('/static/img/design/mockup-ticket.png').default} width="100%" />
