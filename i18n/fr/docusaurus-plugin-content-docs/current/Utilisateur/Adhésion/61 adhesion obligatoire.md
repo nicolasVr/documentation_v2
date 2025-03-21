@@ -20,4 +20,4 @@ authors: Adrienne
 ![](/img/adhesion7.png)
 ![](/img/adhesion8.png)
 
-Votre adhésion est maintenant visible en ligne sur **Lespass** dans la page **"Adhérer"**.
+

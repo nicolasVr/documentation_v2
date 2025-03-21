@@ -54,12 +54,15 @@ Ces informations seront visibles sur la page d'accueil, afin d'introniser l'entr
 - Choisissez le **"Nom de la page d'abonnement"** (vous pouvez laisser le terme par défaut).  
 - Choisissez le **"Nom de la page d'agenda"** (vous pouvez laisser le terme par défaut).  
 - Activez l'autorisation des réservations simultanées (Les événements ont besoin de dates de début et de fin pour être comparables).  
+- **Section Personnalisation** 
+  - Permet de changer le titre des "input" du formulaire d'adhésion
 - **Section Stripe**  
   - Cette section permet de vérifier si votre espace admin est bien connecté à votre compte Stripe.  
 - Enregistrez
 
 ![Configuration parametre](/img/config3.png)
-![Configuration parametre](/img/config4.png)
+![Configuration parametre](/img/config6.png)
+![Configuration parametre](/img/config5.png)
 
 
 ## Carrousel

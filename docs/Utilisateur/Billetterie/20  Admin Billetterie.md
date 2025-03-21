@@ -53,12 +53,15 @@ This information will be displayed on the home page, to welcome the customer to 
 - Choose the **"Subscription page name ”** (you can leave the default term).  
 - Choose the **"Agenda page name ”** (you can leave the default term).  
 - Enable simultaneous bookings (events need start and end dates to be comparable).  
-- Stripe section**  
+- **Customization section**
+  - Allows you to change the title of the membership form's inputs
+- **Stripe section**  
   - This section allows you to check whether your admin area is connected to your Stripe account.  
 - Register
 
 ![Configuration parametre](/img/config3.png)
-![Configuration parametre](/img/config4.png)
+![Configuration parametre](/img/config6.png)
+![Configuration parametre](/img/config5.png)
 
 ## Carrousel
 

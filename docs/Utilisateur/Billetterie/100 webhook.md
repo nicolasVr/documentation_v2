@@ -2,7 +2,7 @@
 sidebar_position: 100
 slug: webhook
 title: Webhook
-description: Envoyer un POST pour chaque reservation validée.
+description: Send a POST for each validated reservation.
 keywords: [ticketing, billetterie, webhook, api]
 wiktags: [ticketing, billetterie, webhook, api]
 authors: Jonas

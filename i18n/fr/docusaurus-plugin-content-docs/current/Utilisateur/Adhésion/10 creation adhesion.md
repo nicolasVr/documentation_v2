@@ -32,10 +32,16 @@ Ces adhésions sont à créer dans la catégorie **"Produits"** dans la colonne 
   - **Menu à choix multiples** : Plusieurs choix peuvent être sélectionnés au moment de la commande. (*optionnel*).  
   - Ajoutez un **lien vers une mention légale** (*optionnel*).  
   - Activez le bouton **"Publier"** pour afficher l'adhésion dans **Lespass > Adhérer**.  
-  - Activez le bouton **"Archiver"** pour supprimer votre adhésion.  
+  - Activez le bouton **"Archiver"** pour supprimer votre adhésion. 
+- **Enregistrez**.   
 
 ![](/img/adhesion1.png)
 ![](/img/adhesion2.png)
 ![](/img/adhesion3.png)
 
+Votre adhésion est maintenant visible en ligne sur **Lespass** dans la page **"Adhérer"**.
 
+
+:::note 
+N'oubliez pas d'ajouter un tarif à votre adhésion. (Cf. Tarif préférentiel / Adhésion obligatoire)
+:::

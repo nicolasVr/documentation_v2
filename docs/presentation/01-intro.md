@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: introduction
 title: Introduction
-description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
+description: Contactless, cashless payment system, event management, catering management, community involvement and online ticket purchasing ... but that's not all!
 image: https://tibillet.org/img/logoTibMJ4300.png
 keywords: [ cashless, billetterie, ticketing ]
 tags: [ cashless, billetterie, ticketing ]
