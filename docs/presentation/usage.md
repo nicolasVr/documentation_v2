@@ -1,82 +1,82 @@
 ---
 sidebar_position: 6
-slug: usages
+slug: uses
 title: Usages
-description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
+Description: contactless payment system, zero cash (cashless), event management, restaurant room management, association engagement and online ticket purchase ... but not only!
 image: /img/demo/BoitierRaff.jpg
-keywords: [ cashless, billetterie, ticketing, caisse enregistreuse, prise de commandes, paiement dématérialisé, monnaies locales, monnaies temps, logiciel libre, open source, coopérative ]
-tags: [ cashless, billetterie, ticketing, caisse enregistreuse, prise de commandes, paiement dématérialisé, monnaies locales, monnaies temps, logiciel libre, open source, coopérative ]
+keywords: [ cashless, ticketing, cash register, order taking, paperless payment, local currencies, time currencies, free software, open source, cooperative ]
+tags: [ cashless, ticketing, ticketing, cash register, order taking, paperless payment, local currencies, time currencies, free software, open source, cooperative ]
 ---
-# Usages 
+# Uses 
 
-## Caisse enregistreuse
+## Cash register
 
-Une caisse enregistreuse qui accepte espèce, carte bancaire, carte d'adhésion, de fidélité et carte cashless.
+A cash register that accepts cash, bank card, membership card, loyalty and cashless card.
 
 ![caisse1](/img/demo/maq2-420.jpg)
 
 ## Cashless
 
-Un bracelet NFC pour le cashless de votre festival. Rechargeable en ligne ou sur place. Une carte de fidélité,
-d'abonnement ou d'adhésion associative sur laquelle vous pouvez charger des euros commes des monnaies temps pour
-valoriser votre bénévolat.
+An NFC bracelet for cashless your festival. Rechargeable online or on site. A loyalty card,
+subscription or membership on which you can charge euros as coins for time
+Value your volunteer work.
 
 ![caisse1](/img/demo/cartes.jpg)
 
-## Gestion d'adhésion et valorisation de bénévolat
+## Membership management and volunteer enhancement
 
-Paiement en ligne, renouvellement automatique, gestion de cotisation, gestion du portefeuille de monnaie temps.
-Abonnement commun à plusieurs lieux, fédération d'associations.
+Online payment, auto-renewal, membership management, currency time portfolio management.
+Joint subscription to several places, federation of associations.
 
-![adhésion](/img/demo/BilletDemo4_adhesion.jpg)
+![adhesion](/img/demo/BilletDemo4_adhesion.jpg)
 
-## Billetterie fédérée
+## Federated Ticketing
 
-- Concert payant avec tarif préférentiel pour les adhérants.
-- Concert avec des billets non nominatifs
-- Évènement avec inscription gratuite et nominative
-- Réservation de table de restaurant non nominative mais nécessitant une validation préalable.
-- Un évènement gratuit mais avec une recharge cashless obligatoire.
-- Location et reservation à l'heure de salle type coworking
+- Paid concert with preferential rate for members.
+- Concert with non-nominative tickets
+- Event with free registration and nominative
+- Reservation of restaurant table not nominative but requiring a prior validation.
+- A free event but with a mandatory cashless recharge.
+- Rental and reservation at the time of coworking room type
 
-![billet](/img/demo/BilletDemo1.jpg)
+![post](/img/demo/BilletDemo1.jpg)
 
-## Agenda fédéré
+## Federated Agenda
 
-Un agenda fédéré à plusieurs lieux pour promouvoir vos évènements au sein d'un réseau.
+A federated agenda with several places to promote your events within a network.
 
-## Gestion de prise de commande
+## Management of order taking
 
-Prise de commande pour buvette et salle de restauration. Impréssion de ticket en cuisine et au bar. Prise de commande
-par le client.
+Order taking for bar and catering room. Ticket imprint in kitchen and bar. Order taking
+by the customer.
 
 ![commande](/img/demo/CashlessDemo6.jpg)
 
-## Gestion de monnaies locales / temps / libres
+## Management of local currencies/ time/ free
 
-Blockchain multi asset, gestion de carte cashless pour plusieurs sites et/lieux
+Multi-asset blockchain, cashless card management for multiple sites and/or locations
 
 ![fedow](/img/demo/fedow_beta.jpg)
 
-## Système de paiement dématérialisé
+## Digital payment system
 
-Paiement par QRCode. Echange de token entre wallets privés.
+Payment by QRCode. Token exchange between private wallets.
 
 
-## Mais aussi :
+## But also:
 
-La combinaison de tous ces outils permet de créer des usages innovants et de nouvelles formes de coopération :
+The combination of all these tools creates innovative uses and new forms of cooperation:
 
-- Carte de fidélité pour commerce de proximité en monnaie locale
-- Partage de monnaie temps entre particulier
-- Gestion de taux de change entre euro et monnaie locale
-- Fédération de co-working et carte d'abonnement partagée
-- Virement en monnaie locale de compte utilisateur à compte utilisateur
-- Carte pass culturel pour les jeunes
-- Carte d'accès limité à x passages (cinéma, salle de sport, théatre, etc ..)
-- Badgeuse de temps pour ouverture de lieu à l'heure (fablab', salle de réunion, studio de répétition, etc ..)
-- Carte de paiement pour banque alimentaire pour article fléché avec des prix spéciaux
-- Tarifs réduit si paiement en monnaie locale,
-- etc etc ....
+- Local currency loyalty card
+- Money sharing time between individual
+- Exchange rate management between euro and local currency
+- Co-working federation and shared subscription card
+- Transfer in local currency from user account to user account
+- Cultural pass card for young people
+- Access card limited to x passages (cinema, gym, theater, etc.)
+- Time badger for opening on time (fablab', meeting room, rehearsal studio, etc.)
+- Food bank payment card for flagged item with special prices
+- Reduced rates if payment in local currency,
+- etc etc...
 
-Et je suis sur que vous avez une super idée à nous présenter auquel nous n'avons pas pensé, venez discuter avec nous !
+And I’m sure you have a great idea to present to us that we did not think, come talk with us!

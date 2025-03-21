@@ -1,39 +1,39 @@
 ---
 sidebar_position: 7
-slug: philosophie
-title: Philosophie
-description: Nous apportons une solution de cashless, de billetterie et de gestion de salle de restaurant pour les petites structures oubliées des grandes entreprises
+slug: philosophy
+title: Philosophy
+Description: We provide cashless, ticketing and restaurant room management solution for small forgotten structures of large companies
 image: https://tibillet.org/img/logoTibMJ4300.png
-keywords: [ cashless, billetterie, ticketing ]
-wiktags: [ cashless, billetterie, ticketing ]
+keywords: [ cashless, ticketing ]
+wiktags: [ cashless, ticketing ]
 authors: jonas, adrienne
 ---
 
-# La philosophie TiBillet
+# The TiBillet philosophy
 
-TiBillet permet de créer du lien entre les différents acteurs du territoire.
+TiBillet allows to create a link between the different actors of the territory.
 
-Ces acteurs sont :
+These actors are:
 
-- des collectifs
-- des publics
-- des professionnels du spectacle
+- of collectives
+- of audiences
+- of professional performers
 
-TiBillet est donc une boite à outils fédératrice. 
+TiBillet is therefore a unifying toolbox. 
 
-Fédérateur veut dire qui créer du lien. 
+Federator means who creates the link. 
 
-TiBillet permet de développer la culture pour tous dans une même région. 
+TiBillet helps to develop culture for all in the same region. 
 
-Tibillet est open source. 
+Tibillet is open source. 
 
-Open source veut dire que le code source de TiBillet est utilisable par tous. 
+Open source means that the source code of TiBillet is usable by everyone. 
 
-Je peux faire des modifications dans TiBillet pour répondre à mes besoins spécifiques.
+I can make changes in TiBillet to meet my specific needs.
 
-TiBillet est créé par la Coopérative Code Commun.
+TiBillet is created by the Cooperative Code Commun.
 
-L’argent gagné avec TiBillet est réparti de manière équitable entre les personnes qui travaillent dans la coopérative. 
+The money earned with TiBillet is distributed fairly among the people who work in the cooperative. 
 
-Vous pouvez entrer dans la coopérative.
+You can enter the co-op.
 

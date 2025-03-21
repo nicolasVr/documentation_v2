@@ -1,103 +1,103 @@
 ---
 sidebar_position: 10
-slug: tarifs
-title: Tarifs, conditions et licences
+slug: rates
+title: Tariffs, conditions and licences
 authors: jonas, adrienne
-wiktags: [ cashless, billetterie, ticketing, features ]
+wiktags: [ cashless, ticketing, features ]
 ---
 
-# Tarifs, conditions et licences pour utiliser TiBillet
+# Rates, conditions and licenses to use TiBillet
 
-TiBillet sont des logiciels libres. 
+TiBillet are free software. 
 
-Un logiciel libre veut dire que :
+Free software means that:
 
-- je peux l’utiliser sans payer
-- je peux le modifier
-- d’autres personnes peuvent utiliser ce que j’ai modifié
+- I can use it without paying
+- I can change it
+- other people can use what I have modified
 
-## Je fais partie des publics : 
+## I’m in the audience: 
 
-Je peux utiliser la carte TiBillet toute ma vie. 
+I can use the TiBillet card for life. 
 
-Je dois respecter une seule condition : utiliser la carte TiBillet régulièrement.
+I have to respect one condition: use the TiBillet card regularly.
 
-## Je suis un collectif :
+## I am a collective:
 
-L’utilisation de la boite à outil TiBillet est gratuite. 
+The use of the TiBillet tool box is free. 
 
-Je ne dois pas payer d’abonnement. 
+I don’t have to pay for a subscription. 
 
-La Coopérative Code Commun ne prend pas de pourcentage, ni de commission sur les ventes et les transactions d’argent. 
+The Cooperative Code Commun does not take a percentage or commission on sales and money transactions. 
 
-Cela veut dire par exemple : 
+This means, for example: 
 
-- quand vous payez avec la carte TiBillet, la Coopérative Code Commun ne prend pas d’argent
-- quand vous achetez un billet sur la billeterie, la Coopérative Code Commun ne prend pas d’argent
-J’ai la responsabilité des transactions d’argent dans TiBillet.
+- when you pay with TiBillet card, the Cooperative Code Commun does not take money
+- when you buy a ticket on the ticketing, the Cooperative Code Commun does not take money
+I am responsible for cash transactions in TiBillet.
 
-Je peux installer TiBillet et l’utiliser : 
+I can install TiBillet and use it: 
 
-- sans garanti de fonctionnement
-- sans service après-vente
+- without guaranteed operation
+- without after-sales service
 
-Cela veut dire que si ça ne marche pas, ce n’est pas la faute de la coopérative code commun. 
+This means that if it does not work, it is not the fault of the cooperative common code. 
 
-Le matériel pour utiliser TiBillet est payant.
-Par exemple, la caisse enregistreuse et les cartes TiBillet sont payantes. 
+The material to use TiBillet is chargeable.
+For example, cash register and TiBillet cards are paid. 
 
-Je dois respecter une seule condition :
+I have only one condition:
 
-Si TiBillet n’est pas utilisé pendant plus d’un an, l’argent dedans est donné à la Coopérative Code Commun. 
+If TiBillet is not used for more than a year, the money in it is given to the Cooperative Code Commun. 
 
-Cet argent sert à financer : 
+This money is used to finance: 
 
-- La maintenance la boite à outil TiBillet
-- Les activités de la Coopérative Code Commun
-
-
-Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re](mailto:contact@tibillet.re)
+- Maintenance of the TiBillet tool box
+- The activities of the Cooperative Common Code
 
 
-## Licence 
+To find out more, I contact the cooperative common code by mail: [contact@tibillet.re](mailto:contact@tibillet.re)
 
-Tibillet est sous la licence AGPLv3.
 
-Cela veut dire que le code source qui a permis de créer TiBillet est protégé par cette licence. 
+## License 
 
-Je peux modifier TiBillet mais je dois respecter cette licence. 
+Tibillet is under the AGPLv3 license.
 
-Une condition est importante dans cette licence : 
+This means that the source code that created TiBillet is protected by this license. 
 
-Si j’utilise le code source de TiBillet sur mon serveur et que d’autres personnes y ont accès, ces autres personnes doivent pouvoir télécharger le code source depuis mon serveur. 
+I can modify TiBillet but I have to respect this license. 
 
-Pour en savoir plus, je peux aller sur ce site internet :  https://www.gnu.org/licenses/why-affero-gpl.fr.html
+One condition is important in this license: 
 
-J’ai des questions, je veux en savoir plus : 
+If I use the source code of TiBillet on my server and other people have access to it, these other people must be able to download the source code from my server. 
+
+To learn more, I can go to this website:  https://www.gnu.org/licenses/why-affero-gpl.fr.html
+
+I have questions, want to know more: 
 
 <a href="mailto:contact@tibillet.re" 
    style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}>
-    <strong>Contactez la coopérative code commun</strong>
+    <strong>Contact the co-op common code</strong>
   </span>
 </a>
 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Ce document est écrit en FALC.</div> | <img src={require('/static/img/falc.png').default} width="80%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>This document is written in FALC.</div> | <img src={require('/static/img/falc.png').default} width="80%" /> |
 
 
-FALC veut dire Facile à Lire et à Comprendre.
+FALC means Easy to Read and Understand.
 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Ce document a été réalisé par PAIPS</div> | <img src={require('/static/img/paips.png').default} width="80%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}>This document was produced by PAIPS</div> | <img src={require('/static/img/paips.png').default} width="80%" /> |
 
-en partenariat avec l’ESAT Jacques Chavent
-de l’Adapei 69.
+in partnership with ESAT Jacques Chavent
+of the Adapei 69.
 
-Ce document a été relu et validé en 2025 par XXXXXX
-de l’Esat Jacques Chavent (Adapei 69).
+This document was reviewed and validated in 2025 by XXXXXX
+of Esat Jacques Chavent (Adapei 69).
 

@@ -78,7 +78,7 @@ LaBoutik is a TiBillet tool that allows collectives to sell things like :
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Avec une seule carte, mon Pass me permet d’accéder à : <ul><li>mes adhésions</li><li>mes billets pour des évènements des collectifs</li><li>mes abonnements</li><li>mes cartes de fidélité</li><li>de la monnaie</li></ul> | <img src={require('/static/img/publiccarte.png').default} width="100%" /> |
+| With a single card, my Pass gives me access to: <ul><li>my memberships</li><li>my tickets for events of the collectives</li><li>my subscriptions</li><li>my loyalty cards</li><li>of the currency</li></ul> | <img src={require('/static/img/publiccarte.png').default} width="100%" /> |
 
 
 |                                                                                                      |                                                   |
