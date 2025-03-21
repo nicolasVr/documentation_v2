@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: introduction
 title: Introduction
-description: Contactless, cashless payment system, event management, catering management, community involvement and online ticket purchasing ... but that's not all!
+description: Système de paiement sans contact, zéro espèce (cashless), de gestion d'évènement, de gestion de salle de restauration, d'engagement associatif et d'achat de billets en ligne … mais pas uniquement !
 image: https://tibillet.org/img/logoTibMJ4300.png
 keywords: [ cashless, billetterie, ticketing ]
 tags: [ cashless, billetterie, ticketing ]
@@ -49,12 +49,16 @@ Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet
 - me connecter à mon compte ou à mon compte Administration
 
 
-<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+<a href="https://tibillet.org/fr/docs/presentation/i_am_a_collective/#lespass" 
+   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}>
+    <strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong>
+  </span>
 </a>
 
 
-<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+
+<a href="https://tibillet.org/fr/docs/presentation/i_am_an_audience/#lespass2" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
 </a>
 

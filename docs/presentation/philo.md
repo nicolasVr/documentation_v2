@@ -9,13 +9,13 @@ wiktags: [ cashless, billetterie, ticketing ]
 authors: jonas, adrienne
 ---
 
-# La philosophie & Lien CCC
+# La philosophie TiBillet
 
 TiBillet permet de créer du lien entre les différents acteurs du territoire.
 
 Ces acteurs sont :
 
-- des collectif
+- des collectifs
 - des publics
 - des professionnels du spectacle
 
