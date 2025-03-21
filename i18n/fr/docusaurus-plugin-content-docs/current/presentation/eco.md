@@ -41,7 +41,7 @@ Je peux installer TiBillet et l’utiliser :
 - sans garanti de fonctionnement
 - sans service après-vente
 
-Cela veut dire que si ça ne marche pas, ce n’est pas la faute de la coopérative code commun. 
+Cela veut dire que si ça ne marche pas, ce n'est pas à cause de la coopérative Code Commun. 
 
 Le matériel pour utiliser TiBillet est payant.
 Par exemple, la caisse enregistreuse et les cartes TiBillet sont payantes. 

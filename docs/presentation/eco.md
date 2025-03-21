@@ -41,7 +41,7 @@ I can install TiBillet and use it:
 - without guaranteed operation
 - without after-sales service
 
-This means that if it does not work, it is not the fault of the cooperative common code. 
+This means that if it does not work, it is not because of the cooperative Code Commun. 
 
 The material to use TiBillet is chargeable.
 For example, cash register and TiBillet cards are paid. 
