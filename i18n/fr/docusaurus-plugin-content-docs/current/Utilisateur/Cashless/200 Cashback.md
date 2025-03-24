@@ -10,9 +10,9 @@ authors: jonas
 
 ## Récompensez les recharges importantes en ligne.
 
-Nous avons mis en place un système de cashback par chèque-cadeau à la demande de nos clients.
+Nous avons mis en place un système de cashback par chèque-cadeau à la demande de nos partenaires.
 
-L'idée est d'inciter les gens à effectuer eux-mêmes leurs recharges en ligne et de désengorger l'accueil cashless d'un site et les points de recharge.
+L'idée est d'inciter les gens à effectuer eux-mêmes leurs recharges en ligne et de réduire le temps d'attente à l'accueil cashless d'un site et aux points de recharge.
 
 Dans l'administration :
 - Allez dans « Configuration générale » dans la colonne de gauche, puis dans l'onglet « CASHBACK ».
