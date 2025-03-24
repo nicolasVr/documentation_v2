@@ -8,11 +8,11 @@ wiktags: [ cashless, android, ccaisse enregistreuse ]
 authors: Adrienne
 ---
 
-# Gestion des tables et suivi des commandes dans l'instance d'administration
+# Gestion des tables et suivi des commandes dans l'interface d'administration
 
-Avant de prendre des commandes, vous pouvez ajouter et organiser vos tables dans la section « Table » du menu de la colonne de gauche.
+Avant votre service il est recommandé d'ajouter et organiser vos tables dans la section « Table » du menu de la colonne de gauche.
 
-Une fois la commande passée, vous la retrouverez dans la section « Commandes », avec toutes les informations utiles :
+Quand une commande est passée, vous pouvez la retrouver dans la section « Commandes », avec toutes les informations utiles :
 
 - le nom de la table (par exemple Table 1, Ext 1)
 - Statut de la commande (payée, servie, en attente...)
@@ -30,7 +30,7 @@ Cela vous donne une vue d'ensemble et vous aide à suivre l'état des commandes 
 
 ## Ajouter un table
 
-Si vous devez ajouter une table, procédez ainsi :
+Pour ajouter une table, procédez ainsi :
 
 - Allez dans le menu « Table » dans la colonne de gauche.
 - Cliquez sur « Ajouter une table » dans le coin supérieur droit.
@@ -44,14 +44,16 @@ Si vous devez ajouter une table, procédez ainsi :
   - Table éphémère : Cochez « Ephémère » si la table est temporaire (par exemple, ajoutée pour un groupe de clients).
   - Archive : Archive la table si elle n'est plus utilisée.
 
-**Une fois sauvegardé, la table sera disponible dans l'interface de gestion des commandes.**
+:::note
+
+Une fois sauvegardé, la table sera disponible dans l'interface de gestion des commandes. :::
 
 <video width="100%" controls src="/img/ajout-table.mp4"></video>
 
 
 # Gestion des commandes sur la caisse enregistreuse
 
-Une fois vos tables sauvegardés, vous pouvez commencer à prendre des commandes directement à partir de votre caisse enregistreuse ou de votre téléphone.
+Une fois vos tables sauvegardées, vous pouvez prendre les commandes directement à partir de votre caisse enregistreuse ou de votre téléphone.
 
 Marche à suivre pour prendre une commande :
 
@@ -59,7 +61,7 @@ Marche à suivre pour prendre une commande :
 - Sélectionnez le point de vente où se trouve votre menu (ex : Resto).
 - Choisissez votre mode de service :
   - Service direct : la commande est prise et payée immédiatement.
-  - Commande avec envoi en préparation : sélectionnez directement la table occupée.
+  - Commande avec envoi en préparation : sélectionnez la table occupée.
 - Ajoutez les produits commandés.
 - Confirmez le total.
 - Choisissez une option d'expédition :
@@ -67,30 +69,27 @@ Marche à suivre pour prendre une commande :
   - Envoyer en préparation et payer en une seule fois.
   - Envoyer la préparation et passer à la page de paiement (pratique pour un paiement séparé).
 
-Cela permet une gestion facile des commandes et un suivi efficace des préparations. 
-
 <video width="100%" controls src="/img/prisecommande.mp4"></video>
 
 ## Tables et préparations
 
-### **🔴 Table en rouge : Qu'est-ce que cela signifie ?  
+### 🔴 Table en rouge : Qu'est-ce que cela signifie ?  
 
 Lorsqu'une **table apparaît en rouge**, cela indique que :  
 - La commande n'a pas été payée.  
 - La commande n'a pas encore été servie. 
 - ou les deux.  
 
-#### **Comment vérifier l'état d'une commande ?  
+#### Comment vérifier l'état d'une commande ?  
 
-1. **Allez dans « Préparations »** (menu en haut à droite).  
-2. **Vérifiez le statut de chaque commande**, où vous verrez :  
-   - ✅ **« Servie » ou « Non servie »**.  
-   - 💰 **« Payée » ou « Non payée »**.  
+1. Allez dans **« Préparations »** (menu en haut à droite).  
+2. Le statut de chaque commande sera indiqué de la sorte :  
+   - ✅ **« Servie »** ou **« Non servie »**.  
+   - 💰 **« Payée »** ou **« Non payée »**.  
 
 #### **Mettre à jour le statut de la commande** 
-Si la commande a été servie, vous le verrez dans le statut de la commande.  
-- Si la commande a été servie, **cliquez sur le bouton de validation** pour l'indiquer.  
-- Le tableau restera rouge jusqu'à ce que le paiement soit effectué.
+Pour indiquer qu'une commande est "servie", **cliquez sur le bouton de validation** ✅. Cette commande sera grisée et archivée en dessous. 
+Si une commande n'a pas été payée la ligne correspondante restera rouge jusqu'à ce que le paiement soit effectué (servie ou non).
 
 ![préparations](/img/preparations.png)
 
@@ -99,9 +98,9 @@ Si la commande a été servie, vous le verrez dans le statut de la commande.
 Lors d'un événement, le mode « Service direct » est recommandé. Il vous permet de :
 - Prendre les commandes et encaisser immédiatement.
 - Simplifier et accélérer le service.
-- D'éviter l'attente des commandes sur une table.
+- Réduire l'attente des commandes à table.
 
 🔹 Comment l'activer ?
-Avant de choisir une table, sélectionnez « Service direct » avant de choisir les articles. Une fois la commande validée, le paiement sera demandé immédiatement.
+Depuis le menu point de vente (resto). Avant de choisir une table, sélectionnez le bouton rouge en bas à droite « Service direct ».
 
 <video width="100%" controls src="/img/servicedirect.mp4"></video>
