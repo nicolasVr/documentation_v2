@@ -34,7 +34,7 @@ Les 3 outils TiBillet sont :
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+| <h2 id="lespass" style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
 Lespass est un site internet.
 
@@ -75,7 +75,7 @@ L’agenda et les adhésions sont pour :
 - leur permettre de faire leurs réservations
 - leur permettre de se connecter à leur compte
 
-Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](https://lespass.demo.tibillet.org/)
+Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
 
 Pour les collectifs, Lespass me permet aussi de **me connecter à mon panneau d'Administration.**
 
@@ -101,7 +101,7 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : **Démonstration de l’outil Lespass** (Lien en cours de création)
+Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://lespass.demo.tibillet.org/)
                                                                   
 
 |                                                 |                                                 |
@@ -130,7 +130,7 @@ Un Sunmi est un appareil qui permet aux publics de payer par carte.
 
 LaBoutik est composée de 2 parties différentes.
 
-`La 1ère partie me permet de **gérer mes points de vente et ma comptabilité.**`
+`La 1ère partie me permet de gérer mes points de vente et ma comptabilité.`
 
 **Gérer mes points de vente**, c’est par exemple :
 
@@ -148,7 +148,7 @@ Le ticket Z est un ticket de caisse qui résume toutes les ventes de la journée
 J’ai besoin du ticket Z pour faire ma comptabilité.
 
 Pour voir comment gérer mes points de vente et ma comptabilité avec LaBoutik, je clique ici :
-[Gérer mes points de vente et ma comptabilité avec LaBoutik]
+**Gérer mes points de vente et ma comptabilité avec LaBoutik** (Lien en cours de création).
 
 ```
 La 2ème partie me permet de :
@@ -163,18 +163,10 @@ La 2ème partie me permet de :
 
 Je peux encaisser les achats des publics :
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>en espèces</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
+| En espèces | Par carte bancaire | Avec un Pass |
+|------------|--------------------|-------------|
+| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/espece.png').default} width="80%" /><br/>En espèces</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', whiteSpace: 'nowrap' }}><img src={require('/static/img/carteb.png').default} width="60%" /><br/>Par carte bancaire</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte-pass.png').default} width="20%" /><br/>Avec un Pass</div> |
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>par carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
-
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>avec un Pass</div> | <img src={require('/static/img/icone-carte-pass.png').default} width="20%" /> |
 
 
 Un Pass est une carte sans contact.
@@ -197,7 +189,7 @@ La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
 Les publics peuvent ajouter de la monnaie globale sur leur compte TiBillet grâce à leur carte bancaire.
 
 Pour en savoir plus sur comment les publics peuvent ajouter de la monnaie sur leur compte TiBillet, je clique ici :
-[Ajouter de la monnaie sur un compte TiBillet]
+[Ajouter de la monnaie sur un compte TiBillet](https://lespass.demo.tibillet.org/my_account/)
 
 **La 2ème monnaie est la monnaie locale.**
 
@@ -221,7 +213,7 @@ Les bons cadeaux sont donnés par un collectif TiBillet.
 Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBillet qui les donne.
 
 Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
-[Gérer les achats et la monnaie des publics avec LaBoutik]
+[Gérer les achats et la monnaie des publics avec LaBoutik](https://laboutik.demo.tibillet.org/wv/)
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
@@ -252,8 +244,16 @@ Avec une seule carte, il leur permet d’accéder à :
 - de la monnaie
 
 Pour en savoir plus sur comment les publics peuvent utiliser leur Pass, je clique ici : 
-[Pass pour les publics]
+[Pass pour les publics](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
 
-|                                                                                                      |                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Si je commande plus de 1000 cartes, <br/> je peux changer l’image au dos de la carte <br/> pour que les Pass de mon collectif ressemblent à mon collectif. <br/> Par exemple, je peux mettre : <ul><li>un dessin</li><li>une photographie</li><li>le logo de mon collectif</li></ul> | <img src={require('/static/img/design/mockup-ticket.png').default} width="100%" /> |
+
+**Si je commande plus de 1000 cartes,** <br/> 
+**je peux changer l’image au dos de la carte** <br/> 
+**pour que les Pass de mon collectif ressemblent à mon collectif.** <br/> 
+
+Par exemple, je peux mettre : 
+- un dessin
+- une photographie
+- le logo de mon collectif 
+
+<img src={require('/static/img/design/mockup-ticket.png').default} width="100%" />

@@ -49,7 +49,7 @@ Les outils TiBillet pour les publics sont :
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '40px' }} /></h2> | 
+| <h2 id="lespass2" style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '40px' }} /></h2> | 
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
@@ -65,7 +65,7 @@ Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l
 
 |                                                 |                              |
 |-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong>des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
+| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong> des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
 
 
 LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, comme :
@@ -83,7 +83,7 @@ LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, c
 
 |                                                                                                      |                                                   |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je peux gérer tout ça grâce au QR code qui est sur mon Pass. Un QR code est une image que je peux prendre en photo avec mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
+| Je peux gérer tout ça grâce au QR code qui est sur mon Pass. <br/>   Un QR code est une image que je peux prendre en photo grâce à une application de scan pour QR code sur mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
 
 
 Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.

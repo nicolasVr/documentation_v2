@@ -1,8 +1,8 @@
 ---
 sidebar_position: 75
 slug: import_export
-title: Importez vos données
-description: Depuis un fichier csv
+title: Import your data
+description: From a csv file
 keywords: [billetterie, ticketing, membership]
 wiktags: [billetterie, ticketing,  membership]
 authors: Jonas
@@ -40,3 +40,12 @@ Configurer l'import de cette façon :
 
 ![](/img/import_csv.jpg)
 
+
+# Export memberships
+
+Be careful how you export data with Libre Office:
+
+  - UTF8
+  - Check only “order” -> the comma separates the fields.
+  
+![export adhésion](/img/exportadhesion.png)

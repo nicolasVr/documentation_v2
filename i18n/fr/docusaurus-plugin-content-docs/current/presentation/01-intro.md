@@ -9,7 +9,7 @@ tags: [ cashless, billetterie, ticketing ]
 authors: Jonas, Adrienne
 ---
 
-#  Ti-billet, c’est quoi ?
+#  TiBillet, c’est quoi ?
 
 
 |                                                 |                              |
@@ -49,12 +49,16 @@ Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet
 - me connecter à mon compte ou à mon compte Administration
 
 
-<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong></span>
+<a href="https://tibillet.org/fr/docs/presentation/i_am_a_collective/#lespass" 
+   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}>
+    <strong>Je suis un collectif : je clique ici pour en savoir plus sur Lèspass</strong>
+  </span>
 </a>
 
 
-<a href="https://tibillet.org/docs/presentation/i_am_an_audience/" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
+
+<a href="https://tibillet.org/fr/docs/presentation/i_am_an_audience/#lespass2" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}><strong>Je fais partie des publics : je clique ici pour en savoir plus sur Lèspass</strong></span>
 </a>
 

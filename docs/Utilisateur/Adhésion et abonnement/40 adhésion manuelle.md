@@ -1,30 +1,30 @@
 ---
 sidebar_position: 75
 slug: create_a_membership_manually
-title: Création d'une adhésion manuellement
-description: Créer un abonnement manuellement
+title: Create membership manually
+description: Create a subscription manually
 keywords: [billetterie, ticketing, membership]
 wiktags: [billetterie, ticketing,  membership]
 authors: Adrienne
 ---
 
-## Création d'un abonnement pour un utilisateur
+## Creating a subscription for a user
 
-Vous avez la possibilité de faire souscrire manuellement un utilisateur à un abonnement.
+You can manually subscribe a user to a subscription.
 
-Allez dans 
+Go to 
 
-- Cliquez sur le bouton **"+"**.
-- Renseignez le nom et prénom de l'utilisateur.
-- Ajoutez des options si nécessaire.
-- Saisissez l'email de l'utilisateur.
-- Sélectionnez l'abonnement souhaité (cf. Page "Produits" pour créer un abonnement).
-- Spécifiez la contribution (montant de la contribution).
-- Sélectionnez le mode de paiement (Offert / Carte de crédit TPE / Espèce / Chèque bancaire).
-- Enregistrez.
+- Click on the **“+”** button.
+- Enter the user's first and last name.
+- Add options if necessary.
+- Enter the user's email address.
+- Select the desired subscription (see “Products” page to create a subscription).
+- Specify contribution (contribution amount).
+- Select payment method (Free / Eftpos credit card / Cash / Bank check).
+- Save.
 
 :::note
-Une fois enregistré, l'abonnement sera visible dans la liste des abonnés. Vous pourrez cliquer sur l'email de l'abonnement fait précédemment afin d'envoyer une facture en cliquant sur le bouton **"Envoyer une facture par mail"** ou **"Gérer une facture"**.
+Once registered, the subscription will be visible in the list of subscribers. You can click on the email address of the subscription you made earlier to send an invoice by clicking on the **"Send invoice by email ‘** or **’Manage invoice ”** button.
 :::
 
 ![](/img/abonnement1.png)
