@@ -22,6 +22,12 @@ Dans l'administration de votre espace ([https://votrestructure.lespass.tibillet.
 > - Par défaut : [https://app.formbricks.com](https://app.formbricks.com)
 > - Si auto-hébergé : [https://votrestructure.formbricks.com](https://votrestructure.formbricks.com)
 
+:::note 
+
+Si par défaut alors laisser https://app.formbricks.com/
+Ne pas copier ce qui vient après le .com
+:::
+
 **Sur votre logiciel Formbricks :**
 
 1. Allez dans **"Configuration"** > **"Clés API"**.
@@ -48,16 +54,18 @@ Si tout est correct, un indicateur vert affichera **"API ok"**.
 
 **Sur TiBillet :**
 
-1. Cliquez sur le **"+"** pour ajouter un nouveau formulaire.
-2. Collez la clé dans le champ **"EnvironmentId"**.
-3. Renseignez le **"Trigger name"** (déclencheur d'enquête) :
+1. Rendez-vous de nouveau dans le menu "Formbricks" en bas à gauche de votre page d'administration.
+2. Cliquez sur le **"+"** violet pour ajouter un nouveau formulaire.
+3. Collez la clé dans le champ **"EnvironmentId"**.
+4. Renseignez le **"Trigger name"** (déclencheur d'enquête) :
    - Sur Formbricks, ouvrez votre enquête.
    - Allez dans **"Paramètres"** > **"Déclencheur d'enquête"**.
    - Supprimez les anciens déclencheurs si nécessaire.
-   - Cliquez sur **"Ajouter une action"** > **"Capturer une nouvelle action"**.
-   - Remplissez les champs obligatoires, notamment **"Que fait votre utilisateur ?"**.
-   - Créez l'action et copiez la clé générée.
-4. Collez cette clé dans **"Trigger name"** sur TiBillet.
+   - Cliquez sur **"Ajouter une action"** > **"Capturer une nouvelle action"** > **"Code"**.
+   - Remplissez le champ obligatoire **"Que fait votre utilisateur ?"** (ce texte, bien qu'obligatoire n'a pas d'importance. Mettez ce que vou voulez).
+   - Inscrivez une **"clé"** dans la case correspondante (par exemple le nom de votre formulaire). C'est cette clé qui nous sera utile, copiez la ou retenez la !
+   - Validez en cliquant sur le bouton "créer une action".
+5. Collez cette clé dans **"Trigger name"** sur TiBillet.
 
 > **Product** : sélectionnez les produits associés à ce formulaire (ex : adhésions, panier).
 
@@ -109,6 +117,7 @@ TiBillet transmet automatiquement certaines informations à Formbricks :
 - `membership_uuid` : Numéro d'adhésion
 - `product_name` : Nom du produit
 - `price_name` : Prix du produit
+- `price_amount` : Montant du prix
 
 **Utilisation dans Formbricks :**
 
