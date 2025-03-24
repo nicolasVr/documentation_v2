@@ -7,10 +7,13 @@ keywords: [ cashless, android, caisse engistreuse ]
 wiktags: [ cashless, android, caisse engistreuse ]
 authors: Jonas
 ---
+# Ventilation des moyens de paiement
 
 La ventilation est utilisée pour corriger une erreur de paiement lorsqu'un achat a été enregistré en utilisant **le mauvais moyen de paiement**.
 
-**⚠️ Cela s'applique uniquement aux paiements en espèces, par carte de crédit et par chèque**.
+:::danger 
+Cela s'applique uniquement aux paiements en espèces, par carte de crédit et par chèque.
+:::
 
 Les modes de paiement par carte cashless (y compris les cadeaux cashless) ne sont pas modifiables, contrairement aux autres modes de paiement qui peuvent être mal sélectionnés au moment de l'encaissement.
 
