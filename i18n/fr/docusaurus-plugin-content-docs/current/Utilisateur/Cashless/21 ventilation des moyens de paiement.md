@@ -12,6 +12,7 @@ authors: Jonas
 La ventilation est utilisée pour corriger une erreur de paiement lorsqu'un achat a été enregistré en utilisant **le mauvais moyen de paiement**.
 
 :::danger 
+
 Cela s'applique uniquement aux paiements en espèces, par carte de crédit et par chèque.
 :::
 
