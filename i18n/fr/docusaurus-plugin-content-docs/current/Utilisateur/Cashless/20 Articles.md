@@ -7,6 +7,7 @@ keywords: [cashless, android]
 wiktags: [cashless, android]
 authors: Axel
 ---
+# Articles
 
 C'est ici que vous choisissez les articles qui apparaîtront dans l'interface, que vous fixez leur prix et que vous les associez à un point de vente. 
 Pour mieux organiser le magasin, chaque article appartient à une catégorie et est associé à un point de vente spécifique.
