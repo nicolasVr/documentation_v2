@@ -29,18 +29,22 @@ Vous pouvez desormais ajouter l'article "Badger" dans n'importe quel point de ve
 
 Pour plus de clarté, vous pouvez désactiver "Afficher les prix" si votre point de vente ne comprend que l'article "Badger"
 
-## Action !
+## Attention !
 
-Si vous avez créé un nouveau point de vente pour la badgeuse, pensez à lier ce point de vente aux cartes primaires.
+Si vous avez créé un nouveau point de vente pour la badgeuse, pensez à l'ajouter aux point de vente gérés par vos cartes primaires sinon vous n'y aurez pas accès.
+Pour ce faire rendez-vous dans le menu "Cartes primaires" :
+- cliquez sur le membre à qui vous souhaitez donner l'accès.
+- selectionnez badgeuse dans le champ "Point de vente*"
+- Enregistrez
 
 ![Config Badge](/img/cashless/badge/vuecashless_pdv_badgeuse.jpg)
 
-Pour badger une carte, selectionner la case "Badger", validez, puis scannez la carte.
+Pour badger une carte, dans votre interface de vente, selectionnez l'article "Badger", validez, puis scannez la carte.
 
 ## Rapport
 
-Sur la page principale (Dashboard), vous trouverez le lien vers les rapports de badgeage. 
-Vous pouvez aussi y acceder via l'adresse `https://<URL>/rapport/badgeuse/`
+Sur la page principale de votre administration (Dashboard), vous trouverez le lien vers les rapports de badgeage. 
+Vous pouvez aussi y accéder via l'adresse `https://<URL>/rapport/badgeuse/`
 
 ![Config Badge](/img/cashless/badge/rapport_badgeuse.jpg)
 
@@ -54,7 +58,7 @@ Une fois la connexion réalisée, les passages seront enregistrés dans la block
 
 Rejoignez une fédération TiBillet/Fedow, configurez l'asset de badge comme fédéré, et vous pourrez le retrouver dans votre instance cashless.
 
-Configurez l'article "Badger" sur l'asset fédéré. Dans le menu Article/Special :
+Configurez l'article "Badger" sur l'asset fédéré. Dans le menu "Article" onglet "Special" :
 
 ![Config Badge](/img/cashless/badge/config_asset_fedow.jpg)
 
