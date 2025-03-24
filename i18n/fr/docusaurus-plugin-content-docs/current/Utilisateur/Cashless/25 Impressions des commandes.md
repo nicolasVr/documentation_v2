@@ -12,16 +12,16 @@ authors: Axel
 
 Pour faciliter l'organisation en cuisine ou au bar, les commandes peuvent être imprimées directement sur une imprimante dédiée. Cela permet aux équipes de préparation de recevoir instantanément les détails des commandes à traiter, ce qui réduit les erreurs et améliore la rapidité du service.
 
-Pour s'assurer que les commandes sont correctement envoyées à la cuisine ou au bar, il est essentiel de relier chaque lieu de préparation à une imprimante et aux catégories d'articles correspondantes.
+Pour s'assurer que les commandes soient correctement envoyées à la cuisine ou au bar, il est essentiel de relier chaque espace de préparation à une imprimante et aux catégories d'articles souhaitées.
 
 Voici comment procéder :
 
 - Allez dans la rubrique « Préparations et impressions » dans le menu de gauche.
 - Cliquez sur « Ajouter une préparation et une impression ».
-- Saisissez le nom du lieu concerné (par exemple Cuisine / Bar).
-- Sélectionnez les catégories d'articles à envoyer à ce lieu.
+- Saisissez le nom de l'espace de travail concerné (par exemple Cuisine / Bar).
+- Sélectionnez les catégories d'articles à envoyer à l'imprimante de cet espace.
 - Choisissez une icône pour identifier rapidement la zone (optionnel).
-- Sélectionner l'imprimante dédiée à l'impression des commandes (option ajouter imprimante et modifier).
+- Sélectionner l'imprimante dédiée (ou cliquez sue le + pour en ajouter une).
 - Le compteur de tickets indique le nombre de commandes imprimées.
 - Indiquez le nombre de tickets à imprimer pour chaque commande.
 - Sauvegarder
