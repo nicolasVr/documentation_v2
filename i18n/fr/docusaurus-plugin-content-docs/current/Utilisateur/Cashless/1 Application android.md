@@ -12,11 +12,15 @@ authors: jonas
 
 ## Téléchargement 
 
-L'application n'est pas encore publiée sur les Stores Android, Apple, ou FDroid.
+L'application n'est pas encore publiée sur les Stores Android, Apple ou FDroid mais elle est disponible sur le Sunmi store auquel vous avez accès directement sur votre Sunmi V2, D3 ou autres modèles.
 
 Elle est disponible sur l'adresse suivante :
 
 https://nuage.tierslieux.re/s/BifbQGA3JCk6aH7
+
+:::note 
+
+C'est le fichier .apk :::
 
 Ou scannez ce qrcode sur un téléphone pour visiter la page de téléchargement.
 
