@@ -1,8 +1,8 @@
 ---
 sidebar_position: 110
 slug: iframe
-title: Integration
-description: Integrate your membership and events on your website.
+title: Intégration
+description: Intégrez votre adhésion et vos événements sur votre site Web.
 keywords: [ ticketing, billetterie, webhook, api, reservations, booking ]
 wiktags: [ ticketing, billetterie, webhook, api, reservations, booking ]
 image: https://tibillet.org/img/embed.jpg
