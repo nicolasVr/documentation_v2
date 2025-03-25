@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 slug: rates
-title: Tariffs, conditions and licences
+title: Rates, conditions and licences
 authors: jonas, adrienne
 wiktags: [ cashless, ticketing, features ]
 ---
