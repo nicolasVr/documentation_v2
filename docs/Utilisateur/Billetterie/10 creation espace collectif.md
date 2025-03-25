@@ -41,20 +41,37 @@ As previously specified, your Stripe account will enable you to manage your tran
 - Click on **"Send ”**.  
 
 ![5.png](/img/5.png)  
-![5b.png](/img/5b.png)  
-![5b.png](/img/5c.png)  
-![5b.png](/img/5d.png)  
-![5b.png](/img/5e.png)  
-![5b.png](/img/5f.png)  
-![5b.png](/img/5g.png)  
 
-- Click **"Continue ”** (QR code and code authentication not required).  
+- You will need to choose a password
+
+![5b.png](/img/5b.png)  
+
+- Click **"Continue"**
+:::danger
+Authentication via QR code and external app is not required for two-factor authentication. You can simply click the option below "Use **your phone** instead."
+A code will be sent to you by text message.
+:::
+
+![5b.png](/img/5c.png)  
+
 - An e-mail will be sent to you.  
 - Click on **"Verify e-mail ”**.  
+
+![5b.png](/img/5d.png)  
+
 - A Stripe page will open.  
 - Click on **"Continue to Dashboard ”**.  
+
+![5b.png](/img/5e.png)  
+
 - Then click on **"Start configuration ”**.  
+
+![5b.png](/img/5f.png)  
+
 - Follow the steps and fill in the requested information.
+
+![5b.png](/img/5g.png)  
+  
 
 :::note  
 Once your account has been verified by us, we'll contact you within one working day to finalize your registration, as your follow-up is very important to us.  
