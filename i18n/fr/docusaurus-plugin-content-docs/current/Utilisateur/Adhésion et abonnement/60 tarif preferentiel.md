@@ -1,6 +1,6 @@
 ---
 sidebar_position: 60
-slug: preferential_tariff
+slug: preferential_tarif
 title: Créer un tarif préférentiel
 description: Créer un tarif préférentiel pour les adhérents.
 keywords: [adhésion, billetterie, ticketing, event]
