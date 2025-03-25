@@ -1,14 +1,14 @@
 ---
 sidebar_position: 50
 slug: admin_add_new_membership
-title: Créer un produit
+title: Créer une adhésion
 description: Créer une nouvelle adhésion en détails.
 keywords: [adhésion, billetterie, ticketing, event]
 wiktags: [adhésion, billetterie, ticketing, event]
 authors: Adrienne
 ---
 
-# Créer une adhésion  
+# Créer une adhésion / un abonnement 
 
 Afin de répondre aux différentes demandes des associations et tiers-lieux, nous avons mis au point plusieurs types de produits, à savoir :  
    - Réservation de billets
