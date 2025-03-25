@@ -22,7 +22,7 @@ when [April](https://www.april.org/reglementation-des-systemes-de-caisse-les-log
 became involved in promoting and defending open-source
 software with cashiering functions.
 
-If you're using [TiBillet's Coop' and SaaS model](/docs/presentation/eco.md), you don't need to worry about any of
+If you're using [TiBillet's Coop' and SaaS model](/docs/presentation/eco), you don't need to worry about any of
 this : We provide you with the certificate.
 
 But if you self-host your own cash register instance, you legally become the publisher, and we can't provide you with
