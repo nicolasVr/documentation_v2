@@ -39,22 +39,33 @@ As previously specified, your Stripe account will enable you to manage your tran
 - A Stripe page will open.  
 - Enter your e-mail address.  
 - Click on **"Send ”**.  
+- Your e-mail address is taken into account
+- Choose a password
+- Click on **"Send ”**.
 
 ![5.png](/img/5.png)  
 ![5b.png](/img/5b.png)  
 ![5b.png](/img/5c.png)  
-![5b.png](/img/5d.png)  
-![5b.png](/img/5e.png)  
-![5b.png](/img/5f.png)  
-![5b.png](/img/5g.png)  
 
 - Click **"Continue ”** (QR code and code authentication not required).  
 - An e-mail will be sent to you.  
 - Click on **"Verify e-mail ”**.  
-- A Stripe page will open.  
+  ![5b.png](/img/5d.png)  
+- A Stripe page opens.  
+- Click on **"Create my company profile ”**.
+![stripe](/img/stripe3.png)
+- Follow the steps and fill in the required information.
+![stripe](/img/stripe4.png)
+- Once you've filled in your details, click on **"Accept and send ”**.
+![stripe](/img/stripe5.png)
+
+### If your account has been created but you have not yet filled in your personal details
+
 - Click on **"Continue to Dashboard ”**.  
 - Then click on **"Start configuration ”**.  
 - Follow the steps and fill in the requested information.
+- Once your information is complete, click on **"Accept and send ”**.
+
 
 :::note  
 Once your account has been verified by us, we'll contact you within one working day to finalize your registration, as your follow-up is very important to us.  

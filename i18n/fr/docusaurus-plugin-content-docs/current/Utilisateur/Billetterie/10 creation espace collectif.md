@@ -39,22 +39,37 @@ Comme spécifié précédemment, votre compte Stripe vous permettra de gérer vo
 - Une page Stripe va s'ouvrir.  
 - Renseignez votre adresse mail.  
 - Cliquez sur **"Envoyer"**.  
+- Votre adresse mail est pris en compte
+- Choisissez un mot de passe
+- Cliquez sur **"Envoyer"**.
 
 ![5.png](/img/5.png)  
 ![5b.png](/img/5b.png)  
 ![5b.png](/img/5c.png)  
-![5b.png](/img/5d.png)  
-![5b.png](/img/5e.png)  
-![5b.png](/img/5f.png)  
-![5b.png](/img/5g.png)  
 
 - Cliquez sur **"Continuer"** (l'authentification par QR code et code n'est pas obligatoire).  
 - Un mail vous sera envoyé.  
 - Cliquez sur **"Verify e-mail"**.  
+  ![5b.png](/img/5d.png)  
 - Une page Stripe s'ouvre.  
+- Cliquer sur **"Créer le profil de mon entreprise"**.
+![stripe](/img/stripe3.png)
+- Suivez la démarche et renseignez les informations demandées.
+![stripe](/img/stripe4.png)
+- Une fois vos informations remplis cliquez sur **"Accepter et envoyer"**.
+![stripe](/img/stripe5.png)
+
+### Si votre compte a été créée mais que vous n'avez pas encore remplis vos informations personnels
+
 - Cliquez sur **"Continuer vers le Dashboard"**.  
 - Puis cliquez sur **"Démarrer la configuration"**.  
 - Suivez la démarche et renseignez les informations demandées.
+- Une fois vos informations remplis cliquez sur **"Accepter et envoyer"**.
+
+![5b.png](/img/5e.png)  
+![5b.png](/img/5f.png)  
+![5b.png](/img/5g.png)  
+![stripe](/img/stripe5.png)
 
 :::note  
 Une fois votre compte vérifié par nos soins, nous vous contacterons sous un jour ouvré pour finaliser votre inscription, car votre suivi est primordial pour nous.  
