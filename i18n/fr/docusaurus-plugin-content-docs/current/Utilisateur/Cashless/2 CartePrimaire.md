@@ -55,7 +55,7 @@ Un membre peut avoir plusieurs cartes primaires.
 
 - Lancez l'application TiBillet sur un terminal ou un smartphone équipé d'un lecteur NFC.
      - Suivez la [procédure d'appairage] (cf. application Android) si ce n'est pas déjà fait.
-- Scannez la carte lorsque vous y êtes invité **"Attente carte primaire"**.
+- Scannez la carte lorsque vous y êtes invité **"Attente carte primaire"**, cela vous permettra de rendre la carte primaire visible sur l'admin.
 - Si vous ne voyez pas votre point de vente, vérifiez que les points de vente sont associés à la carte.
 - Vous pouvez maintenant accéder à vos produits.
 
