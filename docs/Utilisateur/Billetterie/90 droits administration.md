@@ -26,7 +26,7 @@ How to assign these rights to a member:
 ![](/img/droitadmin2.png)
 ![](/img/droitadmin3.png)
 
-::warning
+:::warning
 Granting these rights must be done with care, as these users will have full control over the administration of the space.
 :::
 
