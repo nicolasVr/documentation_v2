@@ -3,7 +3,7 @@ sidebar_position: 10
 slug: rates
 title: Tarifs, conditions et licences
 authors: jonas, adrienne
-wiktags: [ cashless, billetterie, ticketing, features ]
+wiktags: [ cashless, billetterie, features ]
 ---
 
 # Tarifs, conditions et licences pour utiliser TiBillet
