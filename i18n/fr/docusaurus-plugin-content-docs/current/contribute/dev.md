@@ -68,7 +68,7 @@ A partir de la, vous avez le choix entre deux chemins :
 Vous pouvez même faire les deux, pour un effet maximal ! 
 :::
 
-## Installation locale détaillée
+## Installation locale détaillée {#installation-locale-detaillee}
 
 On va commencer en créant un dossier qui contiendra les différents dépôts requis à sa racine, dans votre dossier de travail par exemple. Ça ressemblera à :
 

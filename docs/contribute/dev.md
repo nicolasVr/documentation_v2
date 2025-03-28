@@ -68,7 +68,7 @@ From here, you can choose between two paths:
 You can even do both, for maximum effect!
 :::
 
-## Detailed local installation
+## Detailed local installation {#installation-locale-detaillee}
 
 Translated with DeepL.com (free version)
 We're gonna start by creating a folder that will hold the different repositories required, in your local repository or work folder if you have one for example. It will look like this:
