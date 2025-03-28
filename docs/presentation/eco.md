@@ -75,12 +75,7 @@ To learn more, I can go to this website:
 
 I have questions, want to know more: 
 
-<a href="" 
-   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
-  <span style={{ display: 'inline-block', textAlign: 'center' }}>
-    <strong>Contact the co-op common code</strong>
-  </span>
-</a>
+
 
 
 |                                                 |                              |
