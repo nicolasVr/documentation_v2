@@ -56,24 +56,3 @@ This money is used to finance:
 - The activities of the Cooperative Common Code
 
 
-
-
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>This document is written in FALC.</div> | <img src={require('/static/img/falc.png').default} width="80%" /> |
-
-
-FALC means Easy to Read and Understand.
-
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>This document was produced by PAIPS</div> | <img src={require('/static/img/paips.png').default} width="80%" /> |
-
-in partnership with ESAT Jacques Chavent
-of the Adapei 69.
-
-This document was reviewed and validated in 2025 by XXXXXX
-of Esat Jacques Chavent (Adapei 69).
-
