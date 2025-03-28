@@ -71,11 +71,11 @@ One condition is important in this license:
 
 If I use the source code of TiBillet on my server and other people have access to it, these other people must be able to download the source code from my server. 
 
-To learn more, I can go to this website:  https://www.gnu.org/licenses/why-affero-gpl.fr.html
+To learn more, I can go to this website:
 
 I have questions, want to know more: 
 
-<a href="mailto:contact@tibillet.re" 
+<a href="" 
    style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}>
     <strong>Contact the co-op common code</strong>
