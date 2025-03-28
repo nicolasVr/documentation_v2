@@ -56,7 +56,7 @@ Cet argent sert à financer :
 - Les activités de la Coopérative Code Commun
 
 
-Pour en savoir plus, je contacte la coopérative code commun par mail : [contact@tibillet.re](mailto:contact@tibillet.re)
+Pour en savoir plus, je contacte la coopérative code commun par mail : [contact tibillet](mailto:contact@tibillet.re)
 
 
 ## Licence 

@@ -56,7 +56,7 @@ This money is used to finance:
 - The activities of the Cooperative Common Code
 
 
-To find out more, I contact the cooperative common code by mail: [contact@tibillet.re](mailto:contact@tibillet.re)
+To find out more, I contact the cooperative common code by mail: [contact tibillet](mailto:contact@tibillet.re)
 
 
 ## License 
