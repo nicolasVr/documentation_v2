@@ -47,7 +47,7 @@ Nous parlons ici du niveau d'autorisation et non de l'appartenance à une associ
 <video width="100%" controls src="/img/CartePrimaire.mp4"></video>
 
 :::info 
-Un membre peut avoir plusieurs cartes primaires à condition qu'il n'ait pas saisi d'adresse électronique lors de la création du membre dans la section 1. 
+Un membre peut avoir plusieurs cartes primaires. 
 :::
 
 
@@ -55,7 +55,7 @@ Un membre peut avoir plusieurs cartes primaires à condition qu'il n'ait pas sai
 
 - Lancez l'application TiBillet sur un terminal ou un smartphone équipé d'un lecteur NFC.
      - Suivez la [procédure d'appairage] (cf. application Android) si ce n'est pas déjà fait.
-- Scannez la carte lorsque vous y êtes invité.
+- Scannez la carte lorsque vous y êtes invité **"Attente carte primaire"**, cela vous permettra de rendre la carte primaire visible sur l'admin.
 - Si vous ne voyez pas votre point de vente, vérifiez que les points de vente sont associés à la carte.
 - Vous pouvez maintenant accéder à vos produits.
 

@@ -54,7 +54,7 @@ A member can have several primary cards provided that they did not enter an emai
 
 - Launch the TiBillet application on a terminal or smartphone equipped with an NFC reader.
      - Follow the [pairing procedure](cf. Android application) if you haven't already.
-- Scan the card when prompted.
+- Scan the card when prompted **"Waiting for primary card ”**, this will allow you to make the primary card visible on the admin.
 - If you don't see your point of sale, check that the points of sale are associated with the card.
 - You can now access your products.
 

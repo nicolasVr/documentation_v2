@@ -41,12 +41,19 @@ build: env_check
 # opens a bash shell inside the container (for easier access to yarn, mostly)
 shell: env_check
 	@echo "== 🔐 Entering container... ================"
+	@echo "   [Ctrl+D] to leave"
 	@docker exec -ti tibillet_docusaurus bash
 	@echo "== 🔒 Welcome back! ========================"
 
+# executes yarn build
+yarn-build: build
+	@echo "== ➰ Building for production... ==============="
+	@docker exec tibillet_docusaurus yarn build
+	@echo "== 🛠️ Production build is ok! ============"
+
 # executes  a pre-configured yarn deploy that sends the generated site on a
 # github pages branch
-deploy: build
+yarn-deploy: build
 	@echo "== 🐱 Deploying to Github... ==============="
 	@docker exec -ti tibillet_docusaurus yarn deploy
 	@echo "== 🚀 TiBillet docs are online! ============"

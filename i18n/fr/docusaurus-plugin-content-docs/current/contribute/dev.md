@@ -63,12 +63,12 @@ Vérifions que vous avez l'outillage requis sous la main. Vous avez besoin de :
 :::info
 A partir de la, vous avez le choix entre deux chemins : 
 - Le chemin **Trop facile !** : [je télécharge une archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) dans laquelle tout est déja installé et je peux passer directement au [démarrage des moteurs](#démarrage-des-moteurs).
-- Le chemin **Je veux comprendre !** : Chaque étape pour créer son environnement est détaillée dans le [tuto ci dessous](#installation-locale-detaillée).
+- Le chemin **Je veux comprendre !** : Chaque étape pour créer son environnement est détaillée dans le [tuto ci dessous](#installation-locale-detaillee).
 
 Vous pouvez même faire les deux, pour un effet maximal ! 
 :::
 
-## Installation locale détaillée
+## Installation locale détaillée {#installation-locale-detaillee}
 
 On va commencer en créant un dossier qui contiendra les différents dépôts requis à sa racine, dans votre dossier de travail par exemple. Ça ressemblera à :
 

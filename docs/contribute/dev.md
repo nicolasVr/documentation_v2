@@ -63,12 +63,12 @@ Let's make sure you have the required tools at hand. You need:
 :::info
 From here, you can choose between two paths: 
 - The **Too easy !** path: [I download an archive](https://nuage.tierslieux.re/s/rprGfbDDDrazJ9d) in which everything is already installed and I can go straight to [engine startup](#manual-engine-start).
-- The **I want to understand! path**: Each step in creating your environment is detailed in the [tuto below](#installation-locale-détaillée).
+- The **I want to understand! path**: Each step in creating your environment is detailed in the [tuto below](#installation-locale-detaillee).
 
 You can even do both, for maximum effect!
 :::
 
-## Detailed local installation
+## Detailed local installation {#installation-locale-detaillee}
 
 Translated with DeepL.com (free version)
 We're gonna start by creating a folder that will hold the different repositories required, in your local repository or work folder if you have one for example. It will look like this:
