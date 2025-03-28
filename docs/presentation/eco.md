@@ -56,25 +56,6 @@ This money is used to finance:
 - The activities of the Cooperative Common Code
 
 
-To find out more, I contact the cooperative common code by mail: contact tibillet
-
-
-## License 
-
-Tibillet is under the AGPLv3 license.
-
-This means that the source code that created TiBillet is protected by this license. 
-
-I can modify TiBillet but I have to respect this license. 
-
-One condition is important in this license: 
-
-If I use the source code of TiBillet on my server and other people have access to it, these other people must be able to download the source code from my server. 
-
-To learn more, I can go to this website:
-
-I have questions, want to know more: 
-
 
 
 
