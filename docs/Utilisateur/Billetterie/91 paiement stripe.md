@@ -1,6 +1,6 @@
 ---
 sidebar: 91
-slug: Add_administrator_member
+slug: stripe
 title: Manage your sales and payments stripe
 Description: Manage your sales and payments stripe
 keywords: [ticketing, event]

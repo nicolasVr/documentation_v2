@@ -1,6 +1,6 @@
 ---
 sidebar_position: 91
-slug: Add_administrator_member
+slug: stripe
 title: Gérez vos ventes et paiements stripe
 description: Gérez vos ventes et paiements stripe
 keywords: [billetterie, ticketing, event]
