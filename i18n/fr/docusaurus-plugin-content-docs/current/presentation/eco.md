@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-slug: tarifs
+slug: rates
 title: Tarifs, conditions et licences
 authors: jonas, adrienne
 wiktags: [ cashless, billetterie, ticketing, features ]
