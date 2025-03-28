@@ -20,7 +20,7 @@ La première ligne de ce fichier doit indiquer ce que chaque ligne suivante sera
 ### Créer la premiere ligne :
 
 ```csv
-email,first_name,last_name,last_contribution,contribution_value,product_name,price_name,options,commentaire
+email,first_name,last_name,last_contribution,contribution_value,product_name,price_name,option_generale,commentaire
 ```
 
 Chaque ligne suivante doit contenir les informations correspondantes suivant cet exemple :
