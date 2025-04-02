@@ -31,7 +31,7 @@ To test payment on Stripe, use the credit card of the galaxy's greatest backpack
 
 BilletDemo4_adhesion.jpg](/img/demo/BilletDemo4_adhesion.jpg)
 
-## Lespass - Billetterie ( nighty build ) : [https://lespass.demo.tibillet.org/agenda/](https://lespass.demo.tibillet.org/agenda/)
+## Lespass - Billetterie ( nighty build ) : [https://lespass.demo.tibillet.org/event/](https://lespass.demo.tibillet.org/event/)
 
 :::danger
 The Ticket Office is currently being redesigned. Expected release: end 2024.
