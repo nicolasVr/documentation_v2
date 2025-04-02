@@ -7,6 +7,15 @@ wiktags: [cashless, billetterie, ticketing]
 authors: jonas
 ---
 
+import FeatureList from '@site/src/components/FeatureList';
+
+# Roadmap des fonctionnalités
+
+Voici les fonctionnalités en cours de développement et en recherche de financement.
+
+<FeatureList />
+
+
 # Features
 
 Unchecked boxes are planned and under development :
