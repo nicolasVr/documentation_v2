@@ -189,6 +189,7 @@ const features = [
 ];
 
 
+
 const FeatureList = () => {
     const [fundings, setFundings] = useState(
       features.reduce((acc, feature) => {
@@ -197,7 +198,8 @@ const FeatureList = () => {
       }, {})
     );
   
-    const [openFeature, setOpenFeature] = useState(null); // État pour gérer quelle feature est ouverte
+    // Object pour garder l'état ouvert/fermé de chaque feature
+    const [openFeature, setOpenFeature] = useState({});
   
     const handleFunding = (id) => {
       const amount = prompt("Combien souhaitez-vous co-financer ?");
@@ -213,15 +215,26 @@ const FeatureList = () => {
   
     const handleToggleFeature = (id) => {
       // Si la feature est déjà ouverte, on la ferme, sinon on l'ouvre
-      setOpenFeature(openFeature === id ? null : id);
+      setOpenFeature(prevState => ({
+        ...prevState,
+        [id]: !prevState[id] // Inverse l'état de la fonctionnalité
+      }));
     };
   
     return (
       <div>
         {features.map((feature) => (
           <div key={feature.id}>
-            <details className="border p-4 rounded-lg shadow-md mb-4" onClick={() => handleToggleFeature(feature.id)}>
-              <summary className="cursor-pointer font-bold">{feature.title}</summary>
+            <details className="border p-4 rounded-lg shadow-md mb-4">
+              <summary 
+                className="cursor-pointer font-bold"
+                onClick={(e) => {
+                  e.stopPropagation(); // Empêche la propagation du clic pour éviter qu'on ferme la fonctionnalité en cliquant dans le corps
+                  handleToggleFeature(feature.id);
+                }}
+              >
+                {feature.title}
+              </summary>
               <p className="mt-2">{feature.description}</p>
               <div className="mt-2">
                 <p>Développement : {feature.progress}%</p>
@@ -240,8 +253,8 @@ const FeatureList = () => {
               </button>
             </details>
   
-            {/* Ajouter un séparateur seulement si la fonctionnalité est dépliée */}
-            {openFeature === feature.id && <hr className="my-4" />}
+            {/* Affiche le séparateur si la feature est ouverte */}
+            {openFeature[feature.id] && <hr className="my-4" />}
           </div>
         ))}
       </div>
