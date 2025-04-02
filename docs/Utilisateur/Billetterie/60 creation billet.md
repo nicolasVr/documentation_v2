@@ -23,8 +23,7 @@ Creating a ticket or booking works like a membership, with an additional feature
 - Click the **"ADD PRODUCTS +"** button.  
 - Fill in the general information ("General" tab):  
   - **Ticket Name** (ex: *Mama Africa Ticket*).  
-  - **Product type** : Select **"Ticket for Paid Booking"***.  
-  -**Name**: Activate this button to display the **first name** on the ticket.  
+  - **Product type** : Select **"Ticket for Paid Booking"***. 
   - **Short description** (*optional*).  
   - **Long description** (*optional*).  
   - **Image**: Import an image.  

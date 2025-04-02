@@ -25,7 +25,6 @@ La création d’un billet ou d’une réservation fonctionne comme une adhésio
 - Remplissez les informations générales (onglet "Général") :  
   - **Nom du billet** : (ex : *Billet Mama Africa*).  
   - **Type de produit** : Sélectionnez **"Billet pour réservation payante"**.  
-  - **Nominatif** : Activez ce bouton pour afficher le **nom et prénom** sur le billet.  
   - **Description courte** (*optionnel*).  
   - **Description longue** (*optionnel*).  
   - **Image** : Importez une image.  
