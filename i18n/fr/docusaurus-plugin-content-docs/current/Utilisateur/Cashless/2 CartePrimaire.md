@@ -31,10 +31,12 @@ Téléchargez l'application "Mifare Classic Tool" sur un store.
 - Ouvrez l'application
 - Scannez votre tag en le passant près du lecteur NFC de votre téléphone.
 Votre téléphone devrait vibrer et afficher "Nouveau tag trouvé UID : XXXXXXXX" en notification en bas de l'application.
+
 ! [image UID carte](/img/imageUIDcarte.png)
 
 - Allez dans « Outils » puis "Afficher les informations du "tag"
 - Notez l’UID : suite de 8 chiffres et lettres (si votre tag est compatible).
+
 ! [UID 2](/img/UID2.png)
 
 
@@ -61,12 +63,17 @@ Si vous utilisez une carte qui n'est pas proposée par TiBillet (ex : votre prop
 
 - Cliquez sur la catégorie « Membres responsables » dans la colonne de gauche.
 - Cliquez sur le bouton « Ajouter membre responsable » en haut à droite.
+
+![membre responsable 2](/img/membreresp.png)
+
 - Renseigner les informations du membre
 - Sélectionnez le « numéro imprimé » noté précédemment dans la case « nouvelle carte cashless »
 
 
 ![membre responsable](/img/membre-responsable.png)
+
 - Enregistrez
+
 ![membre responsable](/img/membre-responsable-bis.png)
 
 ## 3a- Enregistrer un nouveau membre responsable (si vous utilisez une carte fournie par tibillet) {#etape-3a}
@@ -76,12 +83,17 @@ Cliquez sur le bouton vert correspondant à votre lieu et lorsque le message "At
 
 - Cliquez sur la catégorie « Membres responsables » dans la colonne de gauche.
 - Cliquez sur le bouton « Ajouter membre responsable » en haut à droite.
+
+![membre responsable 2](/img/membreresp.png)
+
 - Renseigner les informations du membre
 - Sélectionnez le numéro indiqué au dos de votre carte dans la case « nouvelle carte cashless »
 
 
 ![membre responsable](/img/membre-responsable.png)
+
 - Enregistrez
+
 ![membre responsable](/img/membre-responsable-bis.png)
 
 

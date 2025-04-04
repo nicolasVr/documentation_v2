@@ -64,11 +64,16 @@ If you're using an external card (e.g., your own NFC/RFID card), continue with t
 
 - Click on the "Responsible Members" category in the left column.
 - Click on the "Add Responsible Member" button at the top right.
+
+![Responsible Member 2](/img/membreresp.png)
+
 - Enter the member's information.
 - Select the "printed number" you noted earlier in the "New Cashless Card" field.
 
 ![Responsible Member](/img/membre-responsable.png)
+
 - Save
+
 ![Responsible Member](/img/membre-responsable-bis.png)
 
 
@@ -80,6 +85,9 @@ Click the green button corresponding to your location, and when the message "Wai
 
 - Click on the "Responsible Members" category in the left column.
 - Click on the "Add Responsible Member" button at the top right.
+
+![Responsible Member 2](/img/membreresp.png)
+
 - Enter the member's information.
 - Select the number indicated on the back of your card in the "New Cashless Card" field.
 
