@@ -103,7 +103,7 @@ Cliquez sur le bouton vert correspondant à votre lieu et lorsque le message "At
 - Cliquez sur le bouton « Ajouter une carte primaire » en haut à droite.
 ![Ajout Primaire](/img/ajoutprimaire.png)    
 - Sélectionner le « numéro imprimé » de la carte dans la liste « Carte ».
-- Désignez les points de vente contrôlés ou non par cette carte. Si vous n'avez pas encore de point de vente, vous pouvez en créé un en suivant ce guide : [Créer un point de vente](../Cashless/admin_add_pos).
+- Désignez les points de vente contrôlés ou non par cette carte. Si vous n'avez pas encore de point de vente, vous pouvez en créé un en suivant ce guide : [Créer un point de vente](../admin_add_pos).
      - Déterminez ici le niveau d'autorisation de votre utilisateur.
 - Activez le mode gestionnaire si vous le souhaitez.
      - Le « mode gestionnaire » vous permet de supprimer une commande déjà passée, même si elle est payée. C'est un super pouvoir qui demande de grandes responsabilités :
