@@ -12,7 +12,7 @@ authors: Adrienne
 
 Vous avez la possibilité de faire souscrire manuellement un utilisateur à un abonnement.
 
-Allez dans la catégorie **"Produits"** dans la colonne de gauche sous l'onglet **"Produits"** :
+Allez dans la catégorie **"Abonnement"** dans la colonne de gauche sous l'onglet **"Utilisateur-rice"** :
 
 - Cliquez sur le bouton **"+"**.
 - Renseignez le nom et prénom de l'utilisateur.
