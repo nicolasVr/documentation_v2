@@ -64,13 +64,12 @@ Si vous utilisez une carte qui n'est pas proposée par TiBillet (ex : votre prop
 - Cliquez sur la catégorie « Membres responsables » dans la colonne de gauche.
 - Cliquez sur le bouton « Ajouter membre responsable » en haut à droite.
 
-![membre responsable 2](/img/membreresp.png)
+![membre responsable](/img/membre-responsable.png)
 
 - Renseigner les informations du membre
 - Sélectionnez le « numéro imprimé » noté précédemment dans la case « nouvelle carte cashless »
 
-
-![membre responsable](/img/membre-responsable.png)
+![membre responsable 2](/img/membreresp.png)
 
 - Enregistrez
 
@@ -84,13 +83,12 @@ Cliquez sur le bouton vert correspondant à votre lieu et lorsque le message "At
 - Cliquez sur la catégorie « Membres responsables » dans la colonne de gauche.
 - Cliquez sur le bouton « Ajouter membre responsable » en haut à droite.
 
-![membre responsable 2](/img/membreresp.png)
+![membre responsable](/img/membre-responsable.png)
 
 - Renseigner les informations du membre
 - Sélectionnez le numéro indiqué au dos de votre carte dans la case « nouvelle carte cashless »
 
-
-![membre responsable](/img/membre-responsable.png)
+![membre responsable 2](/img/membreresp.png)
 
 - Enregistrez
 
