@@ -32,12 +32,12 @@ Téléchargez l'application "Mifare Classic Tool" sur un store.
 - Scannez votre tag en le passant près du lecteur NFC de votre téléphone.
 Votre téléphone devrait vibrer et afficher "Nouveau tag trouvé UID : XXXXXXXX" en notification en bas de l'application.
 
-! [image UID carte](/img/imageUIDcarte.png)
+![image UID carte](/img/imageUIDcarte.png)
 
 - Allez dans « Outils » puis "Afficher les informations du "tag"
 - Notez l’UID : suite de 8 chiffres et lettres (si votre tag est compatible).
 
-! [UID 2](/img/UID2.png)
+![UID 2](/img/UID2.png)
 
 
  ## 2- Ajouter une carte cashless
@@ -46,7 +46,7 @@ Cliquez sur « Carte Cashless » puis sur le bouton en haut à droite « ajou
 
 Indiquez l’UID de l’étape précédente dans la case RFID TagID.
 
-! [Ajout Carte](/img/ajoutcarte.png)
+![Ajout Carte](/img/ajoutcarte.png)
 
 Si votre carte NFC physique a un numéro imprimé, indiquez le dans la case correspondante, cela permettra un identification plus facile.
 Cliquez sur enregistrer : dans le tableau votre nouvelle carte apparait et la colonne membre est vide.
@@ -55,7 +55,7 @@ Notez le « numéro imprimé ».
 
 ## 3- Enregistrer un nouveau membre responsable (si vous n'utilisez pas une carte tibillet NFC/RFID)
 
-::::danger 
+:::danger 
 Si vous utilisez une carte fournie par TiBillet, ignorez cette section et rendez-vous l'étape 3a.
 
 Si vous utilisez une carte qui n'est pas proposée par TiBillet (ex : votre propre carte NFC/RFID), continuer de suivre les étapes ci-dessous.
