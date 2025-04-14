@@ -45,7 +45,7 @@ Avertissement : Il est interdit de supprimer un article vendu, car il s'agit d'u
 Pour les remboursements, voir la section Remboursement.
 :::
 
-# Gestion des terminaux 
+# Gestion sur terminaux 
 
 Vous pouvez également gérer la ventilation des moyens de paiement directement sur le terminal **si votre carte primaire dispose de l'option « Gestionnaire »** (voir carte primaire).
 
