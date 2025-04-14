@@ -34,13 +34,13 @@ Dans un premier temps, connectez-vous à la page d'administration de votre insta
 ![](/img/creaevent2.png)
 
 
-#### 2- Produits (Réservations)
+#### 2- Onglet "Bookings" (Réservations)
 
 Cette section permet d'afficher des produits sur la page de réservation de l'événement.  
 Ces produits peuvent être des tarifs, des adhésions, des abonnements, des recharges cashless, du merchandising ou autre...
 
 - Renseignez le nombre de réservations maximales par utilisateur·ices.  
-- Cliquez sur le "+" pour ajouter un produit ou sélectionnez un produit (il s'agit du prix de votre réservation et des infos associées).  
+- Cliquez sur le "+" pour ajouter un produit **ou** sélectionnez un produit dans la liste déroulante(il s'agit du prix de votre réservation).  
   - "Type de produit" permet de trier les produits par catégories pour leur attribuer un prix par la suite.  
   - "Poids" permet de choisir l'ordre d'affichage des produits sur la page de réservation (le plus petit sera le premier).  
   - Cliquez sur le bouton "Enregistrer" en bas de cette nouvelle fenêtre pour valider.  

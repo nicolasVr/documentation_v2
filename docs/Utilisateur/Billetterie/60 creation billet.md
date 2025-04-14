@@ -1,7 +1,7 @@
 ---
 sidebar: 60
 slug: admin_add_new_ticket
-title: Creation of a ticket office
+title: Creation of a ticket
 description: Create a ticket for your ticketing
 keywords: [ticketing, event]
 wiktags: [ticketing, event]
