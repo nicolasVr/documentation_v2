@@ -11,26 +11,93 @@ authors: Jonas, Adrienne
 
 #  TiBillet, c’est quoi ?
 
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>TiBillet est <strong>comme une boîte à outils.</strong></div> | <img src={require('/static/img/icone-boite-a-outil.png').default} width="30%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, }}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>
+    TiBillet est <strong>comme une boîte à outils.</strong>
+  </p>
+  <img
+    src={require('/static/img/icone-boite-a-outil.png').default}
+    alt="Boîte à outils"
+    style={{ width: '15%' }}
+  />
+</div>
 
 
 Dans TiBillet, il y a 3 outils :
 
-|                                                 |                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
+
+<div style={{ display: 'flex', justifyContent: 'space-around', gap: '2rem', marginBottom: 30 }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <img src={require('/static/img/icone-lespass.png').default} width="40%" />
+    <p style={{ marginBottom: 0 }}>Le site internet Lespass</p>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <img src={require('/static/img/icone-laboutik.png').default} width="40%" />
+    <p style={{ marginBottom: 0 }}>La caisse enregistreuse LaBoutik</p>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <img src={require('/static/img/icone-carte pass.png').default} width="40%" />
+    <p style={{ marginBottom: 0 }}>La carte sans contact Pass</p>
+  </div>
+</div>
+
+<div className="container my-4">
+  <div className="row text-center">
+    <div className="col-12 col-md-4 mb-4">
+      <div className="d-flex flex-column align-items-center">
+        <img
+          src={require('/static/img/icone-lespass.png').default}
+          alt="Icône Lespass"
+          className="img-fluid"
+          style={{ maxWidth: '40%' }}
+        />
+        <p className="mb-0">Le site internet Lespass</p>
+      </div>
+    </div>
+
+    <div className="col-12 col-md-4 mb-4">
+      <div className="d-flex flex-column align-items-center">
+        <img
+          src={require('/static/img/icone-laboutik.png').default}
+          alt="Icône Laboutik"
+          className="img-fluid"
+          style={{ maxWidth: '40%' }}
+        />
+        <p className="mb-0">La caisse enregistreuse LaBoutik</p>
+      </div>
+    </div>
+
+    <div className="col-12 col-md-4 mb-4">
+      <div className="d-flex flex-column align-items-center">
+        <img
+          src={require('/static/img/icone-carte pass.png').default}
+          alt="Icône Pass"
+          className="img-fluid"
+          style={{ maxWidth: '40%' }}
+        />
+        <p className="mb-0">La carte sans contact Pass</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 Chaque outil a **des fonctionnalités différentes.**
 
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
-
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20 }}>
+  Lèspass
+  <img
+    src={require('/static/img/icone-lespass.png').default}
+    alt="Icône Lèspass"
+    style={{ width: '10%', marginLeft: '10px' }}
+  />
+</h2>
 
 
 Lespass est un site internet.
@@ -63,10 +130,14 @@ Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet
 </a>
 
 
-
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 30 }}>
+  Laboutik
+  <img
+    src={require('/static/img/icone-laboutik.png').default}
+    alt="Icône Laboutik"
+    style={{ width: '10%', marginLeft: '10px' }}
+  />
+</h2>
 
 
 LaBoutik est la caisse enregistreuse.
