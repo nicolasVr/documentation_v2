@@ -43,49 +43,6 @@ Dans TiBillet, il y a 3 outils :
   </div>
 </div>
 
-<div className="container my-4">
-  <div className="row text-center">
-    <div className="col-12 col-md-4 mb-4">
-      <div className="d-flex flex-column align-items-center">
-        <img
-          src={require('/static/img/icone-lespass.png').default}
-          alt="Icône Lespass"
-          className="img-fluid"
-          style={{ maxWidth: '40%' }}
-        />
-        <p className="mb-0">Le site internet Lespass</p>
-      </div>
-    </div>
-
-    <div className="col-12 col-md-4 mb-4">
-      <div className="d-flex flex-column align-items-center">
-        <img
-          src={require('/static/img/icone-laboutik.png').default}
-          alt="Icône Laboutik"
-          className="img-fluid"
-          style={{ maxWidth: '40%' }}
-        />
-        <p className="mb-0">La caisse enregistreuse LaBoutik</p>
-      </div>
-    </div>
-
-    <div className="col-12 col-md-4 mb-4">
-      <div className="d-flex flex-column align-items-center">
-        <img
-          src={require('/static/img/icone-carte pass.png').default}
-          alt="Icône Pass"
-          className="img-fluid"
-          style={{ maxWidth: '40%' }}
-        />
-        <p className="mb-0">La carte sans contact Pass</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
 
 Chaque outil a **des fonctionnalités différentes.**
 

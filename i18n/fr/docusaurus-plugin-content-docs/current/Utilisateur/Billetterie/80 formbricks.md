@@ -37,7 +37,6 @@ Si tout est correct, un indicateur vert affichera **"API ok"**.
 
 <video width="100%" controls src="/img/apiformbricks.mp4"></video>
 
----
 
 ## 2. Environnement
 
@@ -67,7 +66,6 @@ Le **trigger** lance l'enquête Formbricks uniquement après validation du pré-
 
 <video width="100%" controls src="/img/envtriggerformbricks.mp4"></video>
 
----
 
 # Paramétrer Formbricks
 
