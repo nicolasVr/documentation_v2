@@ -1,9 +1,0 @@
-# only one locale can be built at once in dev mode with docusaurus
-# choose one of: en, fr
-DOCUSAURUS_LOCALE=en
-
-# git config to allow deployment with yarn deploy from within
-# the container
-# use a config that grants you rights on the github-pages repository
-GIT_EMAIL=
-GIT_NAME=
