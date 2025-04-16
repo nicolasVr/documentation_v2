@@ -12,9 +12,7 @@ authors: Jonas, Adrienne
 #  TiBillet, c’est quoi ?
 
 <div style={{ display: 'flex', alignItems: 'center', gap: 10, }}>
-  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>
-    TiBillet est <strong>comme une boîte à outils.</strong>
-  </p>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>TiBillet est <strong>comme une boîte à outils.</strong></p>
   <img
     src={require('/static/img/icone-boite-a-outil.png').default}
     alt="Boîte à outils"
@@ -26,19 +24,19 @@ authors: Jonas, Adrienne
 Dans TiBillet, il y a 3 outils :
 
 
-<div style={{ display: 'flex', justifyContent: 'space-around', gap: '2rem', marginBottom: 30 }}>
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    <img src={require('/static/img/icone-lespass.png').default} width="40%" />
+<div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', textAlign: 'center', alignItems: 'baseline'}}>
+  <div style={{ width: 300, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/icone-lespass.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>Le site internet Lespass</p>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    <img src={require('/static/img/icone-laboutik.png').default} width="40%" />
+  <div style={{ width: 300, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/icone-laboutik.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>La caisse enregistreuse LaBoutik</p>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    <img src={require('/static/img/icone-carte pass.png').default} width="40%" />
+  <div style={{ width: 300, paddingBlockEnd: '2rem'}}>
+    <img src={require('/static/img/icone-carte pass.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>La carte sans contact Pass</p>
   </div>
 </div>
