@@ -8,138 +8,138 @@ wiktags: [billetterie, ticketing, event, free, formbricks]
 authors: Axel
 ---
 
-# Paramétrer TiBillet
+Here’s the English translation of your text:
 
-## 1. Clé API
+---
 
-Dans l'administration de votre espace ([https://votrestructure.lespass.tibillet.org/](https://votrestructure.lespass.tibillet.org/)) :
+# Configuring TiBillet
 
-1. Cliquez sur **"Mon compte"** en haut à droite.
-2. Cliquez sur le bouton rouge **"Administration"** (icône de clé).
-3. Dans le menu de gauche, tout en bas, cliquez sur **"Formbricks"** puis **"Configuration"**.
+## 1. API Key
 
-> **API Host** est l'adresse de base de votre compte Formbricks :
-> - Par défaut : [https://app.formbricks.com](https://app.formbricks.com)
-> - Si auto-hébergé : [https://votrestructure.formbricks.com](https://votrestructure.formbricks.com)
+In the admin panel of your space ([https://yourstructure.lespass.tibillet.org/](https://yourstructure.lespass.tibillet.org/)):
 
-**Sur votre logiciel Formbricks :**
+1. Click on **"My Account"** at the top right.
+2. Click on the red **"Administration"** button (key icon).
+3. In the left-hand menu, scroll down and click on **"Formbricks"** then **"Configuration"**.
 
-1. Cliquez sur votre logo tout en bas à gauche puis sur **"Organisation"** > **"Clés API"**.
-2. Cliquez sur **"Ajouter la clé API de production"**.
-3. Donnez-lui un nom (dans étiquette).
-4. Dans "Accès au projet" vérifier bien que le bon questionnaire soit sélectionné ainsi que "Production" et "Read".
-5. Cochez la case "Read" dans "Accès à l'organisation" à coté de "environments.project.api_keys.access_control".
-Enfin, copiez la clé générée (visible une seule fois) après avoir cliquez sur Ajouter une clé API.
+> **API Host** is the base address of your Formbricks account:
+> - By default: [https://app.formbricks.com](https://app.formbricks.com)
+> - If self-hosted: [https://yourstructure.formbricks.com](https://yourstructure.formbricks.com)
+
+**In your Formbricks interface:**
+
+1. Click on your logo at the bottom left, then go to **"Organization"** > **"API Keys"**.
+2. Click on **"Add Production API Key"**.
+3. Give it a name (in the label).
+4. Under "Project Access", make sure the correct survey is selected, along with "Production" and "Read".
+5. Check the "Read" box under "Organization Access" next to `environments.project.api_keys.access_control`.
+Finally, copy the generated key (visible only once) after clicking "Add API Key".
 
 :::danger
-Vérifiez que c'est bien l'environnement de PRODUCTION qui est affiché dans l'accès au projet lors de la création de clé API sinon cela ne fonctionnera pas.
+Make sure the **PRODUCTION** environment is selected under project access when creating the API key, or it will not work.
 :::
 
-**Retournez sur TiBillet :**
+**Back on TiBillet:**
 
-1. Collez la clé dans le champ **"API KEY"**.
-2. Enregistrez.
+1. Paste the key in the **"API KEY"** field.
+2. Save.
 
-Si tout est correct, un indicateur vert affichera **"API ok"**.
+If everything is correct, a green indicator will show **"API ok"**.
 
 <video width="100%" controls src="/img/apiformbricks.mp4"></video>
 
 ---
 
-## 2. Environnement
+## 2. Environment
 
-**Sur Formbricks :**
+**On Formbricks:**
 
-1. Allez dans **"Configuration"** > **"Connexion Site Web & Application"**.
-2. Descendez jusqu'à **"Votre identifiant d'environnement"** et copiez la clé.
+1. Go to **"Configuration"** > **"Website & App Integration"**.
+2. Scroll down to **"Your Environment Identifier"** and copy the key.
 
-**Sur TiBillet :**
+**On TiBillet:**
 
-1. Cliquez sur le **"+"** pour ajouter un nouveau formulaire.
-2. Collez la clé dans le champ **"EnvironmentId"**.
-3. Renseignez le **"Trigger name"** (déclencheur d'enquête) :
-   - Sur Formbricks, ouvrez votre enquête.
-   - Allez dans **"Paramètres"** > **"Déclencheur d'enquête"**.
-   - Supprimez les anciens déclencheurs si nécessaire.
-   - Cliquez sur **"Ajouter une action"** > **"Capturer une nouvelle action"**.
-   - Remplissez les champs obligatoires, notamment **"Que fait votre utilisateur ?"**.
-   - Créez l'action et copiez la clé générée.
-4. Collez cette clé dans **"Trigger name"** sur TiBillet.
+1. Click the **"+"** to add a new form.
+2. Paste the key into the **"EnvironmentId"** field.
+3. Enter the **"Trigger name"** (survey trigger):
+   - In Formbricks, open your survey.
+   - Go to **"Settings"** > **"Survey Triggers"**.
+   - Remove old triggers if necessary.
+   - Click **"Add Action"** > **"Capture New Action"**.
+   - Fill in the required fields, especially **"What is your user doing?"**.
+   - Create the action and copy the generated key.
+4. Paste this key into **"Trigger name"** on TiBillet.
 
-> **Product** : sélectionnez les produits associés à ce formulaire (ex : adhésions, panier).
+> **Product**: Select the products associated with this form (e.g. memberships, cart).
 
 :::note
-Le **trigger** lance l'enquête Formbricks uniquement après validation du pré-formulaire TiBillet (nom, prénom, adresse).
+The **trigger** launches the Formbricks survey only after the TiBillet pre-form (name, surname, address) has been validated.
 :::
 
 <video width="100%" controls src="/img/envtriggerformbricks.mp4"></video>
 
 ---
 
-# Paramétrer Formbricks
+# Configuring Formbricks
 
-## 3. Rendre l'enquête fixe dans TiBillet
+## 3. Making the survey persistent in TiBillet
 
-1. Ouvrez les paramètres de votre enquête dans Formbricks.
-2. Activez l'option **"Continuer à afficher tant que les conditions correspondent"**.
-3. Cochez également :
-   - **"Ignorer le temps d'attente entre les enquêtes"**
-   - **"Afficher toujours l'enquête"**
+1. Open your survey settings in Formbricks.
+2. Enable the option **"Keep showing as long as conditions match"**.
+3. Also check:
+   - **"Ignore delay between surveys"**
+   - **"Always show survey"**
 
-> Cela permet à l'enquête de rester visible tant que les conditions sont remplies.
+> This ensures the survey remains visible as long as the conditions are met.
 
 ---
 
-## 4. Mise en page et affichage
+## 4. Layout and Display
 
-1. Allez dans **"Placement de l'enquête"**.
-2. Activez les options suivantes :
-   - **"Surcharge de placement"**
-   - **"Modal centré"**
-   - **"Couleur de la superposition"** (selon vos préférences)
-   - **"Ne pas permettre"** (pour empêcher la fermeture de l'enquête en cliquant en dehors du cadre)
+1. Go to **"Survey Placement"**.
+2. Enable the following options:
+   - **"Placement Override"**
+   - **"Centered Modal"**
+   - **"Overlay Color"** (based on your preferences)
+   - **"Do not allow"** (to prevent closing the survey by clicking outside)
 
 :::danger
-Assurez-vous que le **"Placement de l'enquête dans l'application"** est bien configuré en **"Modal centré"** et **"Ne pas permettre"** dans **"Configuration"** > **"Apparence et sensation"**.
+Make sure the **"Survey Placement in App"** is properly set to **"Centered Modal"** and **"Do not allow"** in **"Configuration"** > **"Look & Feel"**.
 :::
 
 ---
 
-## 5. Fonctionnalités supplémentaires
+## 5. Additional Features
 
-### Remplissage automatique et champs cachés
+### Autofill and Hidden Fields
 
-TiBillet transmet automatiquement certaines informations à Formbricks :
+TiBillet automatically sends certain information to Formbricks:
 
-- `name` : Nom de l'utilisateur
-- `email` : Email
-- `membership_uuid` : Numéro d'adhésion
-- `product_name` : Nom du produit
-- `price_name` : Prix du produit
+- `name`: User’s name  
+- `email`: Email  
+- `membership_uuid`: Membership number  
+- `product_name`: Product name  
+- `price_name`: Product price
 
-**Utilisation dans Formbricks :**
+**Using them in Formbricks:**
 
-1. Allez dans **"Questions"** de votre enquête.
-2. Ajoutez des **champs cachés** pour ces données.
-3. Utilisez-les dans vos questions avec `@` (ex : *Bonjour @name, vous avez choisi @product_name.*).
+1. Go to the **"Questions"** section of your survey.
+2. Add **hidden fields** for these values.
+3. Use them in your questions with `@` (e.g., *Hello @name, you selected @product_name.*).
 
-> Les champs cachés permettent de personnaliser l'enquête et d'assurer un suivi précis dans les résultats.
+> Hidden fields allow for personalized surveys and more accurate tracking in results.
 
-### Affichage des slugs
+### Displaying Slugs
 
-Pour que les valeurs des champs cachés apparaissent telles qu'elles sont stockées (espaces remplacés par des tirets), notamment dans les espaces conditionnels des enquêtes utilisez les **slugs** :
+To display the hidden fields' values exactly as stored (spaces replaced by hyphens), especially in conditional logic, use **slugs**:
 
 - `product_slug`
 - `price_slug`
 
-**Pour récupérer les slugs :**
+**To retrieve the slugs:**
 
-1. Dans l'administration TiBillet, allez dans **"Formbricks"**.
-2. Ouvrez votre formulaire.
-3. Les slugs s'afficheront en bleu en haut de la page.
+1. In the TiBillet admin panel, go to **"Formbricks"**.
+2. Open your form.
+3. The slugs will be displayed in blue at the top of the page.
 
 <video width="100%" controls src="/img/optionsformbricks.mp4"></video>
-
-:::danger
-Un problème de cache sur les serveurs Formbricks peut retarder l'affichage des modifications (~10 minutes).
-:::
