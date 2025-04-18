@@ -30,9 +30,16 @@ Ne pas copier ce qui vient après le .com
 
 **Sur votre logiciel Formbricks :**
 
-1. Allez dans **"Configuration"** > **"Clés API"**.
+1. Cliquez sur votre logo tout en bas à gauche puis sur **"Organisation"** > **"Clés API"**.
 2. Cliquez sur **"Ajouter la clé API de production"**.
-3. Donnez-lui un nom et copiez la clé générée (visible une seule fois).
+3. Donnez-lui un nom (dans étiquette).
+4. Dans "Accès au projet" vérifier bien que le bon questionnaire soit sélectionné ainsi que "Production" et "Read".
+5. Cochez la case "Read" dans "Accès à l'organisation" à coté de "environments.project.api_keys.access_control".
+Enfin, copiez la clé générée (visible une seule fois) après avoir cliquez sur Ajouter une clé API.
+
+:::danger
+Vérifiez que c'est bien l'environnement de PRODUCTION qui est affiché dans l'accès au projet lors de la création de clé API sinon cela ne fonctionnera pas.
+:::
 
 **Retournez sur TiBillet :**
 
