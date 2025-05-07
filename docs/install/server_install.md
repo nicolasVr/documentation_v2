@@ -668,33 +668,11 @@ services:
     networks:
       - laboutik_backend
     # only useful for dev purpose :
-    extra_hosts:
-      - "fedow.tibillet.localhost:172.17.0.1"
-      - "lespass.tibillet.localhost:172.17.0.1"
-      - "cashless.tibillet.localhost:172.17.0.1"
+    # extra_hosts:
+    #   - "fedow.tibillet.localhost:172.17.0.1"
+    #   - "lespass.tibillet.localhost:172.17.0.1"
+    #   - "cashless.tibillet.localhost:172.17.0.1"
 
-
-  laboutik_celery:
-    image: tibillet/laboutik:latest
-    restart: always
-    env_file: .env
-    container_name: laboutik_celery
-    hostname: laboutik_celery
-    volumes:
-      - ./www:/DjangoFiles/www
-      - ./logs:/DjangoFiles/logs
-      - ./backup:/Backup
-    links:
-      - laboutik_postgres:postgres
-      - laboutik_redis:redis
-      - laboutik_memcached:memcached
-    depends_on:
-      - laboutik_postgres
-      - laboutik_redis
-      - laboutik_memcached
-    networks:
-      - laboutik_backend
-    command: "bash start_celery.sh"
 
   laboutik_nginx:
     image: nginx
@@ -708,7 +686,7 @@ services:
     volumes:
       - ./www:/DjangoFiles/www
       - ./logs:/DjangoFiles/logs
-      - ./nginx:/etc/nginx/conf.d
+      - ./nginx_prod:/etc/nginx/conf.d
     labels:
       - traefik.enable=true
       - traefik.docker.network=frontend
