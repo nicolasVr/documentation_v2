@@ -13,8 +13,7 @@ d'administration.
 
 exemple : [https://demo.betabillet.tech/adminBaseBillet/webhook/](https://demo.betabillet.tech/adminBaseBillet/webhook/)
 
-Le webhook se déclenche à chaque validation de reservation gratuite ou payante, en même temps que l'envoi des billets
-par email.
+Le webhook se déclenche à chaque validation de reservation gratuite ou payante, en même temps que l'envoi des billets par email.
 
 Il est possible de voir la dernière réponse de la requete dans le champ "Last response".
 

@@ -25,7 +25,7 @@ Résultat : Chaque fois que vous rechargez plus que le montant prévu, des jeton
 Veuillez noter que ces jetons « Cadeau » sont considérés différemment par la comptabilité 
 et n'entrent pas dans le calcul du bénéfice (même devise que pour les bénévoles, par exemple).
 
-### Example :
+### Exemple :
 
 par exemple :
 

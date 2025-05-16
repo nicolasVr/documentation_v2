@@ -28,7 +28,7 @@ Cela vous donne une vue d'ensemble et vous aide à suivre l'état des commandes 
 
 ![commande](/img/commandes.png)
 
-## Ajouter un table
+## Ajouter une table
 
 Pour ajouter une table, procédez ainsi :
 

@@ -12,7 +12,7 @@ authors: Adrienne
 
 You can manually subscribe a user to a subscription.
 
-Go to 
+Go to the **“Subscription ”** category in the left-hand column under the **“User ”** tab:
 
 - Click on the **“+”** button.
 - Enter the user's first and last name.

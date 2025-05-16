@@ -23,7 +23,7 @@ Ces adhésions sont à créer dans la catégorie **"Produits"** dans la colonne 
 - Cliquez sur le bouton **"AJOUTER PRODUITS +"**  
 - Remplissez les informations générales (onglet "Général") :  
   - Renseignez le nom de l'adhésion (ex : *Adhésion Tendresse 2025*).  
-  - Choisissez le type de produit **"Abonnement"**.  
+  - Choisissez le type de produit **"Adhésion ou Abonnement"**.  
   - Inscrivez une **description courte** (*optionnel*).  
   - Inscrivez une **description longue** (*optionnel*).  
   - Importez l'image du produit.  

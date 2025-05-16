@@ -1,7 +1,7 @@
 ---
 sidebar_position: 60
 slug: admin_add_new_ticket
-title: Création d'une billetterie
+title: Création d'un billet
 description: Créer un billet pour votre billetterie
 keywords: [billetterie, ticketing, event]
 wiktags: [billetterie, ticketing, event]
@@ -16,7 +16,6 @@ Si vous organisez un événement avec un nombre de places limité, payantes ou n
 
 La création d’un billet ou d’une réservation fonctionne comme une adhésion, avec une fonctionnalité supplémentaire détaillée ci-dessous pour enrichir votre gestion d’événements.  
 
----
 
 ## Étapes de création  
 
@@ -24,8 +23,7 @@ La création d’un billet ou d’une réservation fonctionne comme une adhésio
 - Cliquez sur le bouton **"AJOUTER PRODUITS +"**.  
 - Remplissez les informations générales (onglet "Général") :  
   - **Nom du billet** : (ex : *Billet Mama Africa*).  
-  - **Type de produit** : Sélectionnez **"Billet pour réservation payante"**.  
-  - **Nominatif** : Activez ce bouton pour afficher le **nom et prénom** sur le billet.  
+  - **Type de produit** : Sélectionnez **"Réservation billet"**.  
   - **Description courte** (*optionnel*).  
   - **Description longue** (*optionnel*).  
   - **Image** : Importez une image.  
