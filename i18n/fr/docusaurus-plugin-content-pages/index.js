@@ -1,3 +1,4 @@
+import React, { useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -52,6 +53,47 @@ function HeroBanner() {
     );
 }
 
+function NewsletterSignup() {
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        if (containerRef.current) {
+            const script = document.createElement('script');
+            script.src = "https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js";
+            script.async = true;
+            script.setAttribute('data-background-color', '#08090c');
+            script.setAttribute('data-text-color', '#FFFFFF');
+            script.setAttribute('data-button-color', '#e93363');
+            script.setAttribute('data-button-text-color', '#FFFFFF');
+            script.setAttribute('data-title', 'Les nouvelles de TiBillet');
+            script.setAttribute('data-description', "La boîte à outils d'organisation collective");
+            script.setAttribute('data-icon', 'https://ghost.tibillet.coop/content/images/size/w192h192/size/w256h256/2025/02/icon-color.svg');
+            script.setAttribute('data-site', 'https://ghost.tibillet.coop/');
+            script.setAttribute('data-locale', 'fr');
+
+            containerRef.current.appendChild(script);
+
+            return () => {
+                if (containerRef.current && containerRef.current.contains(script)) {
+                    containerRef.current.removeChild(script);
+                }
+            };
+        }
+    }, []);
+
+    return (
+        <div style={{backgroundColor: '#08090c', width: '100%'}} className="margin-top--lg margin-bottom--lg">
+            <div className="container">
+                <div className="row">
+                    <div className="col col--8 col--offset-2">
+                        <div ref={containerRef} style={{height: "40vmin", minHeight: "360px"}}></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
 
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
@@ -62,6 +104,7 @@ export default function Home() {
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>
+                <NewsletterSignup/>
             </main>
         </Layout>
     );
