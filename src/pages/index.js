@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageFeatures2 from '@site/src/components/HomepageFeatures2';
 import Translate, {translate} from '@docusaurus/Translate';
 import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
@@ -117,6 +118,7 @@ export default function Home() {
             description="Federated platform for membership, ticketing, cash register, and cashless solutions.">
             <main>
                 <HeroBanner/>
+                <HomepageFeatures2/>
                 <HomepageFeatures/>
                 <NewsletterSignup/>
             </main>

@@ -1,0 +1,17 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #f6f8fa;
+}
+
+/* For dark mode */
+[data-theme='dark'] .features {
+  background-color: #2b3137;
+}
+
+.featureSvg {
+  height: 67px;
+  width: 67px;
+}

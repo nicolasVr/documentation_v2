@@ -353,5 +353,89 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Gérez facilement les adhésions à votre association et proposez des abonnements à vos membres. Suivez les renouvellements et offrez des avantages exclusifs.": {
+    "message": "Gérez facilement les adhésions à votre association et proposez des abonnements à vos membres. Suivez les renouvellements et offrez des avantages exclusifs."
+  },
+  "Événements gratuits et payants avec prix préférentiels pour les adhérents. Gérez vos ventes de billets en toute simplicité.": {
+    "message": "Événements gratuits et payants avec prix préférentiels pour les adhérents. Gérez vos ventes de billets en toute simplicité."
+  },
+  "Créez un agenda partagé et choisissez les lieux avec qui partager vos événements. Fédérez votre programmation avec d'autres structures culturelles.": {
+    "message": "Créez un agenda partagé et choisissez les lieux avec qui partager vos événements. Fédérez votre programmation avec d'autres structures culturelles."
+  },
+  "Caisse enregistreuse avec certification en cours. Solution complète pour gérer vos ventes sur place.": {
+    "message": "Caisse enregistreuse avec certification en cours. Solution complète pour gérer vos ventes sur place."
+  },
+  "Système de cashless comme en festival, avec vérification de l'adhésion sur la carte et la caisse enregistreuse. Carte cashless valable à vie et utilisable dans plusieurs lieux et festivals.": {
+    "message": "Système de cashless comme en festival, avec vérification de l'adhésion sur la carte et la caisse enregistreuse. Carte cashless valable à vie et utilisable dans plusieurs lieux et festivals."
+  },
+  "Système de monnaie temps, cadeau et de valorisation de bénévoles. Reconnaissez et récompensez l'engagement de votre communauté.": {
+    "message": "Système de monnaie temps, cadeau et de valorisation de bénévoles. Reconnaissez et récompensez l'engagement de votre communauté."
+  },
+  "Alternative libre et open source à HelloAsso, Weezevent, Billetweb, etc. Reprenez le contrôle de vos données et de vos outils.": {
+    "message": "Alternative libre et open source à HelloAsso, Weezevent, Billetweb, etc. Reprenez le contrôle de vos données et de vos outils."
+  },
+  "Carte cashless valable à vie et utilisable dans plusieurs lieux et festivals. Une seule carte pour tous vos événements préférés.": {
+    "message": "Carte cashless valable à vie et utilisable dans plusieurs lieux et festivals. Une seule carte pour tous vos événements préférés."
+  },
+  "Tout gratuit et hautement personnalisable : on adore les retours utilisateurs. Adaptez la plateforme à vos besoins spécifiques.": {
+    "message": "Tout gratuit et hautement personnalisable : on adore les retours utilisateurs. Adaptez la plateforme à vos besoins spécifiques."
+  },
+  "Lauréat de l'appel à projet Billetterie innovante du Ministère de la culture. Une solution reconnue pour son innovation et sa qualité.": {
+    "message": "Lauréat de l'appel à projet Billetterie innovante du Ministère de la culture. Une solution reconnue pour son innovation et sa qualité."
+  },
+  "Adhésion associatives et abonnement": {
+    "message": "Adhésion associatives et abonnement"
+  },
+  "Billetterie": {
+    "message": "Billetterie"
+  },
+  "Agenda fédéré": {
+    "message": "Agenda fédéré"
+  },
+  "Caisse enregistreuse": {
+    "message": "Caisse enregistreuse"
+  },
+  "Système de cashless": {
+    "message": "Système de cashless"
+  },
+  "Monnaie temps et valorisation": {
+    "message": "Monnaie temps et valorisation"
+  },
+  "Alternative libre": {
+    "message": "Alternative libre"
+  },
+  "Carte cashless universelle": {
+    "message": "Carte cashless universelle"
+  },
+  "Gratuit et personnalisable": {
+    "message": "Gratuit et personnalisable"
+  },
+  "Lauréat Ministère de la culture": {
+    "message": "Lauréat Ministère de la culture"
+  },
+  "360°": {
+    "message": "360°"
+  },
+  "Network Builder": {
+    "message": "Créateur de réseau"
+  },
+  "Social and solidarity-based": {
+    "message": "Social et solidaire"
+  },
+  "Low Tech": {
+    "message": "Low Tech"
+  },
+  "Free & Open Source": {
+    "message": "Libre et Open Source"
+  },
+  "Event makers": {
+    "message": "Créateurs d'événements"
+  },
+  "TiBillet Features": {
+    "message": "Fonctionnalités de TiBillet"
+  },
+  "Discover all the features that make TiBillet a complete solution for your organization": {
+    "message": "Découvrez toutes les fonctionnalités qui font de TiBillet une solution complète pour votre organisation"
   }
 }

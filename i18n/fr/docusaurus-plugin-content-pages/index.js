@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageFeatures2 from '@site/src/components/HomepageFeatures2';
 import Translate, {translate} from '@docusaurus/Translate';
 import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
@@ -120,6 +121,7 @@ export default function Home() {
             description="Outils libres fédérés pour : Adhésion, billetterie, caisse enregistreuse et cashless.">
             <main>
                 <HeroBanner/>
+                <HomepageFeatures2/>
                 <HomepageFeatures/>
                 <NewsletterSignup/>
             </main>

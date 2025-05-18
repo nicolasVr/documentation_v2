@@ -5,7 +5,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
         {
-        title: '360°',
+        title: <Translate>360°</Translate>,
         Svg: require('@site/static/img/undraw_report_re_f5n5.svg').default,
         description: (
             <Translate>
@@ -15,7 +15,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Network Builder',
+        title: <Translate>Network Builder</Translate>,
         Svg: require('@site/static/img/undraw_world_re_768g.svg').default,
         description: (
             <Translate>
@@ -25,7 +25,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Social and solidarity-based',
+        title: <Translate>Social and solidarity-based</Translate>,
         Svg: require('@site/static/img/undraw_share_link_re_54rx.svg').default,
         description: (
             <Translate>
@@ -36,7 +36,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Low Tech',
+        title: <Translate>Low Tech</Translate>,
         Svg: require('@site/static/img/undraw_ride_a_bicycle_re_6tjy.svg').default,
         description: (
             <Translate>
@@ -46,7 +46,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Free & Open Source',
+        title: <Translate>Free & Open Source</Translate>,
         Svg: require('@site/static/img/undraw_open_source_-1-qxw.svg').default,
         description: (
             <Translate>
@@ -56,7 +56,7 @@ const FeatureList = [
         ),
     },
     {
-        title: "Event makers",
+        title: <Translate>Event makers</Translate>,
         Svg: require('@site/static/img/undraw_compose_music_re_wpiw.svg').default,
         description: (
             <Translate>
