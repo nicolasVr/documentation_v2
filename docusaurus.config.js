@@ -50,6 +50,31 @@ const config = {
                 ],
             }),
         },
+        // hreflang tags for better multilingual SEO
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'alternate',
+                href: 'https://tibillet.org/',
+                hreflang: 'en',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'alternate',
+                href: 'https://tibillet.org/fr/',
+                hreflang: 'fr',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'alternate',
+                href: 'https://tibillet.org/',
+                hreflang: 'x-default',
+            },
+        },
     ],
 
     // GitHub pages deployment config.

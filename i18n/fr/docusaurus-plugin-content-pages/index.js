@@ -60,6 +60,9 @@ function HeroBanner() {
                             Français
                         </Translate>
                     </Link>
+                    <Link className="button button--warning" to="https://events.tibillet.coop/tenant/new/">
+                        Créer son espace
+                    </Link>
                 </div>
 
             </div>
