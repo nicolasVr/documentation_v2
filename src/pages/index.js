@@ -33,7 +33,7 @@ function HeroBanner() {
                 </h1>
 
                 <div className={styles.indexCtas}>
-                    <Link className="button button--primary" to="/">
+                    <Link className="button button--primary" to="https://tibillet.org/">
                         <svg className="margin-right--sm" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 64 64">
                             <path fill="#2e3192"
                                   d="M38 54h16c1.977 0 3.657-.446 5.052-1.223L38 40.219V54zm25.66-7.79c.228-1.017.344-2.094.344-3.211v-5h-14.11l13.762 8.211M.35 17.759A14.635 14.635 0 0 0 0 21v5h14.164L.35 17.759zM26 10H10c-1.963 0-3.632.44-5.021 1.206L26 23.746V10zM5.043 52.826C6.419 53.57 8.066 54 10 54h16V40.324L5.043 52.826zM0 38v5c0 1.151.122 2.26.363 3.303L14.282 38H0zm59.115-26.745C57.709 10.457 56.006 10 54 10H38v13.851l21.115-12.596zM64 26v-5c0-1.094-.113-2.149-.332-3.147L50.012 26H64z"/>
@@ -47,7 +47,7 @@ function HeroBanner() {
                             English
                         </Translate>
                     </Link>
-                    <Link className="button button--info" to="/fr/" target="">
+                    <Link className="button button--info" to="https://tibillet.org/fr/" target="">
                         <svg className="margin-right--sm" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                              viewBox="0 0 64 64">
                             <path fill="#e6e7e8" d="M22 10h20v44H22z"/>
