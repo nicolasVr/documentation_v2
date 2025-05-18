@@ -20,6 +20,41 @@ const config = {
     baseUrl: '/',
     scripts: [{src: 'https://plausible.codecommun.co/js/script.js', defer: true, 'data-domain': 'tibillet.org'}],
 
+    // SEO metadata
+    metadata: [
+        {name: 'keywords', content: 'TiBillet, billetterie, ticketing, cashless, cooperative, open source'},
+        {name: 'description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'og:type', content: 'website'},
+        {name: 'og:title', content: 'TiBillet - Outils coopératifs'},
+        {name: 'og:description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
+        {name: 'og:image', content: 'https://tibillet.org/img/design/social-card.png'},
+    ],
+
+    // Structured data for better SEO
+    headTags: [
+        {
+            tagName: 'script',
+            attributes: {
+                type: 'application/ld+json',
+            },
+            innerHTML: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'Organization',
+                name: 'TiBillet',
+                url: 'https://tibillet.org',
+                logo: 'https://tibillet.org/img/design/icon-color.svg',
+                description: 'TiBillet - Outils coopératifs de billetterie et cashless open source',
+                sameAs: [
+                    'https://github.com/TiBillet',
+                    'https://discord.gg/7FJvtYx',
+                    'https://pouet.chapril.org/@tibillet',
+                    'https://matrix.to/#/#tibillet:tiers-lieux.org',
+                ],
+            }),
+        },
+    ],
+
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'TiBillet', // Usually your GitHub org/user name.
@@ -76,6 +111,12 @@ const config = {
                 theme: {
                     customCss: './src/css/custom.css',
                 },
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**'],
+                    filename: 'sitemap.xml',
+                },
             }),
         ],
     ],
@@ -86,10 +127,31 @@ const config = {
         ({
             // Replace with your project's social card
             image: 'img/design/social-card.png',
+            // Algolia DocSearch Configuration
+            algolia: {
+              // The application ID provided by Algolia
+              appId: 'YOUR_APP_ID',
+              // Public API key: it is safe to commit it
+              apiKey: 'YOUR_SEARCH_API_KEY',
+              indexName: 'YOUR_INDEX_NAME',
+              // Optional: see doc section below
+              contextualSearch: true,
+              // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+              // externalUrlRegex: 'external\\.com|domain\\.com',
+              // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+              // replaceSearchResultPathname: {
+              //   from: '/docs/', // or as RegExp: /\/docs\//
+              //   to: '/',
+              // },
+              // Optional: Algolia search parameters
+              searchParameters: {},
+              // Optional: path for search page that enabled by default (`false` to disable it)
+              searchPagePath: 'search',
+            },
             navbar: {
                 title: 'TiBillet',
                 logo: {
-                    alt: 'Tb%iBillet Logo',
+                    alt: 'TiBillet Logo',
                     src: 'img/design/icon-color.svg',
                 },
                 items: [
