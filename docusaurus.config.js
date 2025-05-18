@@ -274,9 +274,9 @@ const config = {
                 darkTheme: prismThemes.dracula,
             },
             colorMode: {
-                defaultMode: 'dark',
+                defaultMode: 'light',
                 disableSwitch: false,
-                respectPrefersColorScheme: true,
+                // respectPrefersColorScheme: true,
             },
         }),
 };
