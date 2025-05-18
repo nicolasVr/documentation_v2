@@ -18,7 +18,14 @@ const config = {
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
-    scripts: [{src: 'https://plausible.codecommun.co/js/script.js', defer: true, 'data-domain': 'tibillet.org'}],
+    scripts: [
+      {src: 'https://plausible.codecommun.co/js/script.js', defer: true, 'data-domain': 'tibillet.org'},
+      // Browser language detection script
+      {
+        src: '/js/detectBrowserLanguage.js',
+        async: true,
+      },
+    ],
 
 
     // Structured data for better SEO
