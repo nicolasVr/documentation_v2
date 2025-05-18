@@ -1,6 +1,6 @@
 {
   "homepage.hero.title": {
-    "message": "Free and federated platform for <b>membership</b>, ticketing, <b>cash register</b>, and <b>cashless</b> solutions."
+    "message": "Free and federated platform for <b>membership</b>, ticketing, <b>cash register</b>, and <b>more !</b>"
   },
   "En savoir plus": {
     "message": "En savoir plus"
@@ -505,8 +505,8 @@
   "Créez un agenda partagé et choisissez les lieux avec qui partager vos événements. Fédérez votre programmation avec d'autres structures culturelles.": {
     "message": "Create a shared calendar and choose venues to share your events with. Federate your programming with other cultural organizations."
   },
-  "Caisse enregistreuse avec certification en cours. Solution complète pour gérer vos ventes sur place.": {
-    "message": "Cash register with certification in progress. Complete solution for managing your on-site sales."
+  "Caisse enregistreuse avec certification en cours. Solution complète pour gérer vos ventes sur place. Inclut des imprimantes de préparation en cuisine, comme dans les vrais restaurants.": {
+    "message": "Cash register with certification in progress. Complete solution for managing your on-site sales. Includes kitchen preparation printers, just like in real restaurants."
   },
   "Système de cashless comme en festival, avec vérification de l'adhésion sur la carte et la caisse enregistreuse. Carte cashless valable à vie et utilisable dans plusieurs lieux et festivals.": {
     "message": "Festival-style cashless system with membership verification on the card and cash register. Lifetime cashless card usable at multiple venues and festivals."
@@ -545,7 +545,7 @@
     "message": "Time Currency and Recognition"
   },
   "Alternative libre": {
-    "message": "Free Alternative"
+    "message": "FLOSS Alternative"
   },
   "Carte cashless universelle": {
     "message": "Universal Cashless Card"

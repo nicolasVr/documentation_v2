@@ -122,7 +122,6 @@ export default function Home() {
             <main>
                 <HeroBanner/>
                 <HomepageFeatures2/>
-                <HomepageFeatures/>
                 <NewsletterSignup/>
             </main>
         </Layout>
