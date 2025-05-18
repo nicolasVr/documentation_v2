@@ -27,17 +27,13 @@ function HeroBanner() {
                         dangerouslySetInnerHTML={{
                             __html: translate({
                                 id: 'homepage.hero.title',
-                                message:
-                                    "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
-                                description:
-                                    'Titre',
                             }),
                         }}
                     />
                 </h1>
 
                 <div className={styles.indexCtas}>
-                    <Link className="button button--primary" to="/docs/presentation/introduction">
+                    <Link className="button button--primary" to="/">
                         <svg className="margin-right--sm" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 64 64">
                             <path fill="#2e3192"
                                   d="M38 54h16c1.977 0 3.657-.446 5.052-1.223L38 40.219V54zm25.66-7.79c.228-1.017.344-2.094.344-3.211v-5h-14.11l13.762 8.211M.35 17.759A14.635 14.635 0 0 0 0 21v5h14.164L.35 17.759zM26 10H10c-1.963 0-3.632.44-5.021 1.206L26 23.746V10zM5.043 52.826C6.419 53.57 8.066 54 10 54h16V40.324L5.043 52.826zM0 38v5c0 1.151.122 2.26.363 3.303L14.282 38H0zm59.115-26.745C57.709 10.457 56.006 10 54 10H38v13.851l21.115-12.596zM64 26v-5c0-1.094-.113-2.149-.332-3.147L50.012 26H64z"/>
@@ -48,10 +44,10 @@ function HeroBanner() {
                                   d="M21.938 26L1.888 14.031c-.431.64-.777 1.344-1.063 2.094L17.372 26h4.563M63.09 48.09L46.277 38h-4.656l20.313 12.219a9.866 9.866 0 0 0 1.156-2.125m-2.371-35.703L37.969 26l4.619.003L62.219 14.25c-.438-.797-.9-1.311-1.5-1.859M1.813 49.875a8.996 8.996 0 0 0 1.609 1.844L26.063 38H21.5L1.813 49.875z"/>
                         </svg>
                         <Translate>
-                            Read more
+                            English
                         </Translate>
                     </Link>
-                    <Link className="button button--info" to="https://tibillet.org/fr/" target="">
+                    <Link className="button button--info" to="/fr/" target="">
                         <svg className="margin-right--sm" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                              viewBox="0 0 64 64">
                             <path fill="#e6e7e8" d="M22 10h20v44H22z"/>
@@ -59,7 +55,7 @@ function HeroBanner() {
                             <path fill="#ec1c24" d="M52 10H42v44h12c6.627 0 10-4.925 10-11V21c0-6.076-.042-11-12-11"/>
                         </svg>
                         <Translate>
-                            En savoir plus
+                            Français
                         </Translate>
                     </Link>
                 </div>
@@ -114,7 +110,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Outils évènementiels et économiques libres créateurs de réseaux coopératifs: Cashless, billetterie, blockchain.">
+            description="Federated platform for membership, ticketing, cash register, and cashless solutions.">
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>

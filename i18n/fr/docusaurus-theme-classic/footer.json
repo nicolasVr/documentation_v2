@@ -58,5 +58,13 @@
   "link.item.label.Mail": {
     "message": "Mail",
     "description": "The label of footer link with label=Mail linking to mailto:contact@tibillet.re"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://pouet.chapril.org/@tibillet"
+  },
+  "link.item.label.CGU/CGV": {
+    "message": "CGU/CGV",
+    "description": "The label of footer link with label=CGU/CGV linking to /cgucgv"
   }
 }

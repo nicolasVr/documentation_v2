@@ -62,5 +62,69 @@
   "sidebar.tutorialSidebar.category.exDoc": {
     "message": "exDoc",
     "description": "The label for category exDoc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Caisse enregistreuse": {
+    "message": "Caisse enregistreuse",
+    "description": "The label for category Caisse enregistreuse in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Caisse enregistreuse.link.generated-index.description": {
+    "message": "Utilisation de l'application et de l'administration",
+    "description": "The generated-index page description for category Caisse enregistreuse in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Adhésion / Abonnements": {
+    "message": "Adhésion / Abonnements",
+    "description": "The label for category Adhésion / Abonnements in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Adhésion / Abonnements.link.generated-index.description": {
+    "message": "Les adhésions et/ou abonnements.",
+    "description": "The generated-index page description for category Adhésion / Abonnements in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DIY": {
+    "message": "DIY",
+    "description": "The label for category DIY in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DIY.link.generated-index.description": {
+    "message": "Installer votre propre instance de TiBillet",
+    "description": "The generated-index page description for category DIY in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Raspberry Box": {
+    "message": "Raspberry Box",
+    "description": "The label for category Raspberry Box in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Raspberry Box.link.generated-index.description": {
+    "message": "Construisez votre propre borne de TiBillet",
+    "description": "The generated-index page description for category Raspberry Box in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Software": {
+    "message": "Software",
+    "description": "The label for category Software in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Software.link.generated-index.description": {
+    "message": "L'installation.",
+    "description": "The generated-index page description for category Software in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category Hardware in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hardware.link.generated-index.description": {
+    "message": "Le montage du boitier.",
+    "description": "The generated-index page description for category Hardware in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "Contributing",
+    "description": "The label for category Contributing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing.link.generated-index.description": {
+    "message": "Join us and make TiBillet better 😉",
+    "description": "The generated-index page description for category Contributing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Research": {
+    "message": "Research",
+    "description": "The label for category Research in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Research.link.generated-index.description": {
+    "message": "Documented processes and decisions",
+    "description": "The generated-index page description for category Research in sidebar tutorialSidebar"
   }
 }

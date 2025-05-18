@@ -22,5 +22,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Présentation": {
+    "message": "Présentation",
+    "description": "Navbar item with label Présentation"
   }
 }

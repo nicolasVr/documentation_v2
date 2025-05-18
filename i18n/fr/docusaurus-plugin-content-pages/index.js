@@ -28,10 +28,6 @@ function HeroBanner() {
                         dangerouslySetInnerHTML={{
                             __html: translate({
                                 id: 'homepage.hero.title',
-                                message:
-                                    "Outils <b>évènementiels</b> et économiques <b>libres</b> créateurs de réseaux <b>cooperatifs</b>.",
-                                description:
-                                    'Titre',
                             }),
                         }}
                     />
@@ -100,7 +96,7 @@ export default function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Boîte à outils d'organisation collective : Fédérations d'agendas, de billetteries, d'adhésions associative, de tirelires digitale (cashless), de caisses enregistreuse... Le tout libre et open source !">
+            description="Outils libres fédérés pour : Adhésion, billetterie, caisse enregistreuse et cashless.">
             <main>
                 <HeroBanner/>
                 <HomepageFeatures/>
