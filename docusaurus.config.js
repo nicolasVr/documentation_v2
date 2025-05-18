@@ -20,16 +20,6 @@ const config = {
     baseUrl: '/',
     scripts: [{src: 'https://plausible.codecommun.co/js/script.js', defer: true, 'data-domain': 'tibillet.org'}],
 
-    // SEO metadata
-    metadata: [
-        {name: 'keywords', content: 'TiBillet, billetterie, ticketing, cashless, cooperative, open source'},
-        {name: 'description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
-        {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'og:type', content: 'website'},
-        {name: 'og:title', content: 'TiBillet - Outils coopératifs'},
-        {name: 'og:description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
-        {name: 'og:image', content: 'https://tibillet.org/img/design/social-card.png'},
-    ],
 
     // Structured data for better SEO
     headTags: [
@@ -125,6 +115,16 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            // SEO metadata
+            metadata: [
+                {name: 'keywords', content: 'TiBillet, billetterie, ticketing, cashless, cooperative, open source'},
+                {name: 'description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
+                {name: 'twitter:card', content: 'summary_large_image'},
+                {name: 'og:type', content: 'website'},
+                {name: 'og:title', content: 'TiBillet - Outils coopératifs'},
+                {name: 'og:description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
+                {name: 'og:image', content: 'https://tibillet.org/img/design/social-card.png'},
+            ],
             // Replace with your project's social card
             image: 'img/design/social-card.png',
             // Algolia DocSearch Configuration
