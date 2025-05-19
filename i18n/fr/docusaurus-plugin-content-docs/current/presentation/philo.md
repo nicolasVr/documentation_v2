@@ -11,29 +11,44 @@ authors: jonas, adrienne
 
 # La philosophie TiBillet
 
-TiBillet permet de créer du lien entre les différents acteurs du territoire.
+TiBillet permet de **créer du lien** entre les différents collectifs et publics
 
 Ces acteurs sont :
 
 - des collectifs
 - des publics
-- des professionnels du spectacle
 
-TiBillet est donc une boite à outils fédératrice. 
+
+TiBillet est donc une **boite à outils fédératrice.**
 
 Fédérateur veut dire qui créer du lien. 
 
 TiBillet permet de développer la culture pour tous dans une même région. 
 
-Tibillet est open source. 
+<div style={{ marginBottom: 40}}></div>
+
+## Un logiciel livre
+
+Tibillet est **open source.**
 
 Open source veut dire que le code source de TiBillet est utilisable par tous. 
 
-Je peux faire des modifications dans TiBillet pour répondre à mes besoins spécifiques.
+Je peux faire des modifications dans le code de TiBillet pour répondre à mes besoins spécifiques.
 
-TiBillet est créé par la Coopérative Code Commun.
+<div style={{ marginBottom: 40}}></div>
+
+
+TiBillet est créé par la **Coopérative Code Commun.**
 
 L’argent gagné avec TiBillet est réparti de manière équitable entre les personnes qui travaillent dans la coopérative. 
 
-Vous pouvez entrer dans la coopérative.
+**Vous pouvez entrer dans la coopérative.**
 
+Pour en savoir, vous pouvez cliquer sur le lien du site internet de la coopérative :
+
+<a href="https://tibillet.org/fr/docs/presentation/i_am_a_collective/#lespass" 
+   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+  <span style={{ display: 'inline-block', textAlign: 'center' }}>
+    <strong>Fabrique de communs numériques | Coopérative Code Commun</strong>
+  </span>
+</a>
