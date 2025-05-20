@@ -76,7 +76,7 @@ Pour en savoir plus, je peux aller sur ce site internet :  https://www.gnu.org
 J’ai des questions, je veux en savoir plus : 
 
 <a href="mailto:contact@tibillet.re" 
-   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
+   style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 80px 0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}>
     <strong>Contactez la coopérative code commun</strong>
   </span>
