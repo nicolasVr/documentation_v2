@@ -25,17 +25,17 @@ Dans TiBillet, il y a 3 outils :
 
 
 <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', textAlign: 'center', alignItems: 'baseline'}}>
-  <div style={{ width: 300, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+  <div style={{ width: 250, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
     <img src={require('/static/img/icone-lespass.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>Le site internet Lespass</p>
   </div>
 
-  <div style={{ width: 300, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+  <div style={{ width: 250, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
     <img src={require('/static/img/icone-laboutik.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>La caisse enregistreuse LaBoutik</p>
   </div>
 
-  <div style={{ width: 300, paddingBlockEnd: '2rem'}}>
+  <div style={{ width: 250, paddingBlockEnd: '2rem'}}>
     <img src={require('/static/img/icone-carte pass.png').default} width="100%" />
     <p style={{ marginBottom: 0 }}>La carte sans contact Pass</p>
   </div>
@@ -45,19 +45,19 @@ Dans TiBillet, il y a 3 outils :
 Chaque outil a **des fonctionnalités différentes.**
 
 
-<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20 }}>
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
   Lèspass
   <img
     src={require('/static/img/icone-lespass.png').default}
     alt="Icône Lèspass"
-    style={{ width: '10%', marginLeft: '10px' }}
+    style={{ width: '10%' }}
   />
 </h2>
 
 
-Lespass est un site internet.
+Lèspass est <strong>un site internet.</strong>
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
 **Lèspass est utilisé par tout le monde :**
 - les collectifs
@@ -85,17 +85,17 @@ Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet
 </a>
 
 
-<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 30 }}>
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 30, gap: 10, }}>
   Laboutik
   <img
     src={require('/static/img/icone-laboutik.png').default}
     alt="Icône Laboutik"
-    style={{ width: '10%', marginLeft: '10px' }}
+    style={{ width: '10%' }}
   />
 </h2>
 
 
-LaBoutik est la caisse enregistreuse.
+LaBoutik est <strong>la caisse enregistreuse.</strong>
 
 C’est une application pour : 
 
@@ -131,14 +131,25 @@ LaBoutik permet par exemple de :
 </a>
 
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass <img src={require('/static/img/icone-sans-contact.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 30, gap: 10, }}>
+  Pass 
+  <img
+    src={require('/static/img/icone-sans-contact.png').default}
+    alt="Icône Carte sans contact"
+    style={{ width: '10%' }}
+  />
+</h2>
 
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, }}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Pass est <strong>une carte sans contact.</strong></p>
+  <img
+    src={require('/static/img/icone-sans-contact.png').default}
+    alt="Icône Carte sans contact"
+    style={{ width: '10%' }}
+  />
+</div>
+
 
 
 Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.

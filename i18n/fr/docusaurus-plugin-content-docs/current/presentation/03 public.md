@@ -11,10 +11,14 @@ authors: Adrienne
 
 # Je suis un public
 
-|                                                                                                      |                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je suis un public si <strong>je suis une personne</strong> <br/> <strong>qui participe à un ou plusieurs collectifs <span style={{ whiteSpace: 'nowrap' }}>TiBillet</span>.</strong> | <img src={require('/static/img/icone-publics.png').default} width="20%" /> |
-
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Je suis un public si <strong>je suis une personne</strong> <br/> <strong>qui participe à un ou plusieurs collectifs <span>TiBillet</span>.</strong></p>
+  <img
+    src={require('/static/img/icone-publics.png').default}
+    alt="Icône publics"
+    style={{ width: '10%' }}
+  />
+</div>
 
 
 Un collectif TiBillet est un collectif qui utilise les outils TiBillet.
@@ -30,42 +34,102 @@ Un collectif est par exemple :
 
 Participer à un collectif TiBillet, c’est par exemple :
 
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| **Adhérer au collectif**           | <img src={require('/static/img/icone_adhesion.png').default} width="100" /> |
-| **Aller à un évènement organisé par le collectif** | <img src={require('/static/img/icone_evenement.png').default} width="100" /> |
-| **Acheter quelque chose dans un point de vente du collectif** | <img src={require('/static/img/icone_achat.png').default} width="100" /> |
-| **Être bénévole pour aider le collectif** | <img src={require('/static/img/icone_volontariat.png').default} width="100" /> |
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>**Adhérer au collectif**</p>
+  <img
+    src={require('/static/img/icone_adhesion.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>**Aller à un évènement organisé par le collectif** </p>
+  <img
+    src={require('/static/img/icone_evenement.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>**Acheter quelque chose dans un point de vente du collectif** </p>
+  <img
+    src={require('/static/img/icone_achat.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}> **Être bénévole pour aider le collectif**</p>
+  <img
+    src={require('/static/img/icone_volontariat.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
+
 
 
 Cette page présente comment je peux utiliser les outils TiBillet.
 
 Les outils TiBillet pour les publics sont :
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> |
+
+<div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', textAlign: 'center', alignItems: 'baseline'}}>
+  <div style={{ width: 250, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/icone-lespass.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>Le site internet Lespass</p>
+  </div>
+
+  <div style={{ width: 250, paddingBlockEnd: '2rem'}}>
+    <img src={require('/static/img/icone-carte pass.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>La carte sans contact Pass</p>
+  </div>
+</div>
 
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 id="lespass2" style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-carte-pass.png').default} width="10%" style={{ marginLeft: '40px' }} /></h2> | 
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Lèspass
+  <img
+    src={require('/static/img/icone-carte-pass.png').default}
+    alt="Icône Lèspass"
+    style={{ width: '10%' }}
+  />
+</h2>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Mon Pass est donné par un collectif TiBillet.</div> | <img src={require('/static/img/icone-collectifs.png').default} width="20%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}> Mon Pass est donné par un collectif TiBillet.</p>
+  <img
+    src={require('/static/img/icone-collectifs.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Pass est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}> Pass est une carte sans contact.</p>
+  <img
+    src={require('/static/img/icone-sans-contact.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
 
 
 Sans contact veut dire que je n’ai pas besoin de rentrer un code secret pour l’utiliser.
 
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}><strong>Pass me permet de payer</strong> des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</p>
+  <img
+    src={require('/static/img/icone-laboutik.png').default}
+    alt="Boîte à outils"
+    style={{ width: '10%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}><strong>Pass me permet de payer</strong> des choses auprès d’un collectif TiBillet qui utilise LaBoutik.</div> | <img src={require('/static/img/icone-laboutik.png').default} width="50%" /> |
 
 
 LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, comme :
@@ -76,22 +140,36 @@ LaBoutik est un outil TiBillet qui permet aux collectifs de vendre des choses, c
 - la location d’une salle à l’heure
 - des adhésions
 
-|                                                                                                      |                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Avec une seule carte, mon Pass me permet d’accéder à : <ul><li>mes adhésions</li><li>mes billets pour des évènements des collectifs</li><li>mes abonnements</li><li>mes cartes de fidélité</li><li>de la monnaie</li></ul> | <img src={require('/static/img/publiccarte.png').default} width="100%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 30}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Avec une seule carte, mon Pass me permet d’accéder à : <ul><li>mes adhésions</li><li>mes billets pour des évènements des collectifs</li><li>mes abonnements</li><li>mes cartes de fidélité</li><li>de la monnaie</li></ul> </p>
+  <img
+    src={require('/static/img/publiccarte.png').default}
+    alt="Boîte à outils"
+    style={{ width: '1O%' }}
+  />
+</div>
 
 
-|                                                                                                      |                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Je peux gérer tout ça grâce au QR code qui est sur mon Pass. <br/>   Un QR code est une image que je peux prendre en photo grâce à une application de scan pour QR code sur mon téléphone. | <img src={require('/static/img/icone-qr-code.png').default} width="40%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Je peux gérer tout ça grâce au QR code qui est sur mon Pass. <br/>   Un QR code est une image que je peux prendre en photo grâce à <br/> une application de scan pour QR code sur mon téléphone. </p>
+  <img
+    src={require('/static/img/icone-qr-code.png').default}
+    alt="Boîte à outils"
+    style={{ width: '15%'}}
+  />
+</div>
 
 
 Ensuite, le site internet Lèspass s’ouvre tout seul sur mon téléphone.
 
-
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>LèsPass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Lèspass
+  <img
+    src={require('/static/img/icone-lespass.png').default}
+    alt="Icône Lèspass"
+    style={{ width: '10%' }}
+  />
+</h2>
 
 
 Lèspass est un site internet.
@@ -101,16 +179,42 @@ Je peux aller sur Lèspass :
 - grâce au QR code qui est sur ma carte
 - ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
-| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
-| **Mon compte**                        | <img src={require('/static/img/icompte.png').default} width="30" /> |
 
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>l’**agenda**</p>
+  <img
+    src={require('/static/img/iagenda.png').default}
+    alt="Agenda"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Agenda <img src={require('/static/img/iagenda.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>les **abonnements**  </p>
+  <img
+    src={require('/static/img/iabonnements.png').default}
+    alt="Abonnement"
+    style={{ width: '5%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>**Mon compte**</p>
+  <img
+    src={require('/static/img/icompte.png').default}
+    alt="Mon compte"
+    style={{ width: '5%' }}
+  />
+</div>
+
+<h3 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Agenda 
+  <img
+    src={require('/static/img/iagenda.png').default}
+    alt="Icône Agenda"
+    style={{ width: '10%' }}
+  />
+</h3>
 
 
 L’agenda est pour :
@@ -119,30 +223,65 @@ L’agenda est pour :
 - voir les informations des évènements des villages de mes collectifs TiBillet
 
 Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.</div> | <img src={require('/static/img/collectifs2.png').default} width="100%" /> |
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Un village TiBillet, c’est plusieurs collectifs TiBillet qui choisissent de se regrouper ensemble.</p>
+  <img
+    src={require('/static/img/collectifs2.png').default}
+    alt="Collectif"
+    style={{ width: '20%' }}
+  />
+</div>
 
 
 Les informations des événements sont :
 
-- le nom de l’évènement
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>La description de l’évènement</div> | <img src={require('/static/img/descripevent.png').default} width="60%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>le nom de l’évènement</p>
+  <img
+    src={require('/static/img/descripevent.png').default}
+    alt="le nom de l’évènement"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>la date et l’heure</div> | <img src={require('/static/img/date.png').default} width="60%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>La description de l’évènement</p>
+  <img
+    src={require('/static/img/descripevent.png').default}
+    alt="La description de l’évènement"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>L’adresse</div> | <img src={require('/static/img/adresse.png').default} width="60%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>la date et l’heure</p>
+  <img
+    src={require('/static/img/date.png').default}
+    alt="Date et heure"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>le prix</div> | <img src={require('/static/img/prix.png').default} width="60%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>L’adresse</p>
+  <img
+    src={require('/static/img/adresse.png').default}
+    alt="L’adresse"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Le prix</p>
+  <img
+    src={require('/static/img/prix.png').default}
+    alt="le prix"
+    style={{ width: '1O%' }}
+  />
+</div>
 
 
 ![page description événement](/img/event.png)
@@ -150,16 +289,27 @@ Les informations des événements sont :
 
 L’agenda permet aussi de :
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>réserver une ou plusieurs places pour un évènement</div> | <img src={require('/static/img/benevoleco.png').default} width="60%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Réserver une ou plusieurs places pour un évènement</p>
+  <img
+    src={require('/static/img/benevoleco.png').default}
+    alt="Réserver une ou plusieurs places"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+
 
 - m’inscrire comme bénévole pour un évènement
 
-
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mes abonnements<img src={require('/static/img/iabonnements.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+<h3 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Mes abonnements
+  <img
+    src={require('/static/img/iabonnements.png').default}
+    alt="Mes abonnements"
+    style={{ width: '10%' }}
+  />
+</h3>
 
 
 Les abonnements sont pour :
@@ -169,24 +319,73 @@ Les abonnements sont pour :
 
 ![page abonnements](/img/abonnements.png)
 
-
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| <h3 style={{ display: 'inline-flex', alignItems: 'center' }}>Mon compte<img src={require('/static/img/icompte.png').default} width="30" style={{ marginLeft: '10px' }} /></h3> | |
+<h3 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Mon compte
+  <img
+    src={require('/static/img/icompte.png').default}
+    alt="Mon compte"
+    style={{ width: '10%' }}
+  />
+</h3>
 
 
 Mon compte me permet d’accéder à mes informations personnelles.
 
 Mes informations personnelles sont regroupées en plusieurs catégories :
 
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| Tirelire <img src={require('/static/img/itirelire.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Abonnements <img src={require('/static/img/iadhes.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Réservations <img src={require('/static/img/ireserv.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Badgeuse <img src={require('/static/img/itime.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Carte Pass <img src={require('/static/img/icard.png').default} width="30" style={{ marginLeft: '10px' }} /> |
-| Préférences <img src={require('/static/img/ipref.png').default} width="30" style={{ marginLeft: '10px' }} /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Tirelire</p>
+  <img
+    src={require('/static/img/itirelire.png').default}
+    alt="Tirelire"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Abonnements</p>
+  <img
+    src={require('/static/img/iadhes.png').default}
+    alt="Abonnements"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Réservations</p>
+  <img
+    src={require('/static/img/ireserv.png').default}
+    alt="Réservations"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Badgeuse</p>
+  <img
+    src={require('/static/img/itime.png').default}
+    alt="Badgeuse"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Carte Pass</p>
+  <img
+    src={require('/static/img/icard.png').default}
+    alt="Carte Pass"
+    style={{ width: '1O%' }}
+  />
+</div>
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Préférences </p>
+  <img
+    src={require('/static/img/ipref.png').default}
+    alt="Préférences "
+    style={{ width: '1O%' }}
+  />
+</div>
 
 
 `Dans « Ma tirelire », je peux gérer ma monnaie.`
@@ -203,11 +402,14 @@ Il y a 3 monnaies TiBillet différentes.
 
 La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
 
-
-
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Je peux ajouter de la monnaie globale sur mon compte TiBillet grâce à ma carte bancaire.</p>
+  <img
+    src={require('/static/img/carteb.png').default}
+    alt="icône carte bleue"
+    style={{ width: '1O%' }}
+  />
+</div>
 
 
 Je n’ai pas de frais bancaires quand je mets de l’argent sur mon Pass.
@@ -231,14 +433,23 @@ en donnant mon Pass à un collectif TiBillet qui utilise LaBoutik.
 
 Je peux ajouter ajouter de la monnaie locale sur mon compte TiBillet grâce à :
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>Ma carte bancaire</div> | <img src={require('/static/img/carteb.png').default} width="100%" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>Ma carte bancaire</p>
+  <img
+    src={require('/static/img/carteb.png').default}
+    alt="icône carte bleue"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>De l’argent en espèces</div> | <img src={require('/static/img/espece.png').default} width="100%" /> |
-
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>De l’argent en espèces</p>
+  <img
+    src={require('/static/img/espece.png').default}
+    alt="Espèces"
+    style={{ width: '1O%' }}
+  />
+</div>
 
 
 **La 3ème monnaie est les bons cadeaux.**

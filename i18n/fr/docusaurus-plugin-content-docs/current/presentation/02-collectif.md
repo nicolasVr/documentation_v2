@@ -9,6 +9,8 @@ tags: [ cashless, billetterie, ticketing ]
 authors: Adrienne
 ---
 
+
+
 # Je suis un collectif TiBillet
 
 Je suis un collectif si je représente :
@@ -26,33 +28,62 @@ Cette page présente comment les collectifs TiBillet peuvent utiliser les 3 outi
 
 Les 3 outils TiBillet sont :
 
-|                                                 |                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-lespass.png').default} width="40%" /><br/> Le site internet Lespass</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-laboutik.png').default} width="40%" /><br/> La caisse enregistreuse LaBoutik</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte pass.png').default} width="40%" /><br/> La carte sans contact Pass</div> |
+<div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', textAlign: 'center', alignItems: 'baseline'}}>
+  <div style={{ width: 250, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/icone-lespass.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>Le site internet Lespass</p>
+  </div>
+
+  <div style={{ width: 250, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/icone-laboutik.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>La caisse enregistreuse LaBoutik</p>
+  </div>
+
+  <div style={{ width: 250, paddingBlockEnd: '2rem'}}>
+    <img src={require('/static/img/icone-carte pass.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>La carte sans contact Pass</p>
+  </div>
+</div>
 
 
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Lèspass
+  <img
+    src={require('/static/img/icone-lespass.png').default}
+    alt="Icône Lèspass"
+    style={{ width: '10%' }}
+  />
+</h2>
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 id="lespass" style={{ display: 'flex', alignItems: 'center' }}>Lèspass <img src={require('/static/img/icone-lespass.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
 
-Lespass est un site internet.
+Lèspass est <strong>un site internet.</strong>
 
-Je peux aller sur Lespass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
 
-Lespass est pour tous les collectifs TiBillet.
+Lèspass est pour tous les collectifs TiBillet.
 
-**Chaque collectif TiBillet peut créer son propre Lespass.**
+**Chaque collectif TiBillet peut créer son propre Lèspass.**
 
 
 Sur Lèspass, il y a :
 
-|                                      |                                      |
-|--------------------------------------|--------------------------------------|
-| l’**agenda**                         | <img src={require('/static/img/iagenda.png').default} width="30" /> |
-| les **abonnements**                  | <img src={require('/static/img/iabonnements.png').default} width="30" /> |
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>l’**agenda**</p>
+  <img
+    src={require('/static/img/iagenda.png').default}
+    alt="Agenda"
+    style={{ width: '1O%' }}
+  />
+</div>
 
-
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>les **abonnements**  </p>
+  <img
+    src={require('/static/img/iabonnements.png').default}
+    alt="Abonnement"
+    style={{ width: '5%' }}
+  />
+</div>
 
 
 L’agenda est pour voir : 
@@ -75,9 +106,9 @@ L’agenda et les adhésions sont pour :
 - leur permettre de faire leurs réservations
 - leur permettre de se connecter à leur compte
 
-Pour en savoir plus sur comment les publics peuvent utiliser Lespass, je clique ici : [Lespass pour les publics](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
+Pour en savoir plus sur comment les publics peuvent utiliser Lèspass, je clique ici : [Lèspass pour les publics](https://tibillet.org/fr/docs/presentation/i_am_an_audience/)
 
-Pour les collectifs, Lespass me permet aussi de **me connecter à mon panneau d'Administration.**
+Pour les collectifs, Lèspass me permet aussi de **me connecter à mon panneau d'Administration.**
 
 ![](/img/nav.png)
 
@@ -93,7 +124,7 @@ Gérer la billetterie en ligne veut dire :
 - créer des billets d’entrée gratuits ou payants pour mes évènements
 - voir la liste des réservations à mes évènements
 
-Dans mon compte Administration, je peux aussi personnaliser mon **Lespass**.
+Dans mon compte Administration, je peux aussi personnaliser mon **Lèspass**.
 
 Personnaliser veut dire que je peux changer :
 
@@ -101,12 +132,18 @@ Personnaliser veut dire que je peux changer :
 - les images
 - la description de mon collectif
 
-Pour voir à quoi ressemble Lespass, je clique ici : [Démonstration de l’outil Lespass](https://lespass.demo.tibillet.org/)
+Pour voir à quoi ressemble Lèspass, je clique ici : [Démonstration de l’outil Lèspass](https://lespass.demo.tibillet.org/)
                                                                   
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Laboutik <img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Laboutik
+  <img
+    src={require('/static/img/icone-laboutik.png').default}
+    alt="Icône Laboutik"
+    style={{ width: '10%' }}
+  />
+</h2>
 
 
 LaBoutik est **pour les collectifs qui ont un ou plusieurs points de vente.**
@@ -163,9 +200,23 @@ La 2ème partie me permet de :
 
 Je peux encaisser les achats des publics :
 
-| En espèces | Par carte bancaire | Avec un Pass |
-|------------|--------------------|-------------|
-| <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/espece.png').default} width="80%" /><br/>En espèces</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', whiteSpace: 'nowrap' }}><img src={require('/static/img/carteb.png').default} width="60%" /><br/>Par carte bancaire</div> | <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}><img src={require('/static/img/icone-carte-pass.png').default} width="20%" /><br/>Avec un Pass</div> |
+
+<div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', textAlign: 'center', alignItems: 'baseline'}}>
+  <div style={{ width: 200, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/espece.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>En espèces</p>
+  </div>
+
+  <div style={{ width: 200, paddingBlockEnd: '2rem', paddingInlineEnd: '2rem'}}>
+    <img src={require('/static/img/carteb.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>Par carte bancaire </p>
+  </div>
+
+  <div style={{ width: 150, paddingBlockEnd: '2rem'}}>
+    <img src={require('/static/img/icone-carte-pass.png').default} width="100%" />
+    <p style={{ marginBottom: 0 }}>Avec un Pass</p>
+  </div>
+</div>
 
 
 
@@ -215,16 +266,29 @@ Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBill
 Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
 [Gérer les achats et la monnaie des publics avec LaBoutik](https://laboutik.demo.tibillet.org/wv/)
 
-|                                                 |                                                 |
-|-------------------------------------------------|-------------------------------------------------|
-| <h2 style={{ display: 'flex', alignItems: 'center' }}>Pass<img src={require('/static/img/icone-laboutik.png').default} width="10%" style={{ marginLeft: '10px' }} /></h2> | 
+
+
+<h2 style={{ display: 'flex', alignItems: 'center', marginBottom: 20, gap:10, }}>
+  Pass
+  <img
+    src={require('/static/img/icone-laboutik.png').default}
+    alt="Icône Laboutik"
+    style={{ width: '10%' }}
+  />
+</h2>
 
 
 Pass est donné aux publics par un collectif TiBillet.
 
-|                                                 |                              |
-|-------------------------------------------------|------------------------------|
-| <div style={{ whiteSpace: 'nowrap' }}>C’est une carte sans contact.</div> | <img src={require('/static/img/icone-sans-contact.png').default} width="20%" /> |
+
+<div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>
+  <p style={{ whiteSpace: 'nowrap', marginBottom: 0 }}>C’est une carte sans contact.</p>
+  <img
+    src={require('/static/img/icone-sans-contact.png').default}
+    alt="Icône Carte sans contact"
+    style={{ width: '10%' }}
+  />
+</div>
 
 
 Sans contact veut dire que les publics n’ont pas besoin de rentrer un code secret pour l’utiliser.
