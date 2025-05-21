@@ -335,11 +335,11 @@ CELERY_BACKEND='redis://redis:6379/0'
 
 Create the file :
 
-```bash 
+```bash
 nano nginx/lespass.conf
 ```
 
-```bash 
+```bash
 server {
 
     listen 80;
@@ -378,7 +378,6 @@ types {
     # here are additional types
     application/javascript mjs;
 }
-
 ```
 
 ### Docker compose
@@ -446,7 +445,7 @@ services:
       - "fedow.tibillet.localhost:172.17.0.1"
       - "lespass.tibillet.localhost:172.17.0.1"
       - "cashless.tibillet.localhost:172.17.0.1"
-        
+
   lespass_celery:
     image: tibillet/lespass:latest
     restart: always
@@ -582,11 +581,11 @@ BORG_PASSPHRASE=''
 
 Create the file :
 
-```bash 
+```bash
 nano nginx/laboutik.conf
 ```
 
-```bash 
+```bash
 server {
 
     listen 80;
@@ -741,6 +740,7 @@ through the documentation and come and see us on discord to tell us you've succe
 ### Update
 
 Just pull the latest docker image release :
+
 ```bash
 docker compose pull
 docker compose up -d 

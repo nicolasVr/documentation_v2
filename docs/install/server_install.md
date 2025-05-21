@@ -335,11 +335,11 @@ CELERY_BACKEND='redis://redis:6379/0'
 
 Create the file :
 
-```bash 
+```bash
 nano nginx/lespass.conf
 ```
 
-```bash 
+```bash
 server {
 
     listen 80;
@@ -445,7 +445,7 @@ services:
       - "fedow.tibillet.localhost:172.17.0.1"
       - "lespass.tibillet.localhost:172.17.0.1"
       - "cashless.tibillet.localhost:172.17.0.1"
-        
+
   lespass_celery:
     image: tibillet/lespass:latest
     restart: always
@@ -520,6 +520,28 @@ TODO : Create a blog note for borgbackup, cron and postgres dump.
 
 ### Environment
 
+Check the swap. If not :
+
+```bash
+# Créer un fichier swap de 4 Go
+sudo fallocate -l 4G /swapfile
+
+# Sécuriser le fichier
+sudo chmod 600 /swapfile
+
+# Le formater en swap
+sudo mkswap /swapfile
+
+# L'activer
+sudo swapon /swapfile
+
+# Le rendre actif à chaque reboot :
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+# Vérifier que ça fonctionne
+swapon --show
+```
+
 Create the Lespass folder :
 
 ```bash
@@ -581,13 +603,12 @@ BORG_PASSPHRASE=''
 
 Create the file :
 
-```bash 
+```bash
 nano nginx/laboutik.conf
 ```
 
-```bash 
+```bash
 server {
-
     listen 80;
     server_name localhost;
 
@@ -602,6 +623,24 @@ server {
      location /media {
          root /DjangoFiles/www;
      }
+
+
+    # Configuration spécifique pour les WebSockets
+location ~ ^/(wss|ws)/ {
+        proxy_pass http://laboutik_django:8001; # 8001 fait tourner Daphne
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Host $server_name;
+
+        # WebSocket timeout settings
+        proxy_read_timeout 3600s;
+        proxy_send_timeout 3600s;
+        proxy_connect_timeout 3600s;
+    }
 
     location / {
         # everything is passed to Gunicorn/Django
@@ -686,7 +725,7 @@ services:
     volumes:
       - ./www:/DjangoFiles/www
       - ./logs:/DjangoFiles/logs
-      - ./nginx_prod:/etc/nginx/conf.d
+      - ./nginx:/etc/nginx/conf.d
     labels:
       - traefik.enable=true
       - traefik.docker.network=frontend
@@ -718,6 +757,7 @@ through the documentation and come and see us on discord to tell us you've succe
 ### Update
 
 Just pull the latest docker image release :
+
 ```bash
 docker compose pull
 docker compose up -d 
