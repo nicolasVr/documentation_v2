@@ -150,22 +150,22 @@ const config = {
             // SEO metadata
             metadata: [
                 {name: 'keywords', content: 'TiBillet, billetterie, ticketing, cashless, cooperative, open source'},
-                {name: 'description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
+                {name: 'description', content: "TiBillet - Outils coopératifs d'adhésion de billetterie et caisse open source"},
                 {name: 'twitter:card', content: 'summary_large_image'},
                 {name: 'og:type', content: 'website'},
                 {name: 'og:title', content: 'TiBillet - Outils coopératifs'},
-                {name: 'og:description', content: 'TiBillet - Outils coopératifs de billetterie et cashless open source'},
-                {name: 'og:image', content: 'https://tibillet.org/img/design/social-card.png'},
+                {name: 'og:description', content: "TiBillet - Outils coopératifs d'adhésion de billetterie et caisse open source"},
+                {name: 'og:image', content: 'https://tibillet.org/img/design/social-card.jpg'},
             ],
             // Replace with your project's social card
-            image: 'img/design/social-card.png',
+            image: 'img/design/social-card.jpg',
             // Algolia DocSearch Configuration
             algolia: {
               // The application ID provided by Algolia
-              appId: 'YOUR_APP_ID',
+              appId: 'BUC6ZG1CMU',
               // Public API key: it is safe to commit it
-              apiKey: 'YOUR_SEARCH_API_KEY',
-              indexName: 'YOUR_INDEX_NAME',
+              apiKey: '29f69fc995adee15876974e8ad3aecf1',
+              indexName: 'tibillet',
               // Optional: see doc section below
               contextualSearch: true,
               // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
