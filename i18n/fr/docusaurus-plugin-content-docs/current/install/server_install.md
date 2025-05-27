@@ -520,6 +520,28 @@ TODO : Create a blog note for borgbackup, cron and postgres dump.
 
 ### Environment
 
+Check the swap. If not :
+
+```bash
+# Créer un fichier swap de 4 Go
+sudo fallocate -l 4G /swapfile
+
+# Sécuriser le fichier
+sudo chmod 600 /swapfile
+
+# Le formater en swap
+sudo mkswap /swapfile
+
+# L'activer
+sudo swapon /swapfile
+
+# Le rendre actif à chaque reboot :
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+# Vérifier que ça fonctionne
+swapon --show
+```
+
 Create the Lespass folder :
 
 ```bash
@@ -587,7 +609,6 @@ nano nginx/laboutik.conf
 
 ```bash
 server {
-
     listen 80;
     server_name localhost;
 
@@ -602,6 +623,24 @@ server {
      location /media {
          root /DjangoFiles/www;
      }
+
+
+    # Configuration spécifique pour les WebSockets
+location ~ ^/(wss|ws)/ {
+        proxy_pass http://laboutik_django:8001; # 8001 fait tourner Daphne
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Host $server_name;
+
+        # WebSocket timeout settings
+        proxy_read_timeout 3600s;
+        proxy_send_timeout 3600s;
+        proxy_connect_timeout 3600s;
+    }
 
     location / {
         # everything is passed to Gunicorn/Django
@@ -668,33 +707,11 @@ services:
     networks:
       - laboutik_backend
     # only useful for dev purpose :
-    extra_hosts:
-      - "fedow.tibillet.localhost:172.17.0.1"
-      - "lespass.tibillet.localhost:172.17.0.1"
-      - "cashless.tibillet.localhost:172.17.0.1"
+    # extra_hosts:
+    #   - "fedow.tibillet.localhost:172.17.0.1"
+    #   - "lespass.tibillet.localhost:172.17.0.1"
+    #   - "cashless.tibillet.localhost:172.17.0.1"
 
-
-  laboutik_celery:
-    image: tibillet/laboutik:latest
-    restart: always
-    env_file: .env
-    container_name: laboutik_celery
-    hostname: laboutik_celery
-    volumes:
-      - ./www:/DjangoFiles/www
-      - ./logs:/DjangoFiles/logs
-      - ./backup:/Backup
-    links:
-      - laboutik_postgres:postgres
-      - laboutik_redis:redis
-      - laboutik_memcached:memcached
-    depends_on:
-      - laboutik_postgres
-      - laboutik_redis
-      - laboutik_memcached
-    networks:
-      - laboutik_backend
-    command: "bash start_celery.sh"
 
   laboutik_nginx:
     image: nginx
