@@ -17,7 +17,7 @@ L'API de Scan de Billets vous permet de scanner et de valider des billets à l'a
 ### Appairer un Appareil
 
 ```
-GET /api/scan/{token}/pair
+GET /scan/{token}/pair
 ```
 
 Ce point de terminaison est utilisé pour appairer un appareil mobile avec le système TiBillet. Le token est généré lors de la création d'un nouvel appareil de scan dans l'interface d'administration.
@@ -37,7 +37,7 @@ Ce point de terminaison est utilisé pour appairer un appareil mobile avec le sy
 ### Tester la Connexion API
 
 ```
-GET /api/scan/test_api/
+GET /scan/test_api/
 ```
 
 Ce point de terminaison est utilisé pour tester si la clé API est valide et si la connexion au serveur fonctionne.
@@ -71,7 +71,7 @@ Ce point de terminaison est utilisé pour tester si la clé API est valide et si
 ### Vérifier le Statut d'un Billet
 
 ```
-POST /api/scan/check_ticket/
+POST /scan/check_ticket/
 ```
 
 Ce point de terminaison est utilisé pour vérifier le statut d'un billet sans le scanner.
@@ -118,7 +118,7 @@ Ce point de terminaison est utilisé pour vérifier le statut d'un billet sans l
 ### Scanner un Billet
 
 ```
-POST /api/scan/ticket/
+POST /scan/ticket/
 ```
 
 Ce point de terminaison est utilisé pour scanner et valider un billet.
@@ -197,7 +197,7 @@ import TabItem from '@theme/TabItem';
 # Le token est obtenu à partir du QR code dans l'interface d'administration
 TOKEN="votre_token_ici"
 
-curl -X GET "https://exemple.tibillet.org/api/scan/${TOKEN}/pair"
+curl -X GET "https://exemple.tibillet.org/scan/${TOKEN}/pair"
 ```
 
 </TabItem>
@@ -207,7 +207,7 @@ curl -X GET "https://exemple.tibillet.org/api/scan/${TOKEN}/pair"
 // Le token est obtenu à partir du QR code dans l'interface d'administration
 const token = "votre_token_ici";
 
-fetch(`https://exemple.tibillet.org/api/scan/${token}/pair`, {
+fetch(`https://exemple.tibillet.org/scan/${token}/pair`, {
   method: 'GET'
 })
 .then(response => response.json())
@@ -224,7 +224,7 @@ import requests
 # Le token est obtenu à partir du QR code dans l'interface d'administration
 token = "votre_token_ici"
 
-url = f"https://exemple.tibillet.org/api/scan/{token}/pair"
+url = f"https://exemple.tibillet.org/scan/{token}/pair"
 
 response = requests.get(url)
 print(response.json())
@@ -241,7 +241,7 @@ print(response.json())
 ```bash
 API_KEY="votre_cle_api_ici"
 
-curl -X GET "https://exemple.tibillet.org/api/scan/test_api/" \
+curl -X GET "https://exemple.tibillet.org/scan/test_api/" \
   -H "Authorization: Api-Key ${API_KEY}"
 ```
 
@@ -251,7 +251,7 @@ curl -X GET "https://exemple.tibillet.org/api/scan/test_api/" \
 ```javascript
 const apiKey = "votre_cle_api_ici";
 
-fetch('https://exemple.tibillet.org/api/scan/test_api/', {
+fetch('https://exemple.tibillet.org/scan/test_api/', {
   method: 'GET',
   headers: {
     'Authorization': `Api-Key ${apiKey}`
@@ -270,7 +270,7 @@ import requests
 
 api_key = "votre_cle_api_ici"
 
-url = "https://exemple.tibillet.org/api/scan/test_api/"
+url = "https://exemple.tibillet.org/scan/test_api/"
 headers = {
     "Authorization": f"Api-Key {api_key}"
 }
@@ -291,7 +291,7 @@ print(response.json())
 API_KEY="votre_cle_api_ici"
 QRCODE_DATA="donnees_encodees_base64:signature"
 
-curl -X POST "https://exemple.tibillet.org/api/scan/check_ticket/" \
+curl -X POST "https://exemple.tibillet.org/scan/check_ticket/" \
   -H "Authorization: Api-Key ${API_KEY}" \
   -H "Content-Type: application/json" \
   -d "{\"qrcode_data\": \"${QRCODE_DATA}\"}"
@@ -304,7 +304,7 @@ curl -X POST "https://exemple.tibillet.org/api/scan/check_ticket/" \
 const apiKey = "votre_cle_api_ici";
 const qrcodeData = "donnees_encodees_base64:signature";
 
-fetch('https://exemple.tibillet.org/api/scan/check_ticket/', {
+fetch('https://exemple.tibillet.org/scan/check_ticket/', {
   method: 'POST',
   headers: {
     'Authorization': `Api-Key ${apiKey}`,
@@ -328,7 +328,7 @@ import requests
 api_key = "votre_cle_api_ici"
 qrcode_data = "donnees_encodees_base64:signature"
 
-url = "https://exemple.tibillet.org/api/scan/check_ticket/"
+url = "https://exemple.tibillet.org/scan/check_ticket/"
 headers = {
     "Authorization": f"Api-Key {api_key}",
     "Content-Type": "application/json"
@@ -353,7 +353,7 @@ print(response.json())
 API_KEY="votre_cle_api_ici"
 QRCODE_DATA="donnees_encodees_base64:signature"
 
-curl -X POST "https://exemple.tibillet.org/api/scan/ticket/" \
+curl -X POST "https://exemple.tibillet.org/scan/ticket/" \
   -H "Authorization: Api-Key ${API_KEY}" \
   -H "Content-Type: application/json" \
   -d "{\"qrcode_data\": \"${QRCODE_DATA}\"}"
@@ -366,7 +366,7 @@ curl -X POST "https://exemple.tibillet.org/api/scan/ticket/" \
 const apiKey = "votre_cle_api_ici";
 const qrcodeData = "donnees_encodees_base64:signature";
 
-fetch('https://exemple.tibillet.org/api/scan/ticket/', {
+fetch('https://exemple.tibillet.org/scan/ticket/', {
   method: 'POST',
   headers: {
     'Authorization': `Api-Key ${apiKey}`,
@@ -390,7 +390,7 @@ import requests
 api_key = "votre_cle_api_ici"
 qrcode_data = "donnees_encodees_base64:signature"
 
-url = "https://exemple.tibillet.org/api/scan/ticket/"
+url = "https://exemple.tibillet.org/scan/ticket/"
 headers = {
     "Authorization": f"Api-Key {api_key}",
     "Content-Type": "application/json"
