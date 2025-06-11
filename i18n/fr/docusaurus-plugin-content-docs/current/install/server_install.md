@@ -460,7 +460,7 @@ services:
       - lespass_postgres:postgres
       - lespass_redis:redis
       - lespass_memcached:memcached
-    command: "poetry run celery -A TiBillet worker -l INFO"
+    command: "poetry run celery -A TiBillet worker -l INFO -B"
     networks:
       - lespass_backend
 
