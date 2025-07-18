@@ -27,7 +27,7 @@ TiBillet permet de développer la culture pour tous dans une même région.
 
 <div style={{ marginBottom: 40}}></div>
 
-## Un logiciel livre
+## Un logiciel libre
 
 Tibillet est **open source.**
 
