@@ -46,7 +46,7 @@ L’argent gagné avec TiBillet est réparti de manière équitable entre les pe
 
 Pour en savoir, vous pouvez cliquer sur le lien du site internet de la coopérative :
 
-<a href="https://tibillet.org/fr/docs/presentation/i_am_a_collective/#lespass" 
+<a href="https://codecommun.coop" 
    style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#007bff', color: 'white', textAlign: 'center', borderRadius: '5px', textDecoration: 'none', margin: '0 0 10px 0', lineHeight: '20px', width: 'auto' }}>
   <span style={{ display: 'inline-block', textAlign: 'center' }}>
     <strong>Fabrique de communs numériques | Coopérative Code Commun</strong>
