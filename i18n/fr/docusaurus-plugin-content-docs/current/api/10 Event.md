@@ -35,3 +35,54 @@ GET /api/events/<uuid>/
 | publicKeyPem              | string   | N      | LIV                                                       |
 
 
+
+
+## Nouvelles routes
+
+Ces routes complètent les endpoints existants et reflètent les filtres ajoutés côté API.
+
+```
+GET /api/events/future/   # évènements futurs (à partir de J-1), uniquement les parents (sans parent)
+GET /api/events/actions/  # évènements de catégorie ACTION qui ont un parent non nul
+```
+
+- /api/events/future/ retourne les évènements publiés dont la date de début est supérieure ou égale à J-1 et sans parent (parents seulement).
+- /api/events/actions/ retourne les évènements publiés de catégorie ACTION avec un parent (sous-évènements/créneaux).
+
+## Champs additionnels (compatibles schema.org)
+
+De nouveaux champs sont exposés par l'API sans modifier les champs existants.
+
+- image (url): URL de l'image de l'évènement si disponible (fallback sur l'adresse ou la configuration si nécessaire).
+- location (object): Objet Place contenant l'adresse postale (PostalAddress) et éventuellement les coordonnées GPS (GeoCoordinates).
+- organizer (object): Informations de l'organisation (Configuration du tenant), ex: { "@type": "Organization", "name": "…" }.
+- childrens (array): Liste des sous-évènements (enfants) publiés d'un évènement parent, avec pour chacun: uuid, name, slug, startDate, endDate, url.
+
+### Exemple (extrait)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "uuid": "…",
+  "name": "Journée Bénévolat",
+  "startDate": "2025-01-01T10:00:00+01:00",
+  "url": "https://exemple.tibillet.coop/event/journee-benevolat-250101-1000/",
+  "image": "https://exemple.tibillet.coop/media/images/evt.jpg",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 rue de la Paix",
+      "addressLocality": "Paris",
+      "postalCode": "75001",
+      "addressCountry": "FR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 48.866, "longitude": 2.331 }
+  },
+  "organizer": { "@type": "Organization", "name": "LesPass" },
+  "childrens": [
+    { "uuid": "…", "name": "Créneau 10h-12h", "slug": "…", "startDate": "…", "endDate": "…", "url": "…" }
+  ]
+}
+```
