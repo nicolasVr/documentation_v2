@@ -55,7 +55,7 @@ De nouveaux champs sont exposés par l'API sans modifier les champs existants.
 
 - image (url): URL de l'image de l'évènement si disponible (fallback sur l'adresse ou la configuration si nécessaire).
 - location (object): Objet Place contenant l'adresse postale (PostalAddress) et éventuellement les coordonnées GPS (GeoCoordinates).
-- organizer (object): Informations de l'organisation (Configuration du tenant), ex: { "@type": "Organization", "name": "…" }.
+- organizer (object): Informations de l'organisation (Configuration du tenant), ex: ```{ "@type": "Organization", "name": "…" }```.
 - childrens (array): Liste des sous-évènements (enfants) publiés d'un évènement parent, avec pour chacun: uuid, name, slug, startDate, endDate, url.
 
 ### Exemple (extrait)

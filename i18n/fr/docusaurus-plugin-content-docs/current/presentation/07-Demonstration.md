@@ -28,41 +28,14 @@ Pour tester le paiement sur Stripe, utilisez la carte bancaire du plus grand rou
 :::
 
 
-## Agenda & Billetterie : [https://lespass.demo.tibillet.org/](https://lespass.demo.tibillet.org/)
-
-:::danger
-La Billetterie est en cours de redesign. Sortie prévue : premier trimestre 2025.
-L'instance de démonstration n'est pas 100% fonctionnelle, n'hésitez pas à repasser de temps en temps :)
-:::
-
-## Accès à l'administration et à mon compte : [https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
-
-
-## Adhésion : [https://lespass.demo.tibillet.org/memberships/](https://lespass.demo.tibillet.org/memberships/)
-
-Pour des formulaires complexes et conditionnels, nous avons intégré [Formbricks](https://formbricks.com/).
-
-N'hésitez pas à tester avec "Adhésion avec Formbricks"
-
+## Agenda, Billetterie, adhésion : [https://lespass.demo-tibillet.ovh/](https://lespass.demo-tibillet.ovh/)
+- Accès à l'administration : [https://lespass.demo-tibillet.ovh/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo-tibillet.ovh/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
+- Adhésion : [https://lespass.demo-tibillet.ovh/memberships/](https://lespass.demo-tibillet.ovh/memberships/)
+- Billetterie : [https://lespass.demo-tibillet.ovh/event/](https://lespass.demo-tibillet.ovh/event/)
 
 ## Caisse enregistreuse / Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
 
 Pour voir l'interface de caisse, cliquez sur "voir le site" de la page d'administration
 
-![maq2-420.jpg](/img/demo/maq2-420.jpg)
+Dans l'interface LaBoutik, la carte "Client 1" correspond à l'espace "Mon compte" du [lien admin de lespass](https://lespass.demo-tibillet.ovh/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
 
-## Je scanne le QrCode de ma carte tirelire : [https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/](https://lespass.demo.tibillet.org/qr/c2b2400c-1f7e-4305-b75e-8c1db3f8d113/)
-
-Dans l'interface LaBoutik, cette carte correspond à "Client 1".
-
-La page sur laquelle nous arrivons après un qrcode permet de recharger sa tirelire, voir ses adhésions et déclarer sa
-carte perdue :
-
-![cartes.jpg](/img/demo/cartes.jpg)
-
-## Fedow - Création de fédération : [https://fedow.demo.tibillet.org/dashboard/](https://fedow.demo.tibillet.org/dashboard/)
-
-Une carte tirelire, une monnaie et une adhésion peuvent être utilisées dans un ou plusieurs lieux. On parle alors de
-fédération de lieux.
-
-![fedow_beta.jpg](/img/demo/fedow_beta.jpg)
