@@ -30,7 +30,7 @@ To test payment on Stripe, use the greatest galactic hitchhiker's credit card:
 - Membership: [https://lespass.demo-tibillet.ovh/memberships/](https://lespass.demo-tibillet.ovh/memberships/)
 - Ticketing: [https://lespass.demo-tibillet.ovh/event/](https://lespass.demo-tibillet.ovh/event/)
 
-## Cash Register / Cashless: [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
+## Cash Register / Cashless: [https://laboutik.demo-tibillet.ovh/](https://laboutik.demo-tibillet.ovh/)
 
 To see the cash register interface, click on "view site" from the administration page
 

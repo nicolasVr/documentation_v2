@@ -33,7 +33,7 @@ Pour tester le paiement sur Stripe, utilisez la carte bancaire du plus grand rou
 - Adhésion : [https://lespass.demo-tibillet.ovh/memberships/](https://lespass.demo-tibillet.ovh/memberships/)
 - Billetterie : [https://lespass.demo-tibillet.ovh/event/](https://lespass.demo-tibillet.ovh/event/)
 
-## Caisse enregistreuse / Cashless : [https://laboutik.demo.tibillet.org/](https://laboutik.demo.tibillet.org/)
+## Caisse enregistreuse / Cashless : [https://laboutik.demo-tibillet.ovh/](https://laboutik.demo-tibillet.ovh/)
 
 Pour voir l'interface de caisse, cliquez sur "voir le site" de la page d'administration
 
