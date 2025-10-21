@@ -86,3 +86,193 @@ De nouveaux champs sont exposés par l'API sans modifier les champs existants.
   ]
 }
 ```
+
+
+
+---
+
+## ✅ API v2 — Évènements & Adresses (mise à jour)
+
+> Cette section remplace l’ancienne documentation ci‑dessus. Elle reflète exactement les routes présentes dans le code et couvertes par les tests (`tests/pytest`).
+
+### Aperçu
+- Base path (tenant) : `/api/v2/`
+- Authentification : `Authorization: Api-Key <votre_clé>`
+- Réponse : JSON (proche JSON‑LD / schema.org)
+- Tests : `poetry run pytest -q tests/pytest`
+
+### Endpoints Event (schema.org/Event)
+- `GET /api/v2/events/` — liste les évènements publiés
+  - Non paginé : `{ "results": [Event, ...] }`
+- `GET /api/v2/events/{uuid}/` — récupère un évènement par UUID
+- `POST /api/v2/events/` — crée un évènement (payload schema.org/Event)
+- `DELETE /api/v2/events/{uuid}/` — supprime un évènement
+- `POST /api/v2/events/{uuid}/link-address/` — lie une adresse postale à l’évènement
+  - Corps : `{ "postalAddressId": <int> }` ou un objet `PostalAddress` (voir ci‑dessous)
+
+Champs principaux acceptés à la création : `name` (requis), `startDate` (requis), `endDate`, `maximumAttendeeCapacity`, `disambiguatingDescription`, `description`, `eventStatus`, `audience`, `keywords`, `url`, `sameAs`, `offers`, `additionalProperty`.
+
+Exemple — création minimale
+```http
+POST /api/v2/events/
+Authorization: Api-Key <clé>
+Content-Type: application/json
+```
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "API v2 — Test create",
+  "startDate": "2025-12-20T19:00:00Z"
+}
+```
+
+Exemple — création étendue
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Concert",
+  "startDate": "2025-12-20T19:00:00Z",
+  "maximumAttendeeCapacity": 250,
+  "disambiguatingDescription": "Soirée funk",
+  "description": "Une soirée funk mémorable",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "audience": {"@type":"Audience","audienceType":"private"},
+  "keywords": ["Funk","Live"],
+  "sameAs": "https://example.org/external-event",
+  "offers": {
+    "eligibleQuantity": {"maxValue": 4},
+    "returnPolicy": {"merchantReturnDays": 7}
+  },
+  "additionalProperty": [
+    {"@type":"PropertyValue","name":"optionsRadio","value":["Salle"]},
+    {"@type":"PropertyValue","name":"customConfirmationMessage","value":"Merci pour votre réservation !"}
+  ]
+}
+```
+
+Lister
+```http
+GET /api/v2/events/
+Authorization: Api-Key <clé>
+```
+Réponse (200)
+```json
+{
+  "results": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "identifier": "<uuid>",
+      "name": "Concert",
+      "startDate": "2025-12-20T19:00:00Z",
+      "maximumAttendeeCapacity": 250,
+      "eventStatus": "https://schema.org/EventScheduled",
+      "keywords": ["Funk","Live"],
+      "offers": {
+        "@type": "Offer",
+        "eligibleQuantity": {"@type":"QuantitativeValue","maxValue": 4},
+        "returnPolicy": {"@type":"MerchantReturnPolicy","merchantReturnDays": 7}
+      }
+    }
+  ]
+}
+```
+
+Détail
+```http
+GET /api/v2/events/{uuid}/
+Authorization: Api-Key <clé>
+```
+Réponse (200)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "identifier": "<uuid>",
+  "name": "Concert",
+  "startDate": "2025-12-20T19:00:00Z",
+  "location": {
+    "@type": "Place",
+    "address": {"@type":"PostalAddress", "streetAddress": "7 S. Broadway", "addressLocality": "Denver", "postalCode": "80209", "addressCountry": "US"}
+  }
+}
+```
+
+Lier une adresse
+```http
+POST /api/v2/events/{uuid}/link-address/
+Authorization: Api-Key <clé>
+Content-Type: application/json
+```
+Deux options :
+1) `{ "postalAddressId": 123 }`
+2) Objet `PostalAddress` :
+```json
+{
+  "@type": "PostalAddress",
+  "streetAddress": "42 Avenue des Tests",
+  "addressLocality": "DevCity",
+  "addressRegion": "DC",
+  "postalCode": "42424",
+  "addressCountry": "FR",
+  "geo": {"latitude": 48.8566, "longitude": 2.3522}
+}
+```
+
+### Endpoints PostalAddress (schema.org/PostalAddress)
+- `GET /api/v2/postal-addresses/` — lister `{ "results": [...] }`
+- `GET /api/v2/postal-addresses/{id}/` — détail par id (interne)
+- `POST /api/v2/postal-addresses/` — créer
+- `DELETE /api/v2/postal-addresses/{id}/` — supprimer
+
+Exemple — création
+```http
+POST /api/v2/postal-addresses/
+Authorization: Api-Key <clé>
+Content-Type: application/json
+```
+```json
+{
+  "@type": "PostalAddress",
+  "name": "Test Address",
+  "streetAddress": "123 Rue de Test",
+  "addressLocality": "Testville",
+  "addressRegion": "TV",
+  "postalCode": "99999",
+  "addressCountry": "FR",
+  "geo": {"latitude": 43.7, "longitude": 7.25}
+}
+```
+Réponse (201)
+```json
+{
+  "@type": "PostalAddress",
+  "streetAddress": "123 Rue de Test",
+  "addressLocality": "Testville",
+  "addressRegion": "TV",
+  "postalCode": "99999",
+  "addressCountry": "FR",
+  "geo": {"@type":"GeoCoordinates","latitude": 43.7, "longitude": 7.25}
+}
+```
+
+---
+
+### Notes de mapping (schema.org ⇄ interne)
+- `maximumAttendeeCapacity` ⇄ jauge
+- `offers.eligibleQuantity.maxValue` ⇄ `max_per_user`
+- `disambiguatingDescription` ⇄ `short_description`
+- `description` ⇄ `long_description`
+- `sameAs`/`url` ⇄ `full_url` (si `sameAs` ⇒ évènement externe)
+- `eventStatus` : `EventScheduled` si publié, `EventCancelled` sinon
+- `audience` : `{audienceType:"private"}` pour un évènement privé
+- `keywords` ⇄ tags (créés si absents)
+- `additionalProperty` : `optionsRadio` / `optionsCheckbox` / `customConfirmationMessage`
+
+### Vérification
+Ces routes existent dans le code (`api_v2/urls.py`, `api_v2/views.py`) et sont testées par `tests/pytest/` :
+- create/list/retrieve/delete d’Event
+- link-address pour Event
+- CRUD minimal de PostalAddress
