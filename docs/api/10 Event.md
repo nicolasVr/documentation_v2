@@ -20,15 +20,18 @@ authors: jonas
 ### Endpoints
 - `GET /api/v2/events/` — liste des évènements publiés
   - Retour non paginé: `{ "results": [Event, ...] }`
-- `GET /api/v2/events/{uuid}/` — détail d’un évènement
-- `POST /api/v2/events/` — création d’un évènement (payload schema.org/Event)
-- `DELETE /api/v2/events/{uuid}/` — suppression d’un évènement
-- `POST /api/v2/events/{uuid}/link-address/` — lier une adresse postale
+- `GET /api/v2/events/:uuid/` — détail d’un évènement
+- `DELETE /api/v2/events/:uuid/` — suppression d’un évènement
+- `POST /api/v2/events/:uuid/link-address/` — lier une adresse postale
   - Corps: `{ "postalAddressId": <int> }` ou un objet `PostalAddress` (voir plus bas)
 
 ### Champs principaux (schema.org)
 - Requis à la création: `name`, `startDate`
 - Recommandés/optionnels: `endDate`, `maximumAttendeeCapacity`, `disambiguatingDescription`, `description`, `eventStatus`, `audience`, `keywords`, `url`, `sameAs`, `offers`, `additionalProperty`
+- Catégorie sémantique:
+  - `@type` (sous‑type schema.org, ex: `MusicEvent`) – mappé vers la catégorie interne
+  - `additionalType` (libellé humain, ex: `Concert`, `Festival`, `Volunteering`) – mappé vers la catégorie interne
+  - Règle: si la catégorie résolue est **ACTION** (Volunteering), alors `superEvent` est **obligatoire** (UUID de l’évènement parent).
 
 ### Exemple — création minimale
 ```http
@@ -109,9 +112,9 @@ Réponse (200):
 }
 ```
 
-### Détail (GET /events/{uuid}/)
+### Détail (GET /events/:uuid/)
 ```http
-GET /api/v2/events/{uuid}/
+GET /api/v2/events/:uuid/
 Authorization: Api-Key <clé>
 ```
 Réponse (200):
@@ -129,9 +132,9 @@ Réponse (200):
 }
 ```
 
-### Supprimer (DELETE /events/{uuid}/)
+### Supprimer (DELETE /events/:uuid/)
 ```http
-DELETE /api/v2/events/{uuid}/
+DELETE /api/v2/events/:uuid/
 Authorization: Api-Key <clé>
 ```
 Réponse: `204 No Content`

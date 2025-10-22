@@ -104,10 +104,9 @@ De nouveaux champs sont exposés par l'API sans modifier les champs existants.
 ### Endpoints Event (schema.org/Event)
 - `GET /api/v2/events/` — liste les évènements publiés
   - Non paginé : `{ "results": [Event, ...] }`
-- `GET /api/v2/events/{uuid}/` — récupère un évènement par UUID
-- `POST /api/v2/events/` — crée un évènement (payload schema.org/Event)
-- `DELETE /api/v2/events/{uuid}/` — supprime un évènement
-- `POST /api/v2/events/{uuid}/link-address/` — lie une adresse postale à l’évènement
+- `GET /api/v2/events/:uuid/` — récupère un évènement par UUID
+- `DELETE /api/v2/events/:uuid/` — supprime un évènement
+- `POST /api/v2/events/:uuid/link-address/` — lie une adresse postale à l’évènement
   - Corps : `{ "postalAddressId": <int> }` ou un objet `PostalAddress` (voir ci‑dessous)
 
 Champs principaux acceptés à la création : `name` (requis), `startDate` (requis), `endDate`, `maximumAttendeeCapacity`, `disambiguatingDescription`, `description`, `eventStatus`, `audience`, `keywords`, `url`, `sameAs`, `offers`, `additionalProperty`.
@@ -182,7 +181,7 @@ Réponse (200)
 
 Détail
 ```http
-GET /api/v2/events/{uuid}/
+GET /api/v2/events/:uuid/
 Authorization: Api-Key <clé>
 ```
 Réponse (200)
@@ -202,7 +201,7 @@ Réponse (200)
 
 Lier une adresse
 ```http
-POST /api/v2/events/{uuid}/link-address/
+POST /api/v2/events/:uuid/link-address/
 Authorization: Api-Key <clé>
 Content-Type: application/json
 ```
@@ -261,6 +260,10 @@ Réponse (201)
 ---
 
 ### Notes de mapping (schema.org ⇄ interne)
+- Catégorie sémantique:
+  - `@type` (sous‑type schema.org, ex: `MusicEvent`) mappé vers la catégorie interne
+  - `additionalType` (libellé humain, ex: `Concert`, `Festival`, `Volunteering`) mappé vers la catégorie interne
+  - Règle: si la catégorie résolue est **ACTION** (Volunteering), alors `superEvent` (UUID du parent) est **obligatoire**
 - `maximumAttendeeCapacity` ⇄ jauge
 - `offers.eligibleQuantity.maxValue` ⇄ `max_per_user`
 - `disambiguatingDescription` ⇄ `short_description`
