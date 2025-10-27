@@ -58,7 +58,7 @@ Les 3 outils TiBillet sont :
 
 Lèspass est <strong>un site internet.</strong>
 
-Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo-tibillet.ovh//)
 
 Lèspass est pour tous les collectifs TiBillet.
 
@@ -240,7 +240,7 @@ La monnaie globale peut être utilisée dans tous les collectifs TiBillet.
 Les publics peuvent ajouter de la monnaie globale sur leur compte TiBillet grâce à leur carte bancaire.
 
 Pour en savoir plus sur comment les publics peuvent ajouter de la monnaie sur leur compte TiBillet, je clique ici :
-[Ajouter de la monnaie sur un compte TiBillet](https://lespass.demo.tibillet.org/my_account/)
+[Ajouter de la monnaie sur un compte TiBillet](https://lespass.demo-tibillet.ovh//my_account/)
 
 **La 2ème monnaie est la monnaie locale.**
 
@@ -264,7 +264,7 @@ Les bons cadeaux sont donnés par un collectif TiBillet.
 Les publics peuvent utiliser les bons cadeaux seulement dans le collectif TiBillet qui les donne.
 
 Pour voir comment gérer les achats et la monnaie des publics avec LaBoutik, je clique ici :
-[Gérer les achats et la monnaie des publics avec LaBoutik](https://laboutik.demo.tibillet.org/wv/)
+[Gérer les achats et la monnaie des publics avec LaBoutik](https://laboutik.demo-tibillet.ovh//wv/)
 
 
 
