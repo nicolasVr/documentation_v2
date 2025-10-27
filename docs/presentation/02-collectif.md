@@ -37,7 +37,7 @@ The 3 TiBillet tools are :
 
 Lespass is a website.
 
-I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
+I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo-tibillet.ovh/)
 
 Lespass is for all TiBillet collectives.
 
