@@ -13,18 +13,18 @@ Vous pouvez intégrer vos évènements et vos adhésions dans votre site web à 
 
 Exemple :
 
-- Memberships : [https://lespass.demo.tibillet.org/memberships/embed/](https://lespass.demo.tibillet.org/memberships/embed/)
-- Events : [https://lespass.demo.tibillet.org/event/embed/](https://lespass.demo.tibillet.org/event/embed/)
+- Memberships : [https://lespass.demo-tibillet.ovh/memberships/embed/](https://lespass.demo-tibillet.ovh/memberships/embed/)
+- Events : [https://lespass.demo-tibillet.ovh/event/embed/](https://lespass.demo-tibillet.ovh/event/embed/)
 
 ```html title="iframe event"
-<iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px"
+<iframe src="https://lespass.demo-tibillet.ovh/event/embed/" width="100%" height="1000px"
         frameborder="0"></iframe>
 ```
-<iframe src="https://lespass.demo.tibillet.org/event/embed/" width="100%" height="1000px" frameborder="0"></iframe>
+<iframe src="https://lespass.demo-tibillet.ovh/event/embed/" width="100%" height="1000px" frameborder="0"></iframe>
 
 ```html title="iframe membership"
-<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px"
+<iframe src="https://lespass.demo-tibillet.ovh/memberships/embed/" width="100%" height="1000px"
         frameborder="0"></iframe>
 ```
 
-<iframe src="https://lespass.demo.tibillet.org/memberships/embed/" width="100%" height="1000px" frameborder="0"></iframe>
+<iframe src="https://lespass.demo-tibillet.ovh/memberships/embed/" width="100%" height="1000px" frameborder="0"></iframe>

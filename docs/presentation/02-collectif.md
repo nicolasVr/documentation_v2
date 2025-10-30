@@ -100,7 +100,7 @@ Customize means I can change :
 - images
 - the description of my collective
 
-To see what Lespass looks like, click here: [Lespass demo](https://lespass.demo.tibillet.org/)
+To see what Lespass looks like, click here: [Lespass demo](https://lespass.demo-tibillet.ovh/)
                                                                   
 
 |                                                 |                                                 |
@@ -187,7 +187,7 @@ Global currency can be used in all TiBillet collectives.
 Audiences can add global currency to their TiBillet account using their bank card.
 
 To find out more about how audiences can add change to their TiBillet account, click here:
-[Adding currency to a TiBillet account](https://lespass.demo.tibillet.org/my_account/)
+[Adding currency to a TiBillet account](https://lespass.demo-tibillet.ovh/my_account/)
 
 **The 2nd currency is local currency **.
 
@@ -211,7 +211,7 @@ Gift vouchers are donated by a TiBillet collective.
 People can only use gift vouchers in the TiBillet collective that donates them.
 
 To see how to manage purchases and change with LaBoutik, click here:
-[Managing purchases and change with LaBoutik](https://laboutik.demo.tibillet.org/wv/)
+[Managing purchases and change with LaBoutik](https://laboutik.demo-tibillet.ovh/wv/)
 
 |                                                 |                                                 |
 |-------------------------------------------------|-------------------------------------------------|

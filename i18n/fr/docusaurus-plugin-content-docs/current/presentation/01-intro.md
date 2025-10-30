@@ -57,7 +57,7 @@ Chaque outil a **des fonctionnalités différentes.**
 
 Lèspass est <strong>un site internet.</strong>
 
-Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+Je peux aller sur Lèspass en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo-tibillet.ovh/)
 
 **Lèspass est utilisé par tout le monde :**
 - les collectifs

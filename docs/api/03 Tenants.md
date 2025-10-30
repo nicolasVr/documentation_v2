@@ -21,7 +21,7 @@ Pour plus d'information : https://django-tenants.readthedocs.io/
 :::note
 Pour créer de nouveaux tenants, vous pouvez utiliser l'api, mais tout aussi bien rediriger vers le formulaire de création en ligne.
 
-ex : https://lespass.demo.tibillet.org/tenant/new/?email=contact@tibillet.re&name=jojo
+ex : https://lespass.demo-tibillet.ovh/tenant/new/?email=contact@tibillet.re&name=jojo
 En option, vous pouvez ajouter les arguments :
 - name = Nom de la structure
 - email = Email de l'admin
