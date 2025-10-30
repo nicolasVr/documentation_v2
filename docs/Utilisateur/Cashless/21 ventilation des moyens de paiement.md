@@ -15,7 +15,7 @@ The breakdown is used to correct a payment error when a purchase has been record
 
 Cashless card payment methods (including cashless gifts) cannot be changed, unlike other payment methods, which can be selected incorrectly at the time of collection.
 
-Feel free to test on the demonstration instance: https://laboutik.demo.tibillet.org/
+Feel free to test on the demonstration instance: https://laboutik.demo-tibillet.ovh/
 
 # Management in admin space
 

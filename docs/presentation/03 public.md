@@ -99,7 +99,7 @@ Lèspass is a website.
 I can go to Lèspass :
 
 - using the QR code on my card
-- or by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
+- or by clicking on this link: [Go to Lespass website](https://lespass.demo-tibillet.ovh/)
 
 |                                      |                                      |
 |--------------------------------------|--------------------------------------|

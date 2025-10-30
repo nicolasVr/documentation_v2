@@ -177,7 +177,7 @@ Lèspass est un site internet.
 Je peux aller sur Lèspass :
 
 - grâce au QR code qui est sur ma carte
-- ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo.tibillet.org/)
+- ou en cliquant sur ce lien : [Aller sur le site internet Lespass](https://lespass.demo-tibillet.ovh/)
 
 
 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20}}>

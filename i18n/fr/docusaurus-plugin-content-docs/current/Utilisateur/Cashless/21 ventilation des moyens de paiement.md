@@ -18,7 +18,7 @@ Cela s'applique uniquement aux paiements en espèces, par carte de crédit et pa
 
 Les modes de paiement par carte cashless (y compris les cadeaux cashless) ne sont pas modifiables, contrairement aux autres modes de paiement qui peuvent être mal sélectionnés au moment de l'encaissement.
 
-N'hésitez pas à tester sur l'instance de démonstration : https://laboutik.demo.tibillet.org/
+N'hésitez pas à tester sur l'instance de démonstration : https://laboutik.demo-tibillet.ovh/
 
 # Gestion dans l'espace d'administration
 

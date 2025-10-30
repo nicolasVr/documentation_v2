@@ -34,7 +34,7 @@ Each tool has **different functionalities.**
 
 Lespass is a website.
 
-I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo.tibillet.org/)
+I can go to Lespass by clicking on this link: [Go to Lespass website](https://lespass.demo-tibillet.ovh/)
 
 **Lespass is used by everyone:**
 - groups
